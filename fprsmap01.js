@@ -8,7 +8,7 @@ var myIcon = L.icon({
 //Map is initialized
 var fprsmap = L.map('mapid').setView([49.8158683,6.1296751], 4);
 L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
+    attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">GNU GPLv3</a>',
     maxZoom: 18
 }).addTo(fprsmap);
 
