@@ -40,7 +40,7 @@ var groups = [
 
 //Add a marker per Local Fairphone Community
 for(i=0;i<groups.length;i++) {
-	L.marker(groups[i].latlng,{icon: myIcon},{riseOnHover: true}).addTo(fprsmap)
+	L.marker(groups[i].latlng,{icon: myIcon, riseOnHover: true}).addTo(fprsmap)
 		.bindPopup('<a href="https://forum.fairphone.com/t/pencil2-local-fairphoners-address-book-fairphone-communities/3815/' + groups[i].postnr + '" target="_blank">' + groups[i].loc + '</a>', {offset: new L.Point(0,-25)});
 	//L.circle(groups[i].latlng,50000, {stroke:false}).addTo(fprsmap)
 };
