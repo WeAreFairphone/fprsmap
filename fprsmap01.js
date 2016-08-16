@@ -36,6 +36,7 @@ var groups = [
 	{loc:'Spain', latlng:[41.3825596,2.1771353], postnr:5},
 	//Switzerland
 	{loc:'Aarau', latlng:[47.3927146,8.0444448], postnr:14}
+	{loc:'United Kingdom', latlng:[51.5073,-0.1277], postnr:28}
 ];
 
 //Add a marker per Local Fairphone Community
