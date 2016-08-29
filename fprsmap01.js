@@ -25,19 +25,23 @@ var groups = [
 	{loc:'Franken', latlng:[49.4538723,11.0772978], postnr:11},
 	{loc:'Hamburg', latlng:[53.5503414,10.000654], postnr:20},
 	{loc:'München', latlng:[48.1371079,11.5753822], postnr:23},
+   {loc:'Saarbrücken', latlng:[49.24717,6.98287], postnr:34},
 	{loc:'Stuttgart', latlng:[48.7784485,9.1800132], postnr:7},
 	{loc:'Ulm', latlng:[48.3973944,9.9932755], postnr:17},
 	//France
 	{loc:'Paris', latlng:[48.8566101,2.3514992], postnr:13},
+   {loc:'Strasbourg', latlng:[48.56908,7.76210], postnr:32},
 	//Israel
 	{loc:'Israel', latlng:[32.0804808,34.7805274], postnr:25},
 	//Netherlands
 	{loc:'Leiden', latlng:[52.1598645,4.4824271], postnr:21},
+   {loc:'Tilburg', latlng:[51.58508,5.06369], postnr:33}, 
 	{loc:'Spain', latlng:[41.3825596,2.1771353], postnr:5},
 	//Switzerland
 	{loc:'Aarau', latlng:[47.3927146,8.0444448], postnr:14},
 	{loc:'United Kingdom', latlng:[51.5073,-0.1277], postnr:28},
-	{loc:'Sweden', latlng:[63.8256568,20.2630745], postnr:29}
+	{loc:'Sweden', latlng:[63.8256568,20.2630745], postnr:29},
+   {loc:'Turkey', latlng:[41.0096334,28.9651646], postnr:31}
 ];
 
 //Add a marker per Local Fairphone Community
