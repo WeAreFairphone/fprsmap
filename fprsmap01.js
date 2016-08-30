@@ -29,6 +29,7 @@ var groups = [
 	{loc:'Stuttgart', latlng:[48.7784485,9.1800132], postnr:7},
 	{loc:'Ulm', latlng:[48.3973944,9.9932755], postnr:17},
 	//France
+   {loc:'Grenoble', latlng:[45.182478,5.7210773], postnr:35},
 	{loc:'Paris', latlng:[48.8566101,2.3514992], postnr:13},
    {loc:'Strasbourg', latlng:[48.56908,7.76210], postnr:32},
 	//Israel
