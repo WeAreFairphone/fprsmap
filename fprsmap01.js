@@ -9,6 +9,19 @@
       });
   }
 
+  function getQueries() {
+    if(!location.search) return {};
+
+    return location.search
+      .replace('?', '')
+      .split('&')
+      .reduce(function(queries, current) {
+        var splitted = current.split('=');
+        queries[splitted[0]] = splitted[1];
+        return queries;
+      }, {});
+  }
+
   /* Constants */
   // Local Fairphone Communities forum thread
   var FORUM_THREAD_URL = 'https://forum.fairphone.com/t/pencil2-local-fairphoners-address-book-fairphone-communities/3815/';
@@ -20,64 +33,81 @@
   });
 
   /* Variables (state) */
-  var s,
-      map,
-      mapLayer,
-      baseMaps,
-      overlayMaps,
-      defaultlayer = [];
-  /* Overlay Layergroups */
-  var groupslayer = L.layerGroup(),
-      shops = L.layerGroup(),
-      angels = L.layerGroup(),
-      meetups = L.layerGroup();
+  var map;
+  var groups = {
+    angels: {
+      title: "Fairphone Angels",
+      overlay: L.layerGroup(),
+    },
+    communities: {
+      title: "Fairphoners Groups",
+      overlay: L.layerGroup(),
+    },
+    meetups: {
+      title: "Meetups & Events",
+      overlay: L.layerGroup(),
+    },
+    shops: {
+      title: "T-Mobile Shops",
+      overlay: L.layerGroup(),
+    },
+  }
 
   /* Functions */
-  function initMap(defaultlayer) {
-    map = L.map('mapid', {
-    center: [49.8158683, 6.1296751],
-    zoom: 4,
-    layers: defaultlayer
-    })
-    mapLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      attribution: 'Map data © <a href="https://openstreetmap.org">OpenStreetMap</a> contributors, <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">GNU GPLv3</a>',
+  function getMapOverlays(groups, defaultOverlays) {
+    return Object.keys(groups)
+      .reduce(function(overlays, currentGroup){
+        overlays[groups[currentGroup].title] = groups[currentGroup].overlay;
+        return overlays;
+      }, defaultOverlays || {});
+  }
+
+  function getMapLayers(groups, layersToShow, defaultLayers) {
+    return Object.keys(groups)
+      .filter(function(group) {
+        if (!layersToShow) return true;
+
+        return layersToShow.indexOf(group) !== -1;
+      })
+      .reduce(function(layers, currentGroup) {
+        layers.push(groups[currentGroup].overlay);
+        return layers;
+      }, defaultLayers || []);
+  }
+
+  function initMap(layers) {
+    var baseLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: 'Map data &copy; <a href="https://openstreetmap.org">OpenStreetMap</a> contributors, <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">GNU GPLv3</a>',
       maxZoom: 18,
     });
-    mapLayer.addTo(map);
+
+    map = L.map('mapid', {
+      center: [49.8158683, 6.1296751],
+      zoom: 4,
+      layers: getMapLayers(groups, layers, [baseLayer]),
+    });
   }
 
-  function initControls(){
-    // Make a key value pair for controls
-    baseMaps = {
-
-    };
-    overlayMaps = { "Fairphoners groups": groupslayer,
-                        "T-Mobile Shops": shops,
-                      "Fairphone Angels": angels,
-                      "Meetups & Events": meetups
-    };
-    L.control.layers(baseMaps, overlayMaps, {collapsed:false})
-      .addTo(map);
+  function initControls() {
+    L.control.layers(null, getMapOverlays(groups), {
+      collapsed: false,
+    }).addTo(map);
   }
 
-  function getQueries(){
-    if(location.search){
-      if(location.search.includes('angels')) defaultlayer.push(angels);
-      if(location.search.includes('shops')) defaultlayer.push(shops);
-      if(location.search.includes('meetups')) defaultlayer.push(meetups);
-    }
-    else {
-      defaultlayer.push(groupslayer);
-    }
+  function getDefaultLayers() {
+    var layers = getQueries().show;
+    if (!layers) return null;
+
+    return layers.split(',');
   }
 
   /* Main */
-  getQueries();
-  initMap(defaultlayer);
+  var defaultLayers = getDefaultLayers();
+  initMap(defaultLayers);
   initControls();
 
-
-  fetchJSON('https://newluck77.github.io/fprsmap/communities.json')
+  // Populate Fairphoners Groups overlay
+  fetchJSON('communities.json')
     .then(function(json) {
       // Add a marker per Local Fairphone Community
       json.list.forEach(function(group) {
@@ -86,7 +116,8 @@
             '<a href="' + FORUM_THREAD_URL + group.post_nr + '" target="_blank">' + group.location + '</a>',
             { offset: new L.Point(0, -25) }
           );
-        groupslayer.addLayer(marker);
-      })
+        marker.addTo(groups.communities.overlay);
+      });
     });
+
 }(this));
