@@ -55,10 +55,11 @@
 
   /* Main */
   initMap(groupslayer);
+  console.log(location.hash.replace('#',''));
   initControls();
 
 
-  fetchJSON('communities.json')
+  fetchJSON('https://newluck77.github.io/fprsmap/communities.json')
     .then(function(json) {
       // Add a marker per Local Fairphone Community
       json.list.forEach(function(group) {
