@@ -58,7 +58,7 @@
   initControls();
 
 
-  fetchJSON('https://newluck77.github.io/fprsmap/communities.json')
+  fetchJSON('communities.json')
     .then(function(json) {
       // Add a marker per Local Fairphone Community
       json.list.forEach(function(group) {
