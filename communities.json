@@ -52,7 +52,7 @@ fairphone_local_communities:
     post_nr: 23
   - location: Berlin
     lat_lng: [52.5170365, 13.3888599]
-    post_nr: 24
+    post_nr: 30
   - location: Israel
     lat_lng: [32.0804808, 34.7805274]
     post_nr: 25
