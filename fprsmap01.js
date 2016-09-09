@@ -20,19 +20,24 @@
   });
 
   /* Variables (state) */
-  var map,
+  var s,
+      map,
       mapLayer,
-      groupslayer = L.layerGroup(),
-      tmobileshops = L.layerGroup(),
       baseMaps,
-      overlayMaps;
+      overlayMaps,
+      defaultlayer = [];
+  /* Overlay Layergroups */
+  var groupslayer = L.layerGroup(),
+      shops = L.layerGroup(),
+      angels = L.layerGroup(),
+      meetups = L.layerGroup();
 
   /* Functions */
   function initMap(defaultlayer) {
     map = L.map('mapid', {
     center: [49.8158683, 6.1296751],
     zoom: 4,
-    layers: [defaultlayer]
+    layers: defaultlayer
     })
     mapLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       attribution: 'Map data © <a href="https://openstreetmap.org">OpenStreetMap</a> contributors, <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">GNU GPLv3</a>',
@@ -47,16 +52,28 @@
 
     };
     overlayMaps = { "Fairphoners groups": groupslayer,
-                        "T-Mobile Shops": tmobileshops
+                        "T-Mobile Shops": shops,
+                      "Fairphone Angels": angels,
+                      "Meetups & Events": meetups
     };
     L.control.layers(baseMaps, overlayMaps, {collapsed:false})
       .addTo(map);
   }
 
+  function getQueries(){
+    if(location.search){
+      if(location.search.includes('angels')) defaultlayer.push(angels);
+      if(location.search.includes('shops')) defaultlayer.push(shops);
+      if(location.search.includes('meetups')) defaultlayer.push(meetups);
+    }
+    else {
+      defaultlayer.push(groupslayer);
+    }
+  }
+
   /* Main */
-  initMap(groupslayer);
-  console.log(location.hash.replace('#',''));
-  console.log(location.search.replace('?',''));
+  getQueries();
+  initMap(defaultlayer);
   initControls();
 
 
