@@ -56,6 +56,7 @@
   /* Main */
   initMap(groupslayer);
   console.log(location.hash.replace('#',''));
+  console.log(location.search.replace('?',''));
   initControls();
 
 
