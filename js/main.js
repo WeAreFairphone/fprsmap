@@ -27,7 +27,7 @@
   var FORUM_THREAD_URL = 'https://forum.fairphone.com/t/pencil2-local-fairphoners-address-book-fairphone-communities/3815/';
 
   var CUSTOM_MARKER = L.icon({
-    iconUrl: 'resources/FairphoneMarker.png',
+    iconUrl: 'resources/FairphoneMarker_blue.png',
     iconSize: [31.8, 50],
     iconAnchor: [15.9, 49],
   });
