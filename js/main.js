@@ -34,7 +34,7 @@
 
   /* Variables (state) */
   var map;
-  var groups = {
+  var layersData = {
     angels: {
       title: "Fairphone Angels",
       overlay: L.layerGroup(),
@@ -54,28 +54,28 @@
   }
 
   /* Functions */
-  function getMapOverlays(groups, defaultOverlays) {
-    return Object.keys(groups)
-      .reduce(function(overlays, currentGroup){
-        overlays[groups[currentGroup].title] = groups[currentGroup].overlay;
+  function getMapOverlays(data, defaultOverlays) {
+    return Object.keys(data)
+      .reduce(function(overlays, currentLayer){
+        overlays[data[currentLayer].title] = data[currentLayer].overlay;
         return overlays;
       }, defaultOverlays || {});
   }
 
-  function getMapLayers(groups, layersToShow, defaultLayers) {
-    return Object.keys(groups)
-      .filter(function(group) {
+  function getMapLayers(data, layersToShow, defaultLayers) {
+    return Object.keys(data)
+      .filter(function(currentLayer) {
         if (!layersToShow) return true;
 
-        return layersToShow.indexOf(group) !== -1;
+        return layersToShow.indexOf(currentLayer) !== -1;
       })
-      .reduce(function(layers, currentGroup) {
-        layers.push(groups[currentGroup].overlay);
+      .reduce(function(layers, currentLayer) {
+        layers.push(data[currentLayer].overlay);
         return layers;
       }, defaultLayers || []);
   }
 
-  function initMap(layers) {
+  function initMap(layersToShow) {
     var baseLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       attribution: 'Map data &copy; <a href="https://openstreetmap.org">OpenStreetMap</a> contributors, <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">GNU GPLv3</a>',
       maxZoom: 18,
@@ -84,12 +84,12 @@
     map = L.map('mapid', {
       center: [49.8158683, 6.1296751],
       zoom: 4,
-      layers: getMapLayers(groups, layers, [baseLayer]),
+      layers: getMapLayers(layersData, layersToShow, [baseLayer]),
     });
   }
 
   function initControls() {
-    L.control.layers(null, getMapOverlays(groups), {
+    L.control.layers(null, getMapOverlays(layersData), {
       collapsed: false,
     }).addTo(map);
   }
@@ -116,7 +116,7 @@
             '<a href="' + FORUM_THREAD_URL + group.post_nr + '" target="_blank">' + group.location + '</a>',
             { offset: new L.Point(0, -25) }
           );
-        marker.addTo(groups.communities.overlay);
+        marker.addTo(layersData.communities.overlay);
       });
     });
 
