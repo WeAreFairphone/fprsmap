@@ -26,11 +26,15 @@
   // Local Fairphone Communities forum thread
   var FORUM_THREAD_URL = 'https://forum.fairphone.com/t/pencil2-local-fairphoners-address-book-fairphone-communities/3815/';
 
-  var CUSTOM_MARKER = L.icon({
-    iconUrl: 'resources/FairphoneMarker_blue.png',
-    iconSize: [31.8, 50],
-    iconAnchor: [15.9, 49],
-  });
+  var MARKERS = ["blue", "brown", "green", "grey", "orange", "red"]
+    .reduce(function(markers, color) {
+      markers[color] = L.icon({
+          iconUrl: 'resources/FairphoneMarker_' + color + '.png',
+          iconSize: [31.8, 50],
+          iconAnchor: [15.9, 49],
+        });
+      return markers;
+    }, {});
 
   /* Variables (state) */
   var map;
@@ -111,7 +115,7 @@
     .then(function(json) {
       // Add a marker per Local Fairphone Community
       json.list.forEach(function(group) {
-        var marker = L.marker(group.lat_lng, { icon: CUSTOM_MARKER, riseOnHover: true })
+        var marker = L.marker(group.lat_lng, { icon: MARKERS.blue, riseOnHover: true })
           .bindPopup(
             '<a href="' + FORUM_THREAD_URL + group.post_nr + '" target="_blank">' + group.location + '</a>',
             { offset: new L.Point(0, -25) }
