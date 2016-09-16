@@ -26,7 +26,7 @@
   // Local Fairphone Communities forum thread
   var FORUM_THREAD_URL = 'https://forum.fairphone.com/t/pencil2-local-fairphoners-address-book-fairphone-communities/3815/';
 
-  var MARKERS = ["blue", "brown", "green", "grey", "orange", "red"]
+  var MARKERS = ["blue", "brown", "green", "grey", "orange", "pink", "red"]
     .reduce(function(markers, color) {
       markers[color] = L.icon({
           iconUrl: 'resources/FairphoneMarker_' + color + '.png',
