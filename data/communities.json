@@ -50,9 +50,6 @@ fairphone_local_communities:
   - location: München
     lat_lng: [48.1371079, 11.5753822]
     post_nr: 23
-  - location: Berlin
-    lat_lng: [52.5170365, 13.3888599]
-    post_nr: 30
   - location: Israel
     lat_lng: [32.0804808, 34.7805274]
     post_nr: 25
@@ -62,6 +59,9 @@ fairphone_local_communities:
   - location: Sweden
     lat_lng: [63.8256568, 20.2630745]
     post_nr: 29
+  - location: Berlin
+    lat_lng: [52.5170365, 13.3888599]
+    post_nr: 30
   - location: Turkey
     lat_lng: [41.0096334, 28.9651646]
     post_nr: 31
