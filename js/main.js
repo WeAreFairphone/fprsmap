@@ -26,19 +26,19 @@
   // Local Fairphone Communities forum thread
   var FORUM_THREAD_URL = 'https://forum.fairphone.com/t/pencil2-local-fairphoners-address-book-fairphone-communities/3815/';
 
-  var MARKERS = ["blue", "brown", "green", "grey", "orange", "pink", "red"]
-    .reduce(function(markers, color) {
-      markers[color] = L.icon({
+  var MARKERICONS = ["blue", "brown", "green", "grey", "orange", "pink", "red"]
+    .reduce(function(markericons, color) {
+      markericons[color] = L.icon({
           iconUrl: 'resources/FairphoneMarker_' + color + '.png',
           iconSize: [31.8, 50],
           iconAnchor: [15.9, 49],
         });
-      return markers;
+      return markericons;
     }, {});
 
   /* Variables (state) */
   var map;
-  var layersData = {
+  var overlaysData = {
     angels: {
       title: "Fairphone Angels",
       overlay: L.layerGroup(),
@@ -58,28 +58,28 @@
   }
 
   /* Functions */
-  function getMapOverlays(data, defaultOverlays) {
-    return Object.keys(data)
-      .reduce(function(overlays, currentLayer){
-        overlays[data[currentLayer].title] = data[currentLayer].overlay;
+  function getAllOverlays(overlaysData) {
+    return Object.keys(overlaysData)
+      .reduce(function(overlays, currentOverlay){
+        overlays[overlaysData[currentOverlay].title] = overlaysData[currentOverlay].overlay;
         return overlays;
-      }, defaultOverlays || {});
+      }, {});
   }
 
-  function getMapLayers(data, layersToShow, defaultLayers) {
-    return Object.keys(data)
-      .filter(function(currentLayer) {
-        if (!layersToShow) return true;
+  function getInitialLayers(overlaysData, defaultOverlays, permanentLayers) {
+    return Object.keys(overlaysData)
+      .filter(function(currentOverlay) {
+        if (!defaultOverlays) return true;
 
-        return layersToShow.indexOf(currentLayer) !== -1;
+        return defaultOverlays.indexOf(currentOverlay) !== -1;
       })
-      .reduce(function(layers, currentLayer) {
-        layers.push(data[currentLayer].overlay);
+      .reduce(function(layers, currentOverlay) {
+        layers.push(overlaysData[currentOverlay].overlay);
         return layers;
-      }, defaultLayers || []);
+      }, permanentLayers || []);
   }
 
-  function initMap(layersToShow) {
+  function initMap(defaultOverlays) {
     var baseLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       attribution: 'Map data &copy; <a href="https://openstreetmap.org">OpenStreetMap</a> contributors, <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">GNU GPLv3</a>',
       maxZoom: 18,
@@ -89,26 +89,26 @@
       center: [49.8158683, 6.1296751],
       zoom: 4,
       minZoom: 2,
-      layers: getMapLayers(layersData, layersToShow, [baseLayer]),
+      layers: getInitialLayers(overlaysData, defaultOverlays, [baseLayer]),
     });
   }
 
   function initControls() {
-    L.control.layers(null, getMapOverlays(layersData), {
+    L.control.layers(null, getAllOverlays(overlaysData), {
       collapsed: false,
     }).addTo(map);
   }
 
-  function getDefaultLayers() {
-    var layers = getQueries().show;
-    if (!layers) return null;
+  function getDefaultOverlays() {
+    var overlays = getQueries().show;
+    if (!overlays) return null;
 
-    return layers.split(',');
+    return overlays.split(',');
   }
 
   /* Main */
-  var defaultLayers = getDefaultLayers();
-  initMap(defaultLayers);
+  var defaultOverlays = getDefaultOverlays();
+  initMap(defaultOverlays);
   initControls();
 
   // Populate Fairphoners Groups overlay
@@ -116,12 +116,12 @@
     .then(function(json) {
       // Add a marker per Local Fairphone Community
       json.list.forEach(function(group) {
-        var marker = L.marker(group.lat_lng, { icon: MARKERS.blue, riseOnHover: true })
+        var marker = L.marker(group.lat_lng, { icon: MARKERICONS.blue, riseOnHover: true })
           .bindPopup(
             '<a href="' + FORUM_THREAD_URL + group.post_nr + '" target="_blank">' + group.location + '</a>',
             { offset: new L.Point(0, -25) }
           );
-        marker.addTo(layersData.communities.overlay);
+        marker.addTo(overlaysData.communities.overlay);
       });
     });
 
