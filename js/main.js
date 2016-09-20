@@ -38,22 +38,23 @@
 
   /* Variables (state) */
   var map;
+  var cluster = L.markerClusterGroup();
   var overlaysData = {
     angels: {
       title: "Fairphone Angels",
-      overlay: L.layerGroup(),
+      overlay: L.featureGroup.subGroup(cluster),
     },
     communities: {
       title: "Fairphoners Groups",
-      overlay: L.layerGroup(),
+      overlay: L.featureGroup.subGroup(cluster),
     },
     meetups: {
       title: "Meetups & Events",
-      overlay: L.layerGroup(),
+      overlay: L.featureGroup.subGroup(cluster),
     },
     shops: {
       title: "T-Mobile Shops",
-      overlay: L.layerGroup(),
+      overlay: L.featureGroup.subGroup(cluster),
     },
   }
 
@@ -89,7 +90,7 @@
       center: [49.8158683, 6.1296751],
       zoom: 4,
       minZoom: 2,
-      layers: getInitialLayers(overlaysData, defaultOverlays, [baseLayer]),
+      layers: getInitialLayers(overlaysData, defaultOverlays, [baseLayer, cluster]),
     });
   }
 
