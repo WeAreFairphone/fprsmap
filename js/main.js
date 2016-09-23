@@ -22,6 +22,11 @@
       }, {});
   }
 
+  function applyTemplate(templateId, view) {
+    var template = document.getElementById(templateId).innerHTML;
+    return Mustache.render(template, view);
+  }
+
   /* Constants */
   // Local Fairphone Communities forum thread
   var FORUM_THREAD_URL = 'https://forum.fairphone.com/t/pencil2-local-fairphoners-address-book-fairphone-communities/3815/';
@@ -86,12 +91,34 @@
       maxZoom: 18,
     });
 
+    var fairphoneHqMarker = L.marker(
+        [52.3771591, 4.9206593],
+        { icon: MARKERICONS.red, riseOnHover: true }
+      )
+      .bindPopup(
+        applyTemplate('popup-content-template', {
+          title: 'Fairphone Headquarters',
+          address: 'Jollemanhof 17\n1019 GW Amsterdam\nThe Netherlands'.replace(/\n/g, '<br>'),
+          website: 'https://fairphone.com/',
+          phone: {
+            readable: '+31 (0)20-788 4400',
+            plain: '+31207884400',
+            supportHours: 'Mon-Fri 9:30-17:30',
+          },
+        }),
+        { offset: new L.Point(0, -25) }
+      );
+
+    var permanentLayers = [baseLayer, fairphoneHqMarker, cluster];
+
     map = L.map('mapid', {
       center: [49.8158683, 6.1296751],
       zoom: 4,
       minZoom: 2,
-      layers: getInitialLayers(overlaysData, defaultOverlays, [baseLayer, cluster]),
+      layers: getInitialLayers(overlaysData, defaultOverlays, permanentLayers),
     });
+
+    fairphoneHqMarker.openPopup();
   }
 
   function initControls() {
