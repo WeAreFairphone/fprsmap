@@ -91,8 +91,10 @@
       maxZoom: 18,
     });
 
+    var fairphoneHqLocation = [52.3771591, 4.9206593];
+
     var fairphoneHqMarker = L.marker(
-        [52.3771591, 4.9206593],
+        fairphoneHqLocation,
         { icon: MARKERICONS.red, riseOnHover: true }
       )
       .bindPopup(
@@ -112,7 +114,7 @@
     var permanentLayers = [baseLayer, fairphoneHqMarker, cluster];
 
     map = L.map('mapid', {
-      center: [49.8158683, 6.1296751],
+      center: fairphoneHqLocation,
       zoom: 4,
       minZoom: 2,
       layers: getInitialLayers(overlaysData, defaultOverlays, permanentLayers),
