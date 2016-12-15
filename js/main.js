@@ -82,7 +82,7 @@
 
   function initMap(defaultOverlays) {
     var baseLayer = L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png', {
-      attribution: '&copy; <a href="https://openstreetmap.org">OpenStreetMap</a> contributors, &copy; <a href="https://carto.com/attributions">CARTO</a> | <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">GNU GPLv3</a>',
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="https://carto.com/attributions">CARTO</a> | &copy; <a href="https://github.com/WeAreFairphone/fprsmap">WeAreFairphone</a> (<a href="https://www.gnu.org/licenses/gpl-3.0.en.html">GPLv3</a>)',
       maxZoom: 18,
     });
 
