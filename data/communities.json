@@ -77,6 +77,12 @@ fairphone_local_communities:
   - location: Grenoble
     lat_lng: [45.182478, 5.7210773]
     post_nr: 35
+  - location: Italy
+    lat_lng: [41.8935085,12.4825526]
+    post_nr: 36
+  - location: Basque Country
+    lat_lng: [43.2629489,-2.9349458]
+    post_nr: 38
 ---
 {
   "list": {{ page.fairphone_local_communities | jsonify }}
