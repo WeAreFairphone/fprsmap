@@ -38,6 +38,7 @@
 
   /* Variables (state) */
   var map;
+  var layerControls;
   var cluster = L.markerClusterGroup();
   var overlaysData = {
     angels: {
@@ -95,9 +96,10 @@
   }
 
   function initControls() {
-    L.control.layers(null, getAllOverlays(overlaysData), {
+    layerControls = L.control.layers(null, getAllOverlays(overlaysData), {
       collapsed: false,
-    }).addTo(map);
+    });
+    layerControls.addTo(map);
   }
 
   function getDefaultOverlays() {
@@ -107,10 +109,19 @@
     return overlays.split(',');
   }
 
+  function onMovestart(e) {
+    if(!layerControls.collapsed) {
+        layerControls.collapse();
+      }
+  }
+
   /* Main */
   var defaultOverlays = getDefaultOverlays();
   initMap(defaultOverlays);
   initControls();
+
+  // Add listeners
+  map.on('movestart', onMovestart);
 
   // Populate Fairphoners Groups overlay
   fetchJSON('data/communities.json')
