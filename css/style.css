@@ -27,7 +27,12 @@ body {
 }
 
 .leaflet-container a {
+	color: #28A9E0; /* Fairphone blue */
 	text-decoration-line: none;
+}
+
+.leaflet-bar a {
+	color: black;
 }
 
 .leaflet-control-layers-list {
