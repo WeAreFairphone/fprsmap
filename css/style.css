@@ -23,6 +23,7 @@ body {
 
 .leaflet-container {
 	font-size: 20px;
+	font-family: 'Montserrat';
 	text-transform: uppercase;
 }
 
