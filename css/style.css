@@ -20,3 +20,25 @@ body {
 	height: 100%;
 	width: 100%;
 }
+
+.leaflet-container {
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.leaflet-container a {
+	text-decoration-line: none;
+}
+
+.leaflet-control-layers-list {
+	margin-bottom: 0;
+}
+
+.leaflet-control-layers-selector {
+	vertical-align: middle;
+}
+
+input[type='checkbox'] {
+	height: 25px;
+	width: 25px;
+}
