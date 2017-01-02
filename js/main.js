@@ -68,10 +68,16 @@
       }, {});
   }
 
+  function isValidOverlayQueries(overlaysData,defaultOverlays){
+    return defaultOverlays.reduce(function(validQuery,currentQuery){
+      return validQuery || Object.keys(overlaysData).includes(currentQuery);
+    }, false);
+  }
+
   function getInitialLayers(overlaysData, defaultOverlays, permanentLayers) {
     return Object.keys(overlaysData)
       .filter(function(currentOverlay) {
-        if (!defaultOverlays) return true;
+        if (!defaultOverlays || !isValidOverlayQueries(overlaysData,defaultOverlays)) return true;
 
         return defaultOverlays.indexOf(currentOverlay) !== -1;
       })
@@ -103,7 +109,7 @@
   }
 
   function getDefaultOverlays() {
-    var overlays = getQueries().show;
+    var overlays = getQueries().show; //all queries after "show="
     if (!overlays) return null;
 
     return overlays.split(',');
