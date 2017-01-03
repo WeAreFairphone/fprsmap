@@ -5,11 +5,11 @@
 The idea for the Fairphone Community Map originated in March 2015 in [a topic][1] on the [Fairphone Forum][2]. The goal is to map the global Fairphone Community and make it easier to find relevant people and places in the user's area.
 
 ##Usage
-The map can currently be found at https://wearefairphone.github.io/fprsmap. (It will soon be accessible from a subdomain on https://fairphone.com.) You can embed it on your webpage using an [iframe][3]:
+The map can currently be found at https://wearefairphone.github.io/fprsmap/. (It will soon be accessible from a subdomain on https://fairphone.com.) You can embed it on your webpage using an [iframe][3]:
 
 ```html
-<iframe src="https://wearefairphone.github.io/fprsmap" width="400" height="300" frameborder="0">
-  <p><a href="https://wearefairphone.github.io/fprsmap" target="_blank">See the Fairphone Community Map!</a></p>
+<iframe src="https://wearefairphone.github.io/fprsmap/" width="400" height="300" frameborder="0">
+  <p><a href="https://wearefairphone.github.io/fprsmap/" target="_blank">See the Fairphone Community Map!</a></p>
 </iframe>
 ```
 Modify the `width` and `height` parameters to your liking.
@@ -27,7 +27,7 @@ At the moment we are trying to gather as many relevant sources for the map as po
 The categories mentioned in the previous paragraph can also be used to define an initial state of the map.
 
 - Say you want to promote Fairphone Community events. Append `?show=meetups` to the URI and only meetups and events will be loaded into the map at start.
-- Multiple parameters are also possible: `https://wearefairphone.github.io/fprsmap?show=meetups,angels` will display both the `meetups` and the `angels` layers.
+- Multiple parameters are also possible: `https://wearefairphone.github.io/fprsmap/?show=meetups,angels` will display both the `meetups` and the `angels` layers.
 - By default all layers are loaded.
 
 ##Acknowledgements
