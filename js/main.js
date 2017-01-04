@@ -98,6 +98,7 @@
       zoom: 4,
       minZoom: 2,
       layers: getInitialLayers(overlaysData, defaultOverlays, [baseLayer, cluster]),
+      fullscreenControl: true,
     });
   }
 
