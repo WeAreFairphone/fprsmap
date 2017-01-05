@@ -15,13 +15,13 @@ The map can currently be found at https://wearefairphone.github.io/fprsmap/. (It
 Modify the `width` and `height` parameters to your liking.
 
 ##Status of the Project
-At the moment we are trying to gather as many relevant sources for the map as possible. Therefore we created an [API for the data endpoints][4] that provide the information shown in the map. At the moment we have three categories:
+At the moment we are trying to gather as many relevant sources for the map as possible. Therefore we created an [API for the data endpoints][4] that provide the information shown in the map. The idea is to eventually have three categories:
 
 - `meetups` (Meetups & Events of the Fairphone Community)
 - `angels` (Local support volunteers, so called _Fairphone Angels_)
 - `shops` (Shops where Fairphones can be bought)
 
-*Note: The 4<sup>th</sup> category "Fairphoners Groups" will soon be dropped in favor of the distinction between `meetups` and `angels`.*
+*Note: The 4<sup>th</sup> category "Fairphoners Groups" reflects the content of the [Local Fairphoners Address Book][10]. It may be dropped in favor of the distinction between `meetups` and `angels`. Till then you can post in the Address Book and we will add you(r group) to the map.*
 
 ##Usage examples
 The categories mentioned in the previous paragraph can also be used to define an initial state of the map.
@@ -49,3 +49,4 @@ The developers @Roboe and @StefanBrand can be reached via Twitter:
 [7]: http://leafletjs.com/
 [8]: https://twitter.com/RoboePi
 [9]: https://twitter.com/StefaBrand
+[10]: https://forum.fairphone.com/t/local-fairphoners-address-book-fairphone-communities/3815?u=stefan
