@@ -80,6 +80,9 @@ fairphone_local_communities:
   - location: Italy
     lat_lng: [41.8935085,12.4825526]
     post_nr: 36
+  - location: Siena
+    lat_lng: [43.3185536,11.3316533]
+    post_nr: 39
   - location: Basque Country
     lat_lng: [43.2629489,-2.9349458]
     post_nr: 38
