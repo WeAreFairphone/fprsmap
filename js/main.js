@@ -99,6 +99,7 @@
       minZoom: 2,
       layers: getInitialLayers(overlaysData, defaultOverlays, [baseLayer, cluster]),
       fullscreenControl: true,
+      scrollWheelZoom: false,
     });
   }
 
@@ -118,8 +119,20 @@
 
   function onMovestart(e) {
     if(!layerControls.collapsed) {
-        layerControls.collapse();
-      }
+      layerControls.collapse();
+    }
+  }
+
+  function onMousedown(e) {
+    if(!map.scrollWheelZoom.enabled()) {
+      map.scrollWheelZoom.enable();
+    }
+  }
+
+  function onMouseout(e) {
+    if(map.scrollWheelZoom.enabled()) {
+      map.scrollWheelZoom.disable();
+    }
   }
 
   /* Main */
@@ -129,6 +142,8 @@
 
   // Add listeners
   map.on('movestart', onMovestart);
+  map.on('mousedown', onMousedown);
+  map.on('mouseout', onMouseout);
 
   // Populate Fairphoners Groups overlay
   fetchJSON('data/communities.json')
