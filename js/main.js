@@ -100,6 +100,7 @@
       layers: getInitialLayers(overlaysData, defaultOverlays, [baseLayer, cluster]),
       fullscreenControl: true,
       scrollWheelZoom: false,
+      worldCopyJump: true,
     });
   }
 
