@@ -54,7 +54,7 @@ fairphone_local_communities:
     lat_lng: [32.0804808, 34.7805274]
     post_nr: 25
   - location: United Kingdom
-    lat_lng: [51.5073, -0.1277]
+    lat_lng: [51.5388733,0.711497]
     post_nr: 28
   - location: Sweden
     lat_lng: [63.8256568, 20.2630745]
@@ -86,6 +86,12 @@ fairphone_local_communities:
   - location: Basque Country
     lat_lng: [43.2629489,-2.9349458]
     post_nr: 38
+  - location: London
+    lat_lng: [51.5073, -0.1277]
+    post_nr: 40
+  - location: Madrid
+    lat_lng: [40.4167047,-3.7035824]
+    post_nr: 41
 ---
 {
   "list": {{ page.fairphone_local_communities | jsonify }}
