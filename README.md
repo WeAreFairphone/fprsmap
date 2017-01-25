@@ -5,7 +5,7 @@
 The idea for the Fairphone Community Map originated in March 2015 in [a topic][1] on the [Fairphone Forum][2]. The goal is to map the global Fairphone Community and make it easier to find relevant people and places in the user's area.
 
 ##Usage
-The map can currently be found at https://wearefairphone.github.io/fprsmap/. (It will soon be accessible from a subdomain on https://fairphone.com.) You can embed it on your webpage using an [iframe][3]:
+The map can currently be found at https://wearefairphone.github.io/fprsmap/ or at http://map.fairphone.community. You can embed it on your webpage using an [iframe][3]:
 
 ```html
 <iframe src="https://wearefairphone.github.io/fprsmap/" width="400" height="300" allowfullscreen="true" frameborder="0">
