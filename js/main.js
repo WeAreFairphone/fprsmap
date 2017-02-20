@@ -68,6 +68,14 @@
       }, {});
   }
 
+  function isEmbedded() {
+    if (window.self !== window.top) {
+      return true;
+    } else {
+      return false;
+    }
+  }
+
   function isValidOverlayQueries(overlaysData,defaultOverlays){
     return defaultOverlays.reduce(function(validQuery,currentQuery){
       return validQuery || Object.keys(overlaysData).includes(currentQuery);
@@ -99,9 +107,10 @@
       minZoom: 2,
       layers: getInitialLayers(overlaysData, defaultOverlays, [baseLayer, cluster]),
       fullscreenControl: true,
-      scrollWheelZoom: false,
       worldCopyJump: true,
     });
+
+    if (isEmbedded()) map.scrollWheelZoom.disable();
   }
 
   function initControls() {
@@ -143,8 +152,10 @@
 
   // Add listeners
   map.on('movestart', onMovestart);
-  map.on('mousedown', onMousedown);
-  map.on('mouseout', onMouseout);
+  if (isEmbedded()) {
+    map.on('mousedown', onMousedown);
+    map.on('mouseout', onMouseout);
+  }
 
   // Populate Fairphoners Groups overlay
   fetchJSON('data/communities.json')
