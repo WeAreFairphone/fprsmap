@@ -69,11 +69,9 @@
   }
 
   function isEmbedded() {
-    if (window.self !== window.top) {
-      return true;
-    } else {
-      return false;
-    }
+    if (window.self !== window.top) return true;
+
+    return false;
   }
 
   function isValidOverlayQueries(overlaysData,defaultOverlays){
@@ -106,11 +104,15 @@
       zoom: 4,
       minZoom: 2,
       layers: getInitialLayers(overlaysData, defaultOverlays, [baseLayer, cluster]),
-      fullscreenControl: true,
       worldCopyJump: true,
     });
 
-    if (isEmbedded()) map.scrollWheelZoom.disable();
+    if (isEmbedded()) {
+      map.scrollWheelZoom.disable();
+      map.attributionControl.setPrefix('<a href="https://wearefairphone.github.io/fprsmap/" target="_blank">See bigger map</a> | Leaflet');
+    } else {
+      map.addControl(new L.Control.Fullscreen());
+    }
   }
 
   function initControls() {
