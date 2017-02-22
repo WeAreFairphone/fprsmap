@@ -92,6 +92,9 @@ fairphone_local_communities:
   - location: Madrid
     lat_lng: [40.4167047,-3.7035824]
     post_nr: 41
+  - location: Leipzig
+    lat_lng: [51.3391827,12.3810549]
+    post_nr: 42
 ---
 {
   "list": {{ page.fairphone_local_communities | jsonify }}
