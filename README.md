@@ -8,7 +8,7 @@ The idea for the Fairphone Community Map originated in March 2015 in [a topic][1
 The map can currently be found at https://wearefairphone.github.io/fprsmap/ or at http://map.fairphone.community. You can embed it on your webpage using an [iframe][3]:
 
 ```html
-<iframe src="https://wearefairphone.github.io/fprsmap/" width="400" height="300" allowfullscreen="true" frameborder="0">
+<iframe src="https://wearefairphone.github.io/fprsmap/" width="100%" height="400" allowfullscreen="true" frameborder="0">
   <p><a href="https://wearefairphone.github.io/fprsmap/" target="_blank">See the Fairphone Community Map!</a></p>
 </iframe>
 ```
