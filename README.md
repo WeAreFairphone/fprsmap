@@ -1,10 +1,10 @@
-#Fairphone Community Map
+# Fairphone Community Map
 >_`fprsmap` - abbreviation for "Fairphoners Map"_
 
-##About
+## About
 The idea for the Fairphone Community Map originated in March 2015 in [a topic][1] on the [Fairphone Forum][2]. The goal is to map the global Fairphone Community and make it easier to find relevant people and places in the user's area.
 
-##Embed the map
+## Embed the map
 The map can currently be found at https://wearefairphone.github.io/fprsmap/ or at http://map.fairphone.community. You can embed it on your webpage using an [iframe][3]:
 
 ```html
@@ -14,7 +14,7 @@ The map can currently be found at https://wearefairphone.github.io/fprsmap/ or a
 ```
 Modify the `width` and `height` parameters to your liking.
 
-##Status of the Project & Contributions
+## Status of the Project & Contributions
 At the moment we are trying to gather as many relevant sources for the map as possible. Please look at the [issues list][4] and help us out or give feedback. We are looking forward to your contribution! The idea is to eventually have three categories:
 
 - `meetups` (Meetups & Events of the Fairphone Community)
@@ -24,19 +24,19 @@ At the moment we are trying to gather as many relevant sources for the map as po
 
 *Note: The 4<sup>th</sup> category `communities` reflects the content of the [Local Fairphoners Address Book][10]. It may be dropped in favor of the distinction between `meetups` and `angels`. Till then you can post in the Address Book and we will add you(r group) to the map.*
 
-##Usage examples
+## Usage examples
 The categories mentioned in the previous paragraph can be used to define an initial state of the map.
 
 - Say you want to promote Fairphone Community events. Append `?show=meetups` to the URI and only meetups and events will be loaded into the map at start.
 - Multiple parameters are also possible: `https://wearefairphone.github.io/fprsmap/?show=meetups,angels` will display both the `meetups` and the `angels` layers.
 - By default all layers are loaded.
 
-##Acknowledgements
+## Acknowledgements
 Thank you to [Fairphone][5] for their great support of community projects. They listen to our needs and take into account our requirements for the map. We are also grateful to [T-Mobile Austria][6] for providing us with data about the locations of their shops.
 
 Last but not least, we want to mention [Leaflet.js][7]. It's really a pleasure to work with their great JavaScript library to build this map!
 
-##Contact information
+## Contact information
 The developers @Roboe and @StefanBrand can be reached via Twitter ([@RoboePi][8] | [@StefaBrand][9]) or [Matrix][12]. If you like, you can also [join the discussion][13] on the Fairphone Forum.
 
 
