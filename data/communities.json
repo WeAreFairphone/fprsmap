@@ -95,6 +95,12 @@ fairphone_local_communities:
   - location: Leipzig
     lat_lng: [51.3391827,12.3810549]
     post_nr: 42
+  - location: Friedrichsdorf
+    lat_lng: [50.2556672,8.6511395]
+    post_nr: 44
+  - location: Australia
+    lat_lng: [-24.7761085,134.755]
+    post_nr: 48
 ---
 {
   "list": {{ page.fairphone_local_communities | jsonify }}
