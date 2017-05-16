@@ -101,7 +101,7 @@
 
     map = L.map('mapid', {
       center: [49.8158683, 6.1296751],
-      zoom: 4,
+      zoom: 2,
       minZoom: 2,
       layers: getInitialLayers(overlaysData, defaultOverlays, [baseLayer, cluster]),
       worldCopyJump: true,
