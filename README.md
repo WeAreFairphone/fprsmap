@@ -33,7 +33,7 @@ The categories mentioned in the previous paragraph can be used to define an init
 - By default all layers are loaded.
 
 ## Acknowledgements
-Thank you to [Fairphone][5] for their great support of community projects. They listen to our needs and take into account our requirements for the map. We are also grateful to [T-Mobile Austria][6] for providing us with data about the locations of their shops.
+Thank you to [Fairphone][5] for their great support of community projects. They listen to our needs and take into account our requirements for the map.
 
 Last but not least, we want to mention [Leaflet.js][7]. It's really a pleasure to work with their great JavaScript library to build this map!
 
