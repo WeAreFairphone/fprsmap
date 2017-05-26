@@ -58,7 +58,7 @@
       overlay: L.featureGroup.subGroup(cluster),
     },
     shops: {
-      title: "T-Mobile Shops",
+      title: "Shops & Showrooms",
       overlay: L.featureGroup.subGroup(cluster),
     },
   }
@@ -193,5 +193,23 @@
       });
     });
 
+  //Populate Fairphone shops
+  fetchJSON('data/shops.json')
+    .then(function(json) {
+      json.shopslist.forEach(function(shop) {
+        if(shop.location) {
+          var popup = '<a href="' + shop.site + '" target="_blank">' + shop["Name Retailer/Venue/Museum"] + '</a><br><div class="shopinfo">' +
+            shop["Address"] + '<br>' +
+            shop["Zipcode"] + ' ' + shop["City"] + '</div>';
+          if(shop["Opening hours"]) {
+            var openingHoursList = shop["Opening hours"].replace(/([0-9])( |\n)([a-z])/gi, '$1</li><li>$3').replace(/ - /gi,'-');
+            popup = popup + '<div class="shopinfo">Opening hours:<br><li>' + openingHoursList + '</li></div>';
+          };
+          var marker = L.marker(shop.location, { icon: MARKERICONS.red, riseOnHover: true })
+            .bindPopup(popup, { offset: new L.Point(0, -25)});
+          marker.addTo(overlaysData.shops.overlay);
+        };
+      });
+    });
 
 }(this));
