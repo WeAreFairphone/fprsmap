@@ -15,14 +15,15 @@ The map can currently be found at https://wearefairphone.github.io/fprsmap/ or a
 Modify the `width` and `height` parameters to your liking.
 
 ## Status of the Project & Contributions
-At the moment we are trying to gather as many relevant sources for the map as possible. Please look at the [issues list][4] and help us out or give feedback. We are looking forward to your contribution! The idea is to eventually have three categories:
+At the moment we are trying to gather as many relevant sources for the map as possible. Please look at the [issues list][4] and help us out or give feedback. We are looking forward to your contribution! The idea is to eventually have four categories:
 
 - `meetups` (Meetups & Events of the Fairphone Community)
 - `angels` ([Local support volunteers][11], so called _Fairphone Angels_)
+- `repairshops` ([Repair shops][14] that are familiar with Fairphones)
 - `shops` (Shops where Fairphones can be bought)
 - `communities` (Fairphoners Groups)
 
-*Note: The 4<sup>th</sup> category `communities` reflects the content of the [Local Fairphoners Address Book][10]. It may be dropped in favor of the distinction between `meetups` and `angels`. Till then you can post in the Address Book and we will add you(r group) to the map.*
+*Note: The 5<sup>th</sup> category `communities` reflects the content of the [Local Fairphoners Address Book][10]. It may be dropped in favor of the distinction between `meetups` and `angels`. Till then you can post in the Address Book and we will add you(r group) to the map.*
 
 ## Usage examples
 The categories mentioned in the previous paragraph can be used to define an initial state of the map.
@@ -53,3 +54,4 @@ The developers @Roboe and @StefanBrand can be reached via Twitter ([@RoboePi][8]
 [11]: https://forum.fairphone.com/t/local-technical-support-by-community-members-mailing-lists-project-description/26193?u=stefan
 [12]: https://chat.disroot.org/#/room/#fprsmap:disroot.org
 [13]: https://forum.fairphone.com/t/fairphone-community-map/26553?u=stefan
+[14]: https://forum.fairphone.com/t/pencil2-list-of-local-repair-shops-that-are-familiar-with-fairphones-by-city/19032?u=stefan
