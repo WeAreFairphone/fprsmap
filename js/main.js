@@ -103,6 +103,7 @@
     });
 
     map = L.map('mapid', {
+      preferCanvas: true,
       center: [49.8158683, 6.1296751],
       zoom: 2,
       minZoom: 2,
