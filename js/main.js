@@ -39,27 +39,26 @@
   /* Variables (state) */
   var map;
   var layerControls;
-  var cluster = L.markerClusterGroup();
   var overlaysData = {
     angels: {
       title: "Fairphone Angels",
-      overlay: L.featureGroup.subGroup(cluster),
+      overlay: L.layerGroup(),
     },
     communities: {
       title: "Fairphoners Groups",
-      overlay: L.featureGroup.subGroup(cluster),
+      overlay: L.layerGroup(),
     },
     meetups: {
       title: "Meetups & Events",
-      overlay: L.featureGroup.subGroup(cluster),
+      overlay: L.layerGroup(),
     },
     repairshops: {
       title: "Repair Shops",
-      overlay: L.featureGroup.subGroup(cluster),
+      overlay: L.layerGroup(),
     },
     shops: {
       title: "Shops & Showrooms",
-      overlay: L.featureGroup.subGroup(cluster),
+      overlay: L.layerGroup(),
     },
   }
 
@@ -107,7 +106,7 @@
       center: [49.8158683, 6.1296751],
       zoom: 2,
       minZoom: 2,
-      layers: getInitialLayers(overlaysData, defaultOverlays, [baseLayer, cluster]),
+      layers: getInitialLayers(overlaysData, defaultOverlays, [baseLayer]),
       worldCopyJump: true,
     });
 
