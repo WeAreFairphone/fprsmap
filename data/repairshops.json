@@ -97,6 +97,13 @@ repairshops:
     country: fr
     lat_lng: [48.8502727,2.3816998]
     website: http://www.universmobileparis.com/
+  - name: PHOENIX iMOBILE
+    address: 3 avenue de Grande Bretagne
+    zipcode: 31300
+    city: Toulouse
+    country: fr
+    lat_lng: [43.596641,1.4223881]
+    website: https://www.facebook.com/phoenix.imobile/
   - name: handy-werk.at
     address: Neubaugasse 1
     zipcode: 1070
