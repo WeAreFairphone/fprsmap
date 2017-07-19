@@ -41,6 +41,13 @@ repairshops:
     country: de
     lat_lng: [51.22486895,6.78855473645105]
     website: http://e-products.de/
+  - name: Ay-TECH-Store
+    address: Kurze Geismar Straße 14
+    zipcode: 37073
+    city: Göttingen
+    country: de
+    lat_lng: [51.5305077,9.9385813]
+    website: http://www.ay-tech-store.de/shop/
   - name: RitterGSM
     address: Weidengasse 18
     zipcode: 50668
