@@ -24,7 +24,7 @@
 
   /* Constants */
   // Local Fairphone Communities forum thread
-  var FORUM_THREAD_URL = 'https://forum.fairphone.com/t/pencil2-local-fairphoners-address-book-fairphone-communities/3815/';
+  var COMMUNITY_DOMAIN = 'fairphone.community'
 
   var MARKERICONS = ["blue", "brown", "green", "grey", "orange", "pink", "red"]
     .reduce(function(markericons, color) {
@@ -42,11 +42,7 @@
   var cluster = L.markerClusterGroup();
   var overlaysData = {
     angels: {
-      title: "Fairphone Angels",
-      overlay: L.featureGroup.subGroup(cluster),
-    },
-    communities: {
-      title: "Fairphoners Groups",
+      title: "Angels",
       overlay: L.featureGroup.subGroup(cluster),
     },
     meetups: {
@@ -163,17 +159,17 @@
     map.on('mouseout', onMouseout);
   }
 
-  // Populate Fairphoners Groups overlay
-  fetchJSON('data/communities.json')
+  // Populate Angels overlay
+  fetchJSON('data/angels.json')
     .then(function(json) {
-      // Add a marker per Local Fairphone Community
-      json.list.forEach(function(group) {
-        var marker = L.marker(group.lat_lng, { icon: MARKERICONS.blue, riseOnHover: true })
+      // Add a marker per Heaven
+      json.list.forEach(function(heaven) {
+        var marker = L.marker(heaven.lat_lng, { icon: MARKERICONS.blue, riseOnHover: true })
           .bindPopup(
-            '<a href="' + FORUM_THREAD_URL + group.post_nr + '" target="_blank">' + group.location + '</a>',
+            '<a href="http://' + heaven.location.toLowerCase() + '.' + COMMUNITY_DOMAIN + '" target="_blank">' + heaven.location + '</a>',
             { offset: new L.Point(0, -25) }
           );
-        marker.addTo(overlaysData.communities.overlay);
+        marker.addTo(overlaysData.angels.overlay);
       });
     });
 

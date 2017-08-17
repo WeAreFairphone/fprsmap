@@ -1,0 +1,21 @@
+---
+# GitHub Pages process this file through Jekyll,
+# which transforms this header into a valid JSON
+
+# Source: https://forum.fairphone.com/t/pencil2-local-fairphoners-address-book-fairphone-communities/3815
+
+angels:
+  - location: Bilbao
+    lat_lng: [43.2629489,-2.9349458]
+  - location: Duesseldorf
+    lat_lng: [51.2254018, 6.7763137]
+  - location: Northengland
+    lat_lng: [53.7941567,-1.7494778]
+  - location: Stuttgart
+    lat_lng: [48.7784485, 9.1800132]
+  - location: Vienna
+    lat_lng: [48.2083537, 16.3725042]
+---
+{
+  "list": {{ page.angels | jsonify }}
+}
