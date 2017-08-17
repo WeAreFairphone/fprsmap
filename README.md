@@ -17,13 +17,10 @@ Modify the `width` and `height` parameters to your liking.
 ## Status of the Project & Contributions
 At the moment we are trying to gather as many relevant sources for the map as possible. Please look at the [issues list][4] and help us out or give feedback. We are looking forward to your contribution! The idea is to eventually have four categories:
 
-- `meetups` (Meetups & Events of the Fairphone Community)
 - `angels` ([Local support volunteers][11], so called _Fairphone Angels_)
 - `repairshops` ([Repair shops][14] that are familiar with Fairphones)
-- `shops` (Shops where Fairphones can be bought)
-- `communities` (Fairphoners Groups)
-
-*Note: The 5<sup>th</sup> category `communities` reflects the content of the [Local Fairphoners Address Book][10]. It may be dropped in favor of the distinction between `meetups` and `angels`. Till then you can post in the Address Book and we will add you(r group) to the map.*
+- `shops` (Shops where Fairphones can be bought
+- `meetups` (Meetups & Events of the Fairphone Community)
 
 ## Usage examples
 The categories mentioned in the previous paragraph can be used to define an initial state of the map.
