@@ -30,7 +30,6 @@
     .reduce(function(markericons, color) {
       markericons[color] = L.icon({
           iconUrl: 'resources/FairphoneMarker_' + color + '.png',
-          iconSize: [31.8, 50],
           iconAnchor: [15.9, 49],
         });
       return markericons;
