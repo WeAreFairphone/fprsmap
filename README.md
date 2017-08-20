@@ -20,7 +20,7 @@ At the moment we are trying to gather as many relevant sources for the map as po
 - `angels` ([Local support volunteers][11], so called _Fairphone Angels_)
 - `repairshops` ([Repair shops][14] that are familiar with Fairphones)
 - `shops` (Shops where Fairphones can be bought
-- `meetups` (Meetups & Events of the Fairphone Community)
+- `events` (Meetups & Events of the Fairphone Community)
 
 ## Usage examples
 The categories mentioned in the previous paragraph can be used to define an initial state of the map.

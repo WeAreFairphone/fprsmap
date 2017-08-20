@@ -1,0 +1,51 @@
+---
+# GitHub Pages process this file through Jekyll,
+# which transforms this header into a valid JSON
+
+# Source: https://forum.fairphone.com/t/pencil2-local-fairphoners-address-book-fairphone-communities/3815
+
+eventslist:
+  - area: Munich
+    events:
+    - name: München Fairphone Meetup
+      lat_lng: [48.1371079,11.5753822]
+      date: [2017, 8, 28, 18, 30]
+      url: https://www.meetup.com/de-DE/Munchen-Fairphone-Meetup/
+    - name: München Fairphone Meetup
+      lat_lng: [48.1371079,11.5753822]
+      date: [2017, 9, 25, 18, 0]
+      url: https://www.meetup.com/de-DE/Munchen-Fairphone-Meetup/
+    - name: München Fairphone Meetup
+      lat_lng: [48.1371079,11.5753822]
+      date: [2017, 10, 23, 18, 0]
+      url: https://www.meetup.com/de-DE/Munchen-Fairphone-Meetup/
+    - name: München Fairphone Meetup
+      lat_lng: [48.1371079,11.5753822]
+      date: [2017, 11, 27, 18, 0]
+      url: https://www.meetup.com/de-DE/Munchen-Fairphone-Meetup/
+    - name: München Fairphone Meetup
+      lat_lng: [48.1371079,11.5753822]
+      date: [2017, 12, 25, 18, 0]
+      url: https://www.meetup.com/de-DE/Munchen-Fairphone-Meetup/
+    - name: München Fairphone Meetup
+      lat_lng: [48.1371079,11.5753822]
+      date: [2018, 1, 22, 18, 0]
+      url: https://www.meetup.com/de-DE/Munchen-Fairphone-Meetup/
+    - name: München Fairphone Meetup
+      lat_lng: [48.1371079,11.5753822]
+      date: [2018, 2, 26, 18, 0]
+      url: https://www.meetup.com/de-DE/Munchen-Fairphone-Meetup/
+  - area: Hamburg
+    events:
+    - name: Fairphone Community Meetup
+      lat_lng: [53.5583986,10.011469]
+      venue: Café Koppel
+      address: Koppel 66
+      zipcode: 20099
+      city: Hamburg
+      date: [2017, 8, 28, 19, 30]
+      url: https://forum.fairphone.com/t/de-treffen-in-hamburg-fur-alle-fairphoner-calendar-spiral-treffen-am-28-8-2017/17482/56?u=stefan
+---
+{
+  "list": {{ page.eventslist | jsonify }}
+}
