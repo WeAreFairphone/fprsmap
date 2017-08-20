@@ -37,6 +37,8 @@
 
   var CURRENTDATE = new Date();
 
+  var EXCLUDED_LAYERS = ['shops', 'repairshops'];
+
   /* Variables (state) */
   var map;
   var layerControls;
@@ -87,12 +89,13 @@
   function getInitialLayers(overlaysData, defaultOverlays, permanentLayers) {
     return Object.keys(overlaysData)
       .filter(function(currentOverlay) {
+        if ((!defaultOverlays || !isValidOverlayQueries(overlaysData,defaultOverlays)) && EXCLUDED_LAYERS.includes(currentOverlay)) return false;
         if (!defaultOverlays || !isValidOverlayQueries(overlaysData,defaultOverlays)) return true;
 
         return defaultOverlays.indexOf(currentOverlay) !== -1;
       })
       .reduce(function(layers, currentOverlay) {
-        layers.push(overlaysData[currentOverlay].overlay);
+          layers.push(overlaysData[currentOverlay].overlay);
         return layers;
       }, permanentLayers || []);
   }
