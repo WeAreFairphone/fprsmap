@@ -40,7 +40,10 @@
   /* Variables (state) */
   var map;
   var layerControls;
-  var cluster = L.markerClusterGroup();
+  var cluster = L.markerClusterGroup({
+    disableClusteringAtZoom: 4,
+    spiderfyOnMaxZoom: false
+  });
   var overlaysData = {
     angels: {
       title: "Angels",
