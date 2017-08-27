@@ -30,22 +30,28 @@
     .reduce(function(markericons, color) {
       markericons[color] = L.icon({
           iconUrl: 'resources/FairphoneMarker_' + color + '.png',
-          iconSize: [31.8, 50],
           iconAnchor: [15.9, 49],
         });
       return markericons;
     }, {});
 
+  var CURRENTDATE = new Date();
+
+  var EXCLUDED_LAYERS = ['shops', 'repairshops'];
+
   /* Variables (state) */
   var map;
   var layerControls;
-  var cluster = L.markerClusterGroup();
+  var cluster = L.markerClusterGroup({
+    disableClusteringAtZoom: 4,
+    spiderfyOnMaxZoom: false
+  });
   var overlaysData = {
     angels: {
-      title: "Angels",
+      title: "Fairphone Angels",
       overlay: L.featureGroup.subGroup(cluster),
     },
-    meetups: {
+    events: {
       title: "Meetups & Events",
       overlay: L.featureGroup.subGroup(cluster),
     },
@@ -83,12 +89,13 @@
   function getInitialLayers(overlaysData, defaultOverlays, permanentLayers) {
     return Object.keys(overlaysData)
       .filter(function(currentOverlay) {
+        if ((!defaultOverlays || !isValidOverlayQueries(overlaysData,defaultOverlays)) && EXCLUDED_LAYERS.includes(currentOverlay)) return false;
         if (!defaultOverlays || !isValidOverlayQueries(overlaysData,defaultOverlays)) return true;
 
         return defaultOverlays.indexOf(currentOverlay) !== -1;
       })
       .reduce(function(layers, currentOverlay) {
-        layers.push(overlaysData[currentOverlay].overlay);
+          layers.push(overlaysData[currentOverlay].overlay);
         return layers;
       }, permanentLayers || []);
   }
@@ -159,19 +166,64 @@
     map.on('mouseout', onMouseout);
   }
 
-  // Populate Angels overlay
+  // Populate Fairphone Angels overlay
   fetchJSON('data/angels.json')
     .then(function(json) {
       // Add a marker per Heaven
       json.list.forEach(function(heaven) {
         var marker = L.marker(heaven.lat_lng, { icon: MARKERICONS.blue, riseOnHover: true })
           .bindPopup(
-            '<a href="http://' + heaven.location.toLowerCase() + '.' + COMMUNITY_DOMAIN + '" target="_blank">' + heaven.location + '</a>',
+            '<a href="http://' + heaven.location.toLowerCase() + '.' + COMMUNITY_DOMAIN + '" target="_blank">' + heaven.location + ' Fairphone Angels</a>',
             { offset: new L.Point(0, -25) }
           );
         marker.addTo(overlaysData.angels.overlay);
       });
     });
+
+    //Populate Events & Meetups overlay
+    fetchJSON('data/events.json')
+      .then(function(json) {
+        json.list.forEach(function(area) {
+          var nextEvent;
+          if(area.events) {
+            //discard all events that took place before today
+            area.events = area.events.filter(function(event) {
+              event.date = new Date(event.date[0], event.date[1]-1, event.date[2], event.date[3], event.date[4]);
+              return event.date.getTime() > CURRENTDATE.getTime();
+            });
+            //find the one closest to today
+            if(area.events.length > 0) {
+              nextEvent = area.events.reduce(function(nextEvent, currentEvent) {
+                if(currentEvent.date.getTime() < nextEvent.date.getTime()) {
+                  return currentEvent;
+                } else {
+                  return nextEvent;
+                };
+              });
+            };
+            if(nextEvent) {
+              var popup = '<a href="' + nextEvent.url + '" target="_blank">' + nextEvent.name + '</a>' +
+                '<br><div class="shopinfo">When: ' +
+                nextEvent.date.toLocaleDateString() + ' | ' + nextEvent.date.toLocaleTimeString([], {hour: '2-digit', minute: '2-digit'}) + '</div>';
+              if(nextEvent.venue || nextEvent.address) {
+                popup = popup + '<div class="shopinfo">Where: ';
+                if(nextEvent.venue) {
+                  popup = popup + nextEvent.venue + '<br>' +
+                    '&emsp;' + nextEvent.address + '<br>' +
+                    '&emsp;' + nextEvent.zipcode + ' ' + nextEvent.city;
+                } else {
+                  popup = popup + nextEvent.address + '<br>' +
+                    nextEvent.zipcode + ' ' + nextEvent.city;
+                };
+                popup = popup + '</div>';
+              };
+              var marker = L.marker(nextEvent.lat_lng, { icon: MARKERICONS.orange, riseOnHover: true })
+                .bindPopup(popup, { offset: new L.Point(0, -25)});
+              marker.addTo(overlaysData.events.overlay);
+            };
+          };
+        });
+      });
 
   // Populate Repairshops overlay
   fetchJSON('data/repairshops.json')
