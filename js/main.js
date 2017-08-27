@@ -48,7 +48,7 @@
   });
   var overlaysData = {
     angels: {
-      title: "Angels",
+      title: "Fairphone Angels",
       overlay: L.featureGroup.subGroup(cluster),
     },
     events: {
@@ -166,14 +166,14 @@
     map.on('mouseout', onMouseout);
   }
 
-  // Populate Angels overlay
+  // Populate Fairphone Angels overlay
   fetchJSON('data/angels.json')
     .then(function(json) {
       // Add a marker per Heaven
       json.list.forEach(function(heaven) {
         var marker = L.marker(heaven.lat_lng, { icon: MARKERICONS.blue, riseOnHover: true })
           .bindPopup(
-            '<a href="http://' + heaven.location.toLowerCase() + '.' + COMMUNITY_DOMAIN + '" target="_blank">' + heaven.location + '</a>',
+            '<a href="http://' + heaven.location.toLowerCase() + '.' + COMMUNITY_DOMAIN + '" target="_blank">' + heaven.location + ' Fairphone Angels</a>',
             { offset: new L.Point(0, -25) }
           );
         marker.addTo(overlaysData.angels.overlay);
