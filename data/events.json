@@ -73,6 +73,16 @@ eventslist:
       city: Hamburg
       date: [2017, 8, 28, 19, 30]
       url: https://forum.fairphone.com/t/de-treffen-in-hamburg-fur-alle-fairphoner-calendar-spiral-treffen-am-28-8-2017/17482/56?u=stefan
+  - area: Leipzig/Halle
+    events:
+    - name: Fairphone Community Treffen Leipzig/Halle
+      lat_lng: [51.333234, 12.375087]
+      venue: Beyerhaus
+      address: Ernst-Schneller-Straße 6
+      zipcode: 04107
+      city: Leipzig
+      date: [2017, 10, 2, 19, 00]
+      url: https://www.facebook.com/events/337652830023599
 ---
 {
   "list": {{ page.eventslist | jsonify }}
