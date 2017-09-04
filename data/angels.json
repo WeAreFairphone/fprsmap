@@ -9,6 +9,8 @@ angels:
     lat_lng: [43.2629489,-2.9349458]
   - location: Duesseldorf
     lat_lng: [51.2254018, 6.7763137]
+  - location: Hamburg
+    lat_lng: [53.550341,10.000654]
   - location: Northengland
     lat_lng: [53.7941567,-1.7494778]
   - location: Stuttgart
