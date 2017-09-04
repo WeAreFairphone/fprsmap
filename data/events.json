@@ -5,16 +5,38 @@
 # Source: https://forum.fairphone.com/t/pencil2-local-fairphoners-address-book-fairphone-communities/3815
 
 eventslist:
+  - area: Aachen
+    events:
+    - name: "#FairSwap – Aachen"
+      lat_lng: [50.770171880722046,6.073119342327118]
+      venue: Medienzentrum im Welthaus Aachen
+      address: An der Schanz 1
+      zipcode: 52064
+      city: Aachen
+      date: [2017, 9, 22, 20, 0]
+      url: https://forum.fairphone.com/t/de-gb-7-aachener-fairphone-stammtisch-22-9-17-aachen-fairphoners/9703/56?u=stefan
+  - area: Hamburg
+    events:
+    - name: "#FairSwap – Hamburg"
+      lat_lng: [53.5583986,10.011469]
+      venue: Café Koppel
+      address: Koppel 66
+      zipcode: 20099
+      city: Hamburg
+      date: [2017, 9, 29, 19, 30]
+      url: https://forum.fairphone.com/t/de-treffen-in-hamburg-fur-alle-fairphoner-calendar-spiral-treffen-am-28-8-2017/17482/56?u=stefan
+  - area: Leipzig/Halle
+    events:
+    - name: "#FairSwap – Leipzig/Halle"
+      lat_lng: [51.333234, 12.375087]
+      venue: Beyerhaus
+      address: Ernst-Schneller-Straße 6
+      zipcode: 04107
+      city: Leipzig
+      date: [2017, 10, 2, 19, 00]
+      url: https://www.facebook.com/events/337652830023599
   - area: Munich
     events:
-    - name: München Fairphone Meetup
-      lat_lng: [48.137848,11.5529322599364]
-      venue: EineWeltHaus (Raum 110/111)
-      address: Schwanthalerstr. 80
-      zipcode: 80336
-      city: München
-      date: [2017, 8, 28, 18, 30]
-      url: https://www.meetup.com/de-DE/Munchen-Fairphone-Meetup/
     - name: München Fairphone Meetup
       lat_lng: [48.137848,11.5529322599364]
       venue: EineWeltHaus (Raum 110/111)
@@ -63,25 +85,15 @@ eventslist:
       city: München
       date: [2018, 2, 26, 18, 30]
       url: https://www.meetup.com/de-DE/Munchen-Fairphone-Meetup/
-  - area: Hamburg
+  - area: Stuttgart
     events:
-    - name: Fairphone Community Meetup
-      lat_lng: [53.5583986,10.011469]
-      venue: Café Koppel
-      address: Koppel 66
-      zipcode: 20099
-      city: Hamburg
-      date: [2017, 8, 28, 19, 30]
-      url: https://forum.fairphone.com/t/de-treffen-in-hamburg-fur-alle-fairphoner-calendar-spiral-treffen-am-28-8-2017/17482/56?u=stefan
-  - area: Leipzig/Halle
-    events:
-    - name: Fairphone Community Treffen Leipzig/Halle
-      lat_lng: [51.333234, 12.375087]
-      venue: Beyerhaus
-      address: Ernst-Schneller-Straße 6
-      zipcode: 04107
-      city: Leipzig
-      date: [2017, 10, 2, 19, 00]
+    - name: "#FairSwap – Stuttgart"
+      lat_lng: [48.7784485, 9.1800132]
+      venue: Venue TBA
+      address:
+      zipcode:
+      city:
+      date: [2017, 10, 4, 19, 00]
       url: https://www.facebook.com/events/337652830023599
 ---
 {
