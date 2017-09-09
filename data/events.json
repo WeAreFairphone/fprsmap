@@ -85,6 +85,16 @@ eventslist:
       city: München
       date: [2018, 2, 26, 18, 30]
       url: https://www.meetup.com/de-DE/Munchen-Fairphone-Meetup/
+  - area: North England
+    events:
+    - name: "#FairSwap – North England"
+      lat_lng: [53.834627,-1.7794958]
+      venue: Venue TBA
+      address:
+      zipcode:
+      city:
+      date: [2017, 10, 7, 18, 0]
+      url: https://www.facebook.com/events/337652830023599
   - area: Stuttgart
     events:
     - name: "#FairSwap – Stuttgart"
