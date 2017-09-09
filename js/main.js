@@ -207,12 +207,12 @@
               if(nextEvent.venue || nextEvent.address) {
                 popup = popup + '<div class="shopinfo">Where: ';
                 if(nextEvent.venue) {
-                  popup = popup + nextEvent.venue + '<br>' +
+                  popup = popup + nextEvent.venue;
+                }
+                if(nextEvent.address) {
+                  popup = popup + '<br>' +
                     '&emsp;' + nextEvent.address + '<br>' +
                     '&emsp;' + nextEvent.zipcode + ' ' + nextEvent.city;
-                } else {
-                  popup = popup + nextEvent.address + '<br>' +
-                    nextEvent.zipcode + ' ' + nextEvent.city;
                 };
                 popup = popup + '</div>';
               };
