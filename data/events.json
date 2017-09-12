@@ -97,12 +97,12 @@ eventslist:
       url: https://www.facebook.com/events/337652830023599
   - area: Stuttgart
     events:
-    - name: "#FairSwap – Stuttgart"
-      lat_lng: [48.7784485, 9.1800132]
-      venue: Venue TBA
-      address:
-      zipcode:
-      city:
+    - name: "3. Stuttgarter Meetup und FairSwap"
+      lat_lng: [48.7839142,9.1907012]
+      venue: Poffers Cafe
+      address: Urbanstraße 86
+      zipcode: 70190
+      city: Stuttgart
       date: [2017, 10, 4, 19, 00]
       url: https://www.facebook.com/events/337652830023599
 ---
