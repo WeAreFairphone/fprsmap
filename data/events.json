@@ -41,7 +41,7 @@ eventslist:
       lat_lng: [51.333234, 12.375087]
       venue: Beyerhaus
       address: Ernst-Schneller-Straße 6
-      zipcode: 04107
+      zipcode: "04107"
       city: Leipzig
       date: [2017, 10, 2, 19, 00]
       url: https://www.facebook.com/events/337652830023599
