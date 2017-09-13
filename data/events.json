@@ -15,6 +15,16 @@ eventslist:
       city: Aachen
       date: [2017, 9, 22, 20, 0]
       url: https://forum.fairphone.com/t/de-gb-7-aachener-fairphone-stammtisch-22-9-17-aachen-fairphoners/9703/56?u=stefan
+  - area: Düsseldorf
+    events:
+    - name: "#FairSwap – Düsseldorf"
+      lat_lng: [51.2203212, 6.7729157]
+      venue: Destille
+      address: Bilker Straße 46
+      zipcode: 40213
+      city: Düsseldorf
+      date: [2017, 10, 14, 11, 0]
+      url: https://forum.fairphone.com/t/de-dusseldorfer-fairphone-treffen-inklusive-koln-ruhrgebiet-umgebung/26302/19?u=stefan
   - area: Hamburg
     events:
     - name: "#FairSwap – Hamburg"
