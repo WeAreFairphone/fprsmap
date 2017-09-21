@@ -115,6 +115,16 @@ eventslist:
       city: Stuttgart
       date: [2017, 10, 4, 19, 00]
       url: https://www.facebook.com/events/337652830023599
+  - area: Vienna
+    events:
+    - name: "6. Austrian Fairphoners Treffen - #FairSwap"
+      lat_lng: [48.2054236,16.3510045]
+      venue: GLOBAL 2000 Offices
+      address: Neustiftgasse 36
+      zipcode: 1070
+      city: Wien
+      date: [2017, 10, 3,18,0]
+      url: https://forum.fairphone.com/t/de-gb-austrian-fairphoners/2183?u=stefan
 ---
 {
   "list": {{ page.eventslist | jsonify }}
