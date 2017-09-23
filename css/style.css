@@ -58,3 +58,7 @@ input[type='checkbox'] {
 	height: 25px;
 	width: 25px;
 }
+
+.easy-button-button {
+	padding: 0;
+}
