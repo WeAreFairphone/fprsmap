@@ -136,8 +136,8 @@
 
   function addPopupWithEmbedCode() {
     updateEmbedTextareaContent();
-    var embedPopupContent = '<h4>Embed code:</h4><br>' +
-      '<textarea id="embed-textarea">' + embedTextareaContent + '</textarea>';
+    var embedPopupContent = 'Embed code:<br>' +
+      '<textarea autofocus cols="35" id="embed-textarea" readonly rows="3" wrap="off">' + embedTextareaContent + '</textarea>';
     L.popup()
     .setLatLng(map.getCenter())
     .setContent(embedPopupContent)
@@ -145,8 +145,8 @@
   }
 
   function updateEmbedTextareaContent() {
-    embedTextareaContent = '<iframe src="https://wearefairphone.github.io/fprsmap/?show=' + activeLayers.toString() + '" width="100%" height="400" allowfullscreen="true" frameborder="0"><br>' +
-    '<p><a href="https://wearefairphone.github.io/fprsmap/?show=' + activeLayers.toString() + '" target="_blank">See the Fairphone Community Map!</a></p>' +
+    embedTextareaContent = '<iframe src="https://wearefairphone.github.io/fprsmap/?show=' + activeLayers.toString() + '" width="100%" height="400" allowfullscreen="true" frameborder="0">\n' +
+    '<p><a href="https://wearefairphone.github.io/fprsmap/?show=' + activeLayers.toString() + '" target="_blank">See the Fairphone Community Map!</a></p>\n' +
     '</iframe>';
     try{
       document.getElementById('embed-textarea').value = embedTextareaContent;
