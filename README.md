@@ -4,8 +4,12 @@
 ## About
 The idea for the Fairphone Community Map originated in March 2015 in [a topic][1] on the [Fairphone Forum][2]. The goal is to map the global Fairphone Community and make it easier to find relevant people and places in the user's area.
 
+The map can currently be found at https://wearefairphone.github.io/fprsmap/ or at https://map.fairphone.community.
+
 ## Embed the map
-The map can currently be found at https://wearefairphone.github.io/fprsmap/ or at https://map.fairphone.community. You can embed it on your webpage using an [iframe][3]:
+Simply click the embed button ![embed icon][icon] inside the map and you will find the embed code ready to be copied. The embed code provided there will update itself according to the layers you select.
+
+The embed code uses an [iframe][3]. You can also have a look at it here:
 
 ```html
 <iframe src="https://wearefairphone.github.io/fprsmap/" width="100%" height="400" allowfullscreen="true" frameborder="0">
@@ -53,3 +57,5 @@ The developers @Roboe and @StefanBrand can be reached via Twitter ([@RoboePi][8]
 [13]: https://forum.fairphone.com/t/fairphone-community-map/26553?u=stefan
 [14]: https://forum.fairphone.com/t/pencil2-list-of-local-repair-shops-that-are-familiar-with-fairphones-by-city/19032?u=stefan
 [15]: https://www.fairphone.com/en/community/events/?event-category=community-event
+
+[icon]: resources/embed-icon.png
