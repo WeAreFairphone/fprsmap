@@ -6,15 +6,6 @@
 
 eventslist:
   - area: Aachen
-    events:
-    - name: "#FairSwap – Aachen"
-      lat_lng: [50.770171880722046,6.073119342327118]
-      venue: Medienzentrum im Welthaus Aachen
-      address: An der Schanz 1
-      zipcode: 52064
-      city: Aachen
-      date: [2017, 9, 22, 20, 0]
-      url: https://forum.fairphone.com/t/de-gb-7-aachener-fairphone-stammtisch-22-9-17-aachen-fairphoners/9703/56?u=stefan
   - area: Düsseldorf
     events:
     - name: "#FairSwap – Düsseldorf"
@@ -45,6 +36,16 @@ eventslist:
       city: Leipzig
       date: [2017, 10, 2, 19, 00]
       url: https://www.facebook.com/events/337652830023599
+  - area: Linz
+    events:
+    - name: "#FairSwap – Linz"
+      lat_lng: [48.3082388,14.288203]
+      venue: TBD
+      address:
+      zipcode: "4020"
+      city: Linz
+      date: [2017, 10, 7, 17, 0]
+      url: htps://austrianfairphoners.org
   - area: Munich
     events:
     - name: München Fairphone Meetup
