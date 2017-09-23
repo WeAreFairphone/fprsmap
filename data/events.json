@@ -99,13 +99,13 @@ eventslist:
   - area: North England
     events:
     - name: "#FairSwap – North England"
-      lat_lng: [53.834627,-1.7794958]
-      venue: Venue TBA
-      address:
-      zipcode:
-      city:
+      lat_lng: [53.834586, -1.779473]
+      venue: Yo Yo Bar & Restaurant
+      address: Rosse Street
+      zipcode: BD18 3SW
+      city: Shipley
       date: [2017, 10, 7, 18, 0]
-      url: https://www.facebook.com/events/337652830023599
+      url: https://forum.fairphone.com/t/gb-community-meetup-north-england-bradford-07-10-2017/32869?u=stefan
   - area: Stuttgart
     events:
     - name: "3. Stuttgarter Meetup und FairSwap"
@@ -115,7 +115,7 @@ eventslist:
       zipcode: 70190
       city: Stuttgart
       date: [2017, 10, 4, 19, 00]
-      url: https://www.facebook.com/events/337652830023599
+      url: https://www.facebook.com/events/201525977050252
   - area: Vienna
     events:
     - name: "6. Austrian Fairphoners Treffen - #FairSwap"
@@ -125,7 +125,7 @@ eventslist:
       zipcode: 1070
       city: Wien
       date: [2017, 10, 3,18,0]
-      url: https://forum.fairphone.com/t/de-gb-austrian-fairphoners/2183?u=stefan
+      url: https://austrianfairphoners.org
 ---
 {
   "list": {{ page.eventslist | jsonify }}
