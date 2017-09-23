@@ -64,6 +64,9 @@
       overlay: L.featureGroup.subGroup(cluster),
     },
   }
+  var activeLayers = Object.keys(overlaysData).filter(function(key){
+    return !EXCLUDED_LAYERS.includes(key);
+  });
 
   /* Functions */
   function getAllOverlays(overlaysData) {
@@ -72,6 +75,14 @@
         overlays[overlaysData[currentOverlay].title] = overlaysData[currentOverlay].overlay;
         return overlays;
       }, {});
+  }
+
+  function titleToKey(title) {
+    return Object.keys(overlaysData)
+      .filter(function(key){
+        return (overlaysData[key].title == title)
+      })
+      .toString();
   }
 
   function isEmbedded() {
@@ -122,11 +133,27 @@
     }
   }
 
+  function addPopupWithEmbedCode() {
+    var embedPopupContent = '<h4>Embed code:</h4><br>' +
+      '<textarea><iframe src="https://wearefairphone.github.io/fprsmap/?show=' + activeLayers.toString() + '" width="100%" height="400" allowfullscreen="true" frameborder="0"><br>' +
+      '<p><a href="https://wearefairphone.github.io/fprsmap/?show=' + activeLayers.toString() + '" target="_blank">See the Fairphone Community Map!</a></p>' +
+      '</iframe></textarea>';
+    L.popup()
+    .setLatLng(map.getCenter())
+    .setContent(embedPopupContent)
+    .openOn(map);
+  }
+
   function initControls() {
     layerControls = L.control.layers(null, getAllOverlays(overlaysData), {
       collapsed: false,
     });
     layerControls.addTo(map);
+
+    // Add embed Control
+    L.easyButton('<img src="resources/embed-icon.png">', function(btn,map){
+      addPopupWithEmbedCode();
+    },'Embed the map!').addTo(map);
   }
 
   function getDefaultOverlays() {
@@ -154,6 +181,16 @@
     }
   }
 
+  function onOverlayadd(e) {
+    activeLayers.push(titleToKey(e.name));
+  }
+
+  function onOverlayremove(e) {
+    activeLayers = activeLayers.filter(function(layer){
+      return layer != titleToKey(e.name);
+    });
+  }
+
   /* Main */
   var defaultOverlays = getDefaultOverlays();
   initMap(defaultOverlays);
@@ -165,6 +202,8 @@
     map.on('mousedown', onMousedown);
     map.on('mouseout', onMouseout);
   }
+  map.on('overlayadd', onOverlayadd);
+  map.on('overlayremove', onOverlayremove);
 
   // Populate Fairphone Angels overlay
   fetchJSON('data/angels.json')
