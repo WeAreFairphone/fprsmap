@@ -44,6 +44,11 @@ body {
 	vertical-align: middle;
 }
 
+.leaflet-popup-tip {
+	width: 0px;
+	height: 0px;
+}
+
 .shopinfo {
 	font-size: 16px;
 	text-transform: none;
@@ -57,4 +62,12 @@ li {
 input[type='checkbox'] {
 	height: 25px;
 	width: 25px;
+}
+
+.easy-button-button {
+	padding: 0;
+}
+
+textarea {
+	resize: none;
 }
