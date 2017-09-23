@@ -67,6 +67,7 @@
   var activeLayers = Object.keys(overlaysData).filter(function(key){
     return !EXCLUDED_LAYERS.includes(key);
   });
+  var embedTextareaContent;
 
   /* Functions */
   function getAllOverlays(overlaysData) {
@@ -134,14 +135,23 @@
   }
 
   function addPopupWithEmbedCode() {
+    updateEmbedTextareaContent();
     var embedPopupContent = '<h4>Embed code:</h4><br>' +
-      '<textarea><iframe src="https://wearefairphone.github.io/fprsmap/?show=' + activeLayers.toString() + '" width="100%" height="400" allowfullscreen="true" frameborder="0"><br>' +
-      '<p><a href="https://wearefairphone.github.io/fprsmap/?show=' + activeLayers.toString() + '" target="_blank">See the Fairphone Community Map!</a></p>' +
-      '</iframe></textarea>';
+      '<textarea id="embed-textarea">' + embedTextareaContent + '</textarea>';
     L.popup()
     .setLatLng(map.getCenter())
     .setContent(embedPopupContent)
     .openOn(map);
+  }
+
+  function updateEmbedTextareaContent() {
+    embedTextareaContent = '<iframe src="https://wearefairphone.github.io/fprsmap/?show=' + activeLayers.toString() + '" width="100%" height="400" allowfullscreen="true" frameborder="0"><br>' +
+    '<p><a href="https://wearefairphone.github.io/fprsmap/?show=' + activeLayers.toString() + '" target="_blank">See the Fairphone Community Map!</a></p>' +
+    '</iframe>';
+    try{
+      document.getElementById('embed-textarea').value = embedTextareaContent;
+    } catch(e) {
+    };
   }
 
   function initControls() {
@@ -183,12 +193,14 @@
 
   function onOverlayadd(e) {
     activeLayers.push(titleToKey(e.name));
+    updateEmbedTextareaContent();
   }
 
   function onOverlayremove(e) {
     activeLayers = activeLayers.filter(function(layer){
       return layer != titleToKey(e.name);
     });
+    updateEmbedTextareaContent();
   }
 
   /* Main */
