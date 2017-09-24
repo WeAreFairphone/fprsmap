@@ -138,7 +138,7 @@
     updateEmbedTextareaContent();
     var embedPopupContent = 'Embed code:<br>' +
       '<textarea autofocus cols="35" id="embed-textarea" readonly rows="3" wrap="off">' + embedTextareaContent + '</textarea>';
-    L.popup()
+    L.popup({className: 'embed-popup'})
     .setLatLng(map.getCenter())
     .setContent(embedPopupContent)
     .openOn(map);

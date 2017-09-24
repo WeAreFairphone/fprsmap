@@ -44,7 +44,7 @@ body {
 	vertical-align: middle;
 }
 
-.leaflet-popup-tip {
+.embed-popup .leaflet-popup-tip {
 	width: 0px;
 	height: 0px;
 }
