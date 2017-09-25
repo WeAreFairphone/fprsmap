@@ -39,9 +39,9 @@ eventslist:
   - area: Linz
     events:
     - name: "#FairSwap – Linz"
-      lat_lng: [48.3082388,14.288203]
-      venue: TBD
-      address:
+      lat_lng: [48.3029622,14.2908904]
+      venue: Bar Restaurant Gelbes Krokodil
+      address: OK Platz 1
       zipcode: "4020"
       city: Linz
       date: [2017, 10, 7, 17, 0]
