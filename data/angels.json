@@ -2,7 +2,7 @@
 # GitHub Pages process this file through Jekyll,
 # which transforms this header into a valid JSON
 
-# Source: https://forum.fairphone.com/t/pencil2-local-fairphoners-address-book-fairphone-communities/3815
+# Usage instructions: Simply append "@fairphone.community" to the location and send an email to the resulting address.
 
 angels:
   - location: Augsburg
