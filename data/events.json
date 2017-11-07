@@ -6,6 +6,15 @@
 
 eventslist:
   - area: Aachen
+    events:
+    - name: "8. Aachener Fairphone Stammtisch"
+      lat_lng: [50.7803566, 6.0669124]
+      venue: "Restaurant \"Auf der Hörn\""
+      address: Mies-van-der-Rohe-Straße 10
+      zipcode: 52074
+      city: Aachen
+      date: [2017, 11, 24, 19, 0]
+      url: https://forum.fairphone.com/t/de-gb-8-aachener-fairphone-stammtisch-24-11-17-aachen-fairphoners/9703/64?u=stefan
   - area: Düsseldorf
     events:
     - name: "#FairSwap – Düsseldorf"
