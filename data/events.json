@@ -117,14 +117,14 @@ eventslist:
       url: https://forum.fairphone.com/t/gb-community-meetup-north-england-bradford-07-10-2017/32869?u=stefan
   - area: Stuttgart
     events:
-    - name: "3. Stuttgarter Meetup und FairSwap"
-      lat_lng: [48.7839142,9.1907012]
-      venue: Poffers Cafe
-      address: Urbanstraße 86
-      zipcode: 70190
+    - name: "4. Stuttgarter Meetup"
+      lat_lng: [48.7762892,9.1820663]
+      venue: Weltcafé Stuttgart
+      address: Charlottenplatz 17
+      zipcode: 70173
       city: Stuttgart
-      date: [2017, 10, 4, 19, 00]
-      url: https://www.facebook.com/events/201525977050252
+      date: [2017, 12, 5, 19, 0]
+      url: https://forum.fairphone.com/t/de-gb-stuttgart-fairphoners-get-together/10447/134?u=stefan
   - area: Vienna
     events:
     - name: "6. Austrian Fairphoners Treffen - #FairSwap"
