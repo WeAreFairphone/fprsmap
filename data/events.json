@@ -127,13 +127,13 @@ eventslist:
       url: https://forum.fairphone.com/t/de-gb-stuttgart-fairphoners-get-together/10447/134?u=stefan
   - area: Vienna
     events:
-    - name: "6. Austrian Fairphoners Treffen - #FairSwap"
+    - name: "7. Austrian Fairphoners Treffen (3-Jahres-Fest)"
       lat_lng: [48.2054236,16.3510045]
       venue: GLOBAL 2000 Offices
       address: Neustiftgasse 36
       zipcode: 1070
       city: Wien
-      date: [2017, 10, 3,18,0]
+      date: [2017, 12, 12,19,0]
       url: https://austrianfairphoners.org
 ---
 {
