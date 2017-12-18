@@ -31,6 +31,8 @@ angels:
     lat_lng: [51.5109791,7.0959263]
   - location: Stuttgart
     lat_lng: [48.7784485, 9.1800132]
+  - location: Tilburg
+    lat_lng: [51.55847,5.083076]
   - location: Vienna
     lat_lng: [48.2083537, 16.3725042]
 ---
