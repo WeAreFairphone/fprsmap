@@ -7,6 +7,8 @@
 angels:
   - location: Augsburg
     lat_lng: [48.3668041,10.8986971]
+  - location: Barcelona
+    lat_lng: [41.3828939,2.1774322]
   - location: Bielefeld
     lat_lng: [52.010877,8.540868]
   - location: Bilbao
