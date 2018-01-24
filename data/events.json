@@ -7,14 +7,14 @@
 eventslist:
   - area: Aachen
     events:
-    - name: "8. Aachener Fairphone Stammtisch"
-      lat_lng: [50.7803566, 6.0669124]
-      venue: "Restaurant \"Auf der Hörn\""
-      address: Mies-van-der-Rohe-Straße 10
-      zipcode: 52074
+    - name: "9. Aachener Fairphone Stammtisch"
+      lat_lng: [50.7788275,6.08182029557583]
+      venue: "Restaurant Magellan"
+      address: Pontstraße 78
+      zipcode: 52062
       city: Aachen
-      date: [2017, 11, 24, 19, 0]
-      url: https://forum.fairphone.com/t/de-gb-8-aachener-fairphone-stammtisch-24-11-17-aachen-fairphoners/9703/64?u=stefan
+      date: [2018, 2, 23, 19, 0]
+      url: https://forum.fairphone.com/t/de-gb-9-aachener-fairphone-stammtisch-23-02-aachen-fairphoners/9703/68?u=stefan
   - area: Düsseldorf
     events:
     - name: "#FairSwap – Düsseldorf"
