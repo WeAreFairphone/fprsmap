@@ -27,14 +27,14 @@ eventslist:
       url: https://forum.fairphone.com/t/de-dusseldorfer-fairphone-treffen-inklusive-koln-ruhrgebiet-umgebung/26302/19?u=stefan
   - area: Hamburg
     events:
-    - name: "4. Hamburger Fairphone-Treffen"
+    - name: "5. Hamburger Fairphone-Treffen"
       lat_lng: [53.5583986,10.011469]
       venue: Café Koppel
       address: Koppel 66
       zipcode: 20099
       city: Hamburg
-      date: [2017, 12, 19, 19, 0]
-      url: https://forum.fairphone.com/t/de-treffen-in-hamburg-fuer-alle-fairphoner/17482?u=stefan
+      date: [2018, 01, 31, 19, 0]
+      url: https://forum.fairphone.com/t/de-treffen-in-hamburg-fur-alle-fairphoner/17482
   - area: Leipzig/Halle
     events:
     - name: "#FairSwap – Leipzig/Halle"
