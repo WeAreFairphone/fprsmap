@@ -58,10 +58,10 @@ eventslist:
   - area: Munich
     events:
     - name: München Fairphone Meetup
-      lat_lng: [48.137848,11.5529322599364]
-      venue: EineWeltHaus (Raum 110/111)
-      address: Schwanthalerstr. 80
-      zipcode: 80336
+      lat_lng: [48.1347584,11.572862]
+      venue: Stadtcafé
+      address: St. Jakobsplatz 1
+      zipcode: 80331
       city: München
       date: [2018, 1, 29, 18, 30]
       url: https://www.meetup.com/de-DE/Munchen-Fairphone-Meetup/
