@@ -1,0 +1,18 @@
+---
+# GitHub Pages process this file through Jekyll,
+# which transforms this header into a valid JSON
+
+# Source: https://forum.fairphone.com/t/current-location-of-the-community-fairphone-2/21519/
+
+community_fp2_last_location: [52.373056, 4.893333]
+
+community_fp2_journey:
+  - [52.373056, 4.893333]
+  - [48.15500, 11.54183]
+  - [48.22056, 16.37959]
+  - [52.373056, 4.893333]
+---
+{
+  "journey": {{ page.community_fp2_journey | jsonify }},
+  "last_location": {{ page.community_fp2_last_location | jsonify }}
+}

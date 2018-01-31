@@ -63,6 +63,10 @@
       title: "Shops & Showrooms",
       overlay: L.featureGroup.subGroup(cluster),
     },
+    fp2: {
+      title: "Community FP2",
+      overlay: L.featureGroup.subGroup(cluster),
+    },
   }
   var activeLayers = Object.keys(overlaysData).filter(function(key){
     return !EXCLUDED_LAYERS.includes(key);
@@ -308,6 +312,24 @@
           marker.addTo(overlaysData.shops.overlay);
         };
       });
+    });
+
+  // Populate Community FP2 overlay
+  fetchJSON('data/community-fp2.json')
+    .then(function(json) {
+      var fp2_journey = L.polyline([], {
+          "color": "#05aa76",
+        })
+        .setLatLngs(json.journey);
+
+      var fp2_last_location = L.marker(json.last_location, { icon: MARKERICONS.green, riseOnHover: true })
+        .bindPopup(
+          '<a href="https://forum.fairphone.com/t/current-location-of-the-community-fairphone-2/21519/last" target="_blank">Community FP2 Journal</a>',
+          { offset: new L.Point(0, -25) }
+        );
+
+      fp2_journey.addTo(overlaysData.fp2.overlay);
+      fp2_last_location.addTo(overlaysData.fp2.overlay);
     });
 
 }(this));
