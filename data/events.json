@@ -73,6 +73,86 @@ eventslist:
       city: München
       date: [2018, 2, 26, 18, 30]
       url: https://www.meetup.com/de-DE/Munchen-Fairphone-Meetup/
+      - name: München Fairphone Meetup
+      lat_lng: [48.137848,11.5529322599364]
+      venue: EineWeltHaus (Raum 110/111)
+      address: Schwanthalerstr. 80
+      zipcode: 80336
+      city: München
+      date: [2018, 3, 26, 18, 30]
+      url: https://www.meetup.com/de-DE/Munchen-Fairphone-Meetup/
+      - name: München Fairphone Meetup
+      lat_lng: [48.137848,11.5529322599364]
+      venue: EineWeltHaus (Raum 110/111)
+      address: Schwanthalerstr. 80
+      zipcode: 80336
+      city: München
+      date: [2018, 4, 30, 18, 30]
+      url: https://www.meetup.com/de-DE/Munchen-Fairphone-Meetup/
+      - name: München Fairphone Meetup
+      lat_lng: [48.137848,11.5529322599364]
+      venue: EineWeltHaus (Raum 110/111)
+      address: Schwanthalerstr. 80
+      zipcode: 80336
+      city: München
+      date: [2018, 5, 28, 18, 30]
+      url: https://www.meetup.com/de-DE/Munchen-Fairphone-Meetup/
+      - name: München Fairphone Meetup
+      lat_lng: [48.137848,11.5529322599364]
+      venue: EineWeltHaus (Raum 110/111)
+      address: Schwanthalerstr. 80
+      zipcode: 80336
+      city: München
+      date: [2018, 6, 25, 18, 30]
+      url: https://www.meetup.com/de-DE/Munchen-Fairphone-Meetup/
+      - name: München Fairphone Meetup
+      lat_lng: [48.137848,11.5529322599364]
+      venue: EineWeltHaus (Raum 110/111)
+      address: Schwanthalerstr. 80
+      zipcode: 80336
+      city: München
+      date: [2018, 7, 30, 18, 30]
+      url: https://www.meetup.com/de-DE/Munchen-Fairphone-Meetup/
+      - name: München Fairphone Meetup
+      lat_lng: [48.137848,11.5529322599364]
+      venue: EineWeltHaus (Raum 110/111)
+      address: Schwanthalerstr. 80
+      zipcode: 80336
+      city: München
+      date: [2018, 8, 27, 18, 30]
+      url: https://www.meetup.com/de-DE/Munchen-Fairphone-Meetup/
+      - name: München Fairphone Meetup
+      lat_lng: [48.137848,11.5529322599364]
+      venue: EineWeltHaus (Raum 110/111)
+      address: Schwanthalerstr. 80
+      zipcode: 80336
+      city: München
+      date: [2018, 9, 24, 18, 30]
+      url: https://www.meetup.com/de-DE/Munchen-Fairphone-Meetup/
+      - name: München Fairphone Meetup
+      lat_lng: [48.137848,11.5529322599364]
+      venue: EineWeltHaus (Raum 110/111)
+      address: Schwanthalerstr. 80
+      zipcode: 80336
+      city: München
+      date: [2018, 10, 29, 18, 30]
+      url: https://www.meetup.com/de-DE/Munchen-Fairphone-Meetup/
+      - name: München Fairphone Meetup
+      lat_lng: [48.137848,11.5529322599364]
+      venue: EineWeltHaus (Raum 110/111)
+      address: Schwanthalerstr. 80
+      zipcode: 80336
+      city: München
+      date: [2018, 11, 26, 18, 30]
+      url: https://www.meetup.com/de-DE/Munchen-Fairphone-Meetup/
+      - name: München Fairphone Meetup
+      lat_lng: [48.137848,11.5529322599364]
+      venue: EineWeltHaus (Raum 110/111)
+      address: Schwanthalerstr. 80
+      zipcode: 80336
+      city: München
+      date: [2018, 12, 31, 18, 30]
+      url: https://www.meetup.com/de-DE/Munchen-Fairphone-Meetup/
   - area: North England
     events:
     - name: "#FairSwap – North England"
