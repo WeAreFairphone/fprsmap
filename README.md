@@ -52,7 +52,7 @@ The developers @Roboe and @StefanBrand can be reached via Twitter ([@RoboePi][8]
 [8]: https://twitter.com/RoboePi
 [9]: https://twitter.com/StefaBrand
 [10]: https://forum.fairphone.com/t/local-fairphoners-address-book-fairphone-communities/3815?u=stefan
-[11]: https://forum.fairphone.com/t/local-technical-support-by-community-members-mailing-lists-project-description/26193?u=stefan
+[11]: https://forum.fairphone.com/t/angel-the-fairphone-angels-program-local-support-by-community-members/33058?u=stefan
 [12]: https://chat.disroot.org/#/room/#fprsmap:disroot.org
 [13]: https://forum.fairphone.com/t/fairphone-community-map/26553?u=stefan
 [14]: https://forum.fairphone.com/t/pencil2-list-of-local-repair-shops-that-are-familiar-with-fairphones-by-city/19032?u=stefan
