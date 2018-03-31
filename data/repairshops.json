@@ -27,6 +27,12 @@ repairshops:
     country: gb
     lat_lng: [53.786462, -1.775262]
     website: http://www.letztalk.co.uk/
+  - name: The Repair Club
+    address: Avenue Georges Henri - Georges Henrilaan 332
+    zipcode: 1200
+    city: Bruxelles
+    lat_lng: [50.84317375,4.4092803545052]
+    website: https://www.repairclub.be
   - name: Logicboard Repair
     address: ""
     zipcode: ""
