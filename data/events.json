@@ -17,14 +17,14 @@ eventslist:
       url: https://forum.fairphone.com/t/de-gb-9-aachener-fairphone-stammtisch-23-02-aachen-fairphoners/9703/68?u=stefan
   - area: Düsseldorf
     events:
-    - name: "#FairSwap – Düsseldorf"
+    - name: "Fairphone-Treffen Rhein-Ruhr (Düsseldorf + Ruhrgebiet)"
       lat_lng: [51.2203212, 6.7729157]
       venue: Destille
       address: Bilker Straße 46
       zipcode: 40213
       city: Düsseldorf
-      date: [2017, 10, 14, 11, 0]
-      url: https://forum.fairphone.com/t/de-dusseldorfer-fairphone-treffen-inklusive-koln-ruhrgebiet-umgebung/26302/19?u=stefan
+      date: [2018, 4, 8, 16, 0]
+      url: https://forum.fairphone.com/t/de-fairphone-treffen-rhein-ruhr-dusseldorf-ruhrgebiet-8-april-2018-in-dusseldorf/26302/34
   - area: Hamburg
     events:
     - name: "5. Hamburger Fairphone-Treffen"
@@ -165,14 +165,14 @@ eventslist:
       url: https://forum.fairphone.com/t/gb-community-meetup-north-england-bradford-07-10-2017/32869?u=stefan
   - area: Stuttgart
     events:
-    - name: "4. Stuttgarter Meetup"
+    - name: "5. Stuttgarter Fairphone Meetup"
       lat_lng: [48.7762892,9.1820663]
-      venue: Weltcafé Stuttgart
-      address: Charlottenplatz 17
-      zipcode: 70173
+      venue: tbd.
+      address: tbd.
+      zipcode: tbd.
       city: Stuttgart
-      date: [2017, 12, 5, 19, 0]
-      url: https://forum.fairphone.com/t/de-gb-stuttgart-fairphoners-get-together/10447/134?u=stefan
+      date: [2018, 4, 3, 19, 0]
+      url: https://www.facebook.com/events/1986622668268291/
   - area: Vienna
     events:
     - name: "7. Austrian Fairphoners Treffen (3-Jahres-Fest)"
@@ -183,6 +183,16 @@ eventslist:
       city: Wien
       date: [2017, 12, 12,19,0]
       url: https://austrianfairphoners.org
+  - area: Amsterdam
+    events:
+    - name: "European Fairphoners Community Trip to Amsterdam 2018 (#EFCT18)"
+      lat_lng: [52.384183, 4.903671]
+      venue: Clink Noord Hostel
+      address: Badhuiskade 3
+      zipcode: 1031 KV
+      city: Amsterdam
+      date: [2018, 8, 13, 0, 0]
+      url: https://forum.fairphone.com/t/star-save-the-date-european-fairphoners-community-trip-to-amsterdam-2018-13-8-19-8-2018/32940
 ---
 {
   "list": {{ page.eventslist | jsonify }}
