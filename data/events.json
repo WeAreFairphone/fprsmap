@@ -15,6 +15,16 @@ eventslist:
       city: Aachen
       date: [2018, 2, 23, 19, 0]
       url: https://forum.fairphone.com/t/de-gb-9-aachener-fairphone-stammtisch-23-02-aachen-fairphoners/9703/68?u=stefan
+  - area: Dresden
+    events:
+    - name: "Kleines Fairphone-Treffen in Dresden"
+      lat_lng: [51.0490791,13.7392296]
+      venue: aHa Café
+      address: Kreuzstraße 7
+      zipcode: "01067"
+      city: Dresden
+      date: [2018, 4, 12, 19, 0]
+      url: https://forum.fairphone.com/t/de-treffen-in-dresden-aha-cafe/39331?u=stefan
   - area: Düsseldorf
     events:
     - name: "Fairphone-Treffen Rhein-Ruhr (Düsseldorf + Ruhrgebiet)"
