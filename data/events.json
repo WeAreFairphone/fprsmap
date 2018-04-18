@@ -7,14 +7,24 @@
 eventslist:
   - area: Aachen
     events:
-    - name: "9. Aachener Fairphone Stammtisch"
-      lat_lng: [50.7788275,6.08182029557583]
-      venue: "Restaurant Magellan"
-      address: Pontstraße 78
+    - name: "10. Aachener Fairphone Stammtisch"
+      lat_lng: [50.77368325,6.09108058635786]
+      venue: "Veganes Kulturrestaurant Pfannenzauber"
+      address: Suermondtplatz 12
       zipcode: 52062
       city: Aachen
-      date: [2018, 2, 23, 19, 0]
-      url: https://forum.fairphone.com/t/de-gb-9-aachener-fairphone-stammtisch-23-02-aachen-fairphoners/9703/68?u=stefan
+      date: [2018, 5, 24, 19, 0]
+      url: https://forum.fairphone.com/t/de-gb-aachener-fairphone-stammtisch-aachen-fairphoners/9703/71?u=stefan
+  - area: Amsterdam
+    events:
+    - name: "European Fairphoners Community Trip (#EFCT18)"
+      lat_lng: [52.384183, 4.903671]
+      venue: Clink Noord Hostel
+      address: Badhuiskade 3
+      zipcode: 1031 KV
+      city: Amsterdam
+      date: [2018, 8, 13, 0, 0]
+      url: https://forum.fairphone.com/t/star-save-the-date-european-fairphoners-community-trip-to-amsterdam-2018-13-8-19-8-2018/32940
   - area: Dresden
     events:
     - name: "Kleines Fairphone-Treffen in Dresden"
@@ -37,13 +47,13 @@ eventslist:
       url: https://forum.fairphone.com/t/de-fairphone-treffen-rhein-ruhr-dusseldorf-ruhrgebiet-8-april-2018-in-dusseldorf/26302/34
   - area: Hamburg
     events:
-    - name: "5. Hamburger Fairphone-Treffen"
+    - name: "6. Hamburger Fairphone-Treffen"
       lat_lng: [53.5583986,10.011469]
       venue: Café Koppel
       address: Koppel 66
       zipcode: 20099
       city: Hamburg
-      date: [2018, 01, 31, 19, 0]
+      date: [2018, 4, 25, 19, 0]
       url: https://forum.fairphone.com/t/de-treffen-in-hamburg-fur-alle-fairphoner/17482
   - area: Leipzig/Halle
     events:
@@ -67,30 +77,6 @@ eventslist:
       url: htps://austrianfairphoners.org
   - area: Munich
     events:
-    - name: München Fairphone Meetup
-      lat_lng: [48.1347584,11.572862]
-      venue: Stadtcafé
-      address: St. Jakobsplatz 1
-      zipcode: 80331
-      city: München
-      date: [2018, 1, 29, 18, 30]
-      url: https://www.meetup.com/de-DE/Munchen-Fairphone-Meetup/
-    - name: München Fairphone Meetup
-      lat_lng: [48.137848,11.5529322599364]
-      venue: EineWeltHaus (Raum 110/111)
-      address: Schwanthalerstr. 80
-      zipcode: 80336
-      city: München
-      date: [2018, 2, 26, 18, 30]
-      url: https://www.meetup.com/de-DE/Munchen-Fairphone-Meetup/
-    - name: München Fairphone Meetup
-      lat_lng: [48.137848,11.5529322599364]
-      venue: EineWeltHaus (Raum 110/111)
-      address: Schwanthalerstr. 80
-      zipcode: 80336
-      city: München
-      date: [2018, 3, 26, 18, 30]
-      url: https://www.meetup.com/de-DE/Munchen-Fairphone-Meetup/
     - name: München Fairphone Meetup
       lat_lng: [48.137848,11.5529322599364]
       venue: EineWeltHaus (Raum 110/111)
@@ -185,24 +171,14 @@ eventslist:
       url: https://www.facebook.com/events/1986622668268291/
   - area: Vienna
     events:
-    - name: "7. Austrian Fairphoners Treffen (3-Jahres-Fest)"
-      lat_lng: [48.2054236,16.3510045]
-      venue: GLOBAL 2000 Offices
-      address: Neustiftgasse 36
-      zipcode: 1070
+    - name: "Austrian Fairphoners @ Südwind Straßenfest"
+      lat_lng: [48.21516, 16.35261]
+      venue: Altes AKH, Hof 1
+      address: Alser Straße 4
+      zipcode: 1090
       city: Wien
-      date: [2017, 12, 12,19,0]
+      date: [2018, 5, 26,14,0]
       url: https://austrianfairphoners.org
-  - area: Amsterdam
-    events:
-    - name: "European Fairphoners Community Trip to Amsterdam 2018 (#EFCT18)"
-      lat_lng: [52.384183, 4.903671]
-      venue: Clink Noord Hostel
-      address: Badhuiskade 3
-      zipcode: 1031 KV
-      city: Amsterdam
-      date: [2018, 8, 13, 0, 0]
-      url: https://forum.fairphone.com/t/star-save-the-date-european-fairphoners-community-trip-to-amsterdam-2018-13-8-19-8-2018/32940
 ---
 {
   "list": {{ page.eventslist | jsonify }}
