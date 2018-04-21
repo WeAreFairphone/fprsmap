@@ -29,6 +29,8 @@ angels:
     lat_lng: [48.1371079,11.5753822]
   - location: Northengland
     lat_lng: [53.7941567,-1.7494778]
+  - location: Rhein-Main
+    lat_lng: [49.9927036,8.6671682]
   - location: Rhein-Ruhr
     lat_lng: [51.2254018, 6.7763137]
   - location: Rhein-Ruhr
