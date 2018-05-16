@@ -23,7 +23,6 @@ At the moment we are trying to gather as many relevant sources for the map as po
 
 - `angels` ([Local support volunteers][11], so called _Fairphone Angels_)
 - `repairshops` ([Repair shops][14] that are familiar with Fairphones)
-- `shops` (Shops where Fairphones can be bought)
 - `events` (Meetups & Events of the Fairphone Community, as of the [official Fairphone Events page][15] and forum sources.)
 
 \* A [how-to for building the map locally][16] can be found in the Wiki.
