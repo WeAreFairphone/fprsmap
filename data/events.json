@@ -161,14 +161,14 @@ eventslist:
       url: https://forum.fairphone.com/t/gb-community-meetup-north-england-bradford-07-10-2017/32869?u=stefan
   - area: Stuttgart
     events:
-    - name: "5. Stuttgarter Fairphone Meetup"
-      lat_lng: [48.7762892,9.1820663]
-      venue: tbd.
-      address: tbd.
-      zipcode: tbd.
+    - name: "6. Stuttgarter Fairphone Meetup"
+      lat_lng: [48.7698696,9.17935918976938]
+      venue: Super Jami.
+      address: Bopserstraße 10
+      zipcode: 70180
       city: Stuttgart
-      date: [2018, 4, 3, 19, 0]
-      url: https://www.facebook.com/events/1986622668268291/
+      date: [2018, 7, 26, 18, 30]
+      url: https://www.facebook.com/events/1012175242280670/
   - area: Vienna
     events:
     - name: "Austrian Fairphoners @ Südwind Straßenfest"
