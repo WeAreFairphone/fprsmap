@@ -17,6 +17,8 @@ angels:
     lat_lng: [46.8425572,-0.4929017]
   - location: CentralLondon
     lat_lng: [51.5156177,-0.0919983]
+  - location: Erfurt
+    lat_lng: [50.9777974,11.0287364]
   - location: Forres
     lat_lng: [57.609864,-3.613215]
   - location: Freiburg
