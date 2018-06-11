@@ -4,7 +4,7 @@
 ## About
 The idea for the Fairphone Community Map originated in March 2015 in [a topic][1] on the [Fairphone Forum][2]. The goal is to map the global Fairphone Community and make it easier to find relevant people and places in the user's area.
 
-The map can currently be found at https://wearefairphone.github.io/fprsmap/ or at https://map.fairphone.community.
+The map can currently be found at https://map.fairphone.community/ or at https://wearefairphone.github.io/fprsmap/.
 
 ## Embed the map
 Simply click the embed button ![embed icon][icon] inside the map and you will find the embed code ready to be copied. The embed code provided there will update itself according to the layers you select.
@@ -12,8 +12,8 @@ Simply click the embed button ![embed icon][icon] inside the map and you will fi
 The embed code uses an [iframe][3]. You can also have a look at it here:
 
 ```html
-<iframe src="https://wearefairphone.github.io/fprsmap/" width="100%" height="400" allowfullscreen="true" frameborder="0">
-  <p><a href="https://wearefairphone.github.io/fprsmap/" target="_blank">See the Fairphone Community Map!</a></p>
+<iframe src="https://map.fairphone.community/" width="100%" height="400" allowfullscreen="true" frameborder="0">
+  <p><a href="https://map.fairphone.community/" target="_blank">See the Fairphone Community Map!</a></p>
 </iframe>
 ```
 Modify the `width` and `height` parameters to your liking.
@@ -31,7 +31,7 @@ At the moment we are trying to gather as many relevant sources for the map as po
 The categories mentioned in the previous paragraph can be used to define an initial state of the map.
 
 - Say you want to promote Fairphone Community events. Append `?show=events` to the URI and only meetups and events will be loaded into the map at start.
-- Multiple parameters are also possible: `https://wearefairphone.github.io/fprsmap/?show=events,angels` will display both the `events` and the `angels` layers.
+- Multiple parameters are also possible: `https://map.fairphone.community/?show=events,angels` will display both the `events` and the `angels` layers.
 - By default only those two layers are loaded.
 
 ## Acknowledgements

@@ -124,7 +124,7 @@
 
     if (isEmbedded()) {
       map.scrollWheelZoom.disable();
-      map.attributionControl.setPrefix('<a href="https://wearefairphone.github.io/fprsmap/" target="_blank">See bigger map</a> | Leaflet');
+      map.attributionControl.setPrefix('<a href="https://map.fairphone.community/" target="_blank">See bigger map</a> | Leaflet');
     } else {
       map.addControl(new L.Control.Fullscreen());
     }
@@ -141,8 +141,8 @@
   }
 
   function updateEmbedTextareaContent() {
-    embedTextareaContent = '<iframe src="https://wearefairphone.github.io/fprsmap/?show=' + activeLayers.toString() + '" width="100%" height="400" allowfullscreen="true" frameborder="0">\n' +
-    '<p><a href="https://wearefairphone.github.io/fprsmap/?show=' + activeLayers.toString() + '" target="_blank">See the Fairphone Community Map!</a></p>\n' +
+    embedTextareaContent = '<iframe src="https://map.fairphone.community/?show=' + activeLayers.toString() + '" width="100%" height="400" allowfullscreen="true" frameborder="0">\n' +
+    '<p><a href="https://map.fairphone.community/?show=' + activeLayers.toString() + '" target="_blank">See the Fairphone Community Map!</a></p>\n' +
     '</iframe>';
     try{
       document.getElementById('embed-textarea').value = embedTextareaContent;
