@@ -33,6 +33,8 @@ angels:
     lat_lng: [48.1371079,11.5753822]
   - location: Northengland
     lat_lng: [53.7941567,-1.7494778]
+  - location: Orléans
+    lat_lng: [47.90592,1.904926]
   - location: Rhein-Main
     lat_lng: [49.9927036,8.6671682]
   - location: Rhein-Ruhr
@@ -43,6 +45,8 @@ angels:
     lat_lng: [48.7784485, 9.1800132]
   - location: Tilburg
     lat_lng: [51.55847,5.083076]
+  - location: Tilburg
+    lat_lng: [43.604713,1.447397]
   - location: Vienna
     lat_lng: [48.2083537, 16.3725042]
 ---
