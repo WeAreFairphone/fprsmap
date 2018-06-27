@@ -178,6 +178,15 @@ eventslist:
       city: Wien
       date: [2018, 6, 28,14,0]
       url: https://austrianfairphoners.org
+- area: Freiburg
+    events:
+    - name: "1. Freiburg Heaven Fairphone-Stammtisch"
+      lat_lng: [47.9929,7.8383]
+      address: Adlerstraße 12a
+      zipcode: 79098
+      city: Freiburg
+      date: [2018, 7, 5,18,0]
+      url: https://cccfr.de/calendar/2018-07-05-fairphone-stammtisch.html
 ---
 {
   "list": {{ page.eventslist | jsonify }}
