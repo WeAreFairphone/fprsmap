@@ -47,13 +47,13 @@ eventslist:
       url: https://forum.fairphone.com/t/de-fairphone-treffen-rhein-ruhr-dusseldorf-ruhrgebiet-8-april-2018-in-dusseldorf/26302/34
   - area: Hamburg
     events:
-    - name: "6. Hamburger Fairphone-Treffen"
+    - name: "7. Hamburger Fairphone-Treffen"
       lat_lng: [53.5583986,10.011469]
       venue: Café Koppel
-      address: Koppel 66
+      address: Lange Reihe 75 / Koppel 66
       zipcode: 20099
       city: Hamburg
-      date: [2018, 4, 25, 19, 0]
+      date: [2018, 7, 10, 19, 0]
       url: https://forum.fairphone.com/t/de-treffen-in-hamburg-fur-alle-fairphoner/17482
   - area: Leipzig/Halle
     events:
