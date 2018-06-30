@@ -45,6 +45,16 @@ eventslist:
       city: Düsseldorf
       date: [2018, 4, 8, 16, 0]
       url: https://forum.fairphone.com/t/de-fairphone-treffen-rhein-ruhr-dusseldorf-ruhrgebiet-8-april-2018-in-dusseldorf/26302/34
+  - area: Freiburg
+    events:
+    - name: "1. Freiburg Heaven Fairphone-Stammtisch"
+      lat_lng: [47.9931271,7.8406043]
+      venue: Chaos Computer Club Freiburg e.V.
+      address: Adlerstraße 12a
+      zipcode: 79098
+      city: Freiburg
+      date: [2018, 7, 5, 18, 0]
+      url: https://cccfr.de/calendar/2018-07-05-fairphone-stammtisch.html
   - area: Hamburg
     events:
     - name: "7. Hamburger Fairphone-Treffen"
