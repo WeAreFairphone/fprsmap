@@ -7,14 +7,14 @@
 eventslist:
   - area: Aachen
     events:
-    - name: "10. Aachener Fairphone Stammtisch"
+    - name: "11. Aachener Fairphone Stammtisch"
       lat_lng: [50.77368325,6.09108058635786]
       venue: "Veganes Kulturrestaurant Pfannenzauber"
       address: Suermondtplatz 12
       zipcode: 52062
       city: Aachen
-      date: [2018, 5, 24, 19, 0]
-      url: https://forum.fairphone.com/t/de-gb-aachener-fairphone-stammtisch-aachen-fairphoners/9703/71?u=stefan
+      date: [2018, 9, 4, 19, 0]
+      url: https://forum.fairphone.com/t/11-aachener-fairphone-stammtisch-11th-fairphone-community-aachen-meetup/9703/75?u=stefan
   - area: Amsterdam
     events:
     - name: "European Fairphoners Community Trip (#EFCT18)"
