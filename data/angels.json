@@ -5,6 +5,8 @@
 # Usage instructions: Simply append "@fairphone.community" to the location and send an email to the resulting address.
 
 angels:
+  - location: Amsterdam
+    lat_lng: [52.3727598,4.8936041]
   - location: Augsburg
     lat_lng: [48.3668041,10.8986971]
   - location: Barcelona
@@ -25,6 +27,8 @@ angels:
     lat_lng: [47.9960901,7.8494005]
   - location: Hamburg
     lat_lng: [53.550341,10.000654]
+  - location: Liege
+    lat_lng: [50.6451381,5.5734203]
   - location: Madrid
     lat_lng: [40.4167047,-3.7035825]
   - location: Montpellier
@@ -35,6 +39,8 @@ angels:
     lat_lng: [53.7941567,-1.7494778]
   - location: Orleans
     lat_lng: [47.90592,1.904926]
+  - location: Paris
+    lat_lng: [48.8566101,2.3514992]
   - location: Rhein-Main
     lat_lng: [49.9927036,8.6671682]
   - location: Rhein-Ruhr
