@@ -25,6 +25,16 @@ eventslist:
       city: Amsterdam
       date: [2018, 8, 13, 0, 0]
       url: https://forum.fairphone.com/t/star-save-the-date-european-fairphoners-community-trip-to-amsterdam-2018-13-8-19-8-2018/32940
+  - area: Bonn
+    events:
+    - name: "Erstes Fairphone Meetup in Bonn"
+      lat_lng: [50.7346532,7.1047741]
+      venue: Café Blau
+      address: Franziskanerstraße 9
+      zipcode: "53113"
+      city: Bonn
+      date: [2018, 9, 26, 18, 0]
+      url: https://forum.fairphone.com/t/26-9-erstes-fairphone-meetup-in-bonn-18-00-cafe-blau/42098?u=stefan
   - area: Dresden
     events:
     - name: "Kleines Fairphone-Treffen in Dresden"
