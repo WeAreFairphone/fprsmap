@@ -25,6 +25,16 @@ eventslist:
       city: Amsterdam
       date: [2018, 8, 18, 0, 0]
       url: https://forum.fairphone.com/t/star-save-the-date-european-fairphoners-community-trip-to-amsterdam-2018-13-8-19-8-2018/32940
+  - area: Berlin
+    events:
+    - name: "1. Berliner Fairphone-Stammtisch"
+      lat_lng: [52.5151591,13.3367789]
+      venue: Tiergartenquelle
+      address: Bachstr. 6 / Stadtbahnbögen 481-482
+      zipcode: 10555
+      city: Berlin
+      date: [2018, 9, 6, 19, 0]
+      url: https://forum.fairphone.com/t/1-berliner-fairphone-stammtisch-6-september-2018-berlin-meetup/42327?u=stefan
   - area: Bonn
     events:
     - name: "Erstes Fairphone Meetup in Bonn"
