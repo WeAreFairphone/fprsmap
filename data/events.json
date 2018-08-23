@@ -15,16 +15,6 @@ eventslist:
       city: Aachen
       date: [2018, 9, 4, 19, 0]
       url: https://forum.fairphone.com/t/11-aachener-fairphone-stammtisch-11th-fairphone-community-aachen-meetup/9703/75?u=stefan
-  - area: Amsterdam
-    events:
-    - name: "European Fairphoners Community Trip (#EFCT18)"
-      lat_lng: [52.384183, 4.903671]
-      venue: Clink Noord Hostel
-      address: Badhuiskade 3
-      zipcode: 1031 KV
-      city: Amsterdam
-      date: [2018, 8, 18, 0, 0]
-      url: https://forum.fairphone.com/t/star-save-the-date-european-fairphoners-community-trip-to-amsterdam-2018-13-8-19-8-2018/32940
   - area: Berlin
     events:
     - name: "1. Berliner Fairphone-Stammtisch"
@@ -45,16 +35,6 @@ eventslist:
       city: Bonn
       date: [2018, 9, 26, 18, 0]
       url: https://forum.fairphone.com/t/26-9-erstes-fairphone-meetup-in-bonn-18-00-cafe-blau/42098?u=stefan
-  - area: Dresden
-    events:
-    - name: "Kleines Fairphone-Treffen in Dresden"
-      lat_lng: [51.0490791,13.7392296]
-      venue: aHa Café
-      address: Kreuzstraße 7
-      zipcode: "01067"
-      city: Dresden
-      date: [2018, 4, 12, 19, 0]
-      url: https://forum.fairphone.com/t/de-treffen-in-dresden-aha-cafe/39331?u=stefan
   - area: Düsseldorf
     events:
     - name: "Fairphone-Treffen Rhein-Ruhr (Düsseldorf + Ruhrgebiet)"
@@ -75,70 +55,34 @@ eventslist:
       city: Freiburg
       date: [2018, 9, 6, 18, 0]
       url: https://forum.fairphone.com/t/freiburg-fairphoners-meetings-treffen-community/41085?u=stefan
-  - area: Hamburg
-    events:
-    - name: "7. Hamburger Fairphone-Treffen"
-      lat_lng: [53.5583986,10.011469]
-      venue: Café Koppel
-      address: Lange Reihe 75 / Koppel 66
-      zipcode: 20099
-      city: Hamburg
-      date: [2018, 7, 10, 19, 0]
-      url: https://forum.fairphone.com/t/de-treffen-in-hamburg-fur-alle-fairphoner/17482
-  - area: Leipzig/Halle
-    events:
-    - name: "#FairSwap – Leipzig/Halle"
-      lat_lng: [51.333234, 12.375087]
-      venue: Beyerhaus
-      address: Ernst-Schneller-Straße 6
-      zipcode: "04107"
-      city: Leipzig
-      date: [2017, 10, 2, 19, 00]
-      url: https://www.facebook.com/events/337652830023599
   - area: Linz
     events:
-    - name: "#FairSwap – Linz"
-      lat_lng: [48.3029622,14.2908904]
-      venue: Bar Restaurant Gelbes Krokodil
-      address: OK Platz 1
-      zipcode: "4020"
+    - name: "Fairphone-Stand bei der WearFair +mehr (3 Tage)"
+      lat_lng: [48.3122666,14.298978611464]
+      venue: Tabakfabrik Linz
+      address: Peter-Behrens-Platz 11
+      zipcode: 4020
       city: Linz
-      date: [2017, 10, 7, 17, 0]
-      url: htps://austrianfairphoners.org
+      date: [2018, 10, 12, 14,0]
+      url: https://forum.fairphone.com/t/fairphone-stand-bei-der-wearfair-mehr-2018-in-linz/42331?u=stefan
+    - name: "Fairphone-Stand bei der WearFair +mehr (3 Tage)"
+      lat_lng: [48.3122666,14.298978611464]
+      venue: Tabakfabrik Linz
+      address: Peter-Behrens-Platz 11
+      zipcode: 4020
+      city: Linz
+      date: [2018, 10, 13, 10,0]
+      url: https://forum.fairphone.com/t/fairphone-stand-bei-der-wearfair-mehr-2018-in-linz/42331?u=stefan
+    - name: "Fairphone-Stand bei der WearFair +mehr (3 Tage)"
+      lat_lng: [48.3122666,14.298978611464]
+      venue: Tabakfabrik Linz
+      address: Peter-Behrens-Platz 11
+      zipcode: 4020
+      city: Linz
+      date: [2018, 10, 14, 10,0]
+      url: https://forum.fairphone.com/t/fairphone-stand-bei-der-wearfair-mehr-2018-in-linz/42331?u=stefan
   - area: Munich
     events:
-    - name: München Fairphone Meetup
-      lat_lng: [48.137848,11.5529322599364]
-      venue: EineWeltHaus (Raum 110/111)
-      address: Schwanthalerstr. 80
-      zipcode: 80336
-      city: München
-      date: [2018, 4, 30, 18, 30]
-      url: https://www.meetup.com/de-DE/Munchen-Fairphone-Meetup/
-    - name: München Fairphone Meetup
-      lat_lng: [48.137848,11.5529322599364]
-      venue: EineWeltHaus (Raum 110/111)
-      address: Schwanthalerstr. 80
-      zipcode: 80336
-      city: München
-      date: [2018, 5, 28, 18, 30]
-      url: https://www.meetup.com/de-DE/Munchen-Fairphone-Meetup/
-    - name: München Fairphone Meetup
-      lat_lng: [48.137848,11.5529322599364]
-      venue: EineWeltHaus (Raum 110/111)
-      address: Schwanthalerstr. 80
-      zipcode: 80336
-      city: München
-      date: [2018, 6, 25, 18, 30]
-      url: https://www.meetup.com/de-DE/Munchen-Fairphone-Meetup/
-    - name: München Fairphone Meetup
-      lat_lng: [48.137848,11.5529322599364]
-      venue: EineWeltHaus (Raum 110/111)
-      address: Schwanthalerstr. 80
-      zipcode: 80336
-      city: München
-      date: [2018, 7, 30, 18, 30]
-      url: https://www.meetup.com/de-DE/Munchen-Fairphone-Meetup/
     - name: München Fairphone Meetup
       lat_lng: [48.137848,11.5529322599364]
       venue: EineWeltHaus (Raum 110/111)
@@ -179,52 +123,6 @@ eventslist:
       city: München
       date: [2018, 12, 31, 18, 30]
       url: https://www.meetup.com/de-DE/Munchen-Fairphone-Meetup/
-  - area: North England
-    events:
-    - name: "#FairSwap – North England"
-      lat_lng: [53.834586, -1.779473]
-      venue: Yo Yo Bar & Restaurant
-      address: Rosse Street
-      zipcode: BD18 3SW
-      city: Shipley
-      date: [2017, 10, 7, 18, 0]
-      url: https://forum.fairphone.com/t/gb-community-meetup-north-england-bradford-07-10-2017/32869?u=stefan
-  - area: Stuttgart
-    events:
-    - name: "6. Stuttgarter Fairphone Meetup"
-      lat_lng: [48.7698696,9.17935918976938]
-      venue: Super Jami.
-      address: Bopserstraße 10
-      zipcode: 70180
-      city: Stuttgart
-      date: [2018, 7, 26, 18, 30]
-      url: https://www.facebook.com/events/1012175242280670/
-  - area: Linz
-    events:
-    - name: "Fairphone-Stand bei der WearFair +mehr (3 Tage)"
-      lat_lng: [48.3122666,14.298978611464]
-      venue: Tabakfabrik Linz
-      address: Peter-Behrens-Platz 11
-      zipcode: 4020
-      city: Linz
-      date: [2018, 10, 12, 14,0]
-      url: https://forum.fairphone.com/t/fairphone-stand-bei-der-wearfair-mehr-2018-in-linz/42331?u=stefan
-    - name: "Fairphone-Stand bei der WearFair +mehr (3 Tage)"
-      lat_lng: [48.3122666,14.298978611464]
-      venue: Tabakfabrik Linz
-      address: Peter-Behrens-Platz 11
-      zipcode: 4020
-      city: Linz
-      date: [2018, 10, 13, 10,0]
-      url: https://forum.fairphone.com/t/fairphone-stand-bei-der-wearfair-mehr-2018-in-linz/42331?u=stefan
-    - name: "Fairphone-Stand bei der WearFair +mehr (3 Tage)"
-      lat_lng: [48.3122666,14.298978611464]
-      venue: Tabakfabrik Linz
-      address: Peter-Behrens-Platz 11
-      zipcode: 4020
-      city: Linz
-      date: [2018, 10, 14, 10,0]
-      url: https://forum.fairphone.com/t/fairphone-stand-bei-der-wearfair-mehr-2018-in-linz/42331?u=stefan
 ---
 {
   "list": {{ page.eventslist | jsonify }}
