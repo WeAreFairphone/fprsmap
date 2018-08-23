@@ -199,15 +199,32 @@ eventslist:
       city: Stuttgart
       date: [2018, 7, 26, 18, 30]
       url: https://www.facebook.com/events/1012175242280670/
-  - area: Vienna
+  - area: Linz
     events:
-    - name: "Austrian Fairphoners @ Global 2000 Fairness Run"
-      lat_lng: [48.19932, 16.35269]
-      address: Mariahilferstraße 52
-      zipcode: 1060
-      city: Wien
-      date: [2018, 6, 28,14,0]
-      url: https://austrianfairphoners.org
+    - name: "Fairphone-Stand bei der WearFair +mehr (3 Tage)"
+      lat_lng: [48.3122666,14.298978611464]
+      venue: Tabakfabrik Linz
+      address: Peter-Behrens-Platz 11
+      zipcode: 4020
+      city: Linz
+      date: [2018, 10, 12, 14,0]
+      url: https://forum.fairphone.com/t/fairphone-stand-bei-der-wearfair-mehr-2018-in-linz/42331?u=stefan
+    - name: "Fairphone-Stand bei der WearFair +mehr (3 Tage)"
+      lat_lng: [48.3122666,14.298978611464]
+      venue: Tabakfabrik Linz
+      address: Peter-Behrens-Platz 11
+      zipcode: 4020
+      city: Linz
+      date: [2018, 10, 13, 10,0]
+      url: https://forum.fairphone.com/t/fairphone-stand-bei-der-wearfair-mehr-2018-in-linz/42331?u=stefan
+    - name: "Fairphone-Stand bei der WearFair +mehr (3 Tage)"
+      lat_lng: [48.3122666,14.298978611464]
+      venue: Tabakfabrik Linz
+      address: Peter-Behrens-Platz 11
+      zipcode: 4020
+      city: Linz
+      date: [2018, 10, 14, 10,0]
+      url: https://forum.fairphone.com/t/fairphone-stand-bei-der-wearfair-mehr-2018-in-linz/42331?u=stefan
 ---
 {
   "list": {{ page.eventslist | jsonify }}
