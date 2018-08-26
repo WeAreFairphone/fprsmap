@@ -15,6 +15,16 @@ eventslist:
       city: Aachen
       date: [2018, 9, 4, 19, 0]
       url: https://forum.fairphone.com/t/11-aachener-fairphone-stammtisch-11th-fairphone-community-aachen-meetup/9703/75?u=stefan
+  - area: Baden
+    events:
+    - name: "1. Badener Fairphone-Treffen"
+      lat_lng: [48.00366, 16.24441]
+      venue: "Weinbau Eitler"
+      address: Ferdinand Pichlergasse 10
+      zipcode: 2500
+      city: Baden
+      date: [2018, 9, 26, 19, 0]
+      url: https://forum.fairphone.com/t/1-badener-fairphone-treffen/42516?u=stefan
   - area: Berlin
     events:
     - name: "1. Berliner Fairphone-Stammtisch"
