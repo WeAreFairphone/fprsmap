@@ -29,6 +29,8 @@ angels:
     lat_lng: [47.9960901,7.8494005]
   - location: Hamburg
     lat_lng: [53.550341,10.000654]
+  - location: Hannover
+    lat_lng: [52.3744779,9.7385532]
   - location: Liege
     lat_lng: [50.6451381,5.5734203]
   - location: Madrid
