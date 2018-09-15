@@ -45,6 +45,16 @@ eventslist:
       city: Bonn
       date: [2018, 9, 26, 18, 0]
       url: https://forum.fairphone.com/t/26-9-erstes-fairphone-meetup-in-bonn-18-00-cafe-blau/42098?u=stefan
+  - area: Dresden
+    events:
+    - name: "2. Dresden Fairphone und Ubuntu Touch Meetup"
+      lat_lng: [51.0490791,13.7392296]
+      venue: aHa Café
+      address: Kreuzstraße 7
+      zipcode: 01067
+      city: Dresden
+      date: [2018, 9, 18, 19, 0]
+      url: https://forum.fairphone.com/t/dresden-fairphoners/42514/14?u=ingo
   - area: Düsseldorf
     events:
     - name: "Fairphone-Treffen Rhein-Ruhr (Düsseldorf + Ruhrgebiet)"
