@@ -33,13 +33,6 @@ repairshops:
     city: Bruxelles
     lat_lng: [50.84317375,4.4092803545052]
     website: https://www.repairclub.be
-  - name: Logicboard Repair
-    address: ""
-    zipcode: ""
-    city: Bussum
-    country: nl
-    lat_lng: [52.2774207,5.1627465]
-    website: http://www.logicboardrepair.nl/
   - name: E-Products
     address: Klosterstraße 68a
     zipcode: 40211
