@@ -33,8 +33,6 @@ angels:
     lat_lng: [52.3744779,9.7385532]
   - location: Liege
     lat_lng: [50.6451381,5.5734203]
-  - location: Madrid
-    lat_lng: [40.4167047,-3.7035825]
   - location: Montpellier
     lat_lng: [43.6112422,3.8767337]
   - location: Munich
