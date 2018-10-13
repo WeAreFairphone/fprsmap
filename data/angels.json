@@ -43,6 +43,8 @@ angels:
     lat_lng: [53.7941567,-1.7494778]
   - location: Orleans
     lat_lng: [47.90592,1.904926]
+  - location: Padova
+    lat_lng: [45.4077172,11.8734455]
   - location: Paris
     lat_lng: [48.8566101,2.3514992]
   - location: Rhein-Main
