@@ -29,6 +29,8 @@ angels:
     lat_lng: [57.609864,-3.613215]
   - location: Freiburg
     lat_lng: [47.9960901,7.8494005]
+  - location: Grenoble
+    lat_lng: [45.1875602,5.7357819]
   - location: Hamburg
     lat_lng: [53.550341,10.000654]
   - location: Hannover
