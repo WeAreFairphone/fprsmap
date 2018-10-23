@@ -23,6 +23,10 @@ angels:
     lat_lng: [46.8425572,-0.4929017]
   - location: CentralLondon
     lat_lng: [51.5156177,-0.0919983]
+  - location: Chur
+    lat_lng: [46.855515,9.5254066]
+  - location: Copenhagen
+    lat_lng: [55.6867243,12.5700724]
   - location: Erfurt
     lat_lng: [50.9777974,11.0287364]
   - location: Forres
@@ -63,6 +67,8 @@ angels:
     lat_lng: [43.604713,1.447397]
   - location: Vienna
     lat_lng: [48.2083537, 16.3725042]
+  - location: Zurich
+    lat_lng: [47.3769434,8.5414061]
 ---
 {
   "list": {{ page.angels | jsonify }}
