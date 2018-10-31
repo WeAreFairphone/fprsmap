@@ -45,6 +45,16 @@ eventslist:
       city: Bonn
       date: [2018, 9, 26, 18, 0]
       url: https://forum.fairphone.com/t/26-9-erstes-fairphone-meetup-in-bonn-18-00-cafe-blau/42098?u=stefan
+  - area: Bristol
+    events:
+    - name: "Community meetup Bristol"
+      lat_lng: [51.46798,-2.57534]
+      venue: Mina Road Park
+      address: Mina Road
+      zipcode: "BS2 9"
+      city: Bristol
+      date: [2018, 11, 18, 12, 0]
+      url: https://forum.fairphone.com/t/community-meetup-bristol-18th-nov-2018/44255?u=ingo
   - area: Dresden
     events:
     - name: "2. Dresden Fairphone und Ubuntu Touch Meetup"
