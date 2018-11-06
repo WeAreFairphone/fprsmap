@@ -163,6 +163,16 @@ eventslist:
       city: München
       date: [2018, 12, 31, 18, 30]
       url: https://www.meetup.com/de-DE/Munchen-Fairphone-Meetup/
+  - area: Stuttgart
+    events:
+    - name: "7. Stuttgarter Fairphone Meetup"
+      lat_lng: [48.7762892,9.1820663]
+      venue: Weltcafe Stuttgart
+      address: Charlottenplatz 17
+      zipcode: "70173"
+      city: Stuttgart
+      date: [2018, 11, 13, 18, 30]
+      url: https://www.facebook.com/events/2140667359532728/
 ---
 {
   "list": {{ page.eventslist | jsonify }}
