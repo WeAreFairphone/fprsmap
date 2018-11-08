@@ -68,7 +68,7 @@ angels:
   - location: Vienna
     lat_lng: [48.2083537, 16.3725042]
   - location: Zurich
-    lat_lng: [47.3769434,8.5414061]
+    lat_lng: [47.272968931486396,8.516292572021486]
 ---
 {
   "list": {{ page.angels | jsonify }}
