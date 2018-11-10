@@ -59,6 +59,8 @@ angels:
     lat_lng: [51.2254018, 6.7763137]
   - location: Rhein-Ruhr
     lat_lng: [51.5109791,7.0959263]
+  - location: Rhoen
+    lat_lng: [50.5210371,10.1458492]
   - location: Stuttgart
     lat_lng: [48.7784485, 9.1800132]
   - location: Tilburg
