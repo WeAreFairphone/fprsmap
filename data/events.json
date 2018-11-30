@@ -173,6 +173,16 @@ eventslist:
       city: Stuttgart
       date: [2018, 11, 13, 18, 30]
       url: https://www.facebook.com/events/2140667359532728/
+  - area: Wien
+    events:
+    - name: "4-Jahres-Fest Austrian Fairphoners"
+      lat_lng: [48.2054236,16.3510045]
+      venue: Global 2000
+      address: Neustiftgasse 36
+      zipcode: "1070"
+      city: Wien
+      date: [2018, 12, 10, 19, 00]
+      url: https://forum.fairphone.com/t/4-jahres-fest-austrian-fairphoners/44430?u=ingo
 ---
 {
   "list": {{ page.eventslist | jsonify }}
