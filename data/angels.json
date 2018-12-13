@@ -39,6 +39,8 @@ angels:
     lat_lng: [53.550341,10.000654]
   - location: Hannover
     lat_lng: [52.3744779,9.7385532]
+  - location: Leipzig
+    lat_lng: [51.3406321,12.3747329]
   - location: Liege
     lat_lng: [50.6451381,5.5734203]
   - location: Montpellier
