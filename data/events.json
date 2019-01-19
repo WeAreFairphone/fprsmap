@@ -87,13 +87,13 @@ eventslist:
       url: https://forum.fairphone.com/t/freiburg-fairphoners-meetings-treffen-community/41085?u=stefan
   - area: Hamburg
     events:
-    - name: "8. Hamburger Fairphone-Treffen"
+    - name: "9. Hamburger Fairphone-Treffen"
       lat_lng: [53.5583986,10.011469]
       venue: Café Koppel
       address: Lange Reihe 75 / Koppel 66
       zipcode: 20099
       city: Hamburg
-      date: [2018, 10, 4, 19, 0]
+      date: [2019, 2, 25, 19, 0]
       url: https://forum.fairphone.com/t/de-treffen-in-hamburg-fur-alle-fairphoner/17482?u=ingo
   - area: Linz
     events:
