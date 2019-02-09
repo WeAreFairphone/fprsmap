@@ -43,6 +43,8 @@ angels:
     lat_lng: [51.3406321,12.3747329]
   - location: Liege
     lat_lng: [50.6451381,5.5734203]
+  - location: Linz
+    lat_lng: [48.36767,14.51681]
   - location: Montpellier
     lat_lng: [43.6112422,3.8767337]
   - location: Munich
