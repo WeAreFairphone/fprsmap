@@ -7,6 +7,8 @@
 angels:
   - location: Amsterdam
     lat_lng: [52.3727598,4.8936041]
+  - location: Amsterdam
+    lat_lng: [52.0799838,4.3113461] #The Hague
   - location: Antwerp
     lat_lng: [51.2211097,4.3997081]
   - location: Augsburg
