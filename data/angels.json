@@ -56,9 +56,9 @@ angels:
   - location: Rhein-Main
     lat_lng: [49.9927036,8.6671682]
   - location: Rhein-Ruhr
-    lat_lng: [51.2254018, 6.7763137]
+    lat_lng: [51.2254018, 6.7763137] #Dusseldorf
   - location: Rhein-Ruhr
-    lat_lng: [51.5109791,7.0959263]
+    lat_lng: [50.938361,6.959974] #Cologne
   - location: Rhoen
     lat_lng: [50.5210371,10.1458492]
   - location: Stuttgart
