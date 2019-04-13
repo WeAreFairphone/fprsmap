@@ -213,7 +213,7 @@
   fetchJSON('data/angels.json')
     .then(function(json) {
       // Add a marker per Heaven
-      json.list.forEach(function(heaven) {
+      json.heavens.forEach(function(heaven) {
         var circle = L.circle(heaven.lat_lng, { radius: 30000, color: '#2ca7df', stroke:false, fillOpacity: 0.5 })
           .bindPopup(
             '<a href="mailto:' + heaven.location.toLowerCase() + '@' + COMMUNITY_DOMAIN + '">' + heaven.location + '<br>@' + COMMUNITY_DOMAIN + '<a>',
