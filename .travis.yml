@@ -1,7 +1,9 @@
-before_script:
-  - chmod +x scripts/fetch-angels.py
 language: python
-script: python scripts/fetch-angels.py
+before_script:
+  - mkdir data
+script:
+  - python scripts/fetch-angels.py
+  - python scripts/fetch-events.py
 
 deploy:
   provider: pages

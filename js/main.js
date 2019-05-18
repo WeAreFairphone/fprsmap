@@ -23,8 +23,10 @@
   }
 
   /* Constants */
-  // Local Fairphone Communities forum thread
   var COMMUNITY_DOMAIN = 'fairphone.community'
+  var TOPIC_URL = 'https://forum.fairphone.com/t/'
+
+
 
   var MARKERICONS = ["blue", "brown", "green", "grey", "orange", "pink", "red"]
     .reduce(function(markericons, color) {
@@ -222,9 +224,37 @@
       });
     });
 
-    //Populate Events & Meetups overlay
+    //Populate Events & Meetups overlay (events fetched from Fairphone Forum agenda)
+    // https://forum.fairphone.com/agenda.json
     fetchJSON('data/events.json')
-      .then(function(json) {
+      .then(function(topics) {
+        topics.forEach(function(topic) {
+          if(topic.event && topic.location.geo_location) {
+            var e = topic.event,
+                l = topic.location.geo_location,
+                name = topic.location.name
+
+            var popup = '<a href="' + TOPIC_URL + topic.id + '" target="_blank">' + (topic.unicode_title || topic.title) + '</a>' +
+              '<br><div class="shopinfo">Start: ' +
+              new Date(e.start).toLocaleDateString() + ' | ' +
+              new Date(e.start).toLocaleTimeString([], {hour: '2-digit', minute: '2-digit'})
+            if(e.end) {
+              popup += '<br>End: ' +
+              new Date(e.end).toLocaleDateString() + ' | ' +
+              new Date(e.end).toLocaleTimeString([], {hour: '2-digit', minute: '2-digit'}) + '</div>';
+            }
+            popup += '</div>';
+
+            popup += '<div class="shopinfo">Where: '
+            if(name) popup += name + '<br>' + '&emsp;'
+            popup += l.postalcode + ' ' + (l.city || l.state) + ', ' + l.country + '</div>';
+
+            var marker = L.marker([l.lat,l.lon], { icon: MARKERICONS.orange, riseOnHover: true })
+              .bindPopup(popup, { offset: new L.Point(0, -25)});
+            marker.addTo(overlaysData.events.overlay);
+          }
+        })
+        /*
         json.list.forEach(function(area) {
           var nextEvent;
           if(area.events) {
@@ -264,6 +294,6 @@
               marker.addTo(overlaysData.events.overlay);
             };
           };
-        });
+        });*/
       });
 }(this));
