@@ -1,6 +1,4 @@
 language: python
-before_script:
-  - mkdir data
 script:
   - python scripts/fetch-angels.py
   - python scripts/fetch-events.py
