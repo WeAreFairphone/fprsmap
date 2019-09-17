@@ -229,7 +229,7 @@
     fetchJSON('data/events.json')
       .then(function(topics) {
         topics.forEach(function(topic) {
-          if(topic.event && topic.location.geo_location) {
+          if(topic.event && topic.location && topic.location.geo_location) {
             var e = topic.event,
                 l = topic.location.geo_location,
                 name = topic.location.name
