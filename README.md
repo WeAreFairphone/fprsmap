@@ -30,8 +30,16 @@ The categories mentioned in the previous paragraph can be used to define an init
 - Say you want to promote Fairphone Community events. Append `?show=events` to the URI and only meetups and events will be loaded into the map at start.
 - Multiple parameters are also possible: `https://map.fairphone.community/?show=events,angels` will display both the `events` and the `angels` layers.
 
+To further customize the initial state of the map, the following parameters are also possible:
+
+- If you want to center the map on a certain location use `center=<lat>,<lng>` where `<lat>` is the latitude and `<lng>` the longitude (defaults to `center=49.8158683,6.129675`).
+- In order to zoom into the map, use `zoom=<value>` where `<value>` is an integral number between 2 and 18 (defaults to `zoom=2`).
+- So if you for example want to display the current Fairphone angels in Europe, the whole URI would be `https://map.fairphone.community/?center=49.25346477,7.91015625&zoom=5&show=angels`
+
+Remember to put a "`?`" in front of the first parameter and a "`&`" in front of the others. The order of the parameters is not important.
+
 ## Embed the map
-Simply click the embed button ![embed icon][icon] inside the map and you will find the embed code ready to be copied. The embed code provided there will update itself according to the layers you select.
+Simply click the embed button ![embed icon][icon] inside the map and you will find the embed code ready to be copied. The embed code provided there will update itself according to the layers you select and take into account the current zoom level and location the map is centered on.
 
 The embed code uses an [iframe][3]. You can also have a look at it here:
 
