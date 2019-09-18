@@ -26,8 +26,6 @@
   var COMMUNITY_DOMAIN = 'fairphone.community'
   var TOPIC_URL = 'https://forum.fairphone.com/t/'
 
-
-
   var MARKERICONS = ["blue", "brown", "green", "grey", "orange", "pink", "red"]
     .reduce(function(markericons, color) {
       markericons[color] = L.icon({
@@ -36,8 +34,6 @@
         });
       return markericons;
     }, {});
-
-  var CURRENTDATE = new Date();
 
   var EXCLUDED_LAYERS = [];
 
@@ -65,6 +61,8 @@
   var activeLayers = Object.keys(overlaysData).filter(function(key){
     return !EXCLUDED_LAYERS.includes(key);
   });
+  var currentMapCenter = DEFAULTMAPCENTER;
+  var currentZoomLevel = DEFAULTZOOMLEVEL;
   var embedTextareaContent;
 
   /* Functions */
@@ -143,10 +141,11 @@
   }
 
   function updateEmbedTextareaContent() {
-    embedTextareaContent = '<iframe src="https://map.fairphone.community/?show=' + activeLayers.toString() + '" width="100%" height="400" allowfullscreen="true" frameborder="0">\n' +
-    '<p><a href="https://map.fairphone.community/?show=' + activeLayers.toString() + '" target="_blank">See the Fairphone Community Map!</a></p>\n' +
+    var queryParams = '?center=' + currentMapCenter[0] + ',' + currentMapCenter[1] + '&zoom=' + currentZoomLevel + '&show=' + activeLayers.toString();
+    embedTextareaContent = '<iframe src="https://map.fairphone.community/' + queryParams + '" width="100%" height="400" allowfullscreen="true" frameborder="0">\n' +
+    '<p><a href="https://map.fairphone.community/' + queryParams + '" target="_blank">See the Fairphone Community Map!</a></p>\n' +
     '</iframe>';
-    try{
+    try {
       document.getElementById('embed-textarea').value = embedTextareaContent;
     } catch(e) {
     };
@@ -228,6 +227,17 @@
     updateEmbedTextareaContent();
   }
 
+  function onZoomend(e) {
+    currentZoomLevel = map.getZoom();
+    updateEmbedTextareaContent();
+  }
+
+  function onMoveend(e) {
+    var center = map.getCenter();
+    currentMapCenter = [center.lat, center.lng];
+    updateEmbedTextareaContent();
+  }
+
   /* Main */
   var defaultOverlays = getDefaultOverlays();
   var initialMapCenter = getInitialMapCenter();
@@ -243,6 +253,8 @@
   }
   map.on('overlayadd', onOverlayadd);
   map.on('overlayremove', onOverlayremove);
+  map.on('zoomend', onZoomend);
+  map.on('moveend', onMoveend);
 
   // Populate Fairphone Angels overlay
   fetchJSON('data/angels.json')
