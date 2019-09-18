@@ -64,6 +64,7 @@
   var currentMapCenter = DEFAULTMAPCENTER;
   var currentZoomLevel = DEFAULTZOOMLEVEL;
   var embedTextareaContent;
+  var queryParams = getQueries();
 
   /* Functions */
   function getAllOverlays(overlaysData) {
@@ -168,7 +169,7 @@
   }
 
   function getInitialMapCenter() {
-    var mapcenter = getQueries().center; // all queries after "center="
+    var mapcenter = queryParams.center; // all queries after "center="
     if(!mapcenter) {
       return DEFAULTMAPCENTER;
     }
@@ -182,7 +183,7 @@
   }
 
   function getInitialZoomLevel() {
-    var zoomlevel = getQueries().zoom; // all queries after "zoom="
+    var zoomlevel = queryParams.zoom; // all queries after "zoom="
     if (!zoomlevel) {
       return DEFAULTZOOMLEVEL;
     }
@@ -195,7 +196,7 @@
   }
 
   function getDefaultOverlays() {
-    var overlays = getQueries().show; // all queries after "show="
+    var overlays = queryParams.show; // all queries after "show="
     if (!overlays) return null;
 
     return overlays.split(',');
