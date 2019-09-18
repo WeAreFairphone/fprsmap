@@ -122,6 +122,10 @@
       worldCopyJump: true,
     });
 
+    activeLayers = defaultOverlays;
+    currentZoomLevel = initialZoomLevel;
+    currentMapCenter = initialMapCenter;
+
     if (isEmbedded()) {
       map.scrollWheelZoom.disable();
       map.attributionControl.setPrefix('<a href="https://map.fairphone.community/" target="_blank">See bigger map</a> | Leaflet');
