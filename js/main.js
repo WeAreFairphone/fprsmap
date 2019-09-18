@@ -95,18 +95,21 @@
     }, false);
   }
 
-  function getInitialLayers(overlaysData, defaultOverlays, permanentLayers) {
+  function getInitialLayers(overlays, permanentLayers) {
+    return overlays.reduce(function(layers, currentOverlay) {
+          layers.push(overlaysData[currentOverlay].overlay);
+        return layers;
+      }, permanentLayers || []);
+  }
+
+  function getEffectiveOverlays(overlaysData, defaultOverlays) {
     return Object.keys(overlaysData)
       .filter(function(currentOverlay) {
         if ((!defaultOverlays || !isValidOverlayQueries(overlaysData,defaultOverlays)) && EXCLUDED_LAYERS.includes(currentOverlay)) return false;
         if (!defaultOverlays || !isValidOverlayQueries(overlaysData,defaultOverlays)) return true;
 
         return defaultOverlays.indexOf(currentOverlay) !== -1;
-      })
-      .reduce(function(layers, currentOverlay) {
-          layers.push(overlaysData[currentOverlay].overlay);
-        return layers;
-      }, permanentLayers || []);
+      });
   }
 
   function initMap(initialMapCenter, initialZoomLevel, defaultOverlays) {
@@ -115,15 +118,17 @@
       maxZoom: 18,
     });
 
+    var effectiveOverlays = getEffectiveOverlays(overlaysData, defaultOverlays);
+
     map = L.map('mapid', {
       center: initialMapCenter,
       zoom: initialZoomLevel,
       minZoom: 2,
-      layers: getInitialLayers(overlaysData, defaultOverlays, [baseLayer, cluster]),
+      layers: getInitialLayers(effectiveOverlays, [baseLayer, cluster]),
       worldCopyJump: true,
     });
 
-    activeLayers = defaultOverlays;
+    activeLayers = effectiveOverlays;
     currentZoomLevel = initialZoomLevel;
     currentMapCenter = initialMapCenter;
 
