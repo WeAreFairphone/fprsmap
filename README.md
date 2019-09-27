@@ -33,7 +33,7 @@ The categories mentioned in the previous paragraph can be used to define an init
 To further customize the initial state of the map, the following parameters are also possible:
 
 - If you want to center the map on a certain location use `center=<lat>,<lng>` where `<lat>` is the latitude and `<lng>` the longitude (defaults to `center=49.8158683,6.129675`).
-- In order to zoom into the map, use `zoom=<value>` where `<value>` is an integral number between 2 and 18 (defaults to `zoom=2`).
+- In order to zoom into the map, use `zoom=<value>` where `<value>` is an integer number between 2 and 18 (defaults to `zoom=2`).
 - So if you for example want to display the current Fairphone angels in Europe, the whole URI would be `https://map.fairphone.community/?center=49.25346477,7.91015625&zoom=5&show=angels`
 
 Remember to put a "`?`" in front of the first parameter and a "`&`" in front of the others. The order of the parameters is not important.
