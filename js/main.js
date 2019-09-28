@@ -141,7 +141,7 @@
   }
 
   function addPopupWithEmbedCode() {
-    updateEmbedTextareaContent();
+    updateEmbedTextareaContentAndBrowserUrl();
     var embedPopupContent = 'Embed code:<br>' +
       '<textarea autofocus cols="35" id="embed-textarea" readonly rows="3" wrap="off">' + embedTextareaContent + '</textarea>';
     L.popup({className: 'embed-popup'})
@@ -150,12 +150,15 @@
     .openOn(map);
   }
 
-  function updateEmbedTextareaContent() {
+  function updateEmbedTextareaContentAndBrowserUrl() {
     var queryParams = '?center=' + currentMapCenter[0] + ',' + currentMapCenter[1] + '&zoom=' + currentZoomLevel + '&show=' + activeLayers.toString();
     embedTextareaContent = '<iframe src="https://map.fairphone.community/' + queryParams + '" width="100%" height="400" allowfullscreen="true" frameborder="0">\n' +
     '<p><a href="https://map.fairphone.community/' + queryParams + '" target="_blank">See the Fairphone Community Map!</a></p>\n' +
     '</iframe>';
     try {
+      if (window.history.replaceState) {
+        window.history.replaceState({}, null, queryParams);
+      }
       document.getElementById('embed-textarea').value = embedTextareaContent;
     } catch(e) {
     };
@@ -227,25 +230,25 @@
 
   function onOverlayadd(e) {
     activeLayers.push(titleToKey(e.name));
-    updateEmbedTextareaContent();
+    updateEmbedTextareaContentAndBrowserUrl();
   }
 
   function onOverlayremove(e) {
     activeLayers = activeLayers.filter(function(layer){
       return layer != titleToKey(e.name);
     });
-    updateEmbedTextareaContent();
+    updateEmbedTextareaContentAndBrowserUrl();
   }
 
   function onZoomend(e) {
     currentZoomLevel = map.getZoom();
-    updateEmbedTextareaContent();
+    updateEmbedTextareaContentAndBrowserUrl();
   }
 
   function onMoveend(e) {
     var center = map.getCenter();
     currentMapCenter = [center.lat, center.lng];
-    updateEmbedTextareaContent();
+    updateEmbedTextareaContentAndBrowserUrl();
   }
 
   /* Main */
