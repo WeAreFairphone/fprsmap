@@ -181,12 +181,12 @@
     if(!mapcenter) {
       return DEFAULTMAPCENTER;
     }
-    
+
     var initialCoordinates = mapcenter.split(',');
     if ((initialCoordinates.length === 2) && parseFloat(initialCoordinates[0]) && parseFloat(initialCoordinates[1])) {
       return [parseFloat(initialCoordinates[0]), parseFloat(initialCoordinates[1])];
     }
-     
+
     return DEFAULTMAPCENTER;
   }
 
@@ -195,11 +195,11 @@
     if (!zoomlevel) {
       return DEFAULTZOOMLEVEL;
     }
-    
+
     if ((parseFloat(zoomlevel) >= 2) && (parseFloat(zoomlevel) <= 18)) {
       return parseFloat(zoomlevel);
     }
-    
+
     return DEFAULTZOOMLEVEL;
   }
 
@@ -274,11 +274,14 @@
     .then(function(json) {
       // Add a marker per Heaven
       json.heavens.forEach(function(heaven) {
-        var circle = L.circle(heaven.lat_lng, { radius: 30000, color: '#2ca7df', stroke:false, fillOpacity: 0.5 })
-          .bindPopup(
-            '<a href="mailto:' + heaven.location.toLowerCase() + '@' + COMMUNITY_DOMAIN + '">' + heaven.location + '<br>@' + COMMUNITY_DOMAIN + '<a>',
-          );
-        circle.addTo(overlaysData.angels.overlay);
+        console.log(heaven.exists, heaven.active)
+        if(heaven.exists && heaven.active) {
+          var circle = L.circle(heaven.lat_lng, { radius: 30000, color: '#2ca7df', stroke:false, fillOpacity: 0.5 })
+            .bindPopup(
+              '<a href="mailto:' + heaven.location.toLowerCase() + '@' + COMMUNITY_DOMAIN + '">' + heaven.location + '<br>@' + COMMUNITY_DOMAIN + '<a>',
+            );
+          circle.addTo(overlaysData.angels.overlay);
+        }
       });
     });
 
