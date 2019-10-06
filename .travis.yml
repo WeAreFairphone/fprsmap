@@ -1,6 +1,6 @@
 language: python
 before_script:
-  - mkdir data
+  - rm data/.gitignore
 script:
   - python scripts/fetch-angels.py
   - python scripts/fetch-events.py
