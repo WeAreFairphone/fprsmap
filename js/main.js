@@ -276,11 +276,13 @@
       json.heavens.forEach(function(heaven) {
         console.log(heaven.exists, heaven.active)
         if(heaven.exists && heaven.active) {
-          var circle = L.circle(heaven.lat_lng, { radius: 30000, color: '#2ca7df', stroke:false, fillOpacity: 0.5 })
+          heaven.coordinates.forEach(function(lat_lng) {
+            var circle = L.circle(lat_lng, { radius: 30000, color: '#2ca7df', stroke:false, fillOpacity: 0.5 })
             .bindPopup(
               '<a href="mailto:' + heaven.location.toLowerCase() + '@' + COMMUNITY_DOMAIN + '">' + heaven.location + '<br>@' + COMMUNITY_DOMAIN + '<a>',
             );
-          circle.addTo(overlaysData.angels.overlay);
+            circle.addTo(overlaysData.angels.overlay);
+          })
         }
       });
     });
