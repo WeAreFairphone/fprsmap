@@ -2,8 +2,8 @@ language: python
 before_script:
   - rm data/.gitignore
 script:
-  - python scripts/fetch-angels.py
-  - python scripts/fetch-events.py
+  - python scripts/fetch_angels.py
+  - python scripts/fetch_events.py
 
 deploy:
   provider: pages
