@@ -1,0 +1,14 @@
+language: python
+before_script:
+  - rm data/.gitignore
+script:
+  - python scripts/fetch-angels.py
+  - python scripts/fetch-events.py
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+  on:
+    branch: master
+  target_branch: gh-pages
