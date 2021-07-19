@@ -2,12 +2,12 @@ name: Build and Deploy
 on:
   push:
     branches:
-      - main
+      - master
   pull_request:
     branches:
-      - main
+      - master
   schedule:
-    - cron: '0 16 * * *'  # every day at 16:00 UTC
+    - cron: '5 16 * * *'  # every day at 16:05 UTC
 
 jobs:
   build-and-deploy:
