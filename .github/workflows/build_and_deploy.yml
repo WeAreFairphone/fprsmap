@@ -3,9 +3,6 @@ on:
   push:
     branches:
       - master
-  pull_request:
-    branches:
-      - master
   schedule:
     - cron: '17 * * * *'  # every hour at 17 mins (to avoid spikes e.g. at the beginning of each hour)
 
