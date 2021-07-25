@@ -394,21 +394,6 @@
       ]
     },
     {
-      "location": "Neuried",
-      "country": "\ud83c\udde9\ud83c\uddea",
-      "angels": [
-        "Volker"
-      ],
-      "exists": true,
-      "active": true,
-      "coordinates": [
-        [
-          48.0932345,
-          11.4651589
-        ]
-      ]
-    },
-    {
       "location": "Northengland",
       "country": "\ud83c\uddec\ud83c\udde7",
       "angels": [
@@ -435,6 +420,21 @@
         [
           47.90592,
           1.904926
+        ]
+      ]
+    },
+    {
+      "location": "Oslo",
+      "country": "\ud83c\uddf3\ud83c\uddf4",
+      "angels": [
+        "thimble"
+      ],
+      "exists": true,
+      "active": true,
+      "coordinates": [
+        [
+          59.9133301,
+          10.7389701
         ]
       ]
     },

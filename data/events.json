@@ -28,7 +28,7 @@
       "meetfairphone3",
       "m\u00fcnchen"
     ],
-    "views": 18893,
+    "views": 18946,
     "like_count": 527,
     "has_summary": true,
     "last_poster_username": "Volker",
@@ -106,6 +106,84 @@
     ]
   },
   {
+    "id": 26302,
+    "title": ":de: :uk: Fairphone-Community D\u00fcsseldorf-Rhein-Ruhr",
+    "fancy_title": ":de: :uk: Fairphone-Community D\u00fcsseldorf-Rhein-Ruhr",
+    "slug": "fairphone-community-dusseldorf-rhein-ruhr",
+    "posts_count": 64,
+    "reply_count": 27,
+    "highest_post_number": 70,
+    "image_url": null,
+    "created_at": "2017-02-22T00:44:42.409Z",
+    "last_posted_at": "2021-07-20T17:00:34.303Z",
+    "bumped": true,
+    "bumped_at": "2021-07-20T21:09:17.839Z",
+    "archetype": "regular",
+    "unseen": false,
+    "pinned": false,
+    "unpinned": null,
+    "visible": true,
+    "closed": false,
+    "archived": false,
+    "bookmarked": null,
+    "liked": null,
+    "unicode_title": "\ud83c\udde9\ud83c\uddea \ud83c\uddec\ud83c\udde7 Fairphone-Community D\u00fcsseldorf-Rhein-Ruhr",
+    "tags": [
+      "\ud83c\udde9\ud83c\uddea",
+      "localcommunities",
+      "meetup",
+      "meetfairphone3",
+      "ruhrgebiet",
+      "k\u00f6ln",
+      "d\u00fcsseldorf"
+    ],
+    "views": 9737,
+    "like_count": 146,
+    "has_summary": true,
+    "last_poster_username": "Amber",
+    "category_id": 42,
+    "pinned_globally": false,
+    "featured_link": null,
+    "event": {
+      "start": "2021-07-27T17:30:00+00:00",
+      "version": 1
+    },
+    "event_going_total": 0,
+    "has_accepted_answer": false,
+    "posters": [
+      {
+        "extras": "latest",
+        "description": "Original Poster, Most Recent Poster",
+        "user_id": 3945,
+        "primary_group_id": 45
+      },
+      {
+        "extras": null,
+        "description": "Frequent Poster",
+        "user_id": 20663,
+        "primary_group_id": null
+      },
+      {
+        "extras": null,
+        "description": "Frequent Poster",
+        "user_id": 7933,
+        "primary_group_id": null
+      },
+      {
+        "extras": null,
+        "description": "Frequent Poster",
+        "user_id": 7377,
+        "primary_group_id": null
+      },
+      {
+        "extras": null,
+        "description": "Frequent Poster",
+        "user_id": 4312,
+        "primary_group_id": null
+      }
+    ]
+  },
+  {
     "id": 9703,
     "title": ":de: :gb: Fairphone Community Aachen :computer: Videostammtisch am 10. AUGUST",
     "fancy_title": ":de: :gb: Fairphone Community Aachen :computer: Videostammtisch am 10. AUGUST",
@@ -135,7 +213,7 @@
       "videoconference",
       "aachen"
     ],
-    "views": 41746,
+    "views": 41854,
     "like_count": 388,
     "has_summary": true,
     "last_poster_username": "urs_lesse",
