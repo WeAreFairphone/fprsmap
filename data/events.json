@@ -31,7 +31,7 @@
       "k\u00f6ln",
       "d\u00fcsseldorf"
     ],
-    "views": 9743,
+    "views": 9747,
     "like_count": 146,
     "has_summary": true,
     "last_poster_username": "Amber",
@@ -181,6 +181,110 @@
         "description": "Frequent Poster",
         "user_id": 30516,
         "primary_group_id": null
+      }
+    ]
+  },
+  {
+    "id": 19285,
+    "title": ":de: M\u00fcnchen Fairphoners Meetup am 30. August",
+    "fancy_title": ":de: M\u00fcnchen Fairphoners Meetup am 30. August",
+    "slug": "munchen-fairphoners-meetup-am-30-august",
+    "posts_count": 254,
+    "reply_count": 139,
+    "highest_post_number": 271,
+    "image_url": null,
+    "created_at": "2016-06-24T10:46:50.917Z",
+    "last_posted_at": "2021-07-26T20:08:40.590Z",
+    "bumped": true,
+    "bumped_at": "2021-07-26T20:08:40.590Z",
+    "archetype": "regular",
+    "unseen": false,
+    "pinned": false,
+    "unpinned": null,
+    "visible": true,
+    "closed": false,
+    "archived": false,
+    "bookmarked": null,
+    "liked": null,
+    "unicode_title": "\ud83c\udde9\ud83c\uddea M\u00fcnchen Fairphoners Meetup am 30. August",
+    "tags": [
+      "\ud83c\udde9\ud83c\uddea",
+      "localcommunities",
+      "meetfairphone3",
+      "m\u00fcnchen"
+    ],
+    "views": 18980,
+    "like_count": 528,
+    "has_summary": true,
+    "last_poster_username": "Volker",
+    "category_id": 42,
+    "pinned_globally": false,
+    "featured_link": null,
+    "event": {
+      "start": "2021-08-30T16:30:00+00:00",
+      "timezone": "Europe/Berlin",
+      "version": 19,
+      "rsvp": true,
+      "going_max": 10,
+      "going": []
+    },
+    "event_going_total": 0,
+    "location": {
+      "street": "Schwanthalerstr. 80",
+      "postalcode": "80336",
+      "city": "M\u00fcnchen",
+      "countrycode": "de",
+      "geo_location": {
+        "lat": 48.1379275,
+        "lon": 11.5529350460071,
+        "address": "EineWeltHaus, 80, Schwanthalerstra\u00dfe, St. Paul, Ludwigsvorstadt-Isarvorstadt, Munich, Bavaria, 80336, Germany",
+        "countrycode": "de",
+        "city": "Munich",
+        "state": "Bavaria",
+        "country": "Germany",
+        "postalcode": "80336",
+        "boundingbox": [
+          "48.1377483",
+          "48.1381055",
+          "11.5528324",
+          "11.5530376"
+        ],
+        "type": "community_centre",
+        "selected": true,
+        "zoomTo": true
+      }
+    },
+    "has_accepted_answer": false,
+    "posters": [
+      {
+        "extras": null,
+        "description": "Original Poster",
+        "user_id": 11209,
+        "primary_group_id": null
+      },
+      {
+        "extras": null,
+        "description": "Frequent Poster",
+        "user_id": 324,
+        "primary_group_id": null
+      },
+      {
+        "extras": null,
+        "description": "Frequent Poster",
+        "user_id": 5151,
+        "primary_group_id": null
+      },
+      {
+        "extras": null,
+        "description": "Frequent Poster",
+        "user_id": 4312,
+        "primary_group_id": null
+      },
+      {
+        "extras": "latest",
+        "description": "Most Recent Poster",
+        "user_id": 6808,
+        "primary_group_id": 45
       }
     ]
   }
