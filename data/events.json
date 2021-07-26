@@ -1,112 +1,5 @@
 [
   {
-    "id": 19285,
-    "title": ":de: M\u00fcnchen Fairphoners Meetup am 26. Juli",
-    "fancy_title": ":de: M\u00fcnchen Fairphoners Meetup am 26. Juli",
-    "slug": "munchen-fairphoners-meetup-am-26-juli",
-    "posts_count": 253,
-    "reply_count": 139,
-    "highest_post_number": 270,
-    "image_url": null,
-    "created_at": "2016-06-24T10:46:50.917Z",
-    "last_posted_at": "2021-07-25T15:20:24.506Z",
-    "bumped": true,
-    "bumped_at": "2021-06-30T20:12:06.286Z",
-    "archetype": "regular",
-    "unseen": false,
-    "pinned": true,
-    "unpinned": null,
-    "excerpt": "Die M\u00fcnchner Fairphoner treffen sich jeden letzten Montag im Monat 18:30, im Eine-Welt-Haus (EWH) in der Schwanthalerstr. 80 in Raum 111 (oder 112 oder auch bei sehr gutem Wetter auf der Terrasse oben). \nDas n\u00e4chste Tref&hellip;",
-    "visible": true,
-    "closed": false,
-    "archived": false,
-    "bookmarked": null,
-    "liked": null,
-    "unicode_title": "\ud83c\udde9\ud83c\uddea M\u00fcnchen Fairphoners Meetup am 26. Juli",
-    "tags": [
-      "\ud83c\udde9\ud83c\uddea",
-      "localcommunities",
-      "meetfairphone3",
-      "m\u00fcnchen"
-    ],
-    "views": 18968,
-    "like_count": 527,
-    "has_summary": true,
-    "last_poster_username": "Paule",
-    "category_id": 42,
-    "pinned_globally": true,
-    "featured_link": null,
-    "event": {
-      "start": "2021-07-26T16:30:00+00:00",
-      "timezone": "Europe/Berlin",
-      "version": 18,
-      "rsvp": true,
-      "going_max": 10,
-      "going": [
-        "Volker"
-      ]
-    },
-    "event_going_total": 1,
-    "location": {
-      "street": "Schwanthalerstr. 80",
-      "postalcode": "80336",
-      "city": "M\u00fcnchen",
-      "countrycode": "de",
-      "geo_location": {
-        "lat": 48.1379275,
-        "lon": 11.5529350460071,
-        "address": "EineWeltHaus, 80, Schwanthalerstra\u00dfe, St. Paul, Ludwigsvorstadt-Isarvorstadt, Munich, Bavaria, 80336, Germany",
-        "countrycode": "de",
-        "city": "Munich",
-        "state": "Bavaria",
-        "country": "Germany",
-        "postalcode": "80336",
-        "boundingbox": [
-          "48.1377483",
-          "48.1381055",
-          "11.5528324",
-          "11.5530376"
-        ],
-        "type": "community_centre",
-        "selected": true,
-        "zoomTo": true
-      }
-    },
-    "has_accepted_answer": false,
-    "posters": [
-      {
-        "extras": null,
-        "description": "Original Poster",
-        "user_id": 11209,
-        "primary_group_id": null
-      },
-      {
-        "extras": null,
-        "description": "Frequent Poster",
-        "user_id": 324,
-        "primary_group_id": null
-      },
-      {
-        "extras": null,
-        "description": "Frequent Poster",
-        "user_id": 5151,
-        "primary_group_id": null
-      },
-      {
-        "extras": null,
-        "description": "Frequent Poster",
-        "user_id": 4312,
-        "primary_group_id": null
-      },
-      {
-        "extras": "latest",
-        "description": "Most Recent Poster",
-        "user_id": 7483,
-        "primary_group_id": 45
-      }
-    ]
-  },
-  {
     "id": 26302,
     "title": ":de: :uk: Fairphone-Community D\u00fcsseldorf-Rhein-Ruhr",
     "fancy_title": ":de: :uk: Fairphone-Community D\u00fcsseldorf-Rhein-Ruhr",
@@ -214,7 +107,7 @@
       "videoconference",
       "aachen"
     ],
-    "views": 41875,
+    "views": 41876,
     "like_count": 388,
     "has_summary": true,
     "last_poster_username": "urs_lesse",
