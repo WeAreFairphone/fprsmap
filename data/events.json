@@ -4,18 +4,19 @@
     "title": ":de: :uk: Fairphone-Community D\u00fcsseldorf-Rhein-Ruhr",
     "fancy_title": ":de: :uk: Fairphone-Community D\u00fcsseldorf-Rhein-Ruhr",
     "slug": "fairphone-community-dusseldorf-rhein-ruhr",
-    "posts_count": 64,
+    "posts_count": 65,
     "reply_count": 27,
-    "highest_post_number": 70,
+    "highest_post_number": 71,
     "image_url": null,
     "created_at": "2017-02-22T00:44:42.409Z",
-    "last_posted_at": "2021-07-20T17:00:34.303Z",
+    "last_posted_at": "2021-07-27T08:29:35.640Z",
     "bumped": true,
     "bumped_at": "2021-07-26T22:57:23.631Z",
     "archetype": "regular",
     "unseen": false,
-    "pinned": false,
+    "pinned": true,
     "unpinned": null,
+    "excerpt": "8. Fairphone-Stammtisch D\u00fcsseldorf-Rhein-Ruhr\nam 27.07.2021 um 19:30 online auf https://lecture.senfcall.de/yvo-vu9-xms-1j8 \n\nContact: @Amber (D\u00fcsseldorf) @neolovich (K\u00f6ln) @yvmuell (Solingen)\nEmail: rhein-ruhr &hellip;",
     "visible": true,
     "closed": false,
     "archived": false,
@@ -31,12 +32,12 @@
       "k\u00f6ln",
       "d\u00fcsseldorf"
     ],
-    "views": 9750,
+    "views": 9754,
     "like_count": 146,
     "has_summary": true,
-    "last_poster_username": "Amber",
+    "last_poster_username": "urs_lesse",
     "category_id": 42,
-    "pinned_globally": false,
+    "pinned_globally": true,
     "featured_link": null,
     "event": {
       "start": "2021-07-27T17:30:00+00:00",
@@ -46,8 +47,8 @@
     "has_accepted_answer": false,
     "posters": [
       {
-        "extras": "latest",
-        "description": "Original Poster, Most Recent Poster",
+        "extras": null,
+        "description": "Original Poster",
         "user_id": 3945,
         "primary_group_id": 45
       },
@@ -66,12 +67,12 @@
       {
         "extras": null,
         "description": "Frequent Poster",
-        "user_id": 7377,
+        "user_id": 324,
         "primary_group_id": null
       },
       {
-        "extras": null,
-        "description": "Frequent Poster",
+        "extras": "latest",
+        "description": "Most Recent Poster",
         "user_id": 4312,
         "primary_group_id": null
       }
@@ -107,7 +108,7 @@
       "videoconference",
       "aachen"
     ],
-    "views": 41882,
+    "views": 41883,
     "like_count": 388,
     "has_summary": true,
     "last_poster_username": "urs_lesse",
@@ -213,7 +214,7 @@
       "meetfairphone3",
       "m\u00fcnchen"
     ],
-    "views": 18990,
+    "views": 18992,
     "like_count": 530,
     "has_summary": true,
     "last_poster_username": "Volker",
