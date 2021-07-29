@@ -29,7 +29,7 @@
       "videoconference",
       "aachen"
     ],
-    "views": 41947,
+    "views": 41948,
     "like_count": 388,
     "has_summary": true,
     "last_poster_username": "urs_lesse",
@@ -223,7 +223,7 @@
     "created_at": "2021-07-27T22:29:00.302Z",
     "last_posted_at": "2021-07-27T22:29:00.429Z",
     "bumped": true,
-    "bumped_at": "2021-07-27T22:29:00.429Z",
+    "bumped_at": "2021-07-29T15:26:44.527Z",
     "archetype": "regular",
     "unseen": false,
     "pinned": false,
@@ -238,7 +238,7 @@
       "localcommunities",
       "aachen"
     ],
-    "views": 43,
+    "views": 44,
     "like_count": 3,
     "has_summary": false,
     "last_poster_username": "urs_lesse",
@@ -252,35 +252,30 @@
     },
     "event_going_total": 0,
     "location": {
-      "street": "Pontstra\u00dfe 7",
-      "postalcode": "52062",
+      "street": "Jakobstra\u00dfe 9",
+      "postalcode": "52064",
       "city": "Aachen",
       "countrycode": "de",
       "geo_location": {
-        "lat": 50.77701175,
-        "lon": 6.082861116453962,
-        "address": "Aula Carolina, 7, Pontstra\u00dfe, Aachen-Mitte, Aachen, St\u00e4dteregion Aachen, North Rhine-Westphalia, 52062, Germany",
+        "lat": 50.7753946,
+        "lon": 6.081700762476605,
+        "address": "9, Jakobstra\u00dfe, Burtscheid, Aachen-Mitte, Aachen, St\u00e4dteregion Aachen, North Rhine-Westphalia, 52064, Germany",
         "countrycode": "de",
         "city": "Aachen",
         "state": "North Rhine-Westphalia",
         "country": "Germany",
-        "postalcode": "52062",
+        "postalcode": "52064",
         "boundingbox": [
-          "50.7768393",
-          "50.7771798",
-          "6.0825716",
-          "6.083139"
+          "50.7753097",
+          "50.7754679",
+          "6.0815827",
+          "6.0818317"
         ],
-        "type": "church",
+        "type": "yes",
         "selected": true,
         "zoomTo": true
       },
-      "name": "Aula Carolina",
-      "marker": {
-        "title": ":de: :gb: 3. Aachener Fairtrade-Messe feat. Fairphone Community Aachen",
-        "routeTo": "/t/3-aachener-fairtrade-messe-feat-fairphone-community-aachen"
-      },
-      "topic_id": 74592
+      "name": "Weltladen Aachen"
     },
     "has_accepted_answer": false,
     "posters": [
