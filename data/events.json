@@ -1,9 +1,9 @@
 [
   {
     "id": 9703,
-    "title": ":de: :gb: Fairphone Community Aachen :computer: Videostammtisch am 10. AUGUST",
-    "fancy_title": ":de: :gb: Fairphone Community Aachen :computer: Videostammtisch am 10. AUGUST",
-    "slug": "fairphone-community-aachen-videostammtisch-am-10-august",
+    "title": ":de: :gb: Fairphone Community Aachen :computer: Videostammtisch 10. AUGUST",
+    "fancy_title": ":de: :gb: Fairphone Community Aachen :computer: Videostammtisch 10. AUGUST",
+    "slug": "fairphone-community-aachen-videostammtisch-10-august",
     "posts_count": 98,
     "reply_count": 38,
     "highest_post_number": 142,
@@ -21,7 +21,7 @@
     "archived": false,
     "bookmarked": null,
     "liked": null,
-    "unicode_title": "\ud83c\udde9\ud83c\uddea \ud83c\uddec\ud83c\udde7 Fairphone Community Aachen \ud83d\udcbb Videostammtisch am 10. AUGUST",
+    "unicode_title": "\ud83c\udde9\ud83c\uddea \ud83c\uddec\ud83c\udde7 Fairphone Community Aachen \ud83d\udcbb Videostammtisch 10. AUGUST",
     "tags": [
       "\ud83c\udde9\ud83c\uddea",
       "\ud83c\uddec\ud83c\udde7",
@@ -29,7 +29,7 @@
       "videoconference",
       "aachen"
     ],
-    "views": 41948,
+    "views": 41953,
     "like_count": 388,
     "has_summary": true,
     "last_poster_username": "urs_lesse",
@@ -136,7 +136,7 @@
       "meetfairphone3",
       "m\u00fcnchen"
     ],
-    "views": 19020,
+    "views": 19021,
     "like_count": 532,
     "has_summary": true,
     "last_poster_username": "Volker",
@@ -219,11 +219,11 @@
     "posts_count": 1,
     "reply_count": 0,
     "highest_post_number": 1,
-    "image_url": "https://forum.fairphone.com/uploads/default/optimized/3X/f/0/f072f3bce69ecc47b94ee81d270ea3e29be1c4c7_2_1024x389.jpeg",
+    "image_url": "https://forum.fairphone.com/uploads/default/optimized/3X/1/1/115d8d0d6e07a16484a2c55123a67e78b704b54a_2_1024x389.jpeg",
     "created_at": "2021-07-27T22:29:00.302Z",
     "last_posted_at": "2021-07-27T22:29:00.429Z",
     "bumped": true,
-    "bumped_at": "2021-07-29T15:26:44.527Z",
+    "bumped_at": "2021-07-29T15:37:21.527Z",
     "archetype": "regular",
     "unseen": false,
     "pinned": false,
@@ -238,7 +238,7 @@
       "localcommunities",
       "aachen"
     ],
-    "views": 44,
+    "views": 48,
     "like_count": 3,
     "has_summary": false,
     "last_poster_username": "urs_lesse",
@@ -275,7 +275,12 @@
         "selected": true,
         "zoomTo": true
       },
-      "name": "Weltladen Aachen"
+      "name": "Weltladen Aachen",
+      "marker": {
+        "title": ":de: :gb: 3. Aachener Fairtrade-Messe feat. Fairphone Community Aachen",
+        "routeTo": "/t/3-aachener-fairtrade-messe-feat-fairphone-community-aachen"
+      },
+      "topic_id": 74592
     },
     "has_accepted_answer": false,
     "posters": [
