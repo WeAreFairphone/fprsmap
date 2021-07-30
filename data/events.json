@@ -1,0 +1,306 @@
+[
+  {
+    "id": 9703,
+    "title": ":de: :gb: Fairphone Community Aachen :computer: Videostammtisch 10. AUGUST",
+    "fancy_title": ":de: :gb: Fairphone Community Aachen :computer: Videostammtisch 10. AUGUST",
+    "slug": "fairphone-community-aachen-videostammtisch-10-august",
+    "posts_count": 98,
+    "reply_count": 38,
+    "highest_post_number": 142,
+    "image_url": "https://forum.fairphone.com/uploads/default/optimized/2X/e/e8e1b95f7ddff79814d40ba93d857da8ea82f901_2_1024x768.jpg",
+    "created_at": "2015-08-26T15:27:58.727Z",
+    "last_posted_at": "2021-07-04T08:11:38.658Z",
+    "bumped": true,
+    "bumped_at": "2021-07-27T22:35:17.966Z",
+    "archetype": "regular",
+    "unseen": false,
+    "pinned": false,
+    "unpinned": null,
+    "visible": true,
+    "closed": false,
+    "archived": false,
+    "bookmarked": null,
+    "liked": null,
+    "unicode_title": "\ud83c\udde9\ud83c\uddea \ud83c\uddec\ud83c\udde7 Fairphone Community Aachen \ud83d\udcbb Videostammtisch 10. AUGUST",
+    "tags": [
+      "\ud83c\udde9\ud83c\uddea",
+      "\ud83c\uddec\ud83c\udde7",
+      "localcommunities",
+      "videoconference",
+      "aachen"
+    ],
+    "views": 41975,
+    "like_count": 388,
+    "has_summary": true,
+    "last_poster_username": "urs_lesse",
+    "category_id": 42,
+    "pinned_globally": false,
+    "featured_link": null,
+    "event": {
+      "start": "2021-08-10T17:00:00+00:00",
+      "timezone": "Europe/Brussels",
+      "version": 10,
+      "rsvp": true,
+      "going_max": 15,
+      "going": [
+        "urs_lesse",
+        "Pabelos"
+      ]
+    },
+    "event_going_total": 2,
+    "location": {
+      "postalcode": "52064",
+      "city": "Aachen",
+      "countrycode": "de",
+      "geo_location": {
+        "lat": 50.776351,
+        "lon": 6.083862,
+        "address": "Aachen, St\u00e4dteregion Aachen, North Rhine-Westphalia, Germany",
+        "countrycode": "de",
+        "city": "Aachen",
+        "state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "postalcode": null,
+        "boundingbox": [
+          "50.6621373",
+          "50.8572449",
+          "5.9748624",
+          "6.2180747"
+        ],
+        "type": "administrative",
+        "selected": true,
+        "zoomTo": true
+      },
+      "name": "Videostammtisch"
+    },
+    "has_accepted_answer": false,
+    "posters": [
+      {
+        "extras": "latest",
+        "description": "Original Poster, Most Recent Poster",
+        "user_id": 4312,
+        "primary_group_id": null,
+        "flair_group_id": null
+      },
+      {
+        "extras": null,
+        "description": "Frequent Poster",
+        "user_id": 3945,
+        "primary_group_id": 45,
+        "flair_group_id": 45
+      },
+      {
+        "extras": null,
+        "description": "Frequent Poster",
+        "user_id": 324,
+        "primary_group_id": null,
+        "flair_group_id": null
+      },
+      {
+        "extras": null,
+        "description": "Frequent Poster",
+        "user_id": 8539,
+        "primary_group_id": null,
+        "flair_group_id": null
+      },
+      {
+        "extras": null,
+        "description": "Frequent Poster",
+        "user_id": 30516,
+        "primary_group_id": null,
+        "flair_group_id": null
+      }
+    ]
+  },
+  {
+    "id": 19285,
+    "title": ":de: M\u00fcnchen Fairphoners Meetup am 30. August",
+    "fancy_title": ":de: M\u00fcnchen Fairphoners Meetup am 30. August",
+    "slug": "munchen-fairphoners-meetup-am-30-august",
+    "posts_count": 254,
+    "reply_count": 139,
+    "highest_post_number": 271,
+    "image_url": null,
+    "created_at": "2016-06-24T10:46:50.917Z",
+    "last_posted_at": "2021-07-26T20:08:40.590Z",
+    "bumped": true,
+    "bumped_at": "2021-07-26T20:08:40.590Z",
+    "archetype": "regular",
+    "unseen": false,
+    "pinned": false,
+    "unpinned": null,
+    "visible": true,
+    "closed": false,
+    "archived": false,
+    "bookmarked": null,
+    "liked": null,
+    "unicode_title": "\ud83c\udde9\ud83c\uddea M\u00fcnchen Fairphoners Meetup am 30. August",
+    "tags": [
+      "\ud83c\udde9\ud83c\uddea",
+      "localcommunities",
+      "meetfairphone3",
+      "m\u00fcnchen"
+    ],
+    "views": 19025,
+    "like_count": 532,
+    "has_summary": true,
+    "last_poster_username": "Volker",
+    "category_id": 42,
+    "pinned_globally": false,
+    "featured_link": null,
+    "event": {
+      "start": "2021-08-30T16:30:00+00:00",
+      "timezone": "Europe/Berlin",
+      "version": 19,
+      "rsvp": true,
+      "going_max": 10,
+      "going": []
+    },
+    "event_going_total": 0,
+    "location": {
+      "street": "Schwanthalerstr. 80",
+      "postalcode": "80336",
+      "city": "M\u00fcnchen",
+      "countrycode": "de",
+      "geo_location": {
+        "lat": 48.1379275,
+        "lon": 11.5529350460071,
+        "address": "EineWeltHaus, 80, Schwanthalerstra\u00dfe, St. Paul, Ludwigsvorstadt-Isarvorstadt, Munich, Bavaria, 80336, Germany",
+        "countrycode": "de",
+        "city": "Munich",
+        "state": "Bavaria",
+        "country": "Germany",
+        "postalcode": "80336",
+        "boundingbox": [
+          "48.1377483",
+          "48.1381055",
+          "11.5528324",
+          "11.5530376"
+        ],
+        "type": "community_centre",
+        "selected": true,
+        "zoomTo": true
+      }
+    },
+    "has_accepted_answer": false,
+    "posters": [
+      {
+        "extras": null,
+        "description": "Original Poster",
+        "user_id": 11209,
+        "primary_group_id": null,
+        "flair_group_id": null
+      },
+      {
+        "extras": null,
+        "description": "Frequent Poster",
+        "user_id": 324,
+        "primary_group_id": null,
+        "flair_group_id": null
+      },
+      {
+        "extras": null,
+        "description": "Frequent Poster",
+        "user_id": 5151,
+        "primary_group_id": null,
+        "flair_group_id": null
+      },
+      {
+        "extras": null,
+        "description": "Frequent Poster",
+        "user_id": 4312,
+        "primary_group_id": null,
+        "flair_group_id": null
+      },
+      {
+        "extras": "latest",
+        "description": "Most Recent Poster",
+        "user_id": 6808,
+        "primary_group_id": 45,
+        "flair_group_id": 45
+      }
+    ]
+  },
+  {
+    "id": 74592,
+    "title": ":de: :gb: 3. Aachener Fairtrade-Messe feat. Fairphone Community Aachen",
+    "fancy_title": ":de: :gb: 3. Aachener Fairtrade-Messe feat. Fairphone Community Aachen",
+    "slug": "3-aachener-fairtrade-messe-feat-fairphone-community-aachen",
+    "posts_count": 1,
+    "reply_count": 0,
+    "highest_post_number": 1,
+    "image_url": "https://forum.fairphone.com/uploads/default/optimized/3X/1/1/115d8d0d6e07a16484a2c55123a67e78b704b54a_2_1024x389.jpeg",
+    "created_at": "2021-07-27T22:29:00.302Z",
+    "last_posted_at": "2021-07-27T22:29:00.429Z",
+    "bumped": true,
+    "bumped_at": "2021-07-29T15:37:21.527Z",
+    "archetype": "regular",
+    "unseen": false,
+    "pinned": false,
+    "unpinned": null,
+    "visible": true,
+    "closed": false,
+    "archived": false,
+    "bookmarked": null,
+    "liked": null,
+    "unicode_title": "\ud83c\udde9\ud83c\uddea \ud83c\uddec\ud83c\udde7 3. Aachener Fairtrade-Messe feat. Fairphone Community Aachen",
+    "tags": [
+      "localcommunities",
+      "aachen"
+    ],
+    "views": 54,
+    "like_count": 3,
+    "has_summary": false,
+    "last_poster_username": "urs_lesse",
+    "category_id": 42,
+    "pinned_globally": false,
+    "featured_link": null,
+    "event": {
+      "start": "2021-09-18T09:00:00+00:00",
+      "end": "2021-09-18T16:00:00+00:00",
+      "version": 1
+    },
+    "event_going_total": 0,
+    "location": {
+      "street": "Jakobstra\u00dfe 9",
+      "postalcode": "52064",
+      "city": "Aachen",
+      "countrycode": "de",
+      "geo_location": {
+        "lat": 50.7753946,
+        "lon": 6.081700762476605,
+        "address": "9, Jakobstra\u00dfe, Burtscheid, Aachen-Mitte, Aachen, St\u00e4dteregion Aachen, North Rhine-Westphalia, 52064, Germany",
+        "countrycode": "de",
+        "city": "Aachen",
+        "state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "postalcode": "52064",
+        "boundingbox": [
+          "50.7753097",
+          "50.7754679",
+          "6.0815827",
+          "6.0818317"
+        ],
+        "type": "yes",
+        "selected": true,
+        "zoomTo": true
+      },
+      "name": "Weltladen Aachen",
+      "marker": {
+        "title": ":de: :gb: 3. Aachener Fairtrade-Messe feat. Fairphone Community Aachen",
+        "routeTo": "/t/3-aachener-fairtrade-messe-feat-fairphone-community-aachen"
+      },
+      "topic_id": 74592
+    },
+    "has_accepted_answer": false,
+    "posters": [
+      {
+        "extras": "latest single",
+        "description": "Original Poster, Most Recent Poster",
+        "user_id": 4312,
+        "primary_group_id": null,
+        "flair_group_id": null
+      }
+    ]
+  }
+]
