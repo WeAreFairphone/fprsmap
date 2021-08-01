@@ -5,6 +5,7 @@ on:
       - master
   schedule:
     - cron: '17 * * * *'  # every hour at 17 mins (to avoid spikes e.g. at the beginning of each hour)
+  workflow_dispatch:
 
 jobs:
   build-and-deploy:
