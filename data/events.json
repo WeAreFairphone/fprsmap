@@ -29,8 +29,8 @@
       "videoconference",
       "aachen"
     ],
-    "views": 42029,
-    "like_count": 388,
+    "views": 42032,
+    "like_count": 389,
     "has_summary": true,
     "last_poster_username": "urs_lesse",
     "category_id": 42,
@@ -93,8 +93,8 @@
         "extras": null,
         "description": "Frequent Poster",
         "user_id": 324,
-        "primary_group_id": null,
-        "flair_group_id": null
+        "primary_group_id": 45,
+        "flair_group_id": 45
       },
       {
         "extras": null,
@@ -141,7 +141,7 @@
       "meetfairphone3",
       "m\u00fcnchen"
     ],
-    "views": 19050,
+    "views": 19051,
     "like_count": 537,
     "has_summary": true,
     "last_poster_username": "Volker",
@@ -195,8 +195,8 @@
         "extras": null,
         "description": "Frequent Poster",
         "user_id": 324,
-        "primary_group_id": null,
-        "flair_group_id": null
+        "primary_group_id": 45,
+        "flair_group_id": 45
       },
       {
         "extras": null,
