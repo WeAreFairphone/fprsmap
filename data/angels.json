@@ -18,7 +18,6 @@
     {
       "location": "Antwerp",
       "country": "\ud83c\udde7\ud83c\uddea",
-      "exists": true,
       "coordinates": [
         [
           51.2211097,
@@ -123,7 +122,6 @@
     {
       "location": "CentralLondon",
       "country": "\ud83c\uddec\ud83c\udde7",
-      "exists": true,
       "coordinates": [
         [
           51.5156177,
@@ -137,7 +135,6 @@
       "angels": [
         "LukasGafner"
       ],
-      "exists": true,
       "coordinates": [
         [
           46.855515,
@@ -148,11 +145,24 @@
     {
       "location": "Copenhagen",
       "country": "\ud83c\udde9\ud83c\uddf0",
-      "exists": true,
       "coordinates": [
         [
           55.6867243,
           12.5700724
+        ]
+      ]
+    },
+    {
+      "location": "Debrecen",
+      "country": "\ud83c\udded\ud83c\uddfa",
+      "angels": [
+        "DrG0nz0"
+      ],
+      "exists": true,
+      "coordinates": [
+        [
+          47.531399,
+          21.6259782
         ]
       ]
     },
@@ -537,7 +547,6 @@
     {
       "location": "Rostock",
       "country": "\ud83c\udde9\ud83c\uddea",
-      "exists": true,
       "coordinates": [
         [
           54.0924445,
@@ -630,7 +639,8 @@
       "angels": [
         "Martin",
         "Stanzi",
-        "z3ntu"
+        "z3ntu",
+        "paulakreuzer"
       ],
       "exists": true,
       "active": true,
