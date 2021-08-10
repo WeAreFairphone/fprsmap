@@ -43,6 +43,7 @@ jobs:
         if: ${{ github.event_name == 'schedule' }}
         run: |
           git add data # git diff does not work on unversioned files
+          git commit -m "Update data files"
           git diff --quiet --exit-code origin/gh-pages -- data
           echo "::set-output name=has_changes::$?"
 
