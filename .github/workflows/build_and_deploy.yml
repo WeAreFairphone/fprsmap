@@ -48,11 +48,11 @@ jobs:
           git commit -m "Update data files"
           git diff --quiet --exit-code origin/gh-pages -- data
           HAS_CHANGES=$?
-          echo "::set-output name=has_changes::$HAS_CHANGES"
+          echo "HAS_CHANGES=$HAS_CHANGES" >> $GITHUB_ENV
           echo "HAS_CHANGES=$HAS_CHANGES"
 
       - name: Deploy on push or if scheduled and has changes
-        if: ${{ github.event_name != 'schedule' || steps.check_for_changes.outputs.has_changes }}
+        if: ${{ github.event_name != 'schedule' || env.HAS_CHANGES == 1 }}
         uses: JamesIves/github-pages-deploy-action@4.1.4
         with:
           branch: gh-pages # The branch the action should deploy to.
