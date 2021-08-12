@@ -4,7 +4,7 @@ on:
     branches:
       - master
   schedule:
-    - cron: '17 * * * *'  # every hour at 17 mins (to avoid spikes e.g. at the beginning of each hour)
+    - cron: '17 * 6-23 * *'  # every hour between 06:00 and 23:00 at 17 mins (to avoid spikes e.g. at the beginning of each hour)
   workflow_dispatch:
 
 jobs:
