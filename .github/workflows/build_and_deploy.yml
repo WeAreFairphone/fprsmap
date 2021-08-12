@@ -35,16 +35,7 @@ jobs:
           python scripts/fetch-angels.py
           python scripts/fetch-events.py
 
-      - name: Check for changes in data files when scheduled
-        id: check_for_changes
-        if: ${{ github.event_name == 'schedule' }}
-        run: |
-          git add data # git diff does not work on unversioned files
-          git diff --quiet --exit-code origin/gh-pages -- data
-          echo "::set-output name=has_changes::$?"
-
-      - name: Deploy on push or if scheduled and has changes
-        if: ${{ github.event_name != 'schedule' || steps.check_for_changes.outputs.has_changes }}
+      - name: Deploy
         uses: JamesIves/github-pages-deploy-action@4.1.4
         with:
           branch: gh-pages # The branch the action should deploy to.
