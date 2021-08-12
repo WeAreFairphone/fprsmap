@@ -11,13 +11,10 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout gh-pages for diff
-        uses: actions/checkout@v2.3.1
-        with:
-          ref: gh-pages
-
       - name: Checkout
         uses: actions/checkout@v2.3.1
+        with:
+          ref: master
 
       - name: Setup Python
         uses: actions/setup-python@v2
@@ -43,7 +40,7 @@ jobs:
         if: ${{ github.event_name == 'schedule' }}
         run: |
           git add data # git diff does not work on unversioned files
-          git diff --quiet --exit-code gh-pages -- data
+          git diff --quiet --exit-code origin/gh-pages -- data
           echo "::set-output name=has_changes::$?"
 
       - name: Deploy on push or if scheduled and has changes
