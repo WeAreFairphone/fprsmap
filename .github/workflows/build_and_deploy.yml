@@ -46,10 +46,9 @@ jobs:
           git config user.name nobody
           git config user.email nobody@example.com
           git commit -m "Update data files"
-          git diff --quiet --exit-code origin/gh-pages -- data
-          HAS_CHANGES=$?
-          echo "HAS_CHANGES=$HAS_CHANGES" >> $GITHUB_ENV
+          git diff --quiet --exit-code origin/gh-pages -- data && HAS_CHANGES=0 || HAS_CHANGES=1
           echo "HAS_CHANGES=$HAS_CHANGES"
+          echo "HAS_CHANGES=$HAS_CHANGES" >> $GITHUB_ENV
 
       - name: Deploy on push or if scheduled and has changes
         if: ${{ github.event_name != 'schedule' || env.HAS_CHANGES == 1 }}
