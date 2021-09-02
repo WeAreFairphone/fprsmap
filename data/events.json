@@ -29,7 +29,7 @@
       "videoconference",
       "aachen"
     ],
-    "views": 42913,
+    "views": 42918,
     "like_count": 391,
     "has_summary": true,
     "last_poster_username": "urs_lesse",
@@ -119,88 +119,6 @@
     ]
   },
   {
-    "id": 74592,
-    "title": ":de: :gb: 3. Aachener Fairtrade-Messe feat. Fairphone Community Aachen",
-    "fancy_title": ":de: :gb: 3. Aachener Fairtrade-Messe feat. Fairphone Community Aachen",
-    "slug": "3-aachener-fairtrade-messe-feat-fairphone-community-aachen",
-    "posts_count": 1,
-    "reply_count": 0,
-    "highest_post_number": 1,
-    "image_url": "https://forum.fairphone.com/uploads/default/original/3X/c/5/c51cc58c1c0b5d6ac6eafbc5d370b379c14f86fb.jpeg",
-    "created_at": "2021-07-27T22:29:00.302Z",
-    "last_posted_at": "2021-07-27T22:29:00.429Z",
-    "bumped": true,
-    "bumped_at": "2021-08-19T15:08:02.861Z",
-    "archetype": "regular",
-    "unseen": false,
-    "pinned": false,
-    "unpinned": null,
-    "visible": true,
-    "closed": false,
-    "archived": false,
-    "bookmarked": null,
-    "liked": null,
-    "unicode_title": "\ud83c\udde9\ud83c\uddea \ud83c\uddec\ud83c\udde7 3. Aachener Fairtrade-Messe feat. Fairphone Community Aachen",
-    "tags": [
-      "localcommunities",
-      "aachen"
-    ],
-    "views": 217,
-    "like_count": 3,
-    "has_summary": false,
-    "last_poster_username": "urs_lesse",
-    "category_id": 42,
-    "pinned_globally": false,
-    "featured_link": null,
-    "event": {
-      "start": "2021-09-18T09:00:00+00:00",
-      "end": "2021-09-18T16:00:00+00:00",
-      "version": 1
-    },
-    "event_going_total": 0,
-    "location": {
-      "street": "Jakobstra\u00dfe 9",
-      "postalcode": "52064",
-      "city": "Aachen",
-      "countrycode": "de",
-      "geo_location": {
-        "lat": 50.7753946,
-        "lon": 6.081700762476605,
-        "address": "9, Jakobstra\u00dfe, Burtscheid, Aachen-Mitte, Aachen, St\u00e4dteregion Aachen, North Rhine-Westphalia, 52064, Germany",
-        "countrycode": "de",
-        "city": "Aachen",
-        "state": "North Rhine-Westphalia",
-        "country": "Germany",
-        "postalcode": "52064",
-        "boundingbox": [
-          "50.7753097",
-          "50.7754679",
-          "6.0815827",
-          "6.0818317"
-        ],
-        "type": "yes",
-        "selected": true,
-        "zoomTo": true
-      },
-      "name": "Weltladen Aachen",
-      "marker": {
-        "title": ":de: :gb: 3. Aachener Fairtrade-Messe feat. Fairphone Community Aachen",
-        "routeTo": "/t/3-aachener-fairtrade-messe-feat-fairphone-community-aachen"
-      },
-      "topic_id": 74592
-    },
-    "has_accepted_answer": false,
-    "posters": [
-      {
-        "extras": "latest single",
-        "description": "Original Poster, Most Recent Poster",
-        "user_id": 4312,
-        "primary_group_id": null,
-        "flair_group_id": null
-      }
-    ]
-  },
-  {
     "id": 19285,
     "title": ":de: M\u00fcnchen Fairphoners Meetup am 27. September",
     "fancy_title": ":de: M\u00fcnchen Fairphoners Meetup am 27. September",
@@ -229,7 +147,7 @@
       "meetfairphone3",
       "m\u00fcnchen"
     ],
-    "views": 19440,
+    "views": 19442,
     "like_count": 540,
     "has_summary": true,
     "last_poster_username": "Volker",
