@@ -29,7 +29,7 @@
       "videoconference",
       "aachen"
     ],
-    "views": 43213,
+    "views": 43223,
     "like_count": 395,
     "has_summary": true,
     "last_poster_username": "urs_lesse",
@@ -46,10 +46,11 @@
       "going": [
         "Kerryman",
         "Vize",
-        "urs_lesse"
+        "urs_lesse",
+        "yvmuell"
       ]
     },
-    "event_going_total": 3,
+    "event_going_total": 4,
     "location": {
       "street": "Suermondtplatz 12",
       "postalcode": "52062",
