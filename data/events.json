@@ -28,7 +28,7 @@
       "meetfairphone3",
       "m\u00fcnchen"
     ],
-    "views": 19558,
+    "views": 19560,
     "like_count": 540,
     "has_summary": true,
     "last_poster_username": "Volker",
@@ -107,6 +107,119 @@
         "user_id": 6808,
         "primary_group_id": 45,
         "flair_group_id": 45
+      }
+    ]
+  },
+  {
+    "id": 9703,
+    "title": ":de: :gb: Fairphone Community Aachen | Video meetup",
+    "fancy_title": ":de: :gb: Fairphone Community Aachen | Video meetup",
+    "slug": "fairphone-community-aachen-video-meetup",
+    "posts_count": 103,
+    "reply_count": 40,
+    "highest_post_number": 152,
+    "image_url": "https://forum.fairphone.com/uploads/default/optimized/2X/e/e8e1b95f7ddff79814d40ba93d857da8ea82f901_2_1024x768.jpg",
+    "created_at": "2015-08-26T15:27:58.727Z",
+    "last_posted_at": "2021-09-10T16:49:18.760Z",
+    "bumped": true,
+    "bumped_at": "2021-09-10T21:43:47.188Z",
+    "archetype": "regular",
+    "unseen": false,
+    "pinned": false,
+    "unpinned": null,
+    "visible": true,
+    "closed": false,
+    "archived": false,
+    "bookmarked": null,
+    "liked": null,
+    "unicode_title": "\ud83c\udde9\ud83c\uddea \ud83c\uddec\ud83c\udde7 Fairphone Community Aachen | Video meetup",
+    "tags": [
+      "\ud83c\udde9\ud83c\uddea",
+      "\ud83c\uddec\ud83c\udde7",
+      "localcommunities",
+      "videoconference",
+      "aachen"
+    ],
+    "views": 43335,
+    "like_count": 400,
+    "has_summary": true,
+    "last_poster_username": "urs_lesse",
+    "category_id": 42,
+    "pinned_globally": false,
+    "featured_link": null,
+    "event": {
+      "start": "2021-10-10T17:00:00+00:00",
+      "end": "2021-10-10T19:00:00+00:00",
+      "timezone": "Europe/Brussels",
+      "version": 12,
+      "rsvp": true,
+      "going_max": 15,
+      "going": [
+        "urs_lesse"
+      ]
+    },
+    "event_going_total": 1,
+    "location": {
+      "postalcode": "52064",
+      "city": "Aachen",
+      "countrycode": "de",
+      "geo_location": {
+        "lat": 50.776351,
+        "lon": 6.083862,
+        "address": "Aachen, St\u00e4dteregion Aachen, North Rhine-Westphalia, Germany",
+        "countrycode": "de",
+        "city": "Aachen",
+        "state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "postalcode": null,
+        "boundingbox": [
+          "50.6621373",
+          "50.8572449",
+          "5.9748624",
+          "6.2180747"
+        ],
+        "type": "administrative",
+        "selected": true,
+        "zoomTo": true
+      },
+      "name": "Online Meetup"
+    },
+    "has_accepted_answer": false,
+    "posters": [
+      {
+        "extras": "latest",
+        "description": "Original Poster, Most Recent Poster",
+        "user_id": 4312,
+        "primary_group_id": null,
+        "flair_group_id": null
+      },
+      {
+        "extras": null,
+        "description": "Frequent Poster",
+        "user_id": 3945,
+        "primary_group_id": 45,
+        "flair_group_id": 45
+      },
+      {
+        "extras": null,
+        "description": "Frequent Poster",
+        "user_id": 324,
+        "primary_group_id": 45,
+        "flair_group_id": 45
+      },
+      {
+        "extras": null,
+        "description": "Frequent Poster",
+        "user_id": 30516,
+        "primary_group_id": null,
+        "flair_group_id": null
+      },
+      {
+        "extras": null,
+        "description": "Frequent Poster",
+        "user_id": 5877,
+        "primary_group_id": null,
+        "flair_group_id": null
       }
     ]
   }
