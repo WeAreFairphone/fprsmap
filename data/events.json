@@ -141,7 +141,7 @@
       "videoconference",
       "aachen"
     ],
-    "views": 44165,
+    "views": 44167,
     "like_count": 405,
     "has_summary": true,
     "last_poster_username": "francobollo",
@@ -251,9 +251,10 @@
       "\ud83c\uddeb\ud83c\uddf7",
       "\ud83c\uddec\ud83c\udde7",
       "localcommunities",
+      "meetup",
       "meetfairphone3"
     ],
-    "views": 1837,
+    "views": 1839,
     "like_count": 10,
     "has_summary": false,
     "last_poster_username": "LowMemory",
@@ -271,6 +272,32 @@
       ]
     },
     "event_going_total": 1,
+    "location": {
+      "street": "9 Grande Rue",
+      "postalcode": "38000",
+      "city": "Grenoble",
+      "countrycode": "fr",
+      "geo_location": {
+        "lat": 45.1924127,
+        "lon": 5.7288274,
+        "address": "9, Grande Rue, Hyper Centre, Secteur 2, Grenoble, Auvergne-Rh\u00f4ne-Alpes, Metropolitan France, 38000, France",
+        "countrycode": "fr",
+        "city": "Grenoble",
+        "state": "Auvergne-Rh\u00f4ne-Alpes",
+        "country": "France",
+        "postalcode": "38000",
+        "boundingbox": [
+          "45.1923627",
+          "45.1924627",
+          "5.7287774",
+          "5.7288774"
+        ],
+        "type": "house",
+        "selected": true,
+        "zoomTo": true
+      },
+      "name": "Demo-TIC"
+    },
     "has_accepted_answer": false,
     "posters": [
       {
