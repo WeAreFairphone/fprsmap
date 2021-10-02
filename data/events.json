@@ -4,14 +4,14 @@
     "title": ":de: :gb: Fairphone Community Aachen | 10 Oct | Videostammtisch",
     "fancy_title": ":de: :gb: Fairphone Community Aachen | 10 Oct | Videostammtisch",
     "slug": "fairphone-community-aachen-10-oct-videostammtisch",
-    "posts_count": 108,
+    "posts_count": 109,
     "reply_count": 44,
-    "highest_post_number": 157,
+    "highest_post_number": 158,
     "image_url": "https://forum.fairphone.com/uploads/default/optimized/2X/e/e8e1b95f7ddff79814d40ba93d857da8ea82f901_2_1024x768.jpg",
     "created_at": "2015-08-26T15:27:58.727Z",
-    "last_posted_at": "2021-09-13T23:06:59.307Z",
+    "last_posted_at": "2021-10-02T21:37:34.832Z",
     "bumped": true,
-    "bumped_at": "2021-09-13T23:06:59.307Z",
+    "bumped_at": "2021-10-02T21:37:34.832Z",
     "archetype": "regular",
     "unseen": false,
     "pinned": false,
@@ -29,10 +29,10 @@
       "videoconference",
       "aachen"
     ],
-    "views": 44535,
+    "views": 44548,
     "like_count": 405,
     "has_summary": true,
-    "last_poster_username": "francobollo",
+    "last_poster_username": "urs_lesse",
     "category_id": 42,
     "pinned_globally": false,
     "featured_link": null,
@@ -76,8 +76,8 @@
     "has_accepted_answer": false,
     "posters": [
       {
-        "extras": null,
-        "description": "Original Poster",
+        "extras": "latest",
+        "description": "Original Poster, Most Recent Poster",
         "user_id": 4312,
         "primary_group_id": null,
         "flair_group_id": null
@@ -104,9 +104,9 @@
         "flair_group_id": null
       },
       {
-        "extras": "latest",
-        "description": "Most Recent Poster",
-        "user_id": 32376,
+        "extras": null,
+        "description": "Frequent Poster",
+        "user_id": 16749,
         "primary_group_id": null,
         "flair_group_id": null
       }
@@ -248,7 +248,7 @@
       "meetfairphone3",
       "m\u00fcnchen"
     ],
-    "views": 20016,
+    "views": 20025,
     "like_count": 576,
     "has_summary": true,
     "last_poster_username": "Volker",
