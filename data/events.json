@@ -29,7 +29,7 @@
       "videoconference",
       "aachen"
     ],
-    "views": 44510,
+    "views": 44515,
     "like_count": 405,
     "has_summary": true,
     "last_poster_username": "francobollo",
@@ -224,14 +224,14 @@
     "title": ":de: M\u00fcnchen Fairphoners Meetup am 25. Oktober",
     "fancy_title": ":de: M\u00fcnchen Fairphoners Meetup am 25. Oktober",
     "slug": "munchen-fairphoners-meetup-am-25-oktober",
-    "posts_count": 282,
+    "posts_count": 283,
     "reply_count": 155,
-    "highest_post_number": 299,
+    "highest_post_number": 300,
     "image_url": null,
     "created_at": "2016-06-24T10:46:50.917Z",
-    "last_posted_at": "2021-09-27T16:19:09.981Z",
+    "last_posted_at": "2021-10-02T10:46:48.182Z",
     "bumped": true,
-    "bumped_at": "2021-09-27T16:19:09.981Z",
+    "bumped_at": "2021-10-02T10:46:48.182Z",
     "archetype": "regular",
     "unseen": false,
     "pinned": false,
@@ -248,10 +248,10 @@
       "meetfairphone3",
       "m\u00fcnchen"
     ],
-    "views": 19996,
-    "like_count": 572,
+    "views": 20008,
+    "like_count": 574,
     "has_summary": true,
-    "last_poster_username": "Paule",
+    "last_poster_username": "Volker",
     "category_id": 42,
     "pinned_globally": false,
     "featured_link": null,
@@ -317,14 +317,14 @@
       {
         "extras": null,
         "description": "Frequent Poster",
-        "user_id": 6808,
-        "primary_group_id": 45,
-        "flair_group_id": 45
+        "user_id": 4312,
+        "primary_group_id": null,
+        "flair_group_id": null
       },
       {
         "extras": "latest",
         "description": "Most Recent Poster",
-        "user_id": 7483,
+        "user_id": 6808,
         "primary_group_id": 45,
         "flair_group_id": 45
       }
