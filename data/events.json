@@ -4,14 +4,14 @@
     "title": ":de: :gb: Fairphone Community Aachen | 10 Oct | Videostammtisch",
     "fancy_title": ":de: :gb: Fairphone Community Aachen | 10 Oct | Videostammtisch",
     "slug": "fairphone-community-aachen-10-oct-videostammtisch",
-    "posts_count": 109,
-    "reply_count": 44,
-    "highest_post_number": 158,
+    "posts_count": 111,
+    "reply_count": 45,
+    "highest_post_number": 160,
     "image_url": "https://forum.fairphone.com/uploads/default/optimized/2X/e/e8e1b95f7ddff79814d40ba93d857da8ea82f901_2_1024x768.jpg",
     "created_at": "2015-08-26T15:27:58.727Z",
-    "last_posted_at": "2021-10-02T21:37:34.832Z",
+    "last_posted_at": "2021-10-03T17:34:27.106Z",
     "bumped": true,
-    "bumped_at": "2021-10-02T21:37:34.832Z",
+    "bumped_at": "2021-10-03T17:34:27.106Z",
     "archetype": "regular",
     "unseen": false,
     "pinned": false,
@@ -29,8 +29,8 @@
       "videoconference",
       "aachen"
     ],
-    "views": 44591,
-    "like_count": 405,
+    "views": 44603,
+    "like_count": 408,
     "has_summary": true,
     "last_poster_username": "urs_lesse",
     "category_id": 42,
@@ -85,13 +85,6 @@
       {
         "extras": null,
         "description": "Frequent Poster",
-        "user_id": 3945,
-        "primary_group_id": 45,
-        "flair_group_id": 45
-      },
-      {
-        "extras": null,
-        "description": "Frequent Poster",
         "user_id": 324,
         "primary_group_id": 45,
         "flair_group_id": 45
@@ -107,6 +100,13 @@
         "extras": null,
         "description": "Frequent Poster",
         "user_id": 16749,
+        "primary_group_id": null,
+        "flair_group_id": null
+      },
+      {
+        "extras": null,
+        "description": "Frequent Poster",
+        "user_id": 13606,
         "primary_group_id": null,
         "flair_group_id": null
       }
@@ -248,7 +248,7 @@
       "meetfairphone3",
       "m\u00fcnchen"
     ],
-    "views": 20039,
+    "views": 20040,
     "like_count": 576,
     "has_summary": true,
     "last_poster_username": "Volker",
