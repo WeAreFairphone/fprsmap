@@ -29,7 +29,7 @@
       "videoconference",
       "aachen"
     ],
-    "views": 44716,
+    "views": 44736,
     "like_count": 408,
     "has_summary": true,
     "last_poster_username": "urs_lesse",
@@ -44,10 +44,11 @@
       "rsvp": true,
       "going_max": 15,
       "going": [
-        "urs_lesse"
+        "urs_lesse",
+        "Kerryman"
       ]
     },
-    "event_going_total": 1,
+    "event_going_total": 2,
     "location": {
       "postalcode": "52064",
       "city": "Aachen",
