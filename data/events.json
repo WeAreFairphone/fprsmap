@@ -1,120 +1,5 @@
 [
   {
-    "id": 9703,
-    "title": ":de: :gb: Fairphone Community Aachen | 10 Oct | Videostammtisch",
-    "fancy_title": ":de: :gb: Fairphone Community Aachen | 10 Oct | Videostammtisch",
-    "slug": "fairphone-community-aachen-10-oct-videostammtisch",
-    "posts_count": 112,
-    "reply_count": 45,
-    "highest_post_number": 162,
-    "image_url": "https://forum.fairphone.com/uploads/default/optimized/2X/e/e8e1b95f7ddff79814d40ba93d857da8ea82f901_2_1024x768.jpg",
-    "created_at": "2015-08-26T15:27:58.727Z",
-    "last_posted_at": "2021-10-09T14:08:30.892Z",
-    "bumped": true,
-    "bumped_at": "2021-10-09T14:07:33.734Z",
-    "archetype": "regular",
-    "unseen": false,
-    "pinned": true,
-    "unpinned": null,
-    "excerpt": ":de: Sonntag 10.10.2021 \u2022 19 Uhr \u2022 Videostammtisch (f\u00fcr Zugangsdaten: Nachricht an mich) \n11.11.2021 \u2022 19 Uhr \u2022 Aachener Fairphone-Stammtisch im Pfannenzauber \n10.12.2021 \u2022 19 Uhr \u2022 Videostammtisch (f\u00fcr Zugangsdaten bitt&hellip;",
-    "visible": true,
-    "closed": false,
-    "archived": false,
-    "bookmarked": null,
-    "liked": null,
-    "unicode_title": "\ud83c\udde9\ud83c\uddea \ud83c\uddec\ud83c\udde7 Fairphone Community Aachen | 10 Oct | Videostammtisch",
-    "tags": [
-      "\ud83c\udde9\ud83c\uddea",
-      "\ud83c\uddec\ud83c\udde7",
-      "localcommunities",
-      "videoconference",
-      "aachen"
-    ],
-    "views": 45059,
-    "like_count": 409,
-    "has_summary": true,
-    "last_poster_username": "urs_lesse",
-    "category_id": 42,
-    "pinned_globally": true,
-    "featured_link": null,
-    "event": {
-      "start": "2021-10-10T17:00:00+00:00",
-      "end": "2021-10-10T19:00:00+00:00",
-      "timezone": "Europe/Brussels",
-      "version": 12,
-      "rsvp": true,
-      "going_max": 15,
-      "going": [
-        "urs_lesse",
-        "Kerryman"
-      ]
-    },
-    "event_going_total": 2,
-    "location": {
-      "postalcode": "52064",
-      "city": "Aachen",
-      "countrycode": "de",
-      "geo_location": {
-        "lat": 50.776351,
-        "lon": 6.083862,
-        "address": "Aachen, St\u00e4dteregion Aachen, North Rhine-Westphalia, Germany",
-        "countrycode": "de",
-        "city": "Aachen",
-        "state": "North Rhine-Westphalia",
-        "country": "Germany",
-        "postalcode": null,
-        "boundingbox": [
-          "50.6621373",
-          "50.8572449",
-          "5.9748624",
-          "6.2180747"
-        ],
-        "type": "administrative",
-        "selected": true,
-        "zoomTo": true
-      },
-      "name": "Online Meetup"
-    },
-    "has_accepted_answer": true,
-    "posters": [
-      {
-        "extras": "latest",
-        "description": "Original Poster, Most Recent Poster, Accepted Answer",
-        "user_id": 4312,
-        "primary_group_id": null,
-        "flair_group_id": null
-      },
-      {
-        "extras": null,
-        "description": "Frequent Poster",
-        "user_id": 324,
-        "primary_group_id": 45,
-        "flair_group_id": 45
-      },
-      {
-        "extras": null,
-        "description": "Frequent Poster",
-        "user_id": 5877,
-        "primary_group_id": null,
-        "flair_group_id": null
-      },
-      {
-        "extras": null,
-        "description": "Frequent Poster",
-        "user_id": 16749,
-        "primary_group_id": null,
-        "flair_group_id": null
-      },
-      {
-        "extras": null,
-        "description": "Frequent Poster",
-        "user_id": 13606,
-        "primary_group_id": null,
-        "flair_group_id": null
-      }
-    ]
-  },
-  {
     "id": 22714,
     "title": ":fr: Fairphoners Dauphinois (Grenoble et environs)",
     "fancy_title": ":fr: Fairphoners Dauphinois (Grenoble et environs)",
@@ -145,7 +30,7 @@
       "meetfairphone3",
       "grenoble"
     ],
-    "views": 1931,
+    "views": 1932,
     "like_count": 14,
     "has_summary": false,
     "last_poster_username": "LowMemory",
@@ -250,7 +135,7 @@
       "meetfairphone3",
       "m\u00fcnchen"
     ],
-    "views": 20195,
+    "views": 20200,
     "like_count": 576,
     "has_summary": true,
     "last_poster_username": "Volker",
@@ -329,6 +214,120 @@
         "user_id": 6808,
         "primary_group_id": 45,
         "flair_group_id": 45
+      }
+    ]
+  },
+  {
+    "id": 9703,
+    "title": ":de: :gb: Aachener Fairphone-Stammtisch | Fairphone Community Aachen",
+    "fancy_title": ":de: :gb: Aachener Fairphone-Stammtisch | Fairphone Community Aachen",
+    "slug": "aachener-fairphone-stammtisch-fairphone-community-aachen",
+    "posts_count": 111,
+    "reply_count": 45,
+    "highest_post_number": 161,
+    "image_url": "https://forum.fairphone.com/uploads/default/optimized/2X/e/e8e1b95f7ddff79814d40ba93d857da8ea82f901_2_1024x768.jpg",
+    "created_at": "2015-08-26T15:27:58.727Z",
+    "last_posted_at": "2021-10-09T14:07:33.734Z",
+    "bumped": true,
+    "bumped_at": "2021-10-10T20:20:23.385Z",
+    "archetype": "regular",
+    "unseen": false,
+    "pinned": false,
+    "unpinned": null,
+    "visible": true,
+    "closed": false,
+    "archived": false,
+    "bookmarked": null,
+    "liked": null,
+    "unicode_title": "\ud83c\udde9\ud83c\uddea \ud83c\uddec\ud83c\udde7 Aachener Fairphone-Stammtisch | Fairphone Community Aachen",
+    "tags": [
+      "\ud83c\udde9\ud83c\uddea",
+      "\ud83c\uddec\ud83c\udde7",
+      "localcommunities",
+      "meetup",
+      "aachen"
+    ],
+    "views": 45066,
+    "like_count": 409,
+    "has_summary": true,
+    "last_poster_username": "urs_lesse",
+    "category_id": 42,
+    "pinned_globally": false,
+    "featured_link": null,
+    "event": {
+      "start": "2021-11-11T18:00:00+00:00",
+      "end": "2021-11-11T21:00:00+00:00",
+      "timezone": "Europe/Brussels",
+      "version": 14,
+      "rsvp": true,
+      "going_max": 10,
+      "going": [
+        "urs_lesse"
+      ]
+    },
+    "event_going_total": 1,
+    "location": {
+      "street": "Suermondtplatz 12",
+      "postalcode": "52062",
+      "city": "Aachen",
+      "countrycode": "de",
+      "geo_location": {
+        "lat": 50.7736799,
+        "lon": 6.0911333,
+        "address": "Pfannenzauber, 12, Suermondtplatz, Kaiserplatz, Burtscheid, Aachen-Mitte, Aachen, St\u00e4dteregion Aachen, North Rhine-Westphalia, 52062, Germany",
+        "countrycode": "de",
+        "city": "Aachen",
+        "state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "postalcode": "52062",
+        "boundingbox": [
+          "50.7736299",
+          "50.7737299",
+          "6.0910833",
+          "6.0911833"
+        ],
+        "type": "restaurant",
+        "selected": true,
+        "zoomTo": true
+      },
+      "name": "Restaurant PZ\u2013Pfannenzauber"
+    },
+    "has_accepted_answer": false,
+    "posters": [
+      {
+        "extras": "latest",
+        "description": "Original Poster, Most Recent Poster",
+        "user_id": 4312,
+        "primary_group_id": null,
+        "flair_group_id": null
+      },
+      {
+        "extras": null,
+        "description": "Frequent Poster",
+        "user_id": 324,
+        "primary_group_id": 45,
+        "flair_group_id": 45
+      },
+      {
+        "extras": null,
+        "description": "Frequent Poster",
+        "user_id": 5877,
+        "primary_group_id": null,
+        "flair_group_id": null
+      },
+      {
+        "extras": null,
+        "description": "Frequent Poster",
+        "user_id": 16749,
+        "primary_group_id": null,
+        "flair_group_id": null
+      },
+      {
+        "extras": null,
+        "description": "Frequent Poster",
+        "user_id": 13606,
+        "primary_group_id": null,
+        "flair_group_id": null
       }
     ]
   }
