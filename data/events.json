@@ -30,7 +30,7 @@
       "meetfairphone3",
       "grenoble"
     ],
-    "views": 1946,
+    "views": 1948,
     "like_count": 14,
     "has_summary": false,
     "last_poster_username": "LowMemory",
@@ -108,17 +108,17 @@
   },
   {
     "id": 77286,
-    "title": ":de: Betreutes LineageOS Installieren",
-    "fancy_title": ":de: Betreutes LineageOS Installieren",
+    "title": ":de: Betreutes \"LineageOS Installieren\"",
+    "fancy_title": ":de: Betreutes &ldquo;LineageOS Installieren&rdquo;",
     "slug": "betreutes-lineageos-installieren",
-    "posts_count": 1,
+    "posts_count": 2,
     "reply_count": 0,
-    "highest_post_number": 1,
+    "highest_post_number": 2,
     "image_url": null,
     "created_at": "2021-10-14T17:21:50.603Z",
-    "last_posted_at": "2021-10-14T17:21:50.782Z",
+    "last_posted_at": "2021-10-15T11:20:52.021Z",
     "bumped": true,
-    "bumped_at": "2021-10-14T17:39:37.777Z",
+    "bumped_at": "2021-10-15T11:20:52.021Z",
     "archetype": "regular",
     "unseen": false,
     "pinned": false,
@@ -128,17 +128,17 @@
     "archived": false,
     "bookmarked": null,
     "liked": null,
-    "unicode_title": "\ud83c\udde9\ud83c\uddea Betreutes LineageOS Installieren",
+    "unicode_title": "\ud83c\udde9\ud83c\uddea Betreutes \"LineageOS Installieren\"",
     "tags": [
       "\ud83c\udde9\ud83c\uddea",
       "fp3",
       "lineageos",
       "germany"
     ],
-    "views": 34,
-    "like_count": 1,
+    "views": 55,
+    "like_count": 7,
     "has_summary": false,
-    "last_poster_username": "meissa",
+    "last_poster_username": "Stanzi",
     "category_id": 42,
     "pinned_globally": false,
     "featured_link": null,
@@ -151,11 +151,18 @@
     "has_accepted_answer": false,
     "posters": [
       {
-        "extras": "latest single",
-        "description": "Original Poster, Most Recent Poster",
+        "extras": null,
+        "description": "Original Poster",
         "user_id": 36691,
         "primary_group_id": null,
         "flair_group_id": null
+      },
+      {
+        "extras": "latest",
+        "description": "Most Recent Poster",
+        "user_id": 10413,
+        "primary_group_id": 45,
+        "flair_group_id": 45
       }
     ]
   },
@@ -188,7 +195,7 @@
       "meetfairphone3",
       "m\u00fcnchen"
     ],
-    "views": 20252,
+    "views": 20255,
     "like_count": 576,
     "has_summary": true,
     "last_poster_username": "Volker",
@@ -300,7 +307,7 @@
       "meetup",
       "aachen"
     ],
-    "views": 45297,
+    "views": 45303,
     "like_count": 409,
     "has_summary": true,
     "last_poster_username": "urs_lesse",
