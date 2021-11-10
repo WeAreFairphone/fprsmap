@@ -1,5 +1,123 @@
 [
   {
+    "id": 9703,
+    "title": ":de: :gb: Aachener Fairphone-Stammtisch :community_round: Fairphone Community Aachen",
+    "fancy_title": ":de: :gb: Aachener Fairphone-Stammtisch :community_round: Fairphone Community Aachen",
+    "slug": "aachener-fairphone-stammtisch-fairphone-community-aachen",
+    "posts_count": 113,
+    "reply_count": 45,
+    "highest_post_number": 167,
+    "image_url": "https://forum.fairphone.com/uploads/default/optimized/2X/e/e8e1b95f7ddff79814d40ba93d857da8ea82f901_2_1024x768.jpg",
+    "created_at": "2015-08-26T15:27:58.727Z",
+    "last_posted_at": "2021-11-10T18:18:40.235Z",
+    "bumped": true,
+    "bumped_at": "2021-11-08T11:45:46.622Z",
+    "archetype": "regular",
+    "unseen": false,
+    "pinned": true,
+    "unpinned": null,
+    "excerpt": "Donnerstag 19:00 h | Thursday 19 h\nPfannenzauber, Suermondtplatz 12 \n\n\n<details><summary>Folgetermine | Following events</summary>:de: Unsere folgenden Termine:\n10.12.2021 \u2022 19 Uhr \u2022 Videostammtisch (f\u00fcr Zugangsdaten bitte Nachricht an mich) \n10.0&hellip;</details>",
+    "visible": true,
+    "closed": false,
+    "archived": false,
+    "bookmarked": null,
+    "liked": null,
+    "unicode_title": "\ud83c\udde9\ud83c\uddea \ud83c\uddec\ud83c\udde7 Aachener Fairphone-Stammtisch :community_round: Fairphone Community Aachen",
+    "tags": [
+      "\ud83c\udde9\ud83c\uddea",
+      "\ud83c\uddec\ud83c\udde7",
+      "localcommunities",
+      "meetup",
+      "aachen"
+    ],
+    "views": 46637,
+    "like_count": 411,
+    "has_summary": true,
+    "last_poster_username": "urs_lesse",
+    "category_id": 42,
+    "pinned_globally": true,
+    "featured_link": null,
+    "event": {
+      "start": "2021-11-11T18:00:00+00:00",
+      "timezone": "Europe/Brussels",
+      "version": 16,
+      "rsvp": true,
+      "going_max": 10,
+      "going": [
+        "ninah",
+        "urs_lesse",
+        "caro_m",
+        "Vize",
+        "john.spe"
+      ]
+    },
+    "event_going_total": 5,
+    "location": {
+      "street": "Suermondtplatz 12",
+      "postalcode": "52062",
+      "city": "Aachen",
+      "countrycode": "de",
+      "geo_location": {
+        "lat": 50.7736799,
+        "lon": 6.0911333,
+        "address": "Pfannenzauber, 12, Suermondtplatz, Kaiserplatz, Burtscheid, Aachen-Mitte, Aachen, St\u00e4dteregion Aachen, North Rhine-Westphalia, 52062, Germany",
+        "countrycode": "de",
+        "city": "Aachen",
+        "state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "postalcode": "52062",
+        "boundingbox": [
+          "50.7736299",
+          "50.7737299",
+          "6.0910833",
+          "6.0911833"
+        ],
+        "type": "restaurant",
+        "selected": true,
+        "zoomTo": true
+      },
+      "name": "Restaurant PZ\u2013Pfannenzauber"
+    },
+    "has_accepted_answer": false,
+    "posters": [
+      {
+        "extras": "latest",
+        "description": "Original Poster, Most Recent Poster",
+        "user_id": 4312,
+        "primary_group_id": null,
+        "flair_group_id": null
+      },
+      {
+        "extras": null,
+        "description": "Frequent Poster",
+        "user_id": 324,
+        "primary_group_id": 45,
+        "flair_group_id": 45
+      },
+      {
+        "extras": null,
+        "description": "Frequent Poster",
+        "user_id": 5877,
+        "primary_group_id": null,
+        "flair_group_id": null
+      },
+      {
+        "extras": null,
+        "description": "Frequent Poster",
+        "user_id": 16749,
+        "primary_group_id": null,
+        "flair_group_id": null
+      },
+      {
+        "extras": null,
+        "description": "Frequent Poster",
+        "user_id": 13606,
+        "primary_group_id": null,
+        "flair_group_id": null
+      }
+    ]
+  },
+  {
     "id": 22714,
     "title": ":fr: Fairphoners Dauphinois (Grenoble et environs)",
     "fancy_title": ":fr: Fairphoners Dauphinois (Grenoble et environs)",
@@ -30,7 +148,7 @@
       "meetfairphone3",
       "grenoble"
     ],
-    "views": 1948,
+    "views": 2069,
     "like_count": 14,
     "has_summary": false,
     "last_poster_username": "LowMemory",
@@ -38,9 +156,9 @@
     "pinned_globally": false,
     "featured_link": null,
     "event": {
-      "start": "2021-10-19T17:00:00+00:00",
+      "start": "2021-11-16T18:00:00+00:00",
       "timezone": "Europe/Paris",
-      "version": 1,
+      "version": 3,
       "rsvp": true,
       "going_max": 10,
       "going": [
@@ -107,78 +225,18 @@
     ]
   },
   {
-    "id": 77286,
-    "title": ":de: Betreutes \"LineageOS Installieren\"",
-    "fancy_title": ":de: Betreutes &ldquo;LineageOS Installieren&rdquo;",
-    "slug": "betreutes-lineageos-installieren",
-    "posts_count": 4,
-    "reply_count": 2,
-    "highest_post_number": 4,
-    "image_url": null,
-    "created_at": "2021-10-14T17:21:50.603Z",
-    "last_posted_at": "2021-10-15T15:26:53.568Z",
-    "bumped": true,
-    "bumped_at": "2021-10-15T15:26:53.568Z",
-    "archetype": "regular",
-    "unseen": false,
-    "pinned": false,
-    "unpinned": null,
-    "visible": true,
-    "closed": false,
-    "archived": false,
-    "bookmarked": null,
-    "liked": null,
-    "unicode_title": "\ud83c\udde9\ud83c\uddea Betreutes \"LineageOS Installieren\"",
-    "tags": [
-      "\ud83c\udde9\ud83c\uddea",
-      "fp3",
-      "lineageos",
-      "germany"
-    ],
-    "views": 70,
-    "like_count": 10,
-    "has_summary": false,
-    "last_poster_username": "meissa",
-    "category_id": 42,
-    "pinned_globally": false,
-    "featured_link": null,
-    "event": {
-      "start": "2021-10-21T22:00:00+00:00",
-      "all_day": true,
-      "version": 1
-    },
-    "event_going_total": 0,
-    "has_accepted_answer": false,
-    "posters": [
-      {
-        "extras": "latest",
-        "description": "Original Poster, Most Recent Poster",
-        "user_id": 36691,
-        "primary_group_id": null,
-        "flair_group_id": null
-      },
-      {
-        "extras": null,
-        "description": "Frequent Poster",
-        "user_id": 10413,
-        "primary_group_id": 45,
-        "flair_group_id": 45
-      }
-    ]
-  },
-  {
     "id": 19285,
-    "title": ":de: M\u00fcnchen Fairphoners Meetup am 25. Oktober",
-    "fancy_title": ":de: M\u00fcnchen Fairphoners Meetup am 25. Oktober",
-    "slug": "munchen-fairphoners-meetup-am-25-oktober",
-    "posts_count": 283,
+    "title": ":de: :community_round: M\u00fcnchen Fairphoners Meetup am 29. November",
+    "fancy_title": ":de: :community_round: M\u00fcnchen Fairphoners Meetup am 29. November",
+    "slug": "munchen-fairphoners-meetup-am-29-november",
+    "posts_count": 284,
     "reply_count": 155,
-    "highest_post_number": 300,
+    "highest_post_number": 302,
     "image_url": null,
     "created_at": "2016-06-24T10:46:50.917Z",
-    "last_posted_at": "2021-10-02T10:46:48.182Z",
+    "last_posted_at": "2021-10-24T17:27:29.617Z",
     "bumped": true,
-    "bumped_at": "2021-10-02T10:46:48.182Z",
+    "bumped_at": "2021-10-24T17:27:29.617Z",
     "archetype": "regular",
     "unseen": false,
     "pinned": false,
@@ -188,24 +246,24 @@
     "archived": false,
     "bookmarked": null,
     "liked": null,
-    "unicode_title": "\ud83c\udde9\ud83c\uddea M\u00fcnchen Fairphoners Meetup am 25. Oktober",
+    "unicode_title": "\ud83c\udde9\ud83c\uddea :community_round: M\u00fcnchen Fairphoners Meetup am 29. November",
     "tags": [
       "\ud83c\udde9\ud83c\uddea",
       "localcommunities",
       "meetfairphone3",
       "m\u00fcnchen"
     ],
-    "views": 20258,
-    "like_count": 576,
+    "views": 20787,
+    "like_count": 579,
     "has_summary": true,
     "last_poster_username": "Volker",
     "category_id": 42,
     "pinned_globally": false,
     "featured_link": null,
     "event": {
-      "start": "2021-10-25T16:30:00+00:00",
+      "start": "2021-11-29T17:30:00+00:00",
       "timezone": "Europe/Berlin",
-      "version": 21,
+      "version": 23,
       "rsvp": true,
       "going_max": 10,
       "going": [
@@ -278,18 +336,18 @@
     ]
   },
   {
-    "id": 9703,
-    "title": ":de: :gb: Aachener Fairphone-Stammtisch | Fairphone Community Aachen",
-    "fancy_title": ":de: :gb: Aachener Fairphone-Stammtisch | Fairphone Community Aachen",
-    "slug": "aachener-fairphone-stammtisch-fairphone-community-aachen",
-    "posts_count": 111,
-    "reply_count": 45,
-    "highest_post_number": 161,
-    "image_url": "https://forum.fairphone.com/uploads/default/optimized/2X/e/e8e1b95f7ddff79814d40ba93d857da8ea82f901_2_1024x768.jpg",
-    "created_at": "2015-08-26T15:27:58.727Z",
-    "last_posted_at": "2021-10-09T14:07:33.734Z",
+    "id": 10447,
+    "title": ":de: :gb: Stuttgart Fairphoners Meetings / Treffen / Community",
+    "fancy_title": ":de: :gb: Stuttgart Fairphoners Meetings / Treffen / Community",
+    "slug": "stuttgart-fairphoners-meetings-treffen-community",
+    "posts_count": 219,
+    "reply_count": 97,
+    "highest_post_number": 229,
+    "image_url": null,
+    "created_at": "2015-10-18T11:30:58.350Z",
+    "last_posted_at": "2021-11-09T21:07:30.655Z",
     "bumped": true,
-    "bumped_at": "2021-10-11T18:32:55.142Z",
+    "bumped_at": "2021-11-09T21:07:30.655Z",
     "archetype": "regular",
     "unseen": false,
     "pinned": false,
@@ -299,67 +357,67 @@
     "archived": false,
     "bookmarked": null,
     "liked": null,
-    "unicode_title": "\ud83c\udde9\ud83c\uddea \ud83c\uddec\ud83c\udde7 Aachener Fairphone-Stammtisch | Fairphone Community Aachen",
+    "unicode_title": "\ud83c\udde9\ud83c\uddea \ud83c\uddec\ud83c\udde7 Stuttgart Fairphoners Meetings / Treffen / Community",
     "tags": [
       "\ud83c\udde9\ud83c\uddea",
       "\ud83c\uddec\ud83c\udde7",
       "localcommunities",
-      "meetup",
-      "aachen"
+      "meetfairphone3",
+      "stuttgart"
     ],
-    "views": 45311,
-    "like_count": 409,
+    "views": 22649,
+    "like_count": 388,
     "has_summary": true,
-    "last_poster_username": "urs_lesse",
+    "last_poster_username": "AlbertJP",
     "category_id": 42,
     "pinned_globally": false,
     "featured_link": null,
     "event": {
-      "start": "2021-11-11T18:00:00+00:00",
-      "end": "2021-11-11T21:00:00+00:00",
-      "timezone": "Europe/Brussels",
-      "version": 14,
-      "rsvp": true,
-      "going_max": 10,
-      "going": [
-        "urs_lesse"
-      ]
+      "start": "2021-12-21T17:00:00+00:00",
+      "timezone": "Europe/Berlin",
+      "version": 2
     },
     "event_going_total": 1,
     "location": {
-      "street": "Suermondtplatz 12",
-      "postalcode": "52062",
-      "city": "Aachen",
+      "street": "Charlottenplatz 17",
+      "city": "Stuttgart",
       "countrycode": "de",
       "geo_location": {
-        "lat": 50.7736799,
-        "lon": 6.0911333,
-        "address": "Pfannenzauber, 12, Suermondtplatz, Kaiserplatz, Burtscheid, Aachen-Mitte, Aachen, St\u00e4dteregion Aachen, North Rhine-Westphalia, 52062, Germany",
+        "lat": "48.8988011",
+        "lon": "9.1909585",
+        "address": "OhnePlaPla, 2, Lindenstra\u00dfe, Ludwigsburg-Mitte, Ludwigsburg, Landkreis Ludwigsburg, Baden-W\u00fcrttemberg, 71634, Germany",
         "countrycode": "de",
-        "city": "Aachen",
-        "state": "North Rhine-Westphalia",
+        "city": "Ludwigsburg",
+        "state": "Baden-W\u00fcrttemberg",
         "country": "Germany",
-        "postalcode": "52062",
+        "postalcode": "71634",
         "boundingbox": [
-          "50.7736299",
-          "50.7737299",
-          "6.0910833",
-          "6.0911833"
+          "48.8987511",
+          "48.8988511",
+          "9.1909085",
+          "9.1910085"
         ],
-        "type": "restaurant",
-        "selected": true,
-        "zoomTo": true
+        "type": "convenience",
+        "zoomTo": "true",
+        "selected": "true"
       },
-      "name": "Restaurant PZ\u2013Pfannenzauber"
+      "name": "Weltcaf\u00e9 Stuttgart"
     },
-    "has_accepted_answer": false,
+    "has_accepted_answer": true,
     "posters": [
       {
-        "extras": "latest",
-        "description": "Original Poster, Most Recent Poster",
-        "user_id": 4312,
+        "extras": null,
+        "description": "Original Poster",
+        "user_id": 5891,
         "primary_group_id": null,
         "flair_group_id": null
+      },
+      {
+        "extras": null,
+        "description": "Frequent Poster, Accepted Answer",
+        "user_id": 5874,
+        "primary_group_id": 45,
+        "flair_group_id": 45
       },
       {
         "extras": null,
@@ -371,21 +429,14 @@
       {
         "extras": null,
         "description": "Frequent Poster",
-        "user_id": 5877,
+        "user_id": 14943,
         "primary_group_id": null,
         "flair_group_id": null
       },
       {
-        "extras": null,
-        "description": "Frequent Poster",
-        "user_id": 16749,
-        "primary_group_id": null,
-        "flair_group_id": null
-      },
-      {
-        "extras": null,
-        "description": "Frequent Poster",
-        "user_id": 13606,
+        "extras": "latest",
+        "description": "Most Recent Poster",
+        "user_id": 11589,
         "primary_group_id": null,
         "flair_group_id": null
       }
