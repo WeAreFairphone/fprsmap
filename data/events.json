@@ -30,8 +30,8 @@
       "meetup",
       "aachen"
     ],
-    "views": 46672,
-    "like_count": 411,
+    "views": 46680,
+    "like_count": 414,
     "has_summary": true,
     "last_poster_username": "urs_lesse",
     "category_id": 42,
@@ -340,14 +340,14 @@
     "title": ":de: :gb: Stuttgart Fairphoners Meetings / Treffen / Community",
     "fancy_title": ":de: :gb: Stuttgart Fairphoners Meetings / Treffen / Community",
     "slug": "stuttgart-fairphoners-meetings-treffen-community",
-    "posts_count": 223,
-    "reply_count": 98,
-    "highest_post_number": 233,
+    "posts_count": 224,
+    "reply_count": 99,
+    "highest_post_number": 234,
     "image_url": null,
     "created_at": "2015-10-18T11:30:58.350Z",
-    "last_posted_at": "2021-11-11T08:11:30.296Z",
+    "last_posted_at": "2021-11-11T08:37:31.034Z",
     "bumped": true,
-    "bumped_at": "2021-11-11T08:11:30.296Z",
+    "bumped_at": "2021-11-11T08:37:31.034Z",
     "archetype": "regular",
     "unseen": false,
     "pinned": false,
@@ -365,10 +365,10 @@
       "meetfairphone3",
       "stuttgart"
     ],
-    "views": 22677,
-    "like_count": 394,
+    "views": 22681,
+    "like_count": 396,
     "has_summary": true,
-    "last_poster_username": "urs_lesse",
+    "last_poster_username": "Friek",
     "category_id": 42,
     "pinned_globally": false,
     "featured_link": null,
@@ -413,8 +413,8 @@
         "flair_group_id": null
       },
       {
-        "extras": null,
-        "description": "Frequent Poster, Accepted Answer",
+        "extras": "latest",
+        "description": "Most Recent Poster, Accepted Answer",
         "user_id": 5874,
         "primary_group_id": 45,
         "flair_group_id": 45
@@ -434,9 +434,9 @@
         "flair_group_id": null
       },
       {
-        "extras": "latest",
-        "description": "Most Recent Poster",
-        "user_id": 4312,
+        "extras": null,
+        "description": "Frequent Poster",
+        "user_id": 9332,
         "primary_group_id": null,
         "flair_group_id": null
       }
