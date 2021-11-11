@@ -135,7 +135,7 @@
       "meetfairphone3",
       "m\u00fcnchen"
     ],
-    "views": 20800,
+    "views": 20803,
     "like_count": 579,
     "has_summary": true,
     "last_poster_username": "Volker",
@@ -218,6 +218,119 @@
     ]
   },
   {
+    "id": 9703,
+    "title": ":de: :gb: Fairphone Community Aachen :community_round: Videostammtisch 10/12/2021",
+    "fancy_title": ":de: :gb: Fairphone Community Aachen :community_round: Videostammtisch 10/12/2021",
+    "slug": "fairphone-community-aachen-videostammtisch-10-12-2021",
+    "posts_count": 112,
+    "reply_count": 45,
+    "highest_post_number": 164,
+    "image_url": "https://forum.fairphone.com/uploads/default/optimized/2X/e/e8e1b95f7ddff79814d40ba93d857da8ea82f901_2_1024x768.jpg",
+    "created_at": "2015-08-26T15:27:58.727Z",
+    "last_posted_at": "2021-10-26T11:51:56.022Z",
+    "bumped": true,
+    "bumped_at": "2021-11-11T22:22:02.409Z",
+    "archetype": "regular",
+    "unseen": false,
+    "pinned": false,
+    "unpinned": null,
+    "visible": true,
+    "closed": false,
+    "archived": false,
+    "bookmarked": null,
+    "liked": null,
+    "unicode_title": "\ud83c\udde9\ud83c\uddea \ud83c\uddec\ud83c\udde7 Fairphone Community Aachen :community_round: Videostammtisch 10/12/2021",
+    "tags": [
+      "\ud83c\udde9\ud83c\uddea",
+      "\ud83c\uddec\ud83c\udde7",
+      "localcommunities",
+      "meetup",
+      "videoconference",
+      "aachen"
+    ],
+    "views": 46730,
+    "like_count": 414,
+    "has_summary": true,
+    "last_poster_username": "urs_lesse",
+    "category_id": 42,
+    "pinned_globally": false,
+    "featured_link": null,
+    "event": {
+      "start": "2021-12-10T18:00:00+00:00",
+      "timezone": "Europe/Brussels",
+      "version": 17,
+      "rsvp": true,
+      "going_max": 10,
+      "going": [
+        "urs_lesse"
+      ]
+    },
+    "event_going_total": 1,
+    "location": {
+      "postalcode": "52064",
+      "city": "Aachen",
+      "countrycode": "de",
+      "geo_location": {
+        "lat": 50.776351,
+        "lon": 6.083862,
+        "address": "Aachen, St\u00e4dteregion Aachen, North Rhine-Westphalia, Germany",
+        "countrycode": "de",
+        "city": "Aachen",
+        "state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "postalcode": null,
+        "boundingbox": [
+          "50.6621373",
+          "50.8572449",
+          "5.9748624",
+          "6.2180747"
+        ],
+        "type": "administrative",
+        "selected": true,
+        "zoomTo": true
+      },
+      "name": "Jitsi (Videokonferenz)"
+    },
+    "has_accepted_answer": false,
+    "posters": [
+      {
+        "extras": "latest",
+        "description": "Original Poster, Most Recent Poster",
+        "user_id": 4312,
+        "primary_group_id": null,
+        "flair_group_id": null
+      },
+      {
+        "extras": null,
+        "description": "Frequent Poster",
+        "user_id": 324,
+        "primary_group_id": 45,
+        "flair_group_id": 45
+      },
+      {
+        "extras": null,
+        "description": "Frequent Poster",
+        "user_id": 5877,
+        "primary_group_id": null,
+        "flair_group_id": null
+      },
+      {
+        "extras": null,
+        "description": "Frequent Poster",
+        "user_id": 16749,
+        "primary_group_id": null,
+        "flair_group_id": null
+      },
+      {
+        "extras": null,
+        "description": "Frequent Poster",
+        "user_id": 13606,
+        "primary_group_id": null,
+        "flair_group_id": null
+      }
+    ]
+  },
+  {
     "id": 10447,
     "title": ":de: :gb: Stuttgart Fairphoners Meetings / Treffen / Community",
     "fancy_title": ":de: :gb: Stuttgart Fairphoners Meetings / Treffen / Community",
@@ -247,8 +360,8 @@
       "meetfairphone3",
       "stuttgart"
     ],
-    "views": 22692,
-    "like_count": 397,
+    "views": 22696,
+    "like_count": 398,
     "has_summary": true,
     "last_poster_username": "Friek",
     "category_id": 42,
