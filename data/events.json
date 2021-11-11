@@ -30,7 +30,7 @@
       "meetup",
       "aachen"
     ],
-    "views": 46662,
+    "views": 46672,
     "like_count": 411,
     "has_summary": true,
     "last_poster_username": "urs_lesse",
@@ -253,7 +253,7 @@
       "meetfairphone3",
       "m\u00fcnchen"
     ],
-    "views": 20791,
+    "views": 20792,
     "like_count": 579,
     "has_summary": true,
     "last_poster_username": "Volker",
@@ -340,14 +340,14 @@
     "title": ":de: :gb: Stuttgart Fairphoners Meetings / Treffen / Community",
     "fancy_title": ":de: :gb: Stuttgart Fairphoners Meetings / Treffen / Community",
     "slug": "stuttgart-fairphoners-meetings-treffen-community",
-    "posts_count": 222,
+    "posts_count": 223,
     "reply_count": 98,
-    "highest_post_number": 232,
+    "highest_post_number": 233,
     "image_url": null,
     "created_at": "2015-10-18T11:30:58.350Z",
-    "last_posted_at": "2021-11-11T01:46:02.905Z",
+    "last_posted_at": "2021-11-11T08:11:30.296Z",
     "bumped": true,
-    "bumped_at": "2021-11-11T01:46:02.905Z",
+    "bumped_at": "2021-11-11T08:11:30.296Z",
     "archetype": "regular",
     "unseen": false,
     "pinned": false,
@@ -365,10 +365,10 @@
       "meetfairphone3",
       "stuttgart"
     ],
-    "views": 22670,
-    "like_count": 391,
+    "views": 22677,
+    "like_count": 394,
     "has_summary": true,
-    "last_poster_username": "Patrick1",
+    "last_poster_username": "urs_lesse",
     "category_id": 42,
     "pinned_globally": false,
     "featured_link": null,
@@ -429,14 +429,14 @@
       {
         "extras": null,
         "description": "Frequent Poster",
-        "user_id": 4312,
+        "user_id": 14943,
         "primary_group_id": null,
         "flair_group_id": null
       },
       {
         "extras": "latest",
         "description": "Most Recent Poster",
-        "user_id": 9332,
+        "user_id": 4312,
         "primary_group_id": null,
         "flair_group_id": null
       }
