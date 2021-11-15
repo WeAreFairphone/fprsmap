@@ -4,18 +4,19 @@
     "title": ":fr: Fairphoners Dauphinois (Grenoble et environs)",
     "fancy_title": ":fr: Fairphoners Dauphinois (Grenoble et environs)",
     "slug": "fairphoners-dauphinois-grenoble-et-environs",
-    "posts_count": 8,
+    "posts_count": 9,
     "reply_count": 2,
-    "highest_post_number": 14,
+    "highest_post_number": 17,
     "image_url": null,
     "created_at": "2016-10-09T12:05:39.219Z",
-    "last_posted_at": "2021-10-04T05:29:03.157Z",
+    "last_posted_at": "2021-11-15T22:07:01.544Z",
     "bumped": true,
     "bumped_at": "2021-10-04T05:29:03.157Z",
     "archetype": "regular",
     "unseen": false,
-    "pinned": false,
+    "pinned": true,
     "unpinned": null,
+    "excerpt": ":fr: Les Fairphoners autour de  Grenoble se rencontrent avec la Guilde des Utilisateurs d\u2019Informatique Libre du Dauphin\u00e9 chaque 3\u00e8me mardi du mois \u00e0 19h \u00e0 Demo-TIC, au 9 Grande Rue 38000 Grenoble. \nCe premier message ser&hellip;",
     "visible": true,
     "closed": false,
     "archived": false,
@@ -30,12 +31,12 @@
       "meetfairphone3",
       "grenoble"
     ],
-    "views": 2079,
+    "views": 2082,
     "like_count": 14,
     "has_summary": false,
-    "last_poster_username": "LowMemory",
+    "last_poster_username": "urs_lesse",
     "category_id": 42,
-    "pinned_globally": false,
+    "pinned_globally": true,
     "featured_link": null,
     "event": {
       "start": "2021-11-16T18:00:00+00:00",
@@ -77,8 +78,8 @@
     "has_accepted_answer": false,
     "posters": [
       {
-        "extras": "latest",
-        "description": "Original Poster, Most Recent Poster",
+        "extras": null,
+        "description": "Original Poster",
         "user_id": 6944,
         "primary_group_id": 45,
         "flair_group_id": 45
@@ -103,6 +104,13 @@
         "user_id": 324,
         "primary_group_id": 45,
         "flair_group_id": 45
+      },
+      {
+        "extras": "latest",
+        "description": "Most Recent Poster",
+        "user_id": 4312,
+        "primary_group_id": null,
+        "flair_group_id": null
       }
     ]
   },
@@ -248,7 +256,7 @@
       "videoconference",
       "aachen"
     ],
-    "views": 47002,
+    "views": 47009,
     "like_count": 416,
     "has_summary": true,
     "last_poster_username": "urs_lesse",
