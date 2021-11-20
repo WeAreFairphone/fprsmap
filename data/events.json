@@ -4,14 +4,14 @@
     "title": ":de: 26-11, 16:00 - Betreutes \u201cLineageOS Installieren\u201d",
     "fancy_title": ":de: 26-11, 16:00 - Betreutes \u201cLineageOS Installieren\u201d",
     "slug": "26-11-16-00-betreutes-lineageos-installieren",
-    "posts_count": 1,
-    "reply_count": 0,
-    "highest_post_number": 1,
+    "posts_count": 6,
+    "reply_count": 4,
+    "highest_post_number": 6,
     "image_url": null,
     "created_at": "2021-11-17T14:37:02.734Z",
-    "last_posted_at": "2021-11-17T14:37:02.848Z",
+    "last_posted_at": "2021-11-20T16:48:20.175Z",
     "bumped": true,
-    "bumped_at": "2021-11-17T15:02:30.088Z",
+    "bumped_at": "2021-11-20T16:48:20.175Z",
     "archetype": "regular",
     "unseen": false,
     "pinned": false,
@@ -28,10 +28,10 @@
       "lineageos",
       "germany"
     ],
-    "views": 60,
-    "like_count": 3,
+    "views": 80,
+    "like_count": 5,
     "has_summary": false,
-    "last_poster_username": "meissa",
+    "last_poster_username": "yvmuell",
     "category_id": 42,
     "pinned_globally": false,
     "featured_link": null,
@@ -47,11 +47,32 @@
     "has_accepted_answer": false,
     "posters": [
       {
-        "extras": "latest single",
-        "description": "Original Poster, Most Recent Poster",
+        "extras": null,
+        "description": "Original Poster",
         "user_id": 36691,
         "primary_group_id": null,
         "flair_group_id": null
+      },
+      {
+        "extras": null,
+        "description": "Frequent Poster",
+        "user_id": 6808,
+        "primary_group_id": 45,
+        "flair_group_id": 45
+      },
+      {
+        "extras": null,
+        "description": "Frequent Poster",
+        "user_id": 36754,
+        "primary_group_id": null,
+        "flair_group_id": null
+      },
+      {
+        "extras": "latest",
+        "description": "Most Recent Poster",
+        "user_id": 26528,
+        "primary_group_id": 45,
+        "flair_group_id": 45
       }
     ]
   },
@@ -84,7 +105,7 @@
       "meetfairphone3",
       "m\u00fcnchen"
     ],
-    "views": 20925,
+    "views": 20928,
     "like_count": 579,
     "has_summary": true,
     "last_poster_username": "Volker",
@@ -197,7 +218,7 @@
       "videoconference",
       "aachen"
     ],
-    "views": 47271,
+    "views": 47275,
     "like_count": 416,
     "has_summary": true,
     "last_poster_username": "urs_lesse",
