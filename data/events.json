@@ -4,14 +4,14 @@
     "title": ":de: 26-11, 16:00 - Betreutes \u201cLineageOS Installieren\u201d",
     "fancy_title": ":de: 26-11, 16:00 - Betreutes \u201cLineageOS Installieren\u201d",
     "slug": "26-11-16-00-betreutes-lineageos-installieren",
-    "posts_count": 6,
-    "reply_count": 4,
-    "highest_post_number": 6,
+    "posts_count": 7,
+    "reply_count": 5,
+    "highest_post_number": 7,
     "image_url": null,
     "created_at": "2021-11-17T14:37:02.734Z",
-    "last_posted_at": "2021-11-20T16:48:20.175Z",
+    "last_posted_at": "2021-11-22T08:19:55.937Z",
     "bumped": true,
-    "bumped_at": "2021-11-20T16:48:20.175Z",
+    "bumped_at": "2021-11-22T08:19:55.937Z",
     "archetype": "regular",
     "unseen": false,
     "pinned": false,
@@ -28,10 +28,10 @@
       "lineageos",
       "germany"
     ],
-    "views": 101,
+    "views": 104,
     "like_count": 10,
     "has_summary": false,
-    "last_poster_username": "yvmuell",
+    "last_poster_username": "meissa",
     "category_id": 42,
     "pinned_globally": false,
     "featured_link": null,
@@ -47,8 +47,8 @@
     "has_accepted_answer": false,
     "posters": [
       {
-        "extras": null,
-        "description": "Original Poster",
+        "extras": "latest",
+        "description": "Original Poster, Most Recent Poster",
         "user_id": 36691,
         "primary_group_id": null,
         "flair_group_id": null
@@ -68,8 +68,8 @@
         "flair_group_id": null
       },
       {
-        "extras": "latest",
-        "description": "Most Recent Poster",
+        "extras": null,
+        "description": "Frequent Poster",
         "user_id": 26528,
         "primary_group_id": 45,
         "flair_group_id": 45
@@ -105,7 +105,7 @@
       "meetfairphone3",
       "m\u00fcnchen"
     ],
-    "views": 20953,
+    "views": 20955,
     "like_count": 579,
     "has_summary": true,
     "last_poster_username": "Volker",
@@ -218,7 +218,7 @@
       "videoconference",
       "aachen"
     ],
-    "views": 47351,
+    "views": 47354,
     "like_count": 416,
     "has_summary": true,
     "last_poster_username": "urs_lesse",
@@ -330,7 +330,7 @@
       "meetfairphone3",
       "stuttgart"
     ],
-    "views": 22754,
+    "views": 22756,
     "like_count": 399,
     "has_summary": true,
     "last_poster_username": "Friek",
@@ -438,7 +438,7 @@
       "meetfairphone3",
       "grenoble"
     ],
-    "views": 2149,
+    "views": 2151,
     "like_count": 17,
     "has_summary": false,
     "last_poster_username": "LowMemory",
