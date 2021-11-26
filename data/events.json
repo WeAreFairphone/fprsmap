@@ -4,14 +4,14 @@
     "title": ":de: 26-11, 16:00 - Betreutes \u201cLineageOS Installieren\u201d",
     "fancy_title": ":de: 26-11, 16:00 - Betreutes \u201cLineageOS Installieren\u201d",
     "slug": "26-11-16-00-betreutes-lineageos-installieren",
-    "posts_count": 8,
+    "posts_count": 9,
     "reply_count": 6,
-    "highest_post_number": 8,
+    "highest_post_number": 9,
     "image_url": null,
     "created_at": "2021-11-17T14:37:02.734Z",
-    "last_posted_at": "2021-11-22T21:16:26.064Z",
+    "last_posted_at": "2021-11-26T10:29:17.806Z",
     "bumped": true,
-    "bumped_at": "2021-11-22T21:16:26.064Z",
+    "bumped_at": "2021-11-26T10:29:17.806Z",
     "archetype": "regular",
     "unseen": false,
     "pinned": false,
@@ -28,10 +28,10 @@
       "lineageos",
       "germany"
     ],
-    "views": 154,
-    "like_count": 12,
+    "views": 156,
+    "like_count": 16,
     "has_summary": false,
-    "last_poster_username": "Volker",
+    "last_poster_username": "aetchen",
     "category_id": 42,
     "pinned_globally": false,
     "featured_link": null,
@@ -56,23 +56,23 @@
       {
         "extras": null,
         "description": "Frequent Poster",
-        "user_id": 36754,
-        "primary_group_id": null,
-        "flair_group_id": null
+        "user_id": 26528,
+        "primary_group_id": 45,
+        "flair_group_id": 45
       },
       {
         "extras": null,
         "description": "Frequent Poster",
-        "user_id": 26528,
+        "user_id": 6808,
         "primary_group_id": 45,
         "flair_group_id": 45
       },
       {
         "extras": "latest",
         "description": "Most Recent Poster",
-        "user_id": 6808,
-        "primary_group_id": 45,
-        "flair_group_id": 45
+        "user_id": 36754,
+        "primary_group_id": null,
+        "flair_group_id": null
       }
     ]
   },
@@ -218,7 +218,7 @@
       "videoconference",
       "aachen"
     ],
-    "views": 47559,
+    "views": 47567,
     "like_count": 416,
     "has_summary": true,
     "last_poster_username": "urs_lesse",
