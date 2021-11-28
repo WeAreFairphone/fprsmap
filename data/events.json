@@ -4,18 +4,19 @@
     "title": ":de: :community_round: M\u00fcnchen Fairphoners Meetup am 29. November",
     "fancy_title": ":de: :community_round: M\u00fcnchen Fairphoners Meetup am 29. November",
     "slug": "munchen-fairphoners-meetup-am-29-november",
-    "posts_count": 286,
+    "posts_count": 287,
     "reply_count": 156,
-    "highest_post_number": 305,
+    "highest_post_number": 306,
     "image_url": null,
     "created_at": "2016-06-24T10:46:50.917Z",
-    "last_posted_at": "2021-11-28T15:57:34.240Z",
+    "last_posted_at": "2021-11-28T20:19:07.296Z",
     "bumped": true,
     "bumped_at": "2021-11-28T15:57:34.240Z",
     "archetype": "regular",
     "unseen": false,
-    "pinned": false,
+    "pinned": true,
     "unpinned": null,
+    "excerpt": "Die M\u00fcnchner Fairphoner treffen sich jeden letzten Montag im Monat um 18:30 Uhr im Eine-Welt-Haus (EWH) in der Schwanthalerstr. 80 in Raum 111 (oder 112 oder auch bei sehr gutem Wetter auf der Terrasse oben). \nDas n\u00e4chst&hellip;",
     "visible": true,
     "closed": false,
     "archived": false,
@@ -28,12 +29,12 @@
       "meetfairphone3",
       "m\u00fcnchen"
     ],
-    "views": 21108,
+    "views": 21113,
     "like_count": 583,
     "has_summary": true,
-    "last_poster_username": "Volker",
+    "last_poster_username": "urs_lesse",
     "category_id": 42,
-    "pinned_globally": false,
+    "pinned_globally": true,
     "featured_link": null,
     "event": {
       "start": "2021-11-29T17:30:00+00:00",
@@ -98,16 +99,16 @@
       {
         "extras": null,
         "description": "Frequent Poster",
-        "user_id": 4312,
-        "primary_group_id": null,
-        "flair_group_id": null
+        "user_id": 7483,
+        "primary_group_id": 45,
+        "flair_group_id": 45
       },
       {
         "extras": "latest",
         "description": "Most Recent Poster",
-        "user_id": 6808,
-        "primary_group_id": 45,
-        "flair_group_id": 45
+        "user_id": 4312,
+        "primary_group_id": null,
+        "flair_group_id": null
       }
     ]
   },
@@ -142,7 +143,7 @@
       "videoconference",
       "aachen"
     ],
-    "views": 47668,
+    "views": 47669,
     "like_count": 416,
     "has_summary": true,
     "last_poster_username": "urs_lesse",
@@ -362,7 +363,7 @@
       "meetfairphone3",
       "grenoble"
     ],
-    "views": 2182,
+    "views": 2183,
     "like_count": 17,
     "has_summary": false,
     "last_poster_username": "LowMemory",
