@@ -4,14 +4,14 @@
     "title": ":de: :community_round: M\u00fcnchen Fairphoners Meetup am 29. November",
     "fancy_title": ":de: :community_round: M\u00fcnchen Fairphoners Meetup am 29. November",
     "slug": "munchen-fairphoners-meetup-am-29-november",
-    "posts_count": 285,
-    "reply_count": 155,
-    "highest_post_number": 304,
+    "posts_count": 286,
+    "reply_count": 156,
+    "highest_post_number": 305,
     "image_url": null,
     "created_at": "2016-06-24T10:46:50.917Z",
-    "last_posted_at": "2021-11-28T12:09:39.393Z",
+    "last_posted_at": "2021-11-28T15:57:34.240Z",
     "bumped": true,
-    "bumped_at": "2021-11-28T12:09:39.393Z",
+    "bumped_at": "2021-11-28T15:57:34.240Z",
     "archetype": "regular",
     "unseen": false,
     "pinned": false,
@@ -28,10 +28,10 @@
       "meetfairphone3",
       "m\u00fcnchen"
     ],
-    "views": 21092,
-    "like_count": 582,
+    "views": 21099,
+    "like_count": 583,
     "has_summary": true,
-    "last_poster_username": "aetchen",
+    "last_poster_username": "Volker",
     "category_id": 42,
     "pinned_globally": false,
     "featured_link": null,
@@ -42,10 +42,11 @@
       "rsvp": true,
       "going_max": 10,
       "going": [
-        "Volker"
+        "Volker",
+        "AlbertJP"
       ]
     },
-    "event_going_total": 1,
+    "event_going_total": 2,
     "location": {
       "street": "Schwanthalerstr. 80",
       "postalcode": "80336",
@@ -90,23 +91,23 @@
       {
         "extras": null,
         "description": "Frequent Poster",
-        "user_id": 4312,
+        "user_id": 5151,
         "primary_group_id": null,
         "flair_group_id": null
       },
       {
         "extras": null,
         "description": "Frequent Poster",
-        "user_id": 7483,
-        "primary_group_id": 45,
-        "flair_group_id": 45
+        "user_id": 4312,
+        "primary_group_id": null,
+        "flair_group_id": null
       },
       {
         "extras": "latest",
         "description": "Most Recent Poster",
-        "user_id": 36754,
-        "primary_group_id": null,
-        "flair_group_id": null
+        "user_id": 6808,
+        "primary_group_id": 45,
+        "flair_group_id": 45
       }
     ]
   },
@@ -141,7 +142,7 @@
       "videoconference",
       "aachen"
     ],
-    "views": 47658,
+    "views": 47662,
     "like_count": 416,
     "has_summary": true,
     "last_poster_username": "urs_lesse",
