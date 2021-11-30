@@ -30,7 +30,7 @@
       "videoconference",
       "aachen"
     ],
-    "views": 47723,
+    "views": 47735,
     "like_count": 416,
     "has_summary": true,
     "last_poster_username": "urs_lesse",
@@ -142,7 +142,7 @@
       "meetfairphone3",
       "stuttgart"
     ],
-    "views": 22798,
+    "views": 22801,
     "like_count": 399,
     "has_summary": true,
     "last_poster_username": "Friek",
@@ -250,7 +250,7 @@
       "meetfairphone3",
       "grenoble"
     ],
-    "views": 2191,
+    "views": 2196,
     "like_count": 17,
     "has_summary": false,
     "last_poster_username": "LowMemory",
@@ -347,9 +347,8 @@
     "bumped_at": "2021-11-29T21:53:48.243Z",
     "archetype": "regular",
     "unseen": false,
-    "pinned": true,
+    "pinned": false,
     "unpinned": null,
-    "excerpt": "Die M\u00fcnchner Fairphoner treffen sich jeden letzten Montag im Monat um 18:30 Uhr im Eine-Welt-Haus (EWH) in der Schwanthalerstr. 80 in Raum 111 (oder 112 oder auch bei sehr gutem Wetter auf der Terrasse oben). \nDas n\u00e4chst&hellip;",
     "visible": true,
     "closed": false,
     "archived": false,
@@ -362,12 +361,12 @@
       "meetfairphone3",
       "m\u00fcnchen"
     ],
-    "views": 21189,
+    "views": 21197,
     "like_count": 589,
     "has_summary": true,
     "last_poster_username": "Volker",
     "category_id": 42,
-    "pinned_globally": true,
+    "pinned_globally": false,
     "featured_link": null,
     "event": {
       "start": "2021-12-27T17:30:00+00:00",
