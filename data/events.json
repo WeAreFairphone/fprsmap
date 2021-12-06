@@ -30,7 +30,7 @@
       "videoconference",
       "aachen"
     ],
-    "views": 48041,
+    "views": 48042,
     "like_count": 417,
     "has_summary": true,
     "last_poster_username": "urs_lesse",
@@ -113,6 +113,114 @@
     ]
   },
   {
+    "id": 26302,
+    "title": ":de: :uk: Fairphone-Community D\u00fcsseldorf-Rhein-Ruhr",
+    "fancy_title": ":de: :uk: Fairphone-Community D\u00fcsseldorf-Rhein-Ruhr",
+    "slug": "fairphone-community-dusseldorf-rhein-ruhr",
+    "posts_count": 69,
+    "reply_count": 27,
+    "highest_post_number": 75,
+    "image_url": null,
+    "created_at": "2017-02-22T00:44:42.409Z",
+    "last_posted_at": "2021-12-06T20:46:50.472Z",
+    "bumped": true,
+    "bumped_at": "2021-12-06T20:46:50.472Z",
+    "archetype": "regular",
+    "unseen": false,
+    "pinned": false,
+    "unpinned": null,
+    "visible": true,
+    "closed": false,
+    "archived": false,
+    "bookmarked": null,
+    "liked": null,
+    "unicode_title": "\ud83c\udde9\ud83c\uddea \ud83c\uddec\ud83c\udde7 Fairphone-Community D\u00fcsseldorf-Rhein-Ruhr",
+    "tags": [
+      "\ud83c\udde9\ud83c\uddea",
+      "localcommunities",
+      "meetup",
+      "meetfairphone3",
+      "ruhrgebiet",
+      "k\u00f6ln",
+      "d\u00fcsseldorf"
+    ],
+    "views": 10446,
+    "like_count": 159,
+    "has_summary": true,
+    "last_poster_username": "Amber",
+    "category_id": 42,
+    "pinned_globally": false,
+    "featured_link": null,
+    "event": {
+      "start": "2021-12-16T18:00:00+00:00",
+      "version": 4
+    },
+    "event_going_total": 0,
+    "location": {
+      "street": "Jitsi Meet",
+      "postalcode": "40210",
+      "city": "Duesseldorf",
+      "countrycode": "de",
+      "geo_location": {
+        "lat": 51.19077325,
+        "lon": 6.793516713552313,
+        "address": "Heinrich-Heine-University Duesseldorf, 1, Universit\u00e4tsstra\u00dfe, Bilk, Stadtbezirk 3, Dusseldorf, North Rhine-Westphalia, 40225, Germany",
+        "countrycode": "de",
+        "city": "Dusseldorf",
+        "state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "postalcode": "40225",
+        "boundingbox": [
+          "51.1821269",
+          "51.1993293",
+          "6.7827954",
+          "6.8050252"
+        ],
+        "type": "university",
+        "zoomTo": true,
+        "selected": true
+      }
+    },
+    "has_accepted_answer": false,
+    "posters": [
+      {
+        "extras": "latest",
+        "description": "Original Poster, Most Recent Poster",
+        "user_id": 3945,
+        "primary_group_id": 45,
+        "flair_group_id": 45
+      },
+      {
+        "extras": null,
+        "description": "Frequent Poster",
+        "user_id": 20663,
+        "primary_group_id": null,
+        "flair_group_id": null
+      },
+      {
+        "extras": null,
+        "description": "Frequent Poster",
+        "user_id": 7933,
+        "primary_group_id": null,
+        "flair_group_id": null
+      },
+      {
+        "extras": null,
+        "description": "Frequent Poster",
+        "user_id": 7377,
+        "primary_group_id": null,
+        "flair_group_id": null
+      },
+      {
+        "extras": null,
+        "description": "Frequent Poster",
+        "user_id": 4312,
+        "primary_group_id": null,
+        "flair_group_id": null
+      }
+    ]
+  },
+  {
     "id": 10447,
     "title": ":de: :gb: Stuttgart Fairphoners Meetings / Treffen / Community",
     "fancy_title": ":de: :gb: Stuttgart Fairphoners Meetings / Treffen / Community",
@@ -142,7 +250,7 @@
       "meetfairphone3",
       "stuttgart"
     ],
-    "views": 22854,
+    "views": 22855,
     "like_count": 399,
     "has_summary": true,
     "last_poster_username": "Friek",
@@ -250,7 +358,7 @@
       "meetfairphone3",
       "grenoble"
     ],
-    "views": 2224,
+    "views": 2225,
     "like_count": 17,
     "has_summary": false,
     "last_poster_username": "LowMemory",
@@ -361,7 +469,7 @@
       "meetfairphone3",
       "m\u00fcnchen"
     ],
-    "views": 21342,
+    "views": 21345,
     "like_count": 593,
     "has_summary": true,
     "last_poster_username": "OLLI_S",
