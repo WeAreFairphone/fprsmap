@@ -1,120 +1,5 @@
 [
   {
-    "id": 9703,
-    "title": ":de: :gb: Fairphone Community Aachen :community_round: Videostammtisch 10/12/2021",
-    "fancy_title": ":de: :gb: Fairphone Community Aachen :community_round: Videostammtisch 10/12/2021",
-    "slug": "fairphone-community-aachen-videostammtisch-10-12-2021",
-    "posts_count": 114,
-    "reply_count": 45,
-    "highest_post_number": 171,
-    "image_url": "https://forum.fairphone.com/uploads/default/optimized/2X/e/e8e1b95f7ddff79814d40ba93d857da8ea82f901_2_1024x768.jpg",
-    "created_at": "2015-08-26T15:27:58.727Z",
-    "last_posted_at": "2021-12-10T10:55:59.626Z",
-    "bumped": true,
-    "bumped_at": "2021-12-10T10:53:57.893Z",
-    "archetype": "regular",
-    "unseen": false,
-    "pinned": true,
-    "unpinned": null,
-    "excerpt": "Heute | Today:\n\n\n:de: Freitag 10.12.2021 \u2022 19 Uhr \u2022 Videostammtisch \nBitte beachten: Diesmal per ZOOM (f\u00fcr Zugangsdaten: Bitte Nachricht an mich)\n\n:gb: Friday 10 Dec 2021 \u2022 19 h \u2022 Video meetup \nPlease note: We\u2019ll connec&hellip;",
-    "visible": true,
-    "closed": false,
-    "archived": false,
-    "bookmarked": null,
-    "liked": null,
-    "unicode_title": "\ud83c\udde9\ud83c\uddea \ud83c\uddec\ud83c\udde7 Fairphone Community Aachen :community_round: Videostammtisch 10/12/2021",
-    "tags": [
-      "\ud83c\udde9\ud83c\uddea",
-      "\ud83c\uddec\ud83c\udde7",
-      "localcommunities",
-      "meetup",
-      "videoconference",
-      "aachen"
-    ],
-    "tags_descriptions": {},
-    "views": 48217,
-    "like_count": 417,
-    "has_summary": true,
-    "last_poster_username": "urs_lesse",
-    "category_id": 42,
-    "pinned_globally": true,
-    "featured_link": null,
-    "event": {
-      "start": "2021-12-10T18:00:00+00:00",
-      "timezone": "Europe/Brussels",
-      "version": 17,
-      "rsvp": true,
-      "going_max": 10,
-      "going": [
-        "urs_lesse"
-      ]
-    },
-    "event_going_total": 1,
-    "location": {
-      "postalcode": "52064",
-      "city": "Aachen",
-      "countrycode": "de",
-      "geo_location": {
-        "lat": 50.776351,
-        "lon": 6.083862,
-        "address": "Aachen, St\u00e4dteregion Aachen, North Rhine-Westphalia, Germany",
-        "countrycode": "de",
-        "city": "Aachen",
-        "state": "North Rhine-Westphalia",
-        "country": "Germany",
-        "postalcode": null,
-        "boundingbox": [
-          "50.6621373",
-          "50.8572449",
-          "5.9748624",
-          "6.2180747"
-        ],
-        "type": "administrative",
-        "selected": true,
-        "zoomTo": true
-      },
-      "name": "Videokonferenz"
-    },
-    "has_accepted_answer": false,
-    "posters": [
-      {
-        "extras": "latest",
-        "description": "Original Poster, Most Recent Poster",
-        "user_id": 4312,
-        "primary_group_id": null,
-        "flair_group_id": null
-      },
-      {
-        "extras": null,
-        "description": "Frequent Poster",
-        "user_id": 324,
-        "primary_group_id": 45,
-        "flair_group_id": 45
-      },
-      {
-        "extras": null,
-        "description": "Frequent Poster",
-        "user_id": 5877,
-        "primary_group_id": null,
-        "flair_group_id": null
-      },
-      {
-        "extras": null,
-        "description": "Frequent Poster",
-        "user_id": 16749,
-        "primary_group_id": null,
-        "flair_group_id": null
-      },
-      {
-        "extras": null,
-        "description": "Frequent Poster",
-        "user_id": 13606,
-        "primary_group_id": null,
-        "flair_group_id": null
-      }
-    ]
-  },
-  {
     "id": 26302,
     "title": ":de: :uk: Fairphone-Community D\u00fcsseldorf-Rhein-Ruhr",
     "fancy_title": ":de: :uk: Fairphone-Community D\u00fcsseldorf-Rhein-Ruhr",
@@ -147,7 +32,7 @@
       "d\u00fcsseldorf"
     ],
     "tags_descriptions": {},
-    "views": 10620,
+    "views": 10621,
     "like_count": 162,
     "has_summary": true,
     "last_poster_username": "Amber",
@@ -363,7 +248,7 @@
       "grenoble"
     ],
     "tags_descriptions": {},
-    "views": 2237,
+    "views": 2238,
     "like_count": 17,
     "has_summary": false,
     "last_poster_username": "LowMemory",
@@ -475,7 +360,7 @@
       "m\u00fcnchen"
     ],
     "tags_descriptions": {},
-    "views": 21412,
+    "views": 21415,
     "like_count": 594,
     "has_summary": true,
     "last_poster_username": "OLLI_S",
