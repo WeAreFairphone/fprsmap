@@ -32,7 +32,7 @@
       "d\u00fcsseldorf"
     ],
     "tags_descriptions": {},
-    "views": 10662,
+    "views": 10663,
     "like_count": 162,
     "has_summary": true,
     "last_poster_username": "Amber",
@@ -113,14 +113,14 @@
     "title": ":de: :gb: Stuttgart Fairphoners Meetings / Treffen / Community",
     "fancy_title": ":de: :gb: Stuttgart Fairphoners Meetings / Treffen / Community",
     "slug": "stuttgart-fairphoners-meetings-treffen-community",
-    "posts_count": 225,
+    "posts_count": 226,
     "reply_count": 99,
-    "highest_post_number": 235,
+    "highest_post_number": 236,
     "image_url": null,
     "created_at": "2015-10-18T11:30:58.350Z",
-    "last_posted_at": "2021-12-13T16:19:05.831Z",
+    "last_posted_at": "2021-12-13T17:33:26.741Z",
     "bumped": true,
-    "bumped_at": "2021-12-13T16:19:05.831Z",
+    "bumped_at": "2021-12-13T17:33:26.741Z",
     "archetype": "regular",
     "unseen": false,
     "pinned": false,
@@ -139,10 +139,10 @@
       "stuttgart"
     ],
     "tags_descriptions": {},
-    "views": 22898,
+    "views": 22902,
     "like_count": 399,
     "has_summary": true,
-    "last_poster_username": "Friek",
+    "last_poster_username": "gitbreaker222",
     "category_id": 42,
     "pinned_globally": false,
     "featured_link": null,
@@ -187,8 +187,8 @@
         "flair_group_id": null
       },
       {
-        "extras": "latest",
-        "description": "Most Recent Poster, Accepted Answer",
+        "extras": null,
+        "description": "Frequent Poster, Accepted Answer",
         "user_id": 5874,
         "primary_group_id": 45,
         "flair_group_id": 45
@@ -203,14 +203,14 @@
       {
         "extras": null,
         "description": "Frequent Poster",
-        "user_id": 14943,
+        "user_id": 9332,
         "primary_group_id": null,
         "flair_group_id": null
       },
       {
-        "extras": null,
-        "description": "Frequent Poster",
-        "user_id": 9332,
+        "extras": "latest",
+        "description": "Most Recent Poster",
+        "user_id": 14943,
         "primary_group_id": null,
         "flair_group_id": null
       }
@@ -248,7 +248,7 @@
       "grenoble"
     ],
     "tags_descriptions": {},
-    "views": 2242,
+    "views": 2244,
     "like_count": 17,
     "has_summary": false,
     "last_poster_username": "LowMemory",
@@ -360,7 +360,7 @@
       "m\u00fcnchen"
     ],
     "tags_descriptions": {},
-    "views": 21474,
+    "views": 21475,
     "like_count": 596,
     "has_summary": true,
     "last_poster_username": "OLLI_S",
@@ -452,7 +452,7 @@
       "aachen"
     ],
     "tags_descriptions": {},
-    "views": 48426,
+    "views": 48429,
     "like_count": 419,
     "has_summary": true,
     "last_poster_username": "urs_lesse",
