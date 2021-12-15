@@ -4,18 +4,19 @@
     "title": ":de: :uk: Fairphone-Community D\u00fcsseldorf-Rhein-Ruhr",
     "fancy_title": ":de: :uk: Fairphone-Community D\u00fcsseldorf-Rhein-Ruhr",
     "slug": "fairphone-community-dusseldorf-rhein-ruhr",
-    "posts_count": 69,
+    "posts_count": 68,
     "reply_count": 27,
-    "highest_post_number": 75,
+    "highest_post_number": 76,
     "image_url": null,
     "created_at": "2017-02-22T00:44:42.409Z",
-    "last_posted_at": "2021-12-06T20:46:50.472Z",
+    "last_posted_at": "2021-12-15T15:54:56.886Z",
     "bumped": true,
     "bumped_at": "2021-12-06T20:46:50.472Z",
     "archetype": "regular",
     "unseen": false,
-    "pinned": false,
+    "pinned": true,
     "unpinned": null,
+    "excerpt": "Fairphone-Stammtisch D\u00fcsseldorf-Rhein-Ruhr\n\nContact: @Amber (D\u00fcsseldorf) @neolovich (K\u00f6ln) @yvmuell (Solingen)\nEmail: rhein-ruhr :slight_smile: fairphone.community\n\nPers\u00f6nlich im echten Leben oder auch per Videocall\nN\u00e4ch&hellip;",
     "visible": true,
     "closed": false,
     "archived": false,
@@ -32,12 +33,12 @@
       "d\u00fcsseldorf"
     ],
     "tags_descriptions": {},
-    "views": 10709,
+    "views": 10725,
     "like_count": 162,
     "has_summary": true,
-    "last_poster_username": "Amber",
+    "last_poster_username": "urs_lesse",
     "category_id": 42,
-    "pinned_globally": false,
+    "pinned_globally": true,
     "featured_link": null,
     "event": {
       "start": "2021-12-16T18:00:00+00:00",
@@ -72,8 +73,8 @@
     "has_accepted_answer": false,
     "posters": [
       {
-        "extras": "latest",
-        "description": "Original Poster, Most Recent Poster",
+        "extras": null,
+        "description": "Original Poster",
         "user_id": 3945,
         "primary_group_id": 45,
         "flair_group_id": 45
@@ -95,13 +96,13 @@
       {
         "extras": null,
         "description": "Frequent Poster",
-        "user_id": 7377,
-        "primary_group_id": null,
-        "flair_group_id": null
+        "user_id": 324,
+        "primary_group_id": 45,
+        "flair_group_id": 45
       },
       {
-        "extras": null,
-        "description": "Frequent Poster",
+        "extras": "latest",
+        "description": "Most Recent Poster",
         "user_id": 4312,
         "primary_group_id": null,
         "flair_group_id": null
@@ -139,7 +140,7 @@
       "stuttgart"
     ],
     "tags_descriptions": {},
-    "views": 22928,
+    "views": 22929,
     "like_count": 401,
     "has_summary": true,
     "last_poster_username": "AlbertJP",
@@ -248,7 +249,7 @@
       "grenoble"
     ],
     "tags_descriptions": {},
-    "views": 2260,
+    "views": 2263,
     "like_count": 19,
     "has_summary": false,
     "last_poster_username": "LowMemory",
@@ -360,7 +361,7 @@
       "m\u00fcnchen"
     ],
     "tags_descriptions": {},
-    "views": 21511,
+    "views": 21515,
     "like_count": 596,
     "has_summary": true,
     "last_poster_username": "OLLI_S",
@@ -452,7 +453,7 @@
       "aachen"
     ],
     "tags_descriptions": {},
-    "views": 48552,
+    "views": 48559,
     "like_count": 419,
     "has_summary": true,
     "last_poster_username": "urs_lesse",
