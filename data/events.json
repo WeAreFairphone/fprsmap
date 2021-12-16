@@ -33,7 +33,7 @@
       "d\u00fcsseldorf"
     ],
     "tags_descriptions": {},
-    "views": 10753,
+    "views": 10756,
     "like_count": 162,
     "has_summary": true,
     "last_poster_username": "urs_lesse",
@@ -140,7 +140,7 @@
       "stuttgart"
     ],
     "tags_descriptions": {},
-    "views": 22932,
+    "views": 22933,
     "like_count": 401,
     "has_summary": true,
     "last_poster_username": "AlbertJP",
@@ -222,14 +222,14 @@
     "title": ":fr: Fairphoners Dauphinois (Grenoble et environs)",
     "fancy_title": ":fr: Fairphoners Dauphinois (Grenoble et environs)",
     "slug": "fairphoners-dauphinois-grenoble-et-environs",
-    "posts_count": 13,
+    "posts_count": 14,
     "reply_count": 4,
-    "highest_post_number": 21,
+    "highest_post_number": 22,
     "image_url": null,
     "created_at": "2016-10-09T12:05:39.219Z",
-    "last_posted_at": "2021-12-13T19:39:55.195Z",
+    "last_posted_at": "2021-12-16T09:06:44.604Z",
     "bumped": true,
-    "bumped_at": "2021-12-13T19:39:55.195Z",
+    "bumped_at": "2021-12-16T09:06:44.604Z",
     "archetype": "regular",
     "unseen": false,
     "pinned": false,
@@ -249,10 +249,10 @@
       "grenoble"
     ],
     "tags_descriptions": {},
-    "views": 2264,
-    "like_count": 19,
+    "views": 2269,
+    "like_count": 20,
     "has_summary": false,
-    "last_poster_username": "LowMemory",
+    "last_poster_username": "Aaanze",
     "category_id": 42,
     "pinned_globally": false,
     "featured_link": null,
@@ -295,8 +295,8 @@
     "has_accepted_answer": false,
     "posters": [
       {
-        "extras": "latest",
-        "description": "Original Poster, Most Recent Poster",
+        "extras": null,
+        "description": "Original Poster",
         "user_id": 6944,
         "primary_group_id": 45,
         "flair_group_id": 45
@@ -323,9 +323,9 @@
         "flair_group_id": null
       },
       {
-        "extras": null,
-        "description": "Frequent Poster",
-        "user_id": 4312,
+        "extras": "latest",
+        "description": "Most Recent Poster",
+        "user_id": 37567,
         "primary_group_id": null,
         "flair_group_id": null
       }
@@ -361,7 +361,7 @@
       "m\u00fcnchen"
     ],
     "tags_descriptions": {},
-    "views": 21527,
+    "views": 21530,
     "like_count": 596,
     "has_summary": true,
     "last_poster_username": "OLLI_S",
@@ -453,7 +453,7 @@
       "aachen"
     ],
     "tags_descriptions": {},
-    "views": 48590,
+    "views": 48596,
     "like_count": 419,
     "has_summary": true,
     "last_poster_username": "urs_lesse",
