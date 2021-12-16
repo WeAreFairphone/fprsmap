@@ -33,7 +33,7 @@
       "d\u00fcsseldorf"
     ],
     "tags_descriptions": {},
-    "views": 10756,
+    "views": 10759,
     "like_count": 162,
     "has_summary": true,
     "last_poster_username": "urs_lesse",
@@ -222,14 +222,14 @@
     "title": ":fr: Fairphoners Dauphinois (Grenoble et environs)",
     "fancy_title": ":fr: Fairphoners Dauphinois (Grenoble et environs)",
     "slug": "fairphoners-dauphinois-grenoble-et-environs",
-    "posts_count": 14,
-    "reply_count": 4,
-    "highest_post_number": 22,
+    "posts_count": 15,
+    "reply_count": 5,
+    "highest_post_number": 23,
     "image_url": null,
     "created_at": "2016-10-09T12:05:39.219Z",
-    "last_posted_at": "2021-12-16T09:06:44.604Z",
+    "last_posted_at": "2021-12-16T10:59:24.618Z",
     "bumped": true,
-    "bumped_at": "2021-12-16T09:06:44.604Z",
+    "bumped_at": "2021-12-16T10:59:24.618Z",
     "archetype": "regular",
     "unseen": false,
     "pinned": false,
@@ -249,10 +249,10 @@
       "grenoble"
     ],
     "tags_descriptions": {},
-    "views": 2269,
-    "like_count": 20,
+    "views": 2272,
+    "like_count": 22,
     "has_summary": false,
-    "last_poster_username": "Aaanze",
+    "last_poster_username": "LowMemory",
     "category_id": 42,
     "pinned_globally": false,
     "featured_link": null,
@@ -295,18 +295,11 @@
     "has_accepted_answer": false,
     "posters": [
       {
-        "extras": null,
-        "description": "Original Poster",
+        "extras": "latest",
+        "description": "Original Poster, Most Recent Poster",
         "user_id": 6944,
         "primary_group_id": 45,
         "flair_group_id": 45
-      },
-      {
-        "extras": null,
-        "description": "Frequent Poster",
-        "user_id": 11764,
-        "primary_group_id": null,
-        "flair_group_id": null
       },
       {
         "extras": null,
@@ -323,8 +316,15 @@
         "flair_group_id": null
       },
       {
-        "extras": "latest",
-        "description": "Most Recent Poster",
+        "extras": null,
+        "description": "Frequent Poster",
+        "user_id": 4312,
+        "primary_group_id": null,
+        "flair_group_id": null
+      },
+      {
+        "extras": null,
+        "description": "Frequent Poster",
         "user_id": 37567,
         "primary_group_id": null,
         "flair_group_id": null
@@ -361,7 +361,7 @@
       "m\u00fcnchen"
     ],
     "tags_descriptions": {},
-    "views": 21530,
+    "views": 21532,
     "like_count": 596,
     "has_summary": true,
     "last_poster_username": "OLLI_S",
@@ -453,7 +453,7 @@
       "aachen"
     ],
     "tags_descriptions": {},
-    "views": 48596,
+    "views": 48602,
     "like_count": 419,
     "has_summary": true,
     "last_poster_username": "urs_lesse",
