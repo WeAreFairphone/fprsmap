@@ -30,7 +30,7 @@
       "stuttgart"
     ],
     "tags_descriptions": {},
-    "views": 22955,
+    "views": 22956,
     "like_count": 405,
     "has_summary": true,
     "last_poster_username": "AlbertJP",
@@ -252,7 +252,7 @@
       "m\u00fcnchen"
     ],
     "tags_descriptions": {},
-    "views": 21551,
+    "views": 21552,
     "like_count": 596,
     "has_summary": true,
     "last_poster_username": "OLLI_S",
@@ -260,9 +260,10 @@
     "pinned_globally": false,
     "featured_link": null,
     "event": {
-      "start": "2021-12-27T17:30:00+00:00",
+      "start": "2021-12-28T17:30:00+00:00",
+      "end": "2021-12-28T19:00:00+00:00",
       "timezone": "Europe/Berlin",
-      "version": 24,
+      "version": 25,
       "rsvp": true,
       "going_max": 10,
       "going": [
@@ -344,7 +345,7 @@
       "aachen"
     ],
     "tags_descriptions": {},
-    "views": 48656,
+    "views": 48663,
     "like_count": 419,
     "has_summary": true,
     "last_poster_username": "urs_lesse",
