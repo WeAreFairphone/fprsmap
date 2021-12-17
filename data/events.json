@@ -4,14 +4,14 @@
     "title": ":de: :gb: Stuttgart Fairphoners Meetings / Treffen / Community",
     "fancy_title": ":de: :gb: Stuttgart Fairphoners Meetings / Treffen / Community",
     "slug": "stuttgart-fairphoners-meetings-treffen-community",
-    "posts_count": 228,
-    "reply_count": 99,
-    "highest_post_number": 238,
+    "posts_count": 230,
+    "reply_count": 100,
+    "highest_post_number": 240,
     "image_url": null,
     "created_at": "2015-10-18T11:30:58.350Z",
-    "last_posted_at": "2021-12-17T12:09:16.466Z",
+    "last_posted_at": "2021-12-17T15:00:30.000Z",
     "bumped": true,
-    "bumped_at": "2021-12-17T12:09:16.466Z",
+    "bumped_at": "2021-12-17T15:00:30.000Z",
     "archetype": "regular",
     "unseen": false,
     "pinned": false,
@@ -30,17 +30,18 @@
       "stuttgart"
     ],
     "tags_descriptions": {},
-    "views": 22946,
-    "like_count": 401,
+    "views": 22949,
+    "like_count": 402,
     "has_summary": true,
-    "last_poster_username": "Joh",
+    "last_poster_username": "Michael_Weber",
     "category_id": 42,
     "pinned_globally": false,
     "featured_link": null,
     "event": {
       "start": "2021-12-21T17:00:00+00:00",
+      "end": "2021-12-21T21:00:00+00:00",
       "timezone": "Europe/Berlin",
-      "version": 2
+      "version": 3
     },
     "event_going_total": 1,
     "location": {
@@ -101,7 +102,7 @@
       {
         "extras": "latest",
         "description": "Most Recent Poster",
-        "user_id": 491,
+        "user_id": 3099,
         "primary_group_id": null,
         "flair_group_id": null
       }
@@ -139,7 +140,7 @@
       "grenoble"
     ],
     "tags_descriptions": {},
-    "views": 2280,
+    "views": 2281,
     "like_count": 22,
     "has_summary": false,
     "last_poster_username": "LowMemory",
@@ -251,7 +252,7 @@
       "m\u00fcnchen"
     ],
     "tags_descriptions": {},
-    "views": 21549,
+    "views": 21550,
     "like_count": 596,
     "has_summary": true,
     "last_poster_username": "OLLI_S",
@@ -343,7 +344,7 @@
       "aachen"
     ],
     "tags_descriptions": {},
-    "views": 48647,
+    "views": 48654,
     "like_count": 419,
     "has_summary": true,
     "last_poster_username": "urs_lesse",
@@ -352,8 +353,9 @@
     "featured_link": null,
     "event": {
       "start": "2022-01-10T18:00:00+00:00",
+      "end": "2022-01-10T20:00:00+00:00",
       "timezone": "Europe/Brussels",
-      "version": 18,
+      "version": 19,
       "rsvp": true,
       "going_max": 10,
       "going": [
