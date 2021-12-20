@@ -4,18 +4,19 @@
     "title": ":de: :gb: Stuttgart Fairphoners Meetings / Treffen / Community",
     "fancy_title": ":de: :gb: Stuttgart Fairphoners Meetings / Treffen / Community",
     "slug": "stuttgart-fairphoners-meetings-treffen-community",
-    "posts_count": 231,
+    "posts_count": 232,
     "reply_count": 100,
-    "highest_post_number": 241,
+    "highest_post_number": 242,
     "image_url": null,
     "created_at": "2015-10-18T11:30:58.350Z",
-    "last_posted_at": "2021-12-17T19:25:51.406Z",
+    "last_posted_at": "2021-12-20T19:24:53.781Z",
     "bumped": true,
     "bumped_at": "2021-12-17T19:25:51.406Z",
     "archetype": "regular",
     "unseen": false,
-    "pinned": false,
+    "pinned": true,
     "unpinned": null,
+    "excerpt": ":de: Hallo, \nin diesem Thread findet ihr die Infos f\u00fcr die Stuttgarter Treffen. \nUm per Mail informiert zu werden, k\u00f6nnt ihr euch hier f\u00fcr den Newsletter eintragen. \n:gb: Dear all, \nthis thread offers info for the Stuttg&hellip;",
     "visible": true,
     "closed": false,
     "archived": false,
@@ -30,12 +31,12 @@
       "stuttgart"
     ],
     "tags_descriptions": {},
-    "views": 22989,
+    "views": 22997,
     "like_count": 405,
     "has_summary": true,
-    "last_poster_username": "AlbertJP",
+    "last_poster_username": "urs_lesse",
     "category_id": 42,
-    "pinned_globally": false,
+    "pinned_globally": true,
     "featured_link": null,
     "event": {
       "start": "2021-12-21T17:00:00+00:00",
@@ -95,14 +96,14 @@
       {
         "extras": null,
         "description": "Frequent Poster",
-        "user_id": 4312,
+        "user_id": 14943,
         "primary_group_id": null,
         "flair_group_id": null
       },
       {
         "extras": "latest",
         "description": "Most Recent Poster",
-        "user_id": 11589,
+        "user_id": 4312,
         "primary_group_id": null,
         "flair_group_id": null
       }
@@ -113,18 +114,19 @@
     "title": ":fr: Fairphoners Dauphinois (Grenoble et environs)",
     "fancy_title": ":fr: Fairphoners Dauphinois (Grenoble et environs)",
     "slug": "fairphoners-dauphinois-grenoble-et-environs",
-    "posts_count": 15,
+    "posts_count": 16,
     "reply_count": 5,
-    "highest_post_number": 23,
+    "highest_post_number": 24,
     "image_url": null,
     "created_at": "2016-10-09T12:05:39.219Z",
-    "last_posted_at": "2021-12-16T10:59:24.618Z",
+    "last_posted_at": "2021-12-20T19:25:20.278Z",
     "bumped": true,
     "bumped_at": "2021-12-16T10:59:24.618Z",
     "archetype": "regular",
     "unseen": false,
-    "pinned": false,
+    "pinned": true,
     "unpinned": null,
+    "excerpt": ":fr: Les Fairphoners autour de  Grenoble se rencontrent avec la Guilde des Utilisateurs d\u2019Informatique Libre du Dauphin\u00e9 chaque 3\u00e8me mardi du mois \u00e0 19h \u00e0 Demo-TIC, au 9 Grande Rue 38000 Grenoble. \nCe premier message ser&hellip;",
     "visible": true,
     "closed": false,
     "archived": false,
@@ -140,12 +142,12 @@
       "grenoble"
     ],
     "tags_descriptions": {},
-    "views": 2293,
+    "views": 2296,
     "like_count": 22,
     "has_summary": false,
-    "last_poster_username": "LowMemory",
+    "last_poster_username": "urs_lesse",
     "category_id": 42,
-    "pinned_globally": false,
+    "pinned_globally": true,
     "featured_link": null,
     "event": {
       "start": "2021-12-21T18:00:00+00:00",
@@ -186,11 +188,18 @@
     "has_accepted_answer": false,
     "posters": [
       {
-        "extras": "latest",
-        "description": "Original Poster, Most Recent Poster",
+        "extras": null,
+        "description": "Original Poster",
         "user_id": 6944,
         "primary_group_id": 45,
         "flair_group_id": 45
+      },
+      {
+        "extras": null,
+        "description": "Frequent Poster",
+        "user_id": 11764,
+        "primary_group_id": null,
+        "flair_group_id": null
       },
       {
         "extras": null,
@@ -207,16 +216,9 @@
         "flair_group_id": null
       },
       {
-        "extras": null,
-        "description": "Frequent Poster",
+        "extras": "latest",
+        "description": "Most Recent Poster",
         "user_id": 4312,
-        "primary_group_id": null,
-        "flair_group_id": null
-      },
-      {
-        "extras": null,
-        "description": "Frequent Poster",
-        "user_id": 37567,
         "primary_group_id": null,
         "flair_group_id": null
       }
@@ -252,7 +254,7 @@
       "m\u00fcnchen"
     ],
     "tags_descriptions": {},
-    "views": 21605,
+    "views": 21609,
     "like_count": 596,
     "has_summary": true,
     "last_poster_username": "OLLI_S",
@@ -260,10 +262,10 @@
     "pinned_globally": false,
     "featured_link": null,
     "event": {
-      "start": "2021-12-28T17:30:00+00:00",
-      "end": "2021-12-28T19:00:00+00:00",
+      "start": "2021-12-27T17:30:00+00:00",
+      "end": "2021-12-27T19:00:00+00:00",
       "timezone": "Europe/Berlin",
-      "version": 25,
+      "version": 26,
       "rsvp": true,
       "going_max": 10,
       "going": [
@@ -345,7 +347,7 @@
       "aachen"
     ],
     "tags_descriptions": {},
-    "views": 48769,
+    "views": 48776,
     "like_count": 419,
     "has_summary": true,
     "last_poster_username": "urs_lesse",
