@@ -31,8 +31,8 @@
       "stuttgart"
     ],
     "tags_descriptions": {},
-    "views": 23020,
-    "like_count": 405,
+    "views": 23027,
+    "like_count": 407,
     "has_summary": true,
     "last_poster_username": "AlbertJP",
     "category_id": 42,
@@ -142,7 +142,7 @@
       "grenoble"
     ],
     "tags_descriptions": {},
-    "views": 2312,
+    "views": 2313,
     "like_count": 23,
     "has_summary": false,
     "last_poster_username": "urs_lesse",
@@ -151,7 +151,9 @@
     "featured_link": null,
     "event": {
       "start": "2021-12-21T18:00:00+00:00",
-      "version": 6,
+      "end": "2021-12-21T21:00:00+00:00",
+      "timezone": "Europe/Brussels",
+      "version": 7,
       "rsvp": true,
       "going_max": 10,
       "going": [
@@ -254,7 +256,7 @@
       "m\u00fcnchen"
     ],
     "tags_descriptions": {},
-    "views": 21618,
+    "views": 21619,
     "like_count": 596,
     "has_summary": true,
     "last_poster_username": "OLLI_S",
@@ -400,7 +402,7 @@
       "aachen"
     ],
     "tags_descriptions": {},
-    "views": 48800,
+    "views": 48802,
     "like_count": 419,
     "has_summary": true,
     "last_poster_username": "urs_lesse",
