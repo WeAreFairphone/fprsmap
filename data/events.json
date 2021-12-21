@@ -4,14 +4,14 @@
     "title": ":de: :gb: Stuttgart Fairphoners Meetings / Treffen / Community",
     "fancy_title": ":de: :gb: Stuttgart Fairphoners Meetings / Treffen / Community",
     "slug": "stuttgart-fairphoners-meetings-treffen-community",
-    "posts_count": 232,
+    "posts_count": 233,
     "reply_count": 100,
-    "highest_post_number": 242,
+    "highest_post_number": 243,
     "image_url": null,
     "created_at": "2015-10-18T11:30:58.350Z",
-    "last_posted_at": "2021-12-20T19:24:53.781Z",
+    "last_posted_at": "2021-12-21T16:27:01.064Z",
     "bumped": true,
-    "bumped_at": "2021-12-17T19:25:51.406Z",
+    "bumped_at": "2021-12-21T16:27:01.064Z",
     "archetype": "regular",
     "unseen": false,
     "pinned": true,
@@ -31,10 +31,10 @@
       "stuttgart"
     ],
     "tags_descriptions": {},
-    "views": 23016,
+    "views": 23020,
     "like_count": 405,
     "has_summary": true,
-    "last_poster_username": "urs_lesse",
+    "last_poster_username": "AlbertJP",
     "category_id": 42,
     "pinned_globally": true,
     "featured_link": null,
@@ -103,7 +103,7 @@
       {
         "extras": "latest",
         "description": "Most Recent Poster",
-        "user_id": 4312,
+        "user_id": 11589,
         "primary_group_id": null,
         "flair_group_id": null
       }
@@ -142,7 +142,7 @@
       "grenoble"
     ],
     "tags_descriptions": {},
-    "views": 2311,
+    "views": 2312,
     "like_count": 23,
     "has_summary": false,
     "last_poster_username": "urs_lesse",
@@ -254,7 +254,7 @@
       "m\u00fcnchen"
     ],
     "tags_descriptions": {},
-    "views": 21615,
+    "views": 21618,
     "like_count": 596,
     "has_summary": true,
     "last_poster_username": "OLLI_S",
@@ -344,7 +344,7 @@
       "germany"
     ],
     "tags_descriptions": {},
-    "views": 29,
+    "views": 30,
     "like_count": 2,
     "has_summary": false,
     "last_poster_username": "meissa",
