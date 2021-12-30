@@ -31,7 +31,7 @@
       "aachen"
     ],
     "tags_descriptions": {},
-    "views": 49152,
+    "views": 49156,
     "like_count": 417,
     "has_summary": true,
     "last_poster_username": "urs_lesse",
@@ -119,12 +119,12 @@
     "title": ":fr: Fairphoners Dauphinois (Grenoble et environs)",
     "fancy_title": ":fr: Fairphoners Dauphinois (Grenoble et environs)",
     "slug": "fairphoners-dauphinois-grenoble-et-environs",
-    "posts_count": 17,
+    "posts_count": 15,
     "reply_count": 5,
-    "highest_post_number": 25,
+    "highest_post_number": 23,
     "image_url": null,
     "created_at": "2016-10-09T12:05:39.219Z",
-    "last_posted_at": "2021-12-21T22:57:06.289Z",
+    "last_posted_at": "2021-12-16T10:59:24.618Z",
     "bumped": true,
     "bumped_at": "2021-12-16T10:59:24.618Z",
     "archetype": "regular",
@@ -146,10 +146,10 @@
       "grenoble"
     ],
     "tags_descriptions": {},
-    "views": 2353,
+    "views": 2354,
     "like_count": 23,
     "has_summary": false,
-    "last_poster_username": "urs_lesse",
+    "last_poster_username": "LowMemory",
     "category_id": 42,
     "pinned_globally": false,
     "featured_link": null,
@@ -194,18 +194,11 @@
     "has_accepted_answer": false,
     "posters": [
       {
-        "extras": null,
-        "description": "Original Poster",
+        "extras": "latest",
+        "description": "Original Poster, Most Recent Poster",
         "user_id": 6944,
         "primary_group_id": 45,
         "flair_group_id": 45
-      },
-      {
-        "extras": null,
-        "description": "Frequent Poster",
-        "user_id": 11764,
-        "primary_group_id": null,
-        "flair_group_id": null
       },
       {
         "extras": null,
@@ -222,9 +215,16 @@
         "flair_group_id": null
       },
       {
-        "extras": "latest",
-        "description": "Most Recent Poster",
+        "extras": null,
+        "description": "Frequent Poster",
         "user_id": 4312,
+        "primary_group_id": null,
+        "flair_group_id": null
+      },
+      {
+        "extras": null,
+        "description": "Frequent Poster",
+        "user_id": 37567,
         "primary_group_id": null,
         "flair_group_id": null
       }
@@ -260,7 +260,7 @@
       "m\u00fcnchen"
     ],
     "tags_descriptions": {},
-    "views": 21813,
+    "views": 21815,
     "like_count": 600,
     "has_summary": true,
     "last_poster_username": "Volker",
