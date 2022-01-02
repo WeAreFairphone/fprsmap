@@ -31,7 +31,7 @@
       "aachen"
     ],
     "tags_descriptions": {},
-    "views": 49278,
+    "views": 49282,
     "like_count": 417,
     "has_summary": true,
     "last_poster_username": "urs_lesse",
@@ -261,7 +261,7 @@
       "m\u00fcnchen"
     ],
     "tags_descriptions": {},
-    "views": 21886,
+    "views": 21891,
     "like_count": 601,
     "has_summary": true,
     "last_poster_username": "Volker",
@@ -283,6 +283,26 @@
     "location": {
       "postalcode": "80687",
       "city": "M\u00fcnchen",
+      "countrycode": "de",
+      "geo_location": {
+        "lat": 48.1371079,
+        "lon": 11.5753822,
+        "address": "Munich, Bavaria, Germany",
+        "countrycode": "de",
+        "city": "Munich",
+        "state": "Bavaria",
+        "country": "Germany",
+        "postalcode": null,
+        "boundingbox": [
+          "48.0616244",
+          "48.2481162",
+          "11.360777",
+          "11.7229099"
+        ],
+        "type": "administrative",
+        "zoomTo": true,
+        "selected": true
+      },
       "name": "Jitsi Meet"
     },
     "has_accepted_answer": false,
