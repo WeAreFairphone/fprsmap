@@ -31,7 +31,7 @@
       "aachen"
     ],
     "tags_descriptions": {},
-    "views": 49260,
+    "views": 49266,
     "like_count": 417,
     "has_summary": true,
     "last_poster_username": "urs_lesse",
@@ -46,10 +46,11 @@
       "rsvp": true,
       "going_max": 10,
       "going": [
-        "urs_lesse"
+        "urs_lesse",
+        "Vize"
       ]
     },
-    "event_going_total": 1,
+    "event_going_total": 2,
     "location": {
       "postalcode": "52064",
       "city": "Aachen",
@@ -260,7 +261,7 @@
       "m\u00fcnchen"
     ],
     "tags_descriptions": {},
-    "views": 21878,
+    "views": 21880,
     "like_count": 601,
     "has_summary": true,
     "last_poster_username": "Volker",
