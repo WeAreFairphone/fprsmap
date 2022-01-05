@@ -648,6 +648,21 @@
       ]
     },
     {
+      "location": "Tipperary",
+      "country": "\ud83c\uddee\ud83c\uddea",
+      "angels": [
+        "ElaineCB"
+      ],
+      "exists": true,
+      "active": true,
+      "coordinates": [
+        [
+          52.68477435,
+          -7.898080410303971
+        ]
+      ]
+    },
+    {
       "location": "Toulouse",
       "country": "\ud83c\uddeb\ud83c\uddf7",
       "angels": [
