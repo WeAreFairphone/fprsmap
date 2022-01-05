@@ -120,6 +120,21 @@
       ]
     },
     {
+      "location": "Cannes",
+      "country": "\ud83c\uddeb\ud83c\uddf7",
+      "angels": [
+        "citroniais"
+      ],
+      "exists": true,
+      "active": true,
+      "coordinates": [
+        [
+          43.5515198,
+          7.0134418
+        ]
+      ]
+    },
+    {
       "location": "CentralLondon",
       "country": "\ud83c\uddec\ud83c\udde7",
       "coordinates": [
@@ -496,6 +511,21 @@
       ]
     },
     {
+      "location": "Plymouth",
+      "country": "\ud83c\uddec\ud83c\udde7",
+      "angels": [
+        "amoun"
+      ],
+      "exists": true,
+      "active": true,
+      "coordinates": [
+        [
+          50.376289,
+          -4.143841
+        ]
+      ]
+    },
+    {
       "location": "Ravensburg",
       "country": "\ud83c\udde9\ud83c\uddea",
       "angels": [
@@ -614,6 +644,21 @@
         [
           51.55847,
           5.083076
+        ]
+      ]
+    },
+    {
+      "location": "Tipperary",
+      "country": "\ud83c\uddec\ud83c\udde7",
+      "angels": [
+        "ElaineCB"
+      ],
+      "exists": true,
+      "active": true,
+      "coordinates": [
+        [
+          52.68477435,
+          -7.898080410303971
         ]
       ]
     },
