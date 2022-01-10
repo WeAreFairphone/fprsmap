@@ -481,6 +481,21 @@
       ]
     },
     {
+      "location": "Ottawa",
+      "country": "\ud83c\udde8\ud83c\udde6",
+      "angels": [
+        "NGnius"
+      ],
+      "exists": true,
+      "active": true,
+      "coordinates": [
+        [
+          45.4211435,
+          -75.6900574
+        ]
+      ]
+    },
+    {
       "location": "Padova",
       "country": "\ud83c\uddee\ud83c\uddf9",
       "angels": [
