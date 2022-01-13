@@ -127,7 +127,7 @@
     "created_at": "2022-01-13T20:30:27.215Z",
     "last_posted_at": "2022-01-13T20:30:27.317Z",
     "bumped": true,
-    "bumped_at": "2022-01-13T20:30:27.317Z",
+    "bumped_at": "2022-01-13T21:35:57.310Z",
     "archetype": "regular",
     "unseen": false,
     "pinned": false,
@@ -144,8 +144,8 @@
       "meetup"
     ],
     "tags_descriptions": {},
-    "views": 2,
-    "like_count": 1,
+    "views": 22,
+    "like_count": 5,
     "has_summary": false,
     "last_poster_username": "yvmuell",
     "category_id": 42,
@@ -162,6 +162,25 @@
       "street": "Alter Markt 18",
       "city": "Kiel",
       "countrycode": "de",
+      "geo_location": {
+        "lat": 54.3231644,
+        "lon": 10.1392577,
+        "address": "Mango's, 18, Alter Markt, Altstadt, Kiel, Schleswig-Holstein, 24103, Germany",
+        "countrycode": "de",
+        "city": "Kiel",
+        "state": "Schleswig-Holstein",
+        "country": "Germany",
+        "postalcode": "24103",
+        "boundingbox": [
+          "54.3231144",
+          "54.3232144",
+          "10.1392077",
+          "10.1393077"
+        ],
+        "type": "restaurant",
+        "zoomTo": true,
+        "selected": true
+      },
       "name": "Mango's"
     },
     "has_accepted_answer": false,
@@ -180,14 +199,14 @@
     "title": ":de: 28-01, 16:00 - LineageOS Installationsseminar",
     "fancy_title": ":de: 28-01, 16:00 - LineageOS Installationsseminar",
     "slug": "28-01-16-00-lineageos-installationsseminar",
-    "posts_count": 1,
+    "posts_count": 2,
     "reply_count": 0,
-    "highest_post_number": 1,
+    "highest_post_number": 2,
     "image_url": null,
     "created_at": "2022-01-06T10:37:54.965Z",
-    "last_posted_at": "2022-01-06T10:37:55.066Z",
+    "last_posted_at": "2022-01-13T22:06:02.118Z",
     "bumped": true,
-    "bumped_at": "2022-01-06T10:37:55.066Z",
+    "bumped_at": "2022-01-13T22:06:02.118Z",
     "archetype": "regular",
     "unseen": false,
     "pinned": false,
@@ -205,10 +224,10 @@
       "fairphone3"
     ],
     "tags_descriptions": {},
-    "views": 47,
-    "like_count": 1,
+    "views": 52,
+    "like_count": 4,
     "has_summary": false,
-    "last_poster_username": "meissa",
+    "last_poster_username": "urs_lesse",
     "category_id": 42,
     "pinned_globally": false,
     "featured_link": null,
@@ -224,9 +243,16 @@
     "has_accepted_answer": false,
     "posters": [
       {
-        "extras": "latest single",
-        "description": "Original Poster, Most Recent Poster",
+        "extras": null,
+        "description": "Original Poster",
         "user_id": 36691,
+        "primary_group_id": null,
+        "flair_group_id": null
+      },
+      {
+        "extras": "latest",
+        "description": "Most Recent Poster",
+        "user_id": 4312,
         "primary_group_id": null,
         "flair_group_id": null
       }
@@ -262,7 +288,7 @@
       "m\u00fcnchen"
     ],
     "tags_descriptions": {},
-    "views": 22064,
+    "views": 22067,
     "like_count": 602,
     "has_summary": true,
     "last_poster_username": "Volker",
@@ -377,7 +403,7 @@
       "aachen"
     ],
     "tags_descriptions": {},
-    "views": 49898,
+    "views": 49902,
     "like_count": 420,
     "has_summary": true,
     "last_poster_username": "FairphoneHulk",
