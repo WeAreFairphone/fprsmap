@@ -116,6 +116,66 @@
     ]
   },
   {
+    "id": 80782,
+    "title": ":de: Kiel Meetup :community_round:",
+    "fancy_title": ":de: Kiel Meetup :community_round:",
+    "slug": "kiel-meetup",
+    "posts_count": 1,
+    "reply_count": 0,
+    "highest_post_number": 1,
+    "image_url": null,
+    "created_at": "2022-01-13T20:30:27.215Z",
+    "last_posted_at": "2022-01-13T20:30:27.317Z",
+    "bumped": true,
+    "bumped_at": "2022-01-13T20:30:27.317Z",
+    "archetype": "regular",
+    "unseen": false,
+    "pinned": false,
+    "unpinned": null,
+    "visible": true,
+    "closed": false,
+    "archived": false,
+    "bookmarked": null,
+    "liked": null,
+    "unicode_title": "\ud83c\udde9\ud83c\uddea Kiel Meetup :community_round:",
+    "tags": [
+      "\ud83c\udde9\ud83c\uddea",
+      "localcommunities",
+      "meetup"
+    ],
+    "tags_descriptions": {},
+    "views": 2,
+    "like_count": 1,
+    "has_summary": false,
+    "last_poster_username": "yvmuell",
+    "category_id": 42,
+    "pinned_globally": false,
+    "featured_link": null,
+    "event": {
+      "start": "2022-01-26T16:00:00+00:00",
+      "end": "2022-01-26T19:00:00+00:00",
+      "timezone": "Europe/Berlin",
+      "version": 1
+    },
+    "event_going_total": 0,
+    "location": {
+      "street": "Alter Markt 18",
+      "city": "Kiel",
+      "countrycode": "de",
+      "name": "Mango's"
+    },
+    "has_accepted_answer": false,
+    "posters": [
+      {
+        "extras": "latest single",
+        "description": "Original Poster, Most Recent Poster",
+        "user_id": 26528,
+        "primary_group_id": 45,
+        "flair_group_id": 45
+      }
+    ]
+  },
+  {
     "id": 80437,
     "title": ":de: 28-01, 16:00 - LineageOS Installationsseminar",
     "fancy_title": ":de: 28-01, 16:00 - LineageOS Installationsseminar",
@@ -202,7 +262,7 @@
       "m\u00fcnchen"
     ],
     "tags_descriptions": {},
-    "views": 22061,
+    "views": 22064,
     "like_count": 602,
     "has_summary": true,
     "last_poster_username": "Volker",
@@ -317,7 +377,7 @@
       "aachen"
     ],
     "tags_descriptions": {},
-    "views": 49897,
+    "views": 49898,
     "like_count": 420,
     "has_summary": true,
     "last_poster_username": "FairphoneHulk",
