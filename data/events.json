@@ -120,14 +120,14 @@
     "title": ":de: Kiel Meetup :community_round:",
     "fancy_title": ":de: Kiel Meetup :community_round:",
     "slug": "kiel-meetup",
-    "posts_count": 1,
+    "posts_count": 2,
     "reply_count": 0,
-    "highest_post_number": 1,
+    "highest_post_number": 2,
     "image_url": null,
     "created_at": "2022-01-13T20:30:27.215Z",
-    "last_posted_at": "2022-01-13T20:30:27.317Z",
+    "last_posted_at": "2022-01-14T20:12:21.179Z",
     "bumped": true,
-    "bumped_at": "2022-01-13T21:35:57.310Z",
+    "bumped_at": "2022-01-14T20:12:21.179Z",
     "archetype": "regular",
     "unseen": false,
     "pinned": false,
@@ -144,10 +144,10 @@
       "meetup"
     ],
     "tags_descriptions": {},
-    "views": 121,
+    "views": 130,
     "like_count": 7,
     "has_summary": false,
-    "last_poster_username": "yvmuell",
+    "last_poster_username": "Discostu36",
     "category_id": 42,
     "pinned_globally": false,
     "featured_link": null,
@@ -186,11 +186,18 @@
     "has_accepted_answer": false,
     "posters": [
       {
-        "extras": "latest single",
-        "description": "Original Poster, Most Recent Poster",
+        "extras": null,
+        "description": "Original Poster",
         "user_id": 26528,
         "primary_group_id": 45,
         "flair_group_id": 45
+      },
+      {
+        "extras": "latest",
+        "description": "Most Recent Poster",
+        "user_id": 37374,
+        "primary_group_id": null,
+        "flair_group_id": null
       }
     ]
   },
@@ -224,7 +231,7 @@
       "fairphone3"
     ],
     "tags_descriptions": {},
-    "views": 59,
+    "views": 61,
     "like_count": 4,
     "has_summary": false,
     "last_poster_username": "urs_lesse",
@@ -403,7 +410,7 @@
       "aachen"
     ],
     "tags_descriptions": {},
-    "views": 49929,
+    "views": 49936,
     "like_count": 420,
     "has_summary": true,
     "last_poster_username": "FairphoneHulk",
