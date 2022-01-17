@@ -617,6 +617,21 @@
       ]
     },
     {
+      "location": "Sandnes",
+      "country": "\ud83c\uddf3\ud83c\uddf4",
+      "angels": [
+        "Ole-kr"
+      ],
+      "exists": true,
+      "active": true,
+      "coordinates": [
+        [
+          58.983132049999995,
+          6.394641047340787
+        ]
+      ]
+    },
+    {
       "location": "Stuttgart",
       "country": "\ud83c\udde9\ud83c\uddea",
       "angels": [
