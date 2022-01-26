@@ -1,99 +1,5 @@
 [
   {
-    "id": 80782,
-    "title": ":de: Kiel Meetup :community_round:",
-    "fancy_title": ":de: Kiel Meetup :community_round:",
-    "slug": "kiel-meetup",
-    "posts_count": 6,
-    "reply_count": 0,
-    "highest_post_number": 6,
-    "image_url": null,
-    "created_at": "2022-01-13T20:30:27.215Z",
-    "last_posted_at": "2022-01-26T14:04:17.471Z",
-    "bumped": true,
-    "bumped_at": "2022-01-26T12:58:38.335Z",
-    "archetype": "regular",
-    "unseen": false,
-    "pinned": true,
-    "unpinned": null,
-    "excerpt": "Vorausgesetzt Corona macht uns keinen Strich durch die Rechnung, wird @Discostu36 mich am 26.01 w\u00e4hrend meinem Besuch in Kiel treffen und mir die Gelegenheit geben, das FP4 in Natura zu begutachten. \nWer aus Kiel und Umg&hellip;",
-    "visible": true,
-    "closed": false,
-    "archived": false,
-    "bookmarked": null,
-    "liked": null,
-    "unicode_title": "\ud83c\udde9\ud83c\uddea Kiel Meetup :community_round:",
-    "tags": [
-      "\ud83c\udde9\ud83c\uddea",
-      "localcommunities",
-      "meetup"
-    ],
-    "tags_descriptions": {},
-    "views": 339,
-    "like_count": 13,
-    "has_summary": false,
-    "last_poster_username": "yvmuell",
-    "category_id": 42,
-    "pinned_globally": true,
-    "featured_link": null,
-    "event": {
-      "start": "2022-01-26T16:00:00+00:00",
-      "end": "2022-01-26T19:00:00+00:00",
-      "timezone": "Europe/Berlin",
-      "version": 1
-    },
-    "event_going_total": 0,
-    "location": {
-      "street": "Alter Markt 18",
-      "city": "Kiel",
-      "countrycode": "de",
-      "geo_location": {
-        "lat": 54.3231644,
-        "lon": 10.1392577,
-        "address": "Mango's, 18, Alter Markt, Altstadt, Kiel, Schleswig-Holstein, 24103, Germany",
-        "countrycode": "de",
-        "city": "Kiel",
-        "state": "Schleswig-Holstein",
-        "country": "Germany",
-        "postalcode": "24103",
-        "boundingbox": [
-          "54.3231144",
-          "54.3232144",
-          "10.1392077",
-          "10.1393077"
-        ],
-        "type": "restaurant",
-        "zoomTo": true,
-        "selected": true
-      },
-      "name": "Mango's"
-    },
-    "has_accepted_answer": false,
-    "posters": [
-      {
-        "extras": "latest",
-        "description": "Original Poster, Most Recent Poster",
-        "user_id": 26528,
-        "primary_group_id": 45,
-        "flair_group_id": 45
-      },
-      {
-        "extras": null,
-        "description": "Frequent Poster",
-        "user_id": 37374,
-        "primary_group_id": null,
-        "flair_group_id": null
-      },
-      {
-        "extras": null,
-        "description": "Frequent Poster",
-        "user_id": 37210,
-        "primary_group_id": null,
-        "flair_group_id": null
-      }
-    ]
-  },
-  {
     "id": 80437,
     "title": ":de: 28-01, 16:00 - LineageOS Installationsseminar",
     "fancy_title": ":de: 28-01, 16:00 - LineageOS Installationsseminar",
@@ -187,7 +93,7 @@
       "m\u00fcnchen"
     ],
     "tags_descriptions": {},
-    "views": 22235,
+    "views": 22238,
     "like_count": 602,
     "has_summary": true,
     "last_poster_username": "Volker",
@@ -302,7 +208,7 @@
       "aachen"
     ],
     "tags_descriptions": {},
-    "views": 50378,
+    "views": 50382,
     "like_count": 420,
     "has_summary": true,
     "last_poster_username": "FairphoneHulk",
