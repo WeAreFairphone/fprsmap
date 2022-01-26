@@ -4,18 +4,19 @@
     "title": ":de: Kiel Meetup :community_round:",
     "fancy_title": ":de: Kiel Meetup :community_round:",
     "slug": "kiel-meetup",
-    "posts_count": 3,
+    "posts_count": 6,
     "reply_count": 0,
-    "highest_post_number": 3,
+    "highest_post_number": 6,
     "image_url": null,
     "created_at": "2022-01-13T20:30:27.215Z",
-    "last_posted_at": "2022-01-16T22:05:48.791Z",
+    "last_posted_at": "2022-01-26T14:04:17.471Z",
     "bumped": true,
-    "bumped_at": "2022-01-16T22:05:48.791Z",
+    "bumped_at": "2022-01-26T12:58:38.335Z",
     "archetype": "regular",
     "unseen": false,
-    "pinned": false,
+    "pinned": true,
     "unpinned": null,
+    "excerpt": "Vorausgesetzt Corona macht uns keinen Strich durch die Rechnung, wird @Discostu36 mich am 26.01 w\u00e4hrend meinem Besuch in Kiel treffen und mir die Gelegenheit geben, das FP4 in Natura zu begutachten. \nWer aus Kiel und Umg&hellip;",
     "visible": true,
     "closed": false,
     "archived": false,
@@ -28,12 +29,12 @@
       "meetup"
     ],
     "tags_descriptions": {},
-    "views": 322,
+    "views": 331,
     "like_count": 12,
     "has_summary": false,
-    "last_poster_username": "Discostu36",
+    "last_poster_username": "yvmuell",
     "category_id": 42,
-    "pinned_globally": false,
+    "pinned_globally": true,
     "featured_link": null,
     "event": {
       "start": "2022-01-26T16:00:00+00:00",
@@ -70,16 +71,23 @@
     "has_accepted_answer": false,
     "posters": [
       {
-        "extras": null,
-        "description": "Original Poster",
+        "extras": "latest",
+        "description": "Original Poster, Most Recent Poster",
         "user_id": 26528,
         "primary_group_id": 45,
         "flair_group_id": 45
       },
       {
-        "extras": "latest",
-        "description": "Most Recent Poster",
+        "extras": null,
+        "description": "Frequent Poster",
         "user_id": 37374,
+        "primary_group_id": null,
+        "flair_group_id": null
+      },
+      {
+        "extras": null,
+        "description": "Frequent Poster",
+        "user_id": 37210,
         "primary_group_id": null,
         "flair_group_id": null
       }
@@ -179,7 +187,7 @@
       "m\u00fcnchen"
     ],
     "tags_descriptions": {},
-    "views": 22227,
+    "views": 22229,
     "like_count": 602,
     "has_summary": true,
     "last_poster_username": "Volker",
@@ -294,7 +302,7 @@
       "aachen"
     ],
     "tags_descriptions": {},
-    "views": 50371,
+    "views": 50372,
     "like_count": 420,
     "has_summary": true,
     "last_poster_username": "FairphoneHulk",
@@ -410,7 +418,7 @@
       "grenoble"
     ],
     "tags_descriptions": {},
-    "views": 2518,
+    "views": 2519,
     "like_count": 27,
     "has_summary": false,
     "last_poster_username": "LowMemory",
