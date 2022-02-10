@@ -31,7 +31,7 @@
       "grenoble"
     ],
     "tags_descriptions": {},
-    "views": 2595,
+    "views": 2596,
     "like_count": 27,
     "has_summary": false,
     "last_poster_username": "LowMemory",
@@ -260,7 +260,7 @@
       "aachen"
     ],
     "tags_descriptions": {},
-    "views": 51166,
+    "views": 51171,
     "like_count": 421,
     "has_summary": true,
     "last_poster_username": "urs_lesse",
@@ -269,9 +269,9 @@
     "featured_link": null,
     "event": {
       "start": "2022-03-10T18:00:00+00:00",
-      "end": "2022-03-10T21:00:00+00:00",
+      "end": "2022-03-10T20:00:00+00:00",
       "timezone": "Europe/Brussels",
-      "version": 21,
+      "version": 22,
       "rsvp": true,
       "going_max": 10,
       "going": [
