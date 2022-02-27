@@ -30,7 +30,7 @@
       "m\u00fcnchen"
     ],
     "tags_descriptions": {},
-    "views": 22776,
+    "views": 22782,
     "like_count": 605,
     "has_summary": true,
     "last_poster_username": "urs_lesse",
@@ -44,11 +44,9 @@
       "version": 28,
       "rsvp": true,
       "going_max": 10,
-      "going": [
-        "Volker"
-      ]
+      "going": []
     },
-    "event_going_total": 1,
+    "event_going_total": 0,
     "location": {
       "postalcode": "80687",
       "city": "M\u00fcnchen",
@@ -145,7 +143,7 @@
       "aachen"
     ],
     "tags_descriptions": {},
-    "views": 51949,
+    "views": 51955,
     "like_count": 421,
     "has_summary": true,
     "last_poster_username": "urs_lesse",
