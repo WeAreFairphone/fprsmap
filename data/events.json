@@ -4,18 +4,19 @@
     "title": ":de: :community_round: M\u00fcnchen Fairphoners Meetup am 28. Februar",
     "fancy_title": ":de: :community_round: M\u00fcnchen Fairphoners Meetup am 28. Februar",
     "slug": "munchen-fairphoners-meetup-am-28-februar",
-    "posts_count": 295,
-    "reply_count": 160,
-    "highest_post_number": 317,
+    "posts_count": 297,
+    "reply_count": 161,
+    "highest_post_number": 319,
     "image_url": null,
     "created_at": "2016-06-24T10:46:50.917Z",
-    "last_posted_at": "2022-02-27T13:16:50.781Z",
+    "last_posted_at": "2022-02-27T15:33:58.835Z",
     "bumped": true,
-    "bumped_at": "2022-02-27T13:16:50.781Z",
+    "bumped_at": "2022-02-27T14:58:46.345Z",
     "archetype": "regular",
     "unseen": false,
-    "pinned": false,
+    "pinned": true,
     "unpinned": null,
+    "excerpt": "Die M\u00fcnchner Fairphoner treffen sich jeden letzten Montag im Monat um 18:30 Uhr im Eine-Welt-Haus (EWH) in der Schwanthalerstr. 80 in Raum 111 (oder 112 oder auch bei sehr gutem Wetter auf der Terrasse oben). \nDas n\u00e4chst&hellip;",
     "visible": true,
     "closed": false,
     "archived": false,
@@ -29,12 +30,12 @@
       "m\u00fcnchen"
     ],
     "tags_descriptions": {},
-    "views": 22764,
+    "views": 22771,
     "like_count": 605,
     "has_summary": true,
-    "last_poster_username": "OLLI_S",
+    "last_poster_username": "urs_lesse",
     "category_id": 42,
-    "pinned_globally": false,
+    "pinned_globally": true,
     "featured_link": null,
     "event": {
       "start": "2022-02-28T17:30:00+00:00",
@@ -92,7 +93,7 @@
       {
         "extras": null,
         "description": "Frequent Poster",
-        "user_id": 4312,
+        "user_id": 5151,
         "primary_group_id": null,
         "flair_group_id": null
       },
@@ -106,7 +107,7 @@
       {
         "extras": "latest",
         "description": "Most Recent Poster",
-        "user_id": 21966,
+        "user_id": 4312,
         "primary_group_id": null,
         "flair_group_id": null
       }
@@ -144,7 +145,7 @@
       "aachen"
     ],
     "tags_descriptions": {},
-    "views": 51940,
+    "views": 51947,
     "like_count": 421,
     "has_summary": true,
     "last_poster_username": "urs_lesse",
