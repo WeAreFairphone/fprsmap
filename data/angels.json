@@ -203,6 +203,8 @@
       "angels": [
         "P1000"
       ],
+      "exists": true,
+      "active": true,
       "coordinates": [
         [
           55.9533456,
