@@ -4,14 +4,14 @@
     "title": ":de: Treffen in Hamburg f\u00fcr alle Fairphoner*innen",
     "fancy_title": ":de: Treffen in Hamburg f\u00fcr alle Fairphoner*innen",
     "slug": "treffen-in-hamburg-fur-alle-fairphoner-innen",
-    "posts_count": 573,
-    "reply_count": 270,
-    "highest_post_number": 579,
+    "posts_count": 575,
+    "reply_count": 272,
+    "highest_post_number": 581,
     "image_url": null,
     "created_at": "2016-05-06T16:30:01.540Z",
-    "last_posted_at": "2022-03-05T12:38:48.478Z",
+    "last_posted_at": "2022-03-06T10:56:10.665Z",
     "bumped": true,
-    "bumped_at": "2022-03-05T12:38:48.478Z",
+    "bumped_at": "2022-03-06T10:56:10.665Z",
     "archetype": "regular",
     "unseen": false,
     "pinned": false,
@@ -31,10 +31,10 @@
       "hamburg"
     ],
     "tags_descriptions": {},
-    "views": 38312,
-    "like_count": 780,
+    "views": 38328,
+    "like_count": 781,
     "has_summary": true,
-    "last_poster_username": "Smojo",
+    "last_poster_username": "FairphoneHulk",
     "category_id": 42,
     "pinned_globally": false,
     "featured_link": null,
@@ -81,13 +81,6 @@
       {
         "extras": null,
         "description": "Frequent Poster",
-        "user_id": 324,
-        "primary_group_id": 45,
-        "flair_group_id": 45
-      },
-      {
-        "extras": null,
-        "description": "Frequent Poster",
         "user_id": 4312,
         "primary_group_id": null,
         "flair_group_id": null
@@ -100,11 +93,18 @@
         "flair_group_id": 45
       },
       {
+        "extras": null,
+        "description": "Frequent Poster",
+        "user_id": 18361,
+        "primary_group_id": null,
+        "flair_group_id": null
+      },
+      {
         "extras": "latest",
         "description": "Most Recent Poster",
-        "user_id": 13986,
-        "primary_group_id": 45,
-        "flair_group_id": 45
+        "user_id": 37210,
+        "primary_group_id": null,
+        "flair_group_id": null
       }
     ]
   },
@@ -140,7 +140,7 @@
       "aachen"
     ],
     "tags_descriptions": {},
-    "views": 52399,
+    "views": 52404,
     "like_count": 423,
     "has_summary": true,
     "last_poster_username": "urs_lesse",
@@ -254,7 +254,7 @@
       "m\u00fcnchen"
     ],
     "tags_descriptions": {},
-    "views": 22959,
+    "views": 22961,
     "like_count": 612,
     "has_summary": true,
     "last_poster_username": "gabs",
