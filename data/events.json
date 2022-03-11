@@ -29,7 +29,7 @@
       "m\u00fcnchen"
     ],
     "tags_descriptions": {},
-    "views": 23042,
+    "views": 23043,
     "like_count": 612,
     "has_summary": true,
     "last_poster_username": "gabs",
@@ -122,14 +122,14 @@
     "title": ":de: :gb: Fairphone Community Aachen :community_round:",
     "fancy_title": ":de: :gb: Fairphone Community Aachen :community_round:",
     "slug": "fairphone-community-aachen",
-    "posts_count": 115,
+    "posts_count": 116,
     "reply_count": 46,
-    "highest_post_number": 180,
+    "highest_post_number": 184,
     "image_url": "https://forum.fairphone.com/uploads/default/optimized/2X/e/e8e1b95f7ddff79814d40ba93d857da8ea82f901_2_1024x768.jpg",
     "created_at": "2015-08-26T15:27:58.727Z",
-    "last_posted_at": "2022-02-28T21:28:04.289Z",
+    "last_posted_at": "2022-03-11T17:22:21.578Z",
     "bumped": true,
-    "bumped_at": "2022-03-11T14:29:01.401Z",
+    "bumped_at": "2022-03-11T17:22:21.578Z",
     "archetype": "regular",
     "unseen": false,
     "pinned": false,
@@ -150,10 +150,10 @@
       "aachen"
     ],
     "tags_descriptions": {},
-    "views": 52729,
+    "views": 52747,
     "like_count": 423,
     "has_summary": true,
-    "last_poster_username": "urs_lesse",
+    "last_poster_username": "Edoardo",
     "category_id": 42,
     "pinned_globally": false,
     "featured_link": null,
@@ -165,10 +165,11 @@
       "rsvp": true,
       "going_max": 10,
       "going": [
-        "urs_lesse"
+        "urs_lesse",
+        "Edoardo"
       ]
     },
-    "event_going_total": 1,
+    "event_going_total": 2,
     "location": {
       "postalcode": "52064",
       "city": "Aachen",
@@ -197,8 +198,8 @@
     "has_accepted_answer": false,
     "posters": [
       {
-        "extras": "latest",
-        "description": "Original Poster, Most Recent Poster",
+        "extras": null,
+        "description": "Original Poster",
         "user_id": 4312,
         "primary_group_id": null,
         "flair_group_id": null
@@ -225,9 +226,9 @@
         "flair_group_id": null
       },
       {
-        "extras": null,
-        "description": "Frequent Poster",
-        "user_id": 13606,
+        "extras": "latest",
+        "description": "Most Recent Poster",
+        "user_id": 38759,
         "primary_group_id": null,
         "flair_group_id": null
       }
