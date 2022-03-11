@@ -29,7 +29,7 @@
       "m\u00fcnchen"
     ],
     "tags_descriptions": {},
-    "views": 23031,
+    "views": 23035,
     "like_count": 612,
     "has_summary": true,
     "last_poster_username": "gabs",
@@ -129,7 +129,7 @@
     "created_at": "2015-08-26T15:27:58.727Z",
     "last_posted_at": "2022-02-28T21:28:04.289Z",
     "bumped": true,
-    "bumped_at": "2022-03-10T17:36:43.096Z",
+    "bumped_at": "2022-02-28T21:28:04.289Z",
     "archetype": "regular",
     "unseen": false,
     "pinned": false,
@@ -149,7 +149,7 @@
       "aachen"
     ],
     "tags_descriptions": {},
-    "views": 52657,
+    "views": 52679,
     "like_count": 423,
     "has_summary": true,
     "last_poster_username": "urs_lesse",
@@ -160,9 +160,14 @@
       "start": "2022-04-10T16:00:00+00:00",
       "end": "2022-04-10T18:00:00+00:00",
       "timezone": "Europe/Brussels",
-      "version": 26
+      "version": 28,
+      "rsvp": true,
+      "going_max": 10,
+      "going": [
+        "urs_lesse"
+      ]
     },
-    "event_going_total": 6,
+    "event_going_total": 1,
     "location": {
       "postalcode": "52064",
       "city": "Aachen",
