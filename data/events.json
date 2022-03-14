@@ -1,5 +1,122 @@
 [
   {
+    "id": 22714,
+    "title": ":fr: Fairphoners Dauphinois (Grenoble et environs)",
+    "fancy_title": ":fr: Fairphoners Dauphinois (Grenoble et environs)",
+    "slug": "fairphoners-dauphinois-grenoble-et-environs",
+    "posts_count": 23,
+    "reply_count": 9,
+    "highest_post_number": 38,
+    "image_url": null,
+    "created_at": "2016-10-09T12:05:39.219Z",
+    "last_posted_at": "2022-03-14T21:19:09.705Z",
+    "bumped": true,
+    "bumped_at": "2022-03-14T21:17:37.843Z",
+    "archetype": "regular",
+    "unseen": false,
+    "pinned": true,
+    "unpinned": null,
+    "excerpt": ":fr: Les Fairphoners autour de  Grenoble se rencontrent avec la Guilde des Utilisateurs d\u2019Informatique Libre du Dauphin\u00e9 chaque 3\u00e8me mardi du mois \u00e0 19h \u00e0 Demo-TIC, au 9 Grande Rue 38000 Grenoble. \nCe premier message ser&hellip;",
+    "visible": true,
+    "closed": false,
+    "archived": false,
+    "bookmarked": null,
+    "liked": null,
+    "unicode_title": "\ud83c\uddeb\ud83c\uddf7 Fairphoners Dauphinois (Grenoble et environs)",
+    "tags": [
+      "\ud83c\uddeb\ud83c\uddf7",
+      "\ud83c\uddec\ud83c\udde7",
+      "localcommunities",
+      "meetup",
+      "meetfairphone3",
+      "grenoble"
+    ],
+    "tags_descriptions": {},
+    "views": 2734,
+    "like_count": 28,
+    "has_summary": false,
+    "last_poster_username": "urs_lesse",
+    "category_id": 42,
+    "pinned_globally": true,
+    "featured_link": null,
+    "event": {
+      "start": "2022-03-15T18:00:00+00:00",
+      "end": "2022-03-15T21:00:00+00:00",
+      "timezone": "Europe/Brussels",
+      "version": 10,
+      "rsvp": true,
+      "going_max": 10,
+      "going": [
+        "LowMemory"
+      ]
+    },
+    "event_going_total": 1,
+    "location": {
+      "street": "9 Grande Rue",
+      "postalcode": "38000",
+      "city": "Grenoble",
+      "countrycode": "fr",
+      "geo_location": {
+        "lat": 45.1924127,
+        "lon": 5.7288274,
+        "address": "9, Grande Rue, Hyper Centre, Secteur 2, Grenoble, Auvergne-Rh\u00f4ne-Alpes, Metropolitan France, 38000, France",
+        "countrycode": "fr",
+        "city": "Grenoble",
+        "state": "Auvergne-Rh\u00f4ne-Alpes",
+        "country": "France",
+        "postalcode": "38000",
+        "boundingbox": [
+          "45.1923627",
+          "45.1924627",
+          "5.7287774",
+          "5.7288774"
+        ],
+        "type": "house",
+        "selected": true,
+        "zoomTo": true
+      },
+      "name": "Demo-TIC"
+    },
+    "has_accepted_answer": false,
+    "posters": [
+      {
+        "extras": null,
+        "description": "Original Poster",
+        "user_id": 6944,
+        "primary_group_id": 45,
+        "flair_group_id": 45
+      },
+      {
+        "extras": null,
+        "description": "Frequent Poster",
+        "user_id": 324,
+        "primary_group_id": 45,
+        "flair_group_id": 45
+      },
+      {
+        "extras": null,
+        "description": "Frequent Poster",
+        "user_id": 37087,
+        "primary_group_id": null,
+        "flair_group_id": null
+      },
+      {
+        "extras": null,
+        "description": "Frequent Poster",
+        "user_id": 37567,
+        "primary_group_id": null,
+        "flair_group_id": null
+      },
+      {
+        "extras": "latest",
+        "description": "Most Recent Poster",
+        "user_id": 4312,
+        "primary_group_id": null,
+        "flair_group_id": null
+      }
+    ]
+  },
+  {
     "id": 19285,
     "title": ":de: :community_round: M\u00fcnchen Fairphoners Meetup am 28. M\u00e4rz",
     "fancy_title": ":de: :community_round: M\u00fcnchen Fairphoners Meetup am 28. M\u00e4rz",
@@ -150,7 +267,7 @@
       "aachen"
     ],
     "tags_descriptions": {},
-    "views": 52956,
+    "views": 52960,
     "like_count": 424,
     "has_summary": true,
     "last_poster_username": "urs_lesse",
