@@ -29,7 +29,7 @@
       "m\u00fcnchen"
     ],
     "tags_descriptions": {},
-    "views": 23132,
+    "views": 23137,
     "like_count": 612,
     "has_summary": true,
     "last_poster_username": "gabs",
@@ -150,7 +150,7 @@
       "aachen"
     ],
     "tags_descriptions": {},
-    "views": 53111,
+    "views": 53116,
     "like_count": 424,
     "has_summary": true,
     "last_poster_username": "urs_lesse",
@@ -266,18 +266,18 @@
       "grenoble"
     ],
     "tags_descriptions": {},
-    "views": 2770,
-    "like_count": 30,
+    "views": 2774,
+    "like_count": 31,
     "has_summary": false,
     "last_poster_username": "LowMemory",
     "category_id": 42,
     "pinned_globally": false,
     "featured_link": null,
     "event": {
-      "start": "2022-04-12T18:00:00+00:00",
-      "end": "2022-04-12T21:00:00+00:00",
-      "timezone": "Europe/Brussels",
-      "version": 11,
+      "start": "2022-04-12T17:00:00+00:00",
+      "end": "2022-04-12T20:00:00+00:00",
+      "timezone": "Europe/Paris",
+      "version": 15,
       "rsvp": true,
       "going_max": 10,
       "going": [
