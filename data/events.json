@@ -14,9 +14,8 @@
     "bumped_at": "2022-03-27T19:41:22.663Z",
     "archetype": "regular",
     "unseen": false,
-    "pinned": true,
+    "pinned": false,
     "unpinned": null,
-    "excerpt": "Die M\u00fcnchner Fairphoner treffen sich jeden letzten Montag im Monat um 18:30 Uhr im Eine-Welt-Haus (EWH) in der Schwanthalerstr. 80 in Raum 111 (oder 112 oder auch bei sehr gutem Wetter auf der Terrasse oben). \nDas n\u00e4chst&hellip;",
     "visible": true,
     "closed": false,
     "archived": false,
@@ -30,12 +29,12 @@
       "m\u00fcnchen"
     ],
     "tags_descriptions": {},
-    "views": 23341,
+    "views": 23349,
     "like_count": 613,
     "has_summary": true,
     "last_poster_username": "gabs",
     "category_id": 42,
-    "pinned_globally": true,
+    "pinned_globally": false,
     "featured_link": null,
     "event": {
       "start": "2022-03-28T16:30:00+00:00",
@@ -147,7 +146,7 @@
       "meetup"
     ],
     "tags_descriptions": {},
-    "views": 669,
+    "views": 670,
     "like_count": 38,
     "has_summary": false,
     "last_poster_username": "tretkowski",
@@ -260,7 +259,7 @@
       "aachen"
     ],
     "tags_descriptions": {},
-    "views": 53718,
+    "views": 53723,
     "like_count": 424,
     "has_summary": true,
     "last_poster_username": "urs_lesse",
@@ -376,7 +375,7 @@
       "grenoble"
     ],
     "tags_descriptions": {},
-    "views": 2836,
+    "views": 2837,
     "like_count": 31,
     "has_summary": false,
     "last_poster_username": "LowMemory",
