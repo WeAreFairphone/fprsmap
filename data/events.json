@@ -4,18 +4,19 @@
     "title": ":de: :community_round: M\u00fcnchen Fairphoners Meetup am 28. M\u00e4rz",
     "fancy_title": ":de: :community_round: M\u00fcnchen Fairphoners Meetup am 28. M\u00e4rz",
     "slug": "munchen-fairphoners-meetup-am-28-marz",
-    "posts_count": 297,
+    "posts_count": 298,
     "reply_count": 162,
-    "highest_post_number": 321,
+    "highest_post_number": 322,
     "image_url": null,
     "created_at": "2016-06-24T10:46:50.917Z",
-    "last_posted_at": "2022-03-01T12:44:23.379Z",
+    "last_posted_at": "2022-03-27T13:18:19.212Z",
     "bumped": true,
     "bumped_at": "2022-03-01T12:44:23.379Z",
     "archetype": "regular",
     "unseen": false,
-    "pinned": false,
+    "pinned": true,
     "unpinned": null,
+    "excerpt": "Die M\u00fcnchner Fairphoner treffen sich jeden letzten Montag im Monat um 18:30 Uhr im Eine-Welt-Haus (EWH) in der Schwanthalerstr. 80 in Raum 111 (oder 112 oder auch bei sehr gutem Wetter auf der Terrasse oben). \nDas n\u00e4chst&hellip;",
     "visible": true,
     "closed": false,
     "archived": false,
@@ -29,12 +30,12 @@
       "m\u00fcnchen"
     ],
     "tags_descriptions": {},
-    "views": 23312,
+    "views": 23319,
     "like_count": 612,
     "has_summary": true,
-    "last_poster_username": "gabs",
+    "last_poster_username": "Paule",
     "category_id": 42,
-    "pinned_globally": false,
+    "pinned_globally": true,
     "featured_link": null,
     "event": {
       "start": "2022-03-28T16:30:00+00:00",
@@ -97,23 +98,23 @@
       {
         "extras": null,
         "description": "Frequent Poster",
-        "user_id": 4312,
+        "user_id": 5151,
         "primary_group_id": null,
         "flair_group_id": null
       },
       {
         "extras": null,
         "description": "Frequent Poster",
-        "user_id": 7483,
-        "primary_group_id": 45,
-        "flair_group_id": 45
+        "user_id": 4312,
+        "primary_group_id": null,
+        "flair_group_id": null
       },
       {
         "extras": "latest",
         "description": "Most Recent Poster",
-        "user_id": 4976,
-        "primary_group_id": null,
-        "flair_group_id": null
+        "user_id": 7483,
+        "primary_group_id": 45,
+        "flair_group_id": 45
       }
     ]
   },
@@ -259,7 +260,7 @@
       "aachen"
     ],
     "tags_descriptions": {},
-    "views": 53700,
+    "views": 53701,
     "like_count": 424,
     "has_summary": true,
     "last_poster_username": "urs_lesse",
