@@ -30,7 +30,7 @@
       "m\u00fcnchen"
     ],
     "tags_descriptions": {},
-    "views": 23375,
+    "views": 23384,
     "like_count": 615,
     "has_summary": true,
     "last_poster_username": "urs_lesse",
@@ -45,10 +45,11 @@
       "rsvp": true,
       "going_max": 10,
       "going": [
-        "Volker"
+        "Volker",
+        "FranzB"
       ]
     },
-    "event_going_total": 1,
+    "event_going_total": 2,
     "location": {
       "postalcode": "80687",
       "city": "M\u00fcnchen",
@@ -147,7 +148,7 @@
       "meetup"
     ],
     "tags_descriptions": {},
-    "views": 732,
+    "views": 734,
     "like_count": 38,
     "has_summary": false,
     "last_poster_username": "tretkowski",
@@ -260,7 +261,7 @@
       "aachen"
     ],
     "tags_descriptions": {},
-    "views": 53749,
+    "views": 53754,
     "like_count": 424,
     "has_summary": true,
     "last_poster_username": "urs_lesse",
@@ -376,7 +377,7 @@
       "grenoble"
     ],
     "tags_descriptions": {},
-    "views": 2842,
+    "views": 2843,
     "like_count": 31,
     "has_summary": false,
     "last_poster_username": "LowMemory",
