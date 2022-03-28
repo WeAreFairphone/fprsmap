@@ -4,14 +4,14 @@
     "title": ":de: :community_round: M\u00fcnchen Fairphoners Meetup am 28. M\u00e4rz",
     "fancy_title": ":de: :community_round: M\u00fcnchen Fairphoners Meetup am 28. M\u00e4rz",
     "slug": "munchen-fairphoners-meetup-am-28-marz",
-    "posts_count": 300,
+    "posts_count": 301,
     "reply_count": 164,
-    "highest_post_number": 324,
+    "highest_post_number": 325,
     "image_url": null,
     "created_at": "2016-06-24T10:46:50.917Z",
-    "last_posted_at": "2022-03-27T19:41:22.663Z",
+    "last_posted_at": "2022-03-28T05:40:11.777Z",
     "bumped": true,
-    "bumped_at": "2022-03-27T19:41:22.663Z",
+    "bumped_at": "2022-03-28T05:40:11.777Z",
     "archetype": "regular",
     "unseen": false,
     "pinned": false,
@@ -29,10 +29,10 @@
       "m\u00fcnchen"
     ],
     "tags_descriptions": {},
-    "views": 23349,
-    "like_count": 613,
+    "views": 23360,
+    "like_count": 614,
     "has_summary": true,
-    "last_poster_username": "gabs",
+    "last_poster_username": "AlbertJP",
     "category_id": 42,
     "pinned_globally": false,
     "featured_link": null,
@@ -111,7 +111,7 @@
       {
         "extras": "latest",
         "description": "Most Recent Poster",
-        "user_id": 4976,
+        "user_id": 11589,
         "primary_group_id": null,
         "flair_group_id": null
       }
@@ -146,7 +146,7 @@
       "meetup"
     ],
     "tags_descriptions": {},
-    "views": 670,
+    "views": 673,
     "like_count": 38,
     "has_summary": false,
     "last_poster_username": "tretkowski",
@@ -259,7 +259,7 @@
       "aachen"
     ],
     "tags_descriptions": {},
-    "views": 53723,
+    "views": 53730,
     "like_count": 424,
     "has_summary": true,
     "last_poster_username": "urs_lesse",
@@ -375,7 +375,7 @@
       "grenoble"
     ],
     "tags_descriptions": {},
-    "views": 2837,
+    "views": 2839,
     "like_count": 31,
     "has_summary": false,
     "last_poster_username": "LowMemory",
