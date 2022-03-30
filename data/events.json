@@ -4,18 +4,19 @@
     "title": ":de: Kiel Meetup :community_round:",
     "fancy_title": ":de: Kiel Meetup :community_round:",
     "slug": "kiel-meetup",
-    "posts_count": 15,
+    "posts_count": 16,
     "reply_count": 4,
-    "highest_post_number": 15,
+    "highest_post_number": 16,
     "image_url": "https://forum.fairphone.com/uploads/default/optimized/3X/4/0/40ef863a10b986f684e700fb605c819b8d747321_2_1024x768.jpeg",
     "created_at": "2022-01-13T20:30:27.215Z",
-    "last_posted_at": "2022-03-22T17:23:14.432Z",
+    "last_posted_at": "2022-03-30T10:40:56.582Z",
     "bumped": true,
     "bumped_at": "2022-03-22T17:23:14.432Z",
     "archetype": "regular",
     "unseen": false,
-    "pinned": false,
+    "pinned": true,
     "unpinned": null,
+    "excerpt": "Hi in die Runde und insbesondere @Ingo , @tretkowski  und @yvmuell , \nwir haben uns jetzt entschieden, ein erstes Treffen zu organisieren. Wir treffen uns online, am 31. M\u00e4rz 2022, Donnerstag, 15.00-16.30 - und zwar hier&hellip;",
     "visible": true,
     "closed": false,
     "archived": false,
@@ -28,12 +29,12 @@
       "meetup"
     ],
     "tags_descriptions": {},
-    "views": 754,
+    "views": 762,
     "like_count": 38,
     "has_summary": false,
-    "last_poster_username": "tretkowski",
+    "last_poster_username": "urs_lesse",
     "category_id": 42,
-    "pinned_globally": false,
+    "pinned_globally": true,
     "featured_link": null,
     "event": {
       "start": "2022-03-31T13:00:00+00:00",
@@ -88,21 +89,21 @@
       {
         "extras": null,
         "description": "Frequent Poster",
-        "user_id": 37210,
-        "primary_group_id": null,
-        "flair_group_id": null
-      },
-      {
-        "extras": null,
-        "description": "Frequent Poster",
         "user_id": 34,
         "primary_group_id": 45,
         "flair_group_id": 45
       },
       {
+        "extras": null,
+        "description": "Frequent Poster",
+        "user_id": 35893,
+        "primary_group_id": null,
+        "flair_group_id": null
+      },
+      {
         "extras": "latest",
         "description": "Most Recent Poster",
-        "user_id": 37820,
+        "user_id": 4312,
         "primary_group_id": null,
         "flair_group_id": null
       }
@@ -141,7 +142,7 @@
       "aachen"
     ],
     "tags_descriptions": {},
-    "views": 53819,
+    "views": 53824,
     "like_count": 424,
     "has_summary": true,
     "last_poster_username": "urs_lesse",
@@ -371,7 +372,7 @@
       "m\u00fcnchen"
     ],
     "tags_descriptions": {},
-    "views": 23437,
+    "views": 23442,
     "like_count": 617,
     "has_summary": true,
     "last_poster_username": "Volker",
