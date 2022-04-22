@@ -29,7 +29,7 @@
       "m\u00fcnchen"
     ],
     "tags_descriptions": {},
-    "views": 23849,
+    "views": 23852,
     "like_count": 617,
     "has_summary": true,
     "last_poster_username": "Volker",
@@ -150,7 +150,7 @@
       "aachen"
     ],
     "tags_descriptions": {},
-    "views": 55179,
+    "views": 55182,
     "like_count": 430,
     "has_summary": true,
     "last_poster_username": "urs_lesse",
@@ -165,10 +165,11 @@
       "rsvp": true,
       "going_max": 10,
       "going": [
-        "urs_lesse"
+        "urs_lesse",
+        "shukti02"
       ]
     },
-    "event_going_total": 1,
+    "event_going_total": 2,
     "location": {
       "postalcode": "52064",
       "city": "Aachen",
