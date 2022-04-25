@@ -32,7 +32,7 @@
       "aachen"
     ],
     "tags_descriptions": {},
-    "views": 55332,
+    "views": 55337,
     "like_count": 430,
     "has_summary": true,
     "last_poster_username": "urs_lesse",
@@ -113,6 +113,125 @@
         "user_id": 13606,
         "primary_group_id": null,
         "flair_group_id": null
+      }
+    ]
+  },
+  {
+    "id": 19285,
+    "title": ":de: :community_round: M\u00fcnchen Fairphoners Meetup am 30. Mai",
+    "fancy_title": ":de: :community_round: M\u00fcnchen Fairphoners Meetup am 30. Mai",
+    "slug": "munchen-fairphoners-meetup-am-30-mai",
+    "posts_count": 307,
+    "reply_count": 166,
+    "highest_post_number": 333,
+    "image_url": null,
+    "created_at": "2016-06-24T10:46:50.917Z",
+    "last_posted_at": "2022-04-25T19:48:16.525Z",
+    "bumped": true,
+    "bumped_at": "2022-04-25T19:48:16.525Z",
+    "archetype": "regular",
+    "unseen": false,
+    "pinned": true,
+    "unpinned": null,
+    "excerpt": "Die M\u00fcnchner Fairphoner treffen sich jeden letzten Montag im Monat um 18:30 Uhr im Eine-Welt-Haus (EWH) in der Schwanthalerstr. 80 in Raum 109 (oder auch bei sehr gutem Wetter auf der Terrasse oben). \nDas n\u00e4chste Treffen&hellip;",
+    "visible": true,
+    "closed": false,
+    "archived": false,
+    "bookmarked": null,
+    "liked": null,
+    "unicode_title": "\ud83c\udde9\ud83c\uddea :community_round: M\u00fcnchen Fairphoners Meetup am 30. Mai",
+    "tags": [
+      "\ud83c\udde9\ud83c\uddea",
+      "localcommunities",
+      "meetfairphone3",
+      "m\u00fcnchen"
+    ],
+    "tags_descriptions": {},
+    "views": 23948,
+    "like_count": 618,
+    "has_summary": true,
+    "last_poster_username": "Volker",
+    "category_id": 42,
+    "pinned_globally": true,
+    "featured_link": null,
+    "event": {
+      "start": "2022-05-30T16:30:00+00:00",
+      "end": "2022-05-30T18:00:00+00:00",
+      "timezone": "Europe/Berlin",
+      "version": 32,
+      "rsvp": true,
+      "going_max": 10,
+      "going": [
+        "Volker"
+      ]
+    },
+    "event_going_total": 1,
+    "location": {
+      "postalcode": "80687",
+      "city": "M\u00fcnchen",
+      "countrycode": "de",
+      "geo_location": {
+        "lat": 48.1371079,
+        "lon": 11.5753822,
+        "address": "Munich, Bavaria, Germany",
+        "countrycode": "de",
+        "city": "Munich",
+        "state": "Bavaria",
+        "country": "Germany",
+        "postalcode": null,
+        "boundingbox": [
+          "48.0616244",
+          "48.2481162",
+          "11.360777",
+          "11.7229099"
+        ],
+        "type": "administrative",
+        "zoomTo": true,
+        "selected": true
+      },
+      "name": "Jitsi Meet",
+      "marker": {
+        "title": ":de: :community_round: M\u00fcnchen Fairphoners Meetup am 28. M\u00e4rz",
+        "routeTo": "/t/munchen-fairphoners-meetup-am-28-marz/19285"
+      },
+      "topic_id": 19285
+    },
+    "has_accepted_answer": false,
+    "posters": [
+      {
+        "extras": null,
+        "description": "Original Poster",
+        "user_id": 11209,
+        "primary_group_id": null,
+        "flair_group_id": null
+      },
+      {
+        "extras": null,
+        "description": "Frequent Poster",
+        "user_id": 324,
+        "primary_group_id": 45,
+        "flair_group_id": 45
+      },
+      {
+        "extras": null,
+        "description": "Frequent Poster",
+        "user_id": 5151,
+        "primary_group_id": null,
+        "flair_group_id": null
+      },
+      {
+        "extras": null,
+        "description": "Frequent Poster",
+        "user_id": 4312,
+        "primary_group_id": null,
+        "flair_group_id": null
+      },
+      {
+        "extras": "latest",
+        "description": "Most Recent Poster",
+        "user_id": 6808,
+        "primary_group_id": 45,
+        "flair_group_id": 45
       }
     ]
   }
