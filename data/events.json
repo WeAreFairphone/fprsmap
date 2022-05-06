@@ -32,7 +32,7 @@
       "aachen"
     ],
     "tags_descriptions": {},
-    "views": 55897,
+    "views": 55902,
     "like_count": 430,
     "has_summary": true,
     "last_poster_username": "urs_lesse",
@@ -128,7 +128,7 @@
     "created_at": "2022-05-06T16:22:36.127Z",
     "last_posted_at": "2022-05-06T16:22:36.255Z",
     "bumped": true,
-    "bumped_at": "2022-05-06T16:22:36.255Z",
+    "bumped_at": "2022-05-06T19:06:30.298Z",
     "archetype": "regular",
     "unseen": false,
     "pinned": false,
@@ -140,8 +140,8 @@
     "liked": null,
     "tags": [],
     "tags_descriptions": {},
-    "views": 8,
-    "like_count": 1,
+    "views": 44,
+    "like_count": 2,
     "has_summary": false,
     "last_poster_username": "rugk",
     "category_id": 42,
@@ -149,13 +149,15 @@
     "featured_link": null,
     "event": {
       "start": "2022-05-18T22:00:00+00:00",
-      "end": "2022-05-20T22:00:00+00:00",
-      "timezone": "Europe/Berlin",
+      "end": "2022-05-21T22:00:00+00:00",
       "all_day": true,
-      "version": 1,
-      "rsvp": true
+      "version": 2,
+      "rsvp": true,
+      "going": [
+        "rugk"
+      ]
     },
-    "event_going_total": 0,
+    "event_going_total": 1,
     "location": {
       "street": "Lorenzstra\u00dfe 15",
       "postalcode": "76135",
