@@ -32,7 +32,7 @@
       "aachen"
     ],
     "tags_descriptions": {},
-    "views": 55886,
+    "views": 55893,
     "like_count": 430,
     "has_summary": true,
     "last_poster_username": "urs_lesse",
@@ -117,6 +117,83 @@
     ]
   },
   {
+    "id": 84561,
+    "title": "\ud83c\udde9\ud83c\uddea Fairphone Meetup at Gulaschprogrammiernacht 20 (GPN20) in Karlsruhe?",
+    "fancy_title": ":de: Fairphone Meetup at Gulaschprogrammiernacht 20 (GPN20) in Karlsruhe?",
+    "slug": "fairphone-meetup-at-gulaschprogrammiernacht-20-gpn20-in-karlsruhe",
+    "posts_count": 1,
+    "reply_count": 0,
+    "highest_post_number": 1,
+    "image_url": null,
+    "created_at": "2022-05-06T16:22:36.127Z",
+    "last_posted_at": "2022-05-06T16:22:36.255Z",
+    "bumped": true,
+    "bumped_at": "2022-05-06T16:22:36.255Z",
+    "archetype": "regular",
+    "unseen": false,
+    "pinned": false,
+    "unpinned": null,
+    "visible": true,
+    "closed": false,
+    "archived": false,
+    "bookmarked": null,
+    "liked": null,
+    "tags": [],
+    "tags_descriptions": {},
+    "views": 3,
+    "like_count": 0,
+    "has_summary": false,
+    "last_poster_username": "rugk",
+    "category_id": 42,
+    "pinned_globally": false,
+    "featured_link": null,
+    "event": {
+      "start": "2022-05-18T22:00:00+00:00",
+      "end": "2022-05-20T22:00:00+00:00",
+      "timezone": "Europe/Berlin",
+      "all_day": true,
+      "version": 1,
+      "rsvp": true
+    },
+    "event_going_total": 0,
+    "location": {
+      "street": "Lorenzstra\u00dfe 15",
+      "postalcode": "76135",
+      "city": "Karlsruhe",
+      "countrycode": "de",
+      "geo_location": {
+        "lat": "49.0020695",
+        "lon": "8.383668296343833",
+        "address": "Staatliche Hochschule f\u00fcr Gestaltung, 15, Lorenzstra\u00dfe, Beiertheimer Feld, S\u00fcdweststadt, Karlsruhe, Baden-W\u00fcrttemberg, 76135, Germany",
+        "countrycode": "de",
+        "city": "Karlsruhe",
+        "state": "Baden-W\u00fcrttemberg",
+        "country": "Germany",
+        "postalcode": "76135",
+        "boundingbox": [
+          "49.0016119",
+          "49.0024572",
+          "8.383228",
+          "8.3841261"
+        ],
+        "type": "university",
+        "selected": "true",
+        "zoomTo": "true"
+      },
+      "name": "HfG (Staatliche Hochschule f\u00fcr Gestaltung Karlsruhe)"
+    },
+    "has_accepted_answer": false,
+    "posters": [
+      {
+        "extras": "latest single",
+        "description": "Original Poster, Most Recent Poster",
+        "user_id": 20169,
+        "primary_group_id": null,
+        "flair_group_id": null
+      }
+    ]
+  },
+  {
     "id": 19285,
     "title": ":de: :community_round: M\u00fcnchen Fairphoners Meetup am 30. Mai",
     "fancy_title": ":de: :community_round: M\u00fcnchen Fairphoners Meetup am 30. Mai",
@@ -146,7 +223,7 @@
       "m\u00fcnchen"
     ],
     "tags_descriptions": {},
-    "views": 24139,
+    "views": 24140,
     "like_count": 620,
     "has_summary": true,
     "last_poster_username": "Volker",
