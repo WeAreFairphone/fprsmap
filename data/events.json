@@ -4,14 +4,14 @@
     "title": ":de: :gb: Fairphone Community Aachen :community_round: 10 Mai 2022",
     "fancy_title": ":de: :gb: Fairphone Community Aachen :community_round: 10 Mai 2022",
     "slug": "fairphone-community-aachen-10-mai-2022",
-    "posts_count": 119,
-    "reply_count": 46,
-    "highest_post_number": 190,
+    "posts_count": 121,
+    "reply_count": 47,
+    "highest_post_number": 192,
     "image_url": "https://forum.fairphone.com/uploads/default/optimized/2X/e/e8e1b95f7ddff79814d40ba93d857da8ea82f901_2_1024x768.jpg",
     "created_at": "2015-08-26T15:27:58.727Z",
-    "last_posted_at": "2022-05-09T20:22:26.156Z",
+    "last_posted_at": "2022-05-10T11:19:40.821Z",
     "bumped": true,
-    "bumped_at": "2022-05-05T22:24:35.173Z",
+    "bumped_at": "2022-05-10T11:19:40.821Z",
     "archetype": "regular",
     "unseen": false,
     "pinned": true,
@@ -33,8 +33,8 @@
       "aachen"
     ],
     "tags_descriptions": {},
-    "views": 56078,
-    "like_count": 430,
+    "views": 56094,
+    "like_count": 431,
     "has_summary": true,
     "last_poster_username": "urs_lesse",
     "category_id": 42,
@@ -48,11 +48,12 @@
       "rsvp": true,
       "going_max": 10,
       "going": [
-        "urs_lesse",
-        "shukti02"
+        "aetchen",
+        "shukti02",
+        "urs_lesse"
       ]
     },
-    "event_going_total": 2,
+    "event_going_total": 3,
     "location": {
       "postalcode": "52064",
       "city": "Aachen",
@@ -97,13 +98,6 @@
       {
         "extras": null,
         "description": "Frequent Poster",
-        "user_id": 5877,
-        "primary_group_id": null,
-        "flair_group_id": null
-      },
-      {
-        "extras": null,
-        "description": "Frequent Poster",
         "user_id": 16749,
         "primary_group_id": null,
         "flair_group_id": null
@@ -112,6 +106,13 @@
         "extras": null,
         "description": "Frequent Poster",
         "user_id": 13606,
+        "primary_group_id": null,
+        "flair_group_id": null
+      },
+      {
+        "extras": null,
+        "description": "Frequent Poster",
+        "user_id": 36754,
         "primary_group_id": null,
         "flair_group_id": null
       }
@@ -141,7 +142,7 @@
     "liked": null,
     "tags": [],
     "tags_descriptions": {},
-    "views": 227,
+    "views": 259,
     "like_count": 8,
     "has_summary": false,
     "last_poster_username": "xblax",
