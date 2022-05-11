@@ -23,7 +23,7 @@
     "liked": null,
     "tags": [],
     "tags_descriptions": {},
-    "views": 261,
+    "views": 262,
     "like_count": 8,
     "has_summary": false,
     "last_poster_username": "xblax",
@@ -115,7 +115,7 @@
       "m\u00fcnchen"
     ],
     "tags_descriptions": {},
-    "views": 24202,
+    "views": 24207,
     "like_count": 620,
     "has_summary": true,
     "last_poster_username": "Volker",
@@ -236,7 +236,7 @@
       "aachen"
     ],
     "tags_descriptions": {},
-    "views": 56118,
+    "views": 56132,
     "like_count": 432,
     "has_summary": true,
     "last_poster_username": "urs_lesse",
@@ -251,10 +251,11 @@
       "rsvp": true,
       "going_max": 10,
       "going": [
-        "urs_lesse"
+        "urs_lesse",
+        "Kerryman"
       ]
     },
-    "event_going_total": 1,
+    "event_going_total": 2,
     "location": {
       "street": "Suermondtplatz 12",
       "postalcode": "52062",
