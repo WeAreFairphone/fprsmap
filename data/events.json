@@ -150,7 +150,7 @@
       "aachen"
     ],
     "tags_descriptions": {},
-    "views": 56753,
+    "views": 56761,
     "like_count": 432,
     "has_summary": true,
     "last_poster_username": "urs_lesse",
@@ -165,11 +165,13 @@
       "rsvp": true,
       "going_max": 10,
       "going": [
+        "Kerryman",
         "urs_lesse",
-        "Kerryman"
+        "mde",
+        "trittan"
       ]
     },
-    "event_going_total": 2,
+    "event_going_total": 4,
     "location": {
       "street": "Suermondtplatz 12",
       "postalcode": "52062",
