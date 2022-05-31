@@ -32,7 +32,7 @@
       "aachen"
     ],
     "tags_descriptions": {},
-    "views": 57155,
+    "views": 57159,
     "like_count": 432,
     "has_summary": true,
     "last_poster_username": "urs_lesse",
@@ -124,14 +124,14 @@
     "title": ":de: :community_round: M\u00fcnchen Fairphoners Meetup am 27. Juni",
     "fancy_title": ":de: :community_round: M\u00fcnchen Fairphoners Meetup am 27. Juni",
     "slug": "munchen-fairphoners-meetup-am-27-juni",
-    "posts_count": 312,
+    "posts_count": 313,
     "reply_count": 167,
-    "highest_post_number": 338,
+    "highest_post_number": 339,
     "image_url": null,
     "created_at": "2016-06-24T10:46:50.917Z",
-    "last_posted_at": "2022-05-30T20:03:02.109Z",
+    "last_posted_at": "2022-05-31T07:08:20.014Z",
     "bumped": true,
-    "bumped_at": "2022-05-30T19:58:30.170Z",
+    "bumped_at": "2022-05-31T07:08:20.014Z",
     "archetype": "regular",
     "unseen": false,
     "pinned": false,
@@ -149,10 +149,10 @@
       "m\u00fcnchen"
     ],
     "tags_descriptions": {},
-    "views": 24632,
-    "like_count": 624,
+    "views": 24637,
+    "like_count": 625,
     "has_summary": true,
-    "last_poster_username": "Volker",
+    "last_poster_username": "Ingo",
     "category_id": 42,
     "pinned_globally": false,
     "featured_link": null,
@@ -213,21 +213,21 @@
       {
         "extras": null,
         "description": "Frequent Poster",
-        "user_id": 5151,
-        "primary_group_id": null,
-        "flair_group_id": null
-      },
-      {
-        "extras": null,
-        "description": "Frequent Poster",
         "user_id": 7483,
         "primary_group_id": 45,
         "flair_group_id": 45
       },
       {
+        "extras": null,
+        "description": "Frequent Poster",
+        "user_id": 4312,
+        "primary_group_id": null,
+        "flair_group_id": null
+      },
+      {
         "extras": "latest",
         "description": "Most Recent Poster",
-        "user_id": 6808,
+        "user_id": 34,
         "primary_group_id": 45,
         "flair_group_id": 45
       }
