@@ -32,7 +32,7 @@
       "aachen"
     ],
     "tags_descriptions": {},
-    "views": 57734,
+    "views": 57744,
     "like_count": 433,
     "has_summary": true,
     "last_poster_username": "urs_lesse",
@@ -45,17 +45,18 @@
       "timezone": "Europe/Brussels",
       "version": 30,
       "rsvp": true,
-      "going_max": 10,
+      "going_max": 15,
       "going": [
+        "jadev",
         "Kerryman",
-        "urs_lesse",
-        "mde",
-        "trittan",
         "Vize",
-        "jadev"
+        "urs_lesse",
+        "caro_m",
+        "mde",
+        "trittan"
       ]
     },
-    "event_going_total": 6,
+    "event_going_total": 7,
     "location": {
       "street": "Suermondtplatz 12",
       "postalcode": "52062",
