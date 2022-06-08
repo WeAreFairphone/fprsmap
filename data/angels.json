@@ -120,6 +120,21 @@
       ]
     },
     {
+      "location": "Brussels",
+      "country": "\ud83c\udde7\ud83c\uddea",
+      "angels": [
+        "glotzbach"
+      ],
+      "exists": true,
+      "active": true,
+      "coordinates": [
+        [
+          50.8465573,
+          4.351697
+        ]
+      ]
+    },
+    {
       "location": "Cannes",
       "country": "\ud83c\uddeb\ud83c\uddf7",
       "angels": [
@@ -553,6 +568,21 @@
         [
           50.376289,
           -4.143841
+        ]
+      ]
+    },
+    {
+      "location": "Prague",
+      "country": "\ud83c\udde8\ud83c\uddff",
+      "angels": [
+        "razem"
+      ],
+      "exists": true,
+      "active": true,
+      "coordinates": [
+        [
+          50.0596288,
+          14.446459273258009
         ]
       ]
     },
