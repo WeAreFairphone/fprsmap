@@ -1,128 +1,5 @@
 [
   {
-    "id": 9703,
-    "title": "\ud83c\udde9\ud83c\uddea \ud83c\uddec\ud83c\udde7 Aachener Fairphone-Stammtisch am 10. Juni 2022 :community_round:",
-    "fancy_title": ":de: :uk: Aachener Fairphone-Stammtisch am 10. Juni 2022 :community_round:",
-    "slug": "aachener-fairphone-stammtisch-am-10-juni-2022",
-    "posts_count": 121,
-    "reply_count": 47,
-    "highest_post_number": 194,
-    "image_url": "https://forum.fairphone.com/uploads/default/optimized/2X/e/e8e1b95f7ddff79814d40ba93d857da8ea82f901_2_1024x768.jpg",
-    "created_at": "2015-08-26T15:27:58.727Z",
-    "last_posted_at": "2022-05-31T22:03:57.857Z",
-    "bumped": true,
-    "bumped_at": "2022-06-10T16:16:42.156Z",
-    "archetype": "regular",
-    "unseen": false,
-    "pinned": true,
-    "unpinned": null,
-    "excerpt": ":de: Unsere n\u00e4chsten Termine:\n10.06.2022 \u2022 19 Uhr \u2022 Aachener Fairphone-Stammtisch im Pfannenzauber \n10.07.2022 \u2022 18 Uhr \u2022 Videostammtisch \n12.08.2022 \u2022 19 Uhr \u2022 Aachener Fairphone-Stammtisch im Pfannenzauber [vorl\u00e4uf. P&hellip;",
-    "visible": true,
-    "closed": false,
-    "archived": false,
-    "bookmarked": null,
-    "liked": null,
-    "unicode_title": "\ud83c\udde9\ud83c\uddea \ud83c\uddec\ud83c\udde7 Aachener Fairphone-Stammtisch am 10. Juni 2022 :community_round:",
-    "tags": [
-      "\ud83c\udde9\ud83c\uddea",
-      "\ud83c\uddec\ud83c\udde7",
-      "localcommunities",
-      "meetup",
-      "videoconference",
-      "group",
-      "aachen"
-    ],
-    "tags_descriptions": {},
-    "views": 58352,
-    "like_count": 433,
-    "has_summary": true,
-    "last_poster_username": "urs_lesse",
-    "category_id": 42,
-    "pinned_globally": true,
-    "featured_link": null,
-    "event": {
-      "start": "2022-06-10T17:00:00+00:00",
-      "end": "2022-06-10T20:00:00+00:00",
-      "timezone": "Europe/Brussels",
-      "version": 30,
-      "rsvp": true,
-      "going_max": 15,
-      "going": [
-        "Kerryman",
-        "Vize",
-        "urs_lesse",
-        "caro_m",
-        "mde",
-        "uwausac"
-      ]
-    },
-    "event_going_total": 6,
-    "location": {
-      "street": "Suermondtplatz 12",
-      "postalcode": "52062",
-      "city": "Aachen",
-      "countrycode": "de",
-      "geo_location": {
-        "lat": 50.7736799,
-        "lon": 6.0911333,
-        "address": "Pfannenzauber, 12, Suermondtplatz, Kaiserplatz, Frankenberger Viertel, Aachen-Mitte, Aachen, St\u00e4dteregion Aachen, North Rhine-Westphalia, 52062, Germany",
-        "countrycode": "de",
-        "city": "Aachen",
-        "state": "North Rhine-Westphalia",
-        "country": "Germany",
-        "postalcode": "52062",
-        "boundingbox": [
-          "50.7736299",
-          "50.7737299",
-          "6.0910833",
-          "6.0911833"
-        ],
-        "type": "restaurant",
-        "selected": true,
-        "zoomTo": true
-      },
-      "name": "Veganes Restaurant PZ\u2013Pfannenzauber"
-    },
-    "has_accepted_answer": false,
-    "posters": [
-      {
-        "extras": "latest",
-        "description": "Original Poster, Most Recent Poster",
-        "user_id": 4312,
-        "primary_group_id": null,
-        "flair_group_id": null
-      },
-      {
-        "extras": null,
-        "description": "Frequent Poster",
-        "user_id": 324,
-        "primary_group_id": 45,
-        "flair_group_id": 45
-      },
-      {
-        "extras": null,
-        "description": "Frequent Poster",
-        "user_id": 16749,
-        "primary_group_id": null,
-        "flair_group_id": null
-      },
-      {
-        "extras": null,
-        "description": "Frequent Poster",
-        "user_id": 13606,
-        "primary_group_id": null,
-        "flair_group_id": null
-      },
-      {
-        "extras": null,
-        "description": "Frequent Poster",
-        "user_id": 36754,
-        "primary_group_id": null,
-        "flair_group_id": null
-      }
-    ]
-  },
-  {
     "id": 19285,
     "title": ":de: :community_round: M\u00fcnchen Fairphoners Meetup am 27. Juni",
     "fancy_title": ":de: :community_round: M\u00fcnchen Fairphoners Meetup am 27. Juni",
@@ -152,7 +29,7 @@
       "m\u00fcnchen"
     ],
     "tags_descriptions": {},
-    "views": 24877,
+    "views": 24878,
     "like_count": 626,
     "has_summary": true,
     "last_poster_username": "Ingo",
