@@ -4,14 +4,14 @@
     "title": ":de: :community_round: M\u00fcnchen Fairphoners Meetup am 27. Juni",
     "fancy_title": ":de: :community_round: M\u00fcnchen Fairphoners Meetup am 27. Juni",
     "slug": "munchen-fairphoners-meetup-am-27-juni",
-    "posts_count": 316,
-    "reply_count": 170,
-    "highest_post_number": 342,
+    "posts_count": 317,
+    "reply_count": 171,
+    "highest_post_number": 343,
     "image_url": null,
     "created_at": "2016-06-24T10:46:50.917Z",
-    "last_posted_at": "2022-06-26T09:50:56.152Z",
+    "last_posted_at": "2022-06-26T15:19:55.090Z",
     "bumped": true,
-    "bumped_at": "2022-06-26T09:50:56.152Z",
+    "bumped_at": "2022-06-26T15:19:55.090Z",
     "archetype": "regular",
     "unseen": false,
     "pinned": false,
@@ -29,10 +29,10 @@
       "m\u00fcnchen"
     ],
     "tags_descriptions": {},
-    "views": 25152,
-    "like_count": 629,
+    "views": 25159,
+    "like_count": 630,
     "has_summary": true,
-    "last_poster_username": "OLLI_S",
+    "last_poster_username": "Volker",
     "category_id": 42,
     "pinned_globally": false,
     "featured_link": null,
@@ -93,23 +93,23 @@
       {
         "extras": null,
         "description": "Frequent Poster",
+        "user_id": 5151,
+        "primary_group_id": null,
+        "flair_group_id": null
+      },
+      {
+        "extras": null,
+        "description": "Frequent Poster",
         "user_id": 7483,
         "primary_group_id": 45,
         "flair_group_id": 45
       },
       {
-        "extras": null,
-        "description": "Frequent Poster",
-        "user_id": 4312,
-        "primary_group_id": null,
-        "flair_group_id": null
-      },
-      {
         "extras": "latest",
         "description": "Most Recent Poster",
-        "user_id": 21966,
-        "primary_group_id": null,
-        "flair_group_id": null
+        "user_id": 6808,
+        "primary_group_id": 45,
+        "flair_group_id": 45
       }
     ]
   },
@@ -146,7 +146,7 @@
       "aachen"
     ],
     "tags_descriptions": {},
-    "views": 59851,
+    "views": 59861,
     "like_count": 434,
     "has_summary": true,
     "last_poster_username": "urs_lesse",
