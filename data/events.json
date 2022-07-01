@@ -4,14 +4,14 @@
     "title": "\ud83c\udde9\ud83c\uddea \ud83c\uddec\ud83c\udde7 Fairphone Community Aachen :community_round:",
     "fancy_title": ":de: :uk: Fairphone Community Aachen :community_round:",
     "slug": "fairphone-community-aachen",
-    "posts_count": 121,
+    "posts_count": 123,
     "reply_count": 47,
-    "highest_post_number": 194,
+    "highest_post_number": 198,
     "image_url": "https://forum.fairphone.com/uploads/default/optimized/2X/e/e8e1b95f7ddff79814d40ba93d857da8ea82f901_2_1024x768.jpg",
     "created_at": "2015-08-26T15:27:58.727Z",
-    "last_posted_at": "2022-05-31T22:03:57.857Z",
+    "last_posted_at": "2022-07-01T09:42:21.028Z",
     "bumped": true,
-    "bumped_at": "2022-06-23T21:09:31.055Z",
+    "bumped_at": "2022-07-01T09:42:21.028Z",
     "archetype": "regular",
     "unseen": false,
     "pinned": false,
@@ -32,10 +32,10 @@
       "aachen"
     ],
     "tags_descriptions": {},
-    "views": 60268,
-    "like_count": 434,
+    "views": 60305,
+    "like_count": 435,
     "has_summary": true,
-    "last_poster_username": "urs_lesse",
+    "last_poster_username": "FairphoneHulk",
     "category_id": 42,
     "pinned_globally": false,
     "featured_link": null,
@@ -79,8 +79,8 @@
     "has_accepted_answer": false,
     "posters": [
       {
-        "extras": "latest",
-        "description": "Original Poster, Most Recent Poster",
+        "extras": null,
+        "description": "Original Poster",
         "user_id": 4312,
         "primary_group_id": null,
         "flair_group_id": null
@@ -107,9 +107,9 @@
         "flair_group_id": null
       },
       {
-        "extras": null,
-        "description": "Frequent Poster",
-        "user_id": 36754,
+        "extras": "latest",
+        "description": "Most Recent Poster",
+        "user_id": 37210,
         "primary_group_id": null,
         "flair_group_id": null
       }
@@ -145,7 +145,7 @@
       "m\u00fcnchen"
     ],
     "tags_descriptions": {},
-    "views": 25287,
+    "views": 25292,
     "like_count": 634,
     "has_summary": true,
     "last_poster_username": "Volker",
