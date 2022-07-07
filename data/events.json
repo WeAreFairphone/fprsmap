@@ -32,7 +32,7 @@
       "d\u00fcsseldorf"
     ],
     "tags_descriptions": {},
-    "views": 12592,
+    "views": 12593,
     "like_count": 166,
     "has_summary": true,
     "last_poster_username": "Amber",
@@ -143,7 +143,7 @@
       "aachen"
     ],
     "tags_descriptions": {},
-    "views": 61011,
+    "views": 61019,
     "like_count": 438,
     "has_summary": true,
     "last_poster_username": "FairphoneHulk",
@@ -227,6 +227,117 @@
     ]
   },
   {
+    "id": 17482,
+    "title": ":de: Treffen in Hamburg f\u00fcr alle Fairphoner*innen",
+    "fancy_title": ":de: Treffen in Hamburg f\u00fcr alle Fairphoner*innen",
+    "slug": "treffen-in-hamburg-fur-alle-fairphoner-innen",
+    "posts_count": 604,
+    "reply_count": 279,
+    "highest_post_number": 612,
+    "image_url": null,
+    "created_at": "2016-05-06T16:30:01.540Z",
+    "last_posted_at": "2022-07-07T11:07:25.549Z",
+    "bumped": true,
+    "bumped_at": "2022-07-07T11:07:25.549Z",
+    "archetype": "regular",
+    "unseen": false,
+    "pinned": false,
+    "unpinned": null,
+    "visible": true,
+    "closed": false,
+    "archived": false,
+    "bookmarked": null,
+    "liked": null,
+    "unicode_title": "\ud83c\udde9\ud83c\uddea Treffen in Hamburg f\u00fcr alle Fairphoner*innen",
+    "tags": [
+      "\ud83c\udde9\ud83c\uddea",
+      "localcommunities",
+      "germany",
+      "meetup",
+      "videoconference",
+      "hamburg"
+    ],
+    "tags_descriptions": {},
+    "views": 41377,
+    "like_count": 802,
+    "has_summary": true,
+    "last_poster_username": "dianey",
+    "category_id": 42,
+    "pinned_globally": false,
+    "featured_link": null,
+    "event": {
+      "start": "2022-07-14T16:00:00+00:00",
+      "end": "2022-07-14T19:00:00+00:00",
+      "timezone": "Europe/Berlin",
+      "version": 14
+    },
+    "event_going_total": 0,
+    "location": {
+      "street": "Spadenteich 1",
+      "postalcode": "20099",
+      "city": "Hamburg",
+      "countrycode": "de",
+      "geo_location": {
+        "lat": 53.5560177,
+        "lon": 10.008123,
+        "address": "Max und Consorten, 1, Spadenteich, St. Georg, Hamburg-Mitte, Hamburg, 20099, Germany",
+        "countrycode": "de",
+        "city": null,
+        "state": "Hamburg",
+        "country": "Germany",
+        "postalcode": "20099",
+        "boundingbox": [
+          "53.5559677",
+          "53.5560677",
+          "10.008073",
+          "10.008173"
+        ],
+        "type": "pub",
+        "selected": true,
+        "zoomTo": true
+      },
+      "name": "Max und Consorten"
+    },
+    "has_accepted_answer": false,
+    "posters": [
+      {
+        "extras": null,
+        "description": "Original Poster",
+        "user_id": 7516,
+        "primary_group_id": null,
+        "flair_group_id": null
+      },
+      {
+        "extras": null,
+        "description": "Frequent Poster",
+        "user_id": 4312,
+        "primary_group_id": null,
+        "flair_group_id": null
+      },
+      {
+        "extras": null,
+        "description": "Frequent Poster",
+        "user_id": 13986,
+        "primary_group_id": 45,
+        "flair_group_id": 45
+      },
+      {
+        "extras": null,
+        "description": "Frequent Poster",
+        "user_id": 34,
+        "primary_group_id": 45,
+        "flair_group_id": 45
+      },
+      {
+        "extras": "latest",
+        "description": "Most Recent Poster",
+        "user_id": 29108,
+        "primary_group_id": 45,
+        "flair_group_id": 45
+      }
+    ]
+  },
+  {
     "id": 19285,
     "title": ":de: :community_round: M\u00fcnchen Fairphoners Meetup am 25. Juli",
     "fancy_title": ":de: :community_round: M\u00fcnchen Fairphoners Meetup am 25. Juli",
@@ -256,7 +367,7 @@
       "m\u00fcnchen"
     ],
     "tags_descriptions": {},
-    "views": 25391,
+    "views": 25393,
     "like_count": 634,
     "has_summary": true,
     "last_poster_username": "Volker",
