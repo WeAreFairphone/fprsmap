@@ -1,117 +1,5 @@
 [
   {
-    "id": 26302,
-    "title": ":de: :uk: Fairphone-Community D\u00fcsseldorf-Rhein-Ruhr",
-    "fancy_title": ":de: :uk: Fairphone-Community D\u00fcsseldorf-Rhein-Ruhr",
-    "slug": "fairphone-community-dusseldorf-rhein-ruhr",
-    "posts_count": 69,
-    "reply_count": 27,
-    "highest_post_number": 79,
-    "image_url": null,
-    "created_at": "2017-02-22T00:44:42.409Z",
-    "last_posted_at": "2022-07-09T09:49:23.801Z",
-    "bumped": true,
-    "bumped_at": "2022-07-02T13:10:04.104Z",
-    "archetype": "regular",
-    "unseen": false,
-    "pinned": true,
-    "unpinned": null,
-    "excerpt": "Fairphone-Stammtisch D\u00fcsseldorf-Rhein-Ruhr\n\nContact: @Amber (D\u00fcsseldorf) @neolovich (K\u00f6ln) @yvmuell (Solingen)\nEmail: rhein-ruhr :slight_smile: fairphone.community\n\nPers\u00f6nlich im echten Leben oder auch per Videocall\nN\u00e4ch&hellip;",
-    "visible": true,
-    "closed": false,
-    "archived": false,
-    "bookmarked": null,
-    "liked": null,
-    "unicode_title": "\ud83c\udde9\ud83c\uddea \ud83c\uddec\ud83c\udde7 Fairphone-Community D\u00fcsseldorf-Rhein-Ruhr",
-    "tags": [
-      "\ud83c\udde9\ud83c\uddea",
-      "localcommunities",
-      "meetup",
-      "meetfairphone3",
-      "ruhrgebiet",
-      "k\u00f6ln",
-      "d\u00fcsseldorf"
-    ],
-    "tags_descriptions": {},
-    "views": 12700,
-    "like_count": 167,
-    "has_summary": true,
-    "last_poster_username": "yvmuell",
-    "category_id": 42,
-    "pinned_globally": true,
-    "featured_link": null,
-    "event": {
-      "start": "2022-07-09T15:30:00+00:00",
-      "timezone": "Europe/Berlin",
-      "version": 5
-    },
-    "event_going_total": 0,
-    "location": {
-      "street": "Bilker Stra\u00dfe 46",
-      "postalcode": "40213",
-      "city": "D\u00fcsseldorf",
-      "countrycode": "de",
-      "geo_location": {
-        "lat": 51.19077325,
-        "lon": 6.793516713552313,
-        "address": "Heinrich-Heine-University Duesseldorf, 1, Universit\u00e4tsstra\u00dfe, Bilk, Stadtbezirk 3, Dusseldorf, North Rhine-Westphalia, 40225, Germany",
-        "countrycode": "de",
-        "city": "Dusseldorf",
-        "state": "North Rhine-Westphalia",
-        "country": "Germany",
-        "postalcode": "40225",
-        "boundingbox": [
-          "51.1821269",
-          "51.1993293",
-          "6.7827954",
-          "6.8050252"
-        ],
-        "type": "university",
-        "zoomTo": true,
-        "selected": true
-      },
-      "name": "Destille D\u00fcsseldorf"
-    },
-    "has_accepted_answer": false,
-    "posters": [
-      {
-        "extras": null,
-        "description": "Original Poster",
-        "user_id": 3945,
-        "primary_group_id": 45,
-        "flair_group_id": 45
-      },
-      {
-        "extras": null,
-        "description": "Frequent Poster",
-        "user_id": 20663,
-        "primary_group_id": null,
-        "flair_group_id": null
-      },
-      {
-        "extras": null,
-        "description": "Frequent Poster",
-        "user_id": 7933,
-        "primary_group_id": null,
-        "flair_group_id": null
-      },
-      {
-        "extras": null,
-        "description": "Frequent Poster",
-        "user_id": 4312,
-        "primary_group_id": null,
-        "flair_group_id": null
-      },
-      {
-        "extras": "latest",
-        "description": "Most Recent Poster",
-        "user_id": 26528,
-        "primary_group_id": 45,
-        "flair_group_id": 45
-      }
-    ]
-  },
-  {
     "id": 9703,
     "title": "\ud83c\udde9\ud83c\uddea \ud83c\uddec\ud83c\udde7 Fairphone Community Aachen | Videostammtisch 10. Juli :community_round:",
     "fancy_title": ":de: :uk: Fairphone Community Aachen | Videostammtisch 10. Juli :community_round:",
@@ -144,7 +32,7 @@
       "aachen"
     ],
     "tags_descriptions": {},
-    "views": 61254,
+    "views": 61258,
     "like_count": 438,
     "has_summary": true,
     "last_poster_username": "FairphoneHulk",
@@ -259,7 +147,7 @@
       "hamburg"
     ],
     "tags_descriptions": {},
-    "views": 41452,
+    "views": 41498,
     "like_count": 804,
     "has_summary": true,
     "last_poster_username": "DErik",
@@ -368,7 +256,7 @@
       "m\u00fcnchen"
     ],
     "tags_descriptions": {},
-    "views": 25454,
+    "views": 25457,
     "like_count": 634,
     "has_summary": true,
     "last_poster_username": "Volker",
