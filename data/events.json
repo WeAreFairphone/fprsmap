@@ -33,7 +33,7 @@
       "d\u00fcsseldorf"
     ],
     "tags_descriptions": {},
-    "views": 12646,
+    "views": 12697,
     "like_count": 167,
     "has_summary": true,
     "last_poster_username": "yvmuell",
@@ -144,7 +144,7 @@
       "aachen"
     ],
     "tags_descriptions": {},
-    "views": 61230,
+    "views": 61246,
     "like_count": 438,
     "has_summary": true,
     "last_poster_username": "FairphoneHulk",
@@ -232,14 +232,14 @@
     "title": ":de: Treffen in Hamburg f\u00fcr alle Fairphoner*innen",
     "fancy_title": ":de: Treffen in Hamburg f\u00fcr alle Fairphoner*innen",
     "slug": "treffen-in-hamburg-fur-alle-fairphoner-innen",
-    "posts_count": 604,
+    "posts_count": 605,
     "reply_count": 279,
-    "highest_post_number": 612,
+    "highest_post_number": 613,
     "image_url": null,
     "created_at": "2016-05-06T16:30:01.540Z",
-    "last_posted_at": "2022-07-07T11:07:25.549Z",
+    "last_posted_at": "2022-07-09T11:11:06.609Z",
     "bumped": true,
-    "bumped_at": "2022-07-07T11:07:25.549Z",
+    "bumped_at": "2022-07-09T11:11:06.609Z",
     "archetype": "regular",
     "unseen": false,
     "pinned": false,
@@ -259,10 +259,10 @@
       "hamburg"
     ],
     "tags_descriptions": {},
-    "views": 41438,
-    "like_count": 802,
+    "views": 41447,
+    "like_count": 804,
     "has_summary": true,
-    "last_poster_username": "dianey",
+    "last_poster_username": "DErik",
     "category_id": 42,
     "pinned_globally": false,
     "featured_link": null,
@@ -332,9 +332,9 @@
       {
         "extras": "latest",
         "description": "Most Recent Poster",
-        "user_id": 29108,
-        "primary_group_id": 45,
-        "flair_group_id": 45
+        "user_id": 30731,
+        "primary_group_id": null,
+        "flair_group_id": null
       }
     ]
   },
@@ -368,7 +368,7 @@
       "m\u00fcnchen"
     ],
     "tags_descriptions": {},
-    "views": 25448,
+    "views": 25453,
     "like_count": 634,
     "has_summary": true,
     "last_poster_username": "Volker",
