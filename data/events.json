@@ -1,122 +1,5 @@
 [
   {
-    "id": 9703,
-    "title": "\ud83c\udde9\ud83c\uddea \ud83c\uddec\ud83c\udde7 Fairphone Community Aachen | Videostammtisch 10. Juli :community_round:",
-    "fancy_title": ":de: :uk: Fairphone Community Aachen | Videostammtisch 10. Juli :community_round:",
-    "slug": "fairphone-community-aachen-videostammtisch-10-juli",
-    "posts_count": 124,
-    "reply_count": 47,
-    "highest_post_number": 200,
-    "image_url": "https://forum.fairphone.com/uploads/default/optimized/2X/e/e8e1b95f7ddff79814d40ba93d857da8ea82f901_2_1024x768.jpg",
-    "created_at": "2015-08-26T15:27:58.727Z",
-    "last_posted_at": "2022-07-10T09:32:23.672Z",
-    "bumped": true,
-    "bumped_at": "2022-07-10T09:32:04.918Z",
-    "archetype": "regular",
-    "unseen": false,
-    "pinned": true,
-    "unpinned": null,
-    "excerpt": ":de: Unsere n\u00e4chsten Termine:\n10.07.2022 \u2022 18 Uhr \u2022 Videostammtisch (Zugangsdaten bitte per Nachricht erfragen) \n12.08.2022 \u2022 19 Uhr \u2022 Aachener Fairphone-Stammtisch im Pfannenzauber \n10.09.2022 \u2022 11-18 Uhr \u2022 4. Aachener&hellip;",
-    "visible": true,
-    "closed": false,
-    "archived": false,
-    "bookmarked": null,
-    "liked": null,
-    "unicode_title": "\ud83c\udde9\ud83c\uddea \ud83c\uddec\ud83c\udde7 Fairphone Community Aachen | Videostammtisch 10. Juli :community_round:",
-    "tags": [
-      "\ud83c\udde9\ud83c\uddea",
-      "\ud83c\uddec\ud83c\udde7",
-      "localcommunities",
-      "meetup",
-      "videoconference",
-      "group",
-      "aachen"
-    ],
-    "tags_descriptions": {},
-    "views": 61377,
-    "like_count": 438,
-    "has_summary": true,
-    "last_poster_username": "urs_lesse",
-    "category_id": 42,
-    "pinned_globally": true,
-    "featured_link": null,
-    "event": {
-      "start": "2022-07-10T16:00:00+00:00",
-      "end": "2022-07-10T18:00:00+00:00",
-      "timezone": "Europe/Brussels",
-      "version": 31,
-      "rsvp": true,
-      "going_max": 10,
-      "going": [
-        "urs_lesse"
-      ]
-    },
-    "event_going_total": 1,
-    "location": {
-      "postalcode": "52064",
-      "city": "Aachen",
-      "countrycode": "de",
-      "geo_location": {
-        "lat": 50.776351,
-        "lon": 6.083862,
-        "address": "Aachen, St\u00e4dteregion Aachen, North Rhine-Westphalia, Germany",
-        "countrycode": "de",
-        "city": "Aachen",
-        "state": "North Rhine-Westphalia",
-        "country": "Germany",
-        "postalcode": null,
-        "boundingbox": [
-          "50.6621373",
-          "50.8572449",
-          "5.9748624",
-          "6.2180747"
-        ],
-        "type": "administrative",
-        "selected": true,
-        "zoomTo": true
-      },
-      "name": "Jitsi (Videokonferenz)"
-    },
-    "has_accepted_answer": false,
-    "posters": [
-      {
-        "extras": "latest",
-        "description": "Original Poster, Most Recent Poster",
-        "user_id": 4312,
-        "primary_group_id": null,
-        "flair_group_id": null
-      },
-      {
-        "extras": null,
-        "description": "Frequent Poster",
-        "user_id": 324,
-        "primary_group_id": 45,
-        "flair_group_id": 45
-      },
-      {
-        "extras": null,
-        "description": "Frequent Poster",
-        "user_id": 13606,
-        "primary_group_id": null,
-        "flair_group_id": null
-      },
-      {
-        "extras": null,
-        "description": "Frequent Poster",
-        "user_id": 36754,
-        "primary_group_id": null,
-        "flair_group_id": null
-      },
-      {
-        "extras": null,
-        "description": "Frequent Poster",
-        "user_id": 37210,
-        "primary_group_id": null,
-        "flair_group_id": null
-      }
-    ]
-  },
-  {
     "id": 17482,
     "title": ":de: Treffen in Hamburg f\u00fcr alle Fairphoner*innen",
     "fancy_title": ":de: Treffen in Hamburg f\u00fcr alle Fairphoner*innen",
@@ -148,7 +31,7 @@
       "hamburg"
     ],
     "tags_descriptions": {},
-    "views": 41558,
+    "views": 41560,
     "like_count": 804,
     "has_summary": true,
     "last_poster_username": "Ingo",
@@ -257,7 +140,7 @@
       "m\u00fcnchen"
     ],
     "tags_descriptions": {},
-    "views": 25485,
+    "views": 25486,
     "like_count": 634,
     "has_summary": true,
     "last_poster_username": "Volker",
@@ -338,6 +221,128 @@
         "user_id": 6808,
         "primary_group_id": 45,
         "flair_group_id": 45
+      }
+    ]
+  },
+  {
+    "id": 9703,
+    "title": "\ud83c\udde9\ud83c\uddea \ud83c\uddec\ud83c\udde7 Aachener Fairphone Stammtisch | Meetup 12.08. :community_round:",
+    "fancy_title": ":de: :uk: Aachener Fairphone Stammtisch | Meetup 12.08. :community_round:",
+    "slug": "aachener-fairphone-stammtisch-meetup-12-08",
+    "posts_count": 124,
+    "reply_count": 47,
+    "highest_post_number": 201,
+    "image_url": "https://forum.fairphone.com/uploads/default/optimized/2X/e/e8e1b95f7ddff79814d40ba93d857da8ea82f901_2_1024x768.jpg",
+    "created_at": "2015-08-26T15:27:58.727Z",
+    "last_posted_at": "2022-07-10T17:41:20.357Z",
+    "bumped": true,
+    "bumped_at": "2022-07-10T17:43:17.249Z",
+    "archetype": "regular",
+    "unseen": false,
+    "pinned": false,
+    "unpinned": null,
+    "visible": true,
+    "closed": false,
+    "archived": false,
+    "bookmarked": null,
+    "liked": null,
+    "unicode_title": "\ud83c\udde9\ud83c\uddea \ud83c\uddec\ud83c\udde7 Aachener Fairphone Stammtisch | Meetup 12.08. :community_round:",
+    "tags": [
+      "\ud83c\udde9\ud83c\uddea",
+      "\ud83c\uddec\ud83c\udde7",
+      "localcommunities",
+      "meetup",
+      "videoconference",
+      "group",
+      "aachen"
+    ],
+    "tags_descriptions": {},
+    "views": 61422,
+    "like_count": 438,
+    "has_summary": true,
+    "last_poster_username": "urs_lesse",
+    "category_id": 42,
+    "pinned_globally": false,
+    "featured_link": null,
+    "event": {
+      "start": "2022-08-12T17:00:00+00:00",
+      "end": "2022-08-12T20:00:00+00:00",
+      "timezone": "Europe/Brussels",
+      "version": 32,
+      "rsvp": true,
+      "going_max": 10,
+      "going": [
+        "urs_lesse"
+      ]
+    },
+    "event_going_total": 1,
+    "location": {
+      "street": "Suermondtplatz 12",
+      "postalcode": "52062",
+      "city": "Aachen",
+      "countrycode": "de",
+      "geo_location": {
+        "lat": 50.7736799,
+        "lon": 6.0911333,
+        "address": "Pfannenzauber, 12, Suermondtplatz, Kaiserplatz, Burtscheid, Aachen-Mitte, Aachen, St\u00e4dteregion Aachen, North Rhine-Westphalia, 52062, Germany",
+        "countrycode": "de",
+        "city": "Aachen",
+        "state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "postalcode": "52062",
+        "boundingbox": [
+          "50.7736299",
+          "50.7737299",
+          "6.0910833",
+          "6.0911833"
+        ],
+        "type": "restaurant",
+        "selected": true,
+        "zoomTo": true
+      },
+      "name": "PZ\u2013Pfannenzauber | Veganes Restaurant",
+      "marker": {
+        "title": ":de: :uk: Fairphone Community Aachen | Aachener Fairphone Stammtisch 12.08. :community_round:",
+        "routeTo": "/t/fairphone-community-aachen-aachener-fairphone-stammtisch-12-08/9703"
+      },
+      "topic_id": 9703
+    },
+    "has_accepted_answer": false,
+    "posters": [
+      {
+        "extras": "latest",
+        "description": "Original Poster, Most Recent Poster",
+        "user_id": 4312,
+        "primary_group_id": null,
+        "flair_group_id": null
+      },
+      {
+        "extras": null,
+        "description": "Frequent Poster",
+        "user_id": 324,
+        "primary_group_id": 45,
+        "flair_group_id": 45
+      },
+      {
+        "extras": null,
+        "description": "Frequent Poster",
+        "user_id": 13606,
+        "primary_group_id": null,
+        "flair_group_id": null
+      },
+      {
+        "extras": null,
+        "description": "Frequent Poster",
+        "user_id": 36754,
+        "primary_group_id": null,
+        "flair_group_id": null
+      },
+      {
+        "extras": null,
+        "description": "Frequent Poster",
+        "user_id": 37210,
+        "primary_group_id": null,
+        "flair_group_id": null
       }
     ]
   }
