@@ -33,7 +33,7 @@
       "aachen"
     ],
     "tags_descriptions": {},
-    "views": 61333,
+    "views": 61353,
     "like_count": 438,
     "has_summary": true,
     "last_poster_username": "urs_lesse",
@@ -121,14 +121,14 @@
     "title": ":de: Treffen in Hamburg f\u00fcr alle Fairphoner*innen",
     "fancy_title": ":de: Treffen in Hamburg f\u00fcr alle Fairphoner*innen",
     "slug": "treffen-in-hamburg-fur-alle-fairphoner-innen",
-    "posts_count": 605,
+    "posts_count": 606,
     "reply_count": 279,
-    "highest_post_number": 613,
+    "highest_post_number": 614,
     "image_url": null,
     "created_at": "2016-05-06T16:30:01.540Z",
-    "last_posted_at": "2022-07-09T11:11:06.609Z",
+    "last_posted_at": "2022-07-10T10:56:57.610Z",
     "bumped": true,
-    "bumped_at": "2022-07-09T11:11:06.609Z",
+    "bumped_at": "2022-07-10T10:56:57.610Z",
     "archetype": "regular",
     "unseen": false,
     "pinned": false,
@@ -148,10 +148,10 @@
       "hamburg"
     ],
     "tags_descriptions": {},
-    "views": 41543,
+    "views": 41552,
     "like_count": 804,
     "has_summary": true,
-    "last_poster_username": "DErik",
+    "last_poster_username": "Ingo",
     "category_id": 42,
     "pinned_globally": false,
     "featured_link": null,
@@ -214,16 +214,16 @@
       {
         "extras": null,
         "description": "Frequent Poster",
-        "user_id": 34,
-        "primary_group_id": 45,
-        "flair_group_id": 45
+        "user_id": 18361,
+        "primary_group_id": null,
+        "flair_group_id": null
       },
       {
         "extras": "latest",
         "description": "Most Recent Poster",
-        "user_id": 30731,
-        "primary_group_id": null,
-        "flair_group_id": null
+        "user_id": 34,
+        "primary_group_id": 45,
+        "flair_group_id": 45
       }
     ]
   },
@@ -257,7 +257,7 @@
       "m\u00fcnchen"
     ],
     "tags_descriptions": {},
-    "views": 25479,
+    "views": 25483,
     "like_count": 634,
     "has_summary": true,
     "last_poster_username": "Volker",
