@@ -6,16 +6,17 @@
     "slug": "munchen-fairphoners-meetup-am-25-juli",
     "posts_count": 320,
     "reply_count": 171,
-    "highest_post_number": 346,
+    "highest_post_number": 347,
     "image_url": null,
     "created_at": "2016-06-24T10:46:50.917Z",
-    "last_posted_at": "2022-06-27T20:23:07.040Z",
+    "last_posted_at": "2022-07-24T21:22:13.332Z",
     "bumped": true,
     "bumped_at": "2022-06-27T20:23:07.040Z",
     "archetype": "regular",
     "unseen": false,
-    "pinned": false,
+    "pinned": true,
     "unpinned": null,
+    "excerpt": "Die M\u00fcnchner Fairphoner treffen sich jeden letzten Montag im Monat um 18:30 Uhr im Eine-Welt-Haus (EWH) in der Schwanthalerstr. 80 in Raum 109 (oder Raum 110, s. Liste vor Ort; bei sehr gutem Wetter auf der Terrasse oben&hellip;",
     "visible": true,
     "closed": false,
     "archived": false,
@@ -29,12 +30,12 @@
       "m\u00fcnchen"
     ],
     "tags_descriptions": {},
-    "views": 25684,
+    "views": 25691,
     "like_count": 634,
     "has_summary": true,
-    "last_poster_username": "Volker",
+    "last_poster_username": "urs_lesse",
     "category_id": 42,
-    "pinned_globally": false,
+    "pinned_globally": true,
     "featured_link": null,
     "event": {
       "start": "2022-07-25T16:30:00+00:00",
@@ -44,10 +45,11 @@
       "rsvp": true,
       "going_max": 10,
       "going": [
-        "Volker"
+        "Volker",
+        "AlbertJP"
       ]
     },
-    "event_going_total": 1,
+    "event_going_total": 2,
     "location": {
       "street": "Schwanthalerstr. 80",
       "postalcode": "80336",
@@ -107,9 +109,9 @@
       {
         "extras": "latest",
         "description": "Most Recent Poster",
-        "user_id": 6808,
-        "primary_group_id": 45,
-        "flair_group_id": 45
+        "user_id": 4312,
+        "primary_group_id": null,
+        "flair_group_id": null
       }
     ]
   },
@@ -146,7 +148,7 @@
       "aachen"
     ],
     "tags_descriptions": {},
-    "views": 62770,
+    "views": 62774,
     "like_count": 439,
     "has_summary": true,
     "last_poster_username": "yvmuell",
