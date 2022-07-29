@@ -4,7 +4,8 @@
       "location": "Amsterdam",
       "country": "\ud83c\uddf3\ud83c\uddf1",
       "angels": [
-        "pieternobel"
+        "pieternobel",
+        "UPPERCASE"
       ],
       "exists": true,
       "active": true,
@@ -462,6 +463,21 @@
         [
           48.1371079,
           11.5753822
+        ]
+      ]
+    },
+    {
+      "location": "Nantes",
+      "country": "\ud83c\uddeb\ud83c\uddf7",
+      "angels": [
+        "Alex.A"
+      ],
+      "exists": true,
+      "active": true,
+      "coordinates": [
+        [
+          47.21607,
+          -1.54935
         ]
       ]
     },
