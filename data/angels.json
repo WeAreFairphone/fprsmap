@@ -333,6 +333,22 @@
       ]
     },
     {
+      "location": "J\u00e4rvenp\u00e4\u00e4",
+      "aliases": [
+        "Jarvenpaa"
+      ],
+      "country": "\ud83c\uddeb\ud83c\uddee",
+      "angels": [
+        "Juhani_Virtanen"
+      ],
+      "coordinates": [
+        [
+          60.4743601,
+          25.0925118
+        ]
+      ]
+    },
+    {
       "location": "La R\u00e9union",
       "country": "\ud83c\uddeb\ud83c\uddf7",
       "angels": [
@@ -407,9 +423,7 @@
     {
       "location": "Madrid",
       "country": "\ud83c\uddea\ud83c\uddf8",
-      "angels": [
-        "Roboe"
-      ],
+      "angels": [],
       "exists": false,
       "coordinates": [
         [
