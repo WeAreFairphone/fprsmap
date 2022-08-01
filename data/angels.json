@@ -333,14 +333,13 @@
       ]
     },
     {
-      "location": "J\u00e4rvenp\u00e4\u00e4",
-      "aliases": [
-        "Jarvenpaa"
-      ],
+      "location": "Jarvenpaa",
       "country": "\ud83c\uddeb\ud83c\uddee",
       "angels": [
         "Juhani_Virtanen"
       ],
+      "exists": true,
+      "active": true,
       "coordinates": [
         [
           60.4743601,
