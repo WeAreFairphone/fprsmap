@@ -32,7 +32,7 @@
       "aachen"
     ],
     "tags_descriptions": {},
-    "views": 64167,
+    "views": 64184,
     "like_count": 440,
     "has_summary": true,
     "last_poster_username": "urs_lesse",
@@ -48,10 +48,11 @@
       "going_max": 10,
       "going": [
         "urs_lesse",
-        "Kerryman"
+        "Kerryman",
+        "Setcab"
       ]
     },
-    "event_going_total": 2,
+    "event_going_total": 4,
     "location": {
       "street": "Suermondtplatz 12",
       "postalcode": "52062",
@@ -152,7 +153,7 @@
       "m\u00fcnchen"
     ],
     "tags_descriptions": {},
-    "views": 26003,
+    "views": 26007,
     "like_count": 636,
     "has_summary": true,
     "last_poster_username": "Volker",
