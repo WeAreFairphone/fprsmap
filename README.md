@@ -7,28 +7,23 @@ The idea for the Fairphone Community Map originated in March 2015 in [a topic][1
 The map can currently be found at https://map.fairphone.community/ or at https://wearefairphone.github.io/fprsmap/.
 
 ## Status of the Project & Contributions
-The project scope is completely defined. Two categories have turned out to be relevant for the community map:
+The project scope is completely defined. One category has turned out to be relevant for the community map:
 
 - `angels` ([Local support volunteers][11], so called _Fairphone Angels_) [[Datasource]][17]
-- `events` (Meetups & Events of the Fairphone Community) [[Datasource]][15]
-
-### Add events to the Community Map
-
-1. Start a topic in the [#participate:local][category-local] category on the Fairphone Forum
-2. _Add Date and Time_, as well as _Add Location_
-3. Be sure to attach a geo location by clicking _Find Address_ and choosing one of the suggested options.
-4. It is advised to also fill the optional _Name_ text field because otherwise the marker's popup will only show postal code and city
 
 ### Fix bugs / develop features
-Please look at the [issues list][4] and help us out\* or give feedback. We are looking forward to your contribution!
+Please look at the [issues list][4] and help us out<sup>*</sup> or give feedback. We are looking forward to your contribution!
 
-\* A [how-to for building the map locally][16] can be found in the Wiki.
+<sup>*</sup>: A [how-to for building the map locally][16] can be found in the Wiki.
 
 ## Usage examples
-The categories mentioned in the previous paragraph can be used to define an initial state of the map.
 
-- Say you want to promote Fairphone Community events. Append `?show=events` to the URI and only meetups and events will be loaded into the map at start.
-- Multiple parameters are also possible: `https://map.fairphone.community/?show=events,angels` will display both the `events` and the `angels` layers.
+The map has been designed to work with different categories where `angels` is the only one that is still supported.
+Others - like `repairshops` or `events` have been removed in the past when it no longer made sense to maintain them.
+It is still possible to use such a category to define an initial state of the map, even though it will only have a real use case if a new category gets added in the future.
+
+- Say you want to promote Fairphone angels. Append `?show=angels` to the URI and only the locations of our Fairphone angels will be loaded into the map at start.
+- Multiple parameters are also possible: `https://map.fairphone.community/?show=events,angels` would display both the `events` and the `angels` layers, i.e. if we still had the `events`.
 
 To further customize the initial state of the map, the following parameters are also possible:
 
@@ -56,7 +51,7 @@ Thank you to [Fairphone][5] for their great support of community projects. They 
 Last but not least, we want to mention [Leaflet.js][7]. It's really a pleasure to work with their great JavaScript library to build this map!
 
 ## Contact information
-The developers @Roboe and @StefanBrand can be reached via the Fairphone Forum ([@Roboe][forum-roboe] / [@Stefan][forum-stefan]). If you like, you can also [join the public discussion][13] there.
+The developer @Ingo-FP-Angel can be reached via the Fairphone Forum ([@Ingo-FP-Angel][forum-ingo]). If you like, you can also [join the public discussion][13] there.
 
 
 [1]: https://forum.fairphone.com/t/do-you-know-an-open-source-alternative-to-embedded-maps/5088?u=stefan
@@ -72,6 +67,5 @@ The developers @Roboe and @StefanBrand can be reached via the Fairphone Forum ([
 [17]: https://forum.fairphone.com/t/data-source-for-fairphone-angels-program/48676?u=stefan
 
 [category-local]: https://forum.fairphone.com/c/participate/local
-[forum-roboe]: https://forum.fairphone.com/u/roboe
-[forum-stefan]: https://forum.fairphone.com/u/stefan
+[forum-ingo]: https://forum.fairphone.com/u/ingo
 [icon]: resources/embed-icon.png
