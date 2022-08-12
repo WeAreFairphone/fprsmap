@@ -29,7 +29,7 @@
       "m\u00fcnchen"
     ],
     "tags_descriptions": {},
-    "views": 26077,
+    "views": 26082,
     "like_count": 636,
     "has_summary": true,
     "last_poster_username": "Volker",
@@ -106,6 +106,125 @@
         "extras": "latest",
         "description": "Most Recent Poster",
         "user_id": 6808,
+        "primary_group_id": 45,
+        "flair_group_id": 45
+      }
+    ]
+  },
+  {
+    "id": 9703,
+    "title": "\ud83c\udde9\ud83c\uddea \ud83c\uddec\ud83c\udde7 4. Aachener Fairtrade-Messe | Fairphone Community Aachen :community_round:",
+    "fancy_title": ":de: :uk: 4. Aachener Fairtrade-Messe | Fairphone Community Aachen :community_round:",
+    "slug": "4-aachener-fairtrade-messe-fairphone-community-aachen",
+    "posts_count": 128,
+    "reply_count": 50,
+    "highest_post_number": 207,
+    "image_url": "https://forum.fairphone.com/uploads/default/optimized/2X/e/e8e1b95f7ddff79814d40ba93d857da8ea82f901_2_1024x768.jpg",
+    "created_at": "2015-08-26T15:27:58.727Z",
+    "last_posted_at": "2022-08-12T21:53:20.441Z",
+    "bumped": true,
+    "bumped_at": "2022-08-12T21:53:20.441Z",
+    "archetype": "regular",
+    "unseen": false,
+    "pinned": false,
+    "unpinned": null,
+    "visible": true,
+    "closed": false,
+    "archived": false,
+    "bookmarked": null,
+    "liked": null,
+    "unicode_title": "\ud83c\udde9\ud83c\uddea \ud83c\uddec\ud83c\udde7 4. Aachener Fairtrade-Messe | Fairphone Community Aachen :community_round:",
+    "tags": [
+      "\ud83c\udde9\ud83c\uddea",
+      "\ud83c\uddec\ud83c\udde7",
+      "localcommunities",
+      "meetup",
+      "videoconference",
+      "group",
+      "aachen"
+    ],
+    "tags_descriptions": {},
+    "views": 64658,
+    "like_count": 440,
+    "has_summary": true,
+    "last_poster_username": "urs_lesse",
+    "category_id": 42,
+    "pinned_globally": false,
+    "featured_link": null,
+    "event": {
+      "start": "2022-09-10T09:00:00+00:00",
+      "end": "2022-09-10T16:00:00+00:00",
+      "timezone": "Europe/Brussels",
+      "version": 33,
+      "rsvp": true,
+      "going_max": 1000,
+      "going": [
+        "urs_lesse",
+        "Kerryman",
+        "Gerd_Einzmann"
+      ]
+    },
+    "event_going_total": 3,
+    "location": {
+      "street": "Pontstra\u00dfe 7",
+      "postalcode": "52064",
+      "city": "Aachen",
+      "countrycode": "de",
+      "geo_location": {
+        "lat": 50.7770074,
+        "lon": 6.082856041652947,
+        "address": "Aula Carolina, 7, Pontstra\u00dfe, Aachen-Mitte, Aachen, St\u00e4dteregion Aachen, North Rhine-Westphalia, 52062, Germany",
+        "countrycode": "de",
+        "city": "Aachen",
+        "state": "North Rhine-Westphalia",
+        "country": "Germany",
+        "postalcode": "52062",
+        "boundingbox": [
+          "50.7768443",
+          "50.7771744",
+          "6.0825738",
+          "6.0831394"
+        ],
+        "type": "church",
+        "selected": true,
+        "zoomTo": true
+      },
+      "name": "Aula Carolina"
+    },
+    "has_accepted_answer": false,
+    "posters": [
+      {
+        "extras": "latest",
+        "description": "Original Poster, Most Recent Poster",
+        "user_id": 4312,
+        "primary_group_id": null,
+        "flair_group_id": null
+      },
+      {
+        "extras": null,
+        "description": "Frequent Poster",
+        "user_id": 324,
+        "primary_group_id": 45,
+        "flair_group_id": 45
+      },
+      {
+        "extras": null,
+        "description": "Frequent Poster",
+        "user_id": 36754,
+        "primary_group_id": null,
+        "flair_group_id": null
+      },
+      {
+        "extras": null,
+        "description": "Frequent Poster",
+        "user_id": 37210,
+        "primary_group_id": null,
+        "flair_group_id": null
+      },
+      {
+        "extras": null,
+        "description": "Frequent Poster",
+        "user_id": 26528,
         "primary_group_id": 45,
         "flair_group_id": 45
       }
