@@ -24,16 +24,6 @@
 
   /* Constants */
   var COMMUNITY_DOMAIN = 'fairphone.community'
-  var TOPIC_URL = 'https://forum.fairphone.com/t/'
-
-  var MARKERICONS = ["blue", "brown", "green", "grey", "orange", "pink", "red"]
-    .reduce(function(markericons, color) {
-      markericons[color] = L.icon({
-          iconUrl: 'resources/FairphoneMarker_' + color + '.png',
-          iconAnchor: [15.9, 49],
-        });
-      return markericons;
-    }, {});
 
   var EXCLUDED_LAYERS = [];
 
@@ -51,10 +41,6 @@
   var overlaysData = {
     angels: {
       title: "Fairphone Angels",
-      overlay: L.featureGroup.subGroup(cluster),
-    },
-    events: {
-      title: "Meetups & Events",
       overlay: L.featureGroup.subGroup(cluster),
     },
   }
@@ -274,7 +260,6 @@
     .then(function(json) {
       // Add a marker per Heaven
       json.heavens.forEach(function(heaven) {
-        console.log(heaven.exists, heaven.active)
         if(heaven.exists && heaven.active) {
           heaven.coordinates.forEach(function(lat_lng) {
             var circle = L.circle(lat_lng, { radius: 30000, color: '#2ca7df', stroke:false, fillOpacity: 0.5 })
@@ -286,77 +271,4 @@
         }
       });
     });
-
-    //Populate Events & Meetups overlay (events fetched from Fairphone Forum agenda)
-    // https://forum.fairphone.com/agenda.json
-    fetchJSON('data/events.json')
-      .then(function(topics) {
-        topics.forEach(function(topic) {
-          if(topic.event && topic.location && topic.location.geo_location) {
-            var e = topic.event,
-                l = topic.location.geo_location,
-                name = topic.location.name
-
-            var popup = '<a href="' + TOPIC_URL + topic.id + '" target="_blank">' + (topic.unicode_title || topic.title) + '</a>' +
-              '<br><div class="shopinfo">Start: ' +
-              new Date(e.start).toLocaleDateString() + ' | ' +
-              new Date(e.start).toLocaleTimeString([], {hour: '2-digit', minute: '2-digit'})
-            if(e.end) {
-              popup += '<br>End: ' +
-              new Date(e.end).toLocaleDateString() + ' | ' +
-              new Date(e.end).toLocaleTimeString([], {hour: '2-digit', minute: '2-digit'}) + '</div>';
-            }
-            popup += '</div>';
-
-            popup += '<div class="shopinfo">Where: '
-            if(name) popup += name + '<br>' + '&emsp;'
-            popup += l.postalcode + ' ' + (l.city || l.state) + ', ' + l.country + '</div>';
-
-            var marker = L.marker([l.lat,l.lon], { icon: MARKERICONS.orange, riseOnHover: true })
-              .bindPopup(popup, { offset: new L.Point(0, -25)});
-            marker.addTo(overlaysData.events.overlay);
-          }
-        })
-        /*
-        json.list.forEach(function(area) {
-          var nextEvent;
-          if(area.events) {
-            //discard all events that took place before today
-            area.events = area.events.filter(function(event) {
-              event.date = new Date(event.date[0], event.date[1]-1, event.date[2], event.date[3], event.date[4]);
-              return event.date.getTime() > CURRENTDATE.getTime();
-            });
-            //find the one closest to today
-            if(area.events.length > 0) {
-              nextEvent = area.events.reduce(function(nextEvent, currentEvent) {
-                if(currentEvent.date.getTime() < nextEvent.date.getTime()) {
-                  return currentEvent;
-                } else {
-                  return nextEvent;
-                };
-              });
-            };
-            if(nextEvent) {
-              var popup = '<a href="' + nextEvent.url + '" target="_blank">' + nextEvent.name + '</a>' +
-                '<br><div class="shopinfo">When: ' +
-                nextEvent.date.toLocaleDateString() + ' | ' + nextEvent.date.toLocaleTimeString([], {hour: '2-digit', minute: '2-digit'}) + '</div>';
-              if(nextEvent.venue || nextEvent.address) {
-                popup = popup + '<div class="shopinfo">Where: ';
-                if(nextEvent.venue) {
-                  popup = popup + nextEvent.venue;
-                }
-                if(nextEvent.address) {
-                  popup = popup + '<br>' +
-                    '&emsp;' + nextEvent.address + '<br>' +
-                    '&emsp;' + nextEvent.zipcode + ' ' + nextEvent.city;
-                };
-                popup = popup + '</div>';
-              };
-              var marker = L.marker(nextEvent.lat_lng, { icon: MARKERICONS.orange, riseOnHover: true })
-                .bindPopup(popup, { offset: new L.Point(0, -25)});
-              marker.addTo(overlaysData.events.overlay);
-            };
-          };
-        });*/
-      });
 }(this));
