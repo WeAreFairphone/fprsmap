@@ -2,19 +2,20 @@ import datetime
 import json
 import os.path
 import re
+
 import requests
 import sys
 
 pattern_table = re.compile("^\s*\|")
-pattern_city = re.compile("\[[_*]*(\w+)[_*]*]") # ignore italics or bold markdown characters _ and *
-pattern_link = re.compile(".*\((https://forum.fairphone.com/t/.*)\)")
-pattern_coordinates = re.compile("https://www.openstreetmap.org/.*/(\d+\.\d+/\d+\.\d+)")
+pattern_link_title = re.compile(".*\[[_*]*([\w\s]+)[_*]*].*", re.UNICODE) # ignore italics or bold markdown characters _ and *
+pattern_link = re.compile(".*\((https://forum.fairphone.com/t/.*)\)\s")
+pattern_coordinates = re.compile(".*https://www.openstreetmap.org/.*/(\d+\.\d+/\d+\.\d+).*")
 
 
 class Event:
-    def __init__(self, date, city, url, lat, lon: str):
+    def __init__(self, date, location, url, lat, lon: str):
         self.date = date
-        self.city = city
+        self.location = location
         self.url = url
         self.lat = lat
         self.lon = lon
@@ -39,7 +40,7 @@ def parse_date(datestr):
 
 
 def parse_city(forumlink):
-    m = pattern_city.match(forumlink)
+    m = pattern_link_title.match(forumlink)
     if m is None:
         return None
 
@@ -62,28 +63,46 @@ def parse_coordinates(openstreetmaplink):
     return m.group(1)
 
 
-def parse_event_from_table(line):
-    stripped = line.replace(' ', '')
-    columns = stripped.split("|")
+def parse_location(openstreetmaplink):
+    m = pattern_link_title.match(openstreetmaplink)
+    if m is None:
+        return None
 
-    date = parse_date(columns[1])
+    return m.group(1)
+
+
+def parse_event_from_table(line):
+    print("--- New line in event table ---")
+
+    columns = line.split("|")
+
+    date = parse_date(columns[1].replace(' ', ''))
+    print("Date: ", date)
     if date is None:
         return None
 
     city = parse_city(columns[2])
+    print("City: ", city)
     if city is None:
         return None
 
     url = parse_url(columns[2])
+    print("URL : ", url)
     if url is None:
         return None
 
     coordinates = parse_coordinates(columns[3])
+    print("Geo : ", coordinates)
     if coordinates is None:
         return None
 
+    location = parse_location(columns[3])
+    print("Loc : ", location)
+    if location is None:
+        location = city
+
     lat_lon = coordinates.split("/")
-    return Event(date, city, url, lat_lon[0], lat_lon[1])
+    return Event(date, location, url, lat_lon[0], lat_lon[1])
 
 
 response = requests.get('https://forum.fairphone.com/raw/87870/1')

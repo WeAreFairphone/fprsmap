@@ -295,8 +295,8 @@
         // event on top when the icons overlap
         events.sort((a, b) => b.date < a.date ? -1 : b.date > a.date ? 1 : 0)
         events.forEach(function (event) {
-          if (event.url && event.city && event.lat && event.lon && event.date >= new Date().toISOString().split('T')[0]) {
-            var popup = '<a href="' + event.url + '" target="_blank">' + event.city + '</a>' +
+          if (event.url && event.location && event.lat && event.lon && event.date >= new Date().toISOString().split('T')[0]) {
+            var popup = '<a href="' + event.url + '" target="_blank">' + event.location + '</a>' +
                 '<br><div class="shopinfo">Date: ' +
                 new Date(event.date).toLocaleDateString()
             popup += '</div>';
