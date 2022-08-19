@@ -33,6 +33,7 @@ jobs:
       - name: Update Data
         run: |
           python scripts/fetch-angels.py
+          python scripts/fetch-events.py
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@4.1.4
