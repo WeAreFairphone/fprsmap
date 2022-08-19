@@ -1,11 +1,25 @@
 {
   "heavens": [
     {
+      "location": "Almere",
+      "country": "\ud83c\uddf3\ud83c\uddf1",
+      "angels": [
+        "UPPERCASE"
+      ],
+      "exists": true,
+      "active": true,
+      "coordinates": [
+        [
+          52.3657098,
+          5.2210432
+        ]
+      ]
+    },
+    {
       "location": "Amsterdam",
       "country": "\ud83c\uddf3\ud83c\uddf1",
       "angels": [
-        "pieternobel",
-        "UPPERCASE"
+        "pieternobel"
       ],
       "exists": true,
       "active": true,
@@ -282,6 +296,24 @@
         [
           47.9960901,
           7.8494005
+        ]
+      ]
+    },
+    {
+      "location": "Geneva",
+      "aliases": [
+        "Genf"
+      ],
+      "country": "\ud83c\udde8\ud83c\udded",
+      "angels": [
+        "Tomtom"
+      ],
+      "exists": true,
+      "active": true,
+      "coordinates": [
+        [
+          46.2017559,
+          6.1466014
         ]
       ]
     },
