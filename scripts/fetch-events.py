@@ -1,4 +1,4 @@
-import datetime
+﻿import datetime
 import json
 import os.path
 import re
@@ -7,9 +7,11 @@ import requests
 import sys
 
 pattern_table = re.compile("^\s*\|")
+pattern_date = re.compile("\d{1,2}([/\-.])\d{1,2}([/\-.])\d{4}") # DDMMYYY delimited by one of "/-."
 pattern_link_title = re.compile(".*\[[_*]*([\w\s]+)[_*]*].*", re.UNICODE) # ignore italics or bold markdown characters _ and *
 pattern_link = re.compile(".*\((https://forum.fairphone.com/t/.*)\)\s")
-pattern_coordinates = re.compile(".*https://www.openstreetmap.org/.*/(\d+\.\d+/\d+\.\d+).*")
+pattern_coordinates = re.compile(".*<map.*?location=\"(\d+\.\d+)\s*?[/,]\s*?(\d+\.\d+)\".*?/>.*")
+pattern_map_title = re.compile(".*<map.*?title=\"([\w\s.]+)\".*?/>.*", re.UNICODE)
 
 
 class Event:
@@ -29,8 +31,11 @@ def is_table_line(line):
 
 
 def parse_date(datestr):
+    m = pattern_date.match(datestr)
+    if m is None:
+        return None
     try:
-        parsed = datetime.datetime.strptime(datestr, '%d/%m/%Y')
+        parsed = datetime.datetime.strptime(datestr, '%d'+m.group(1)+'%m'+m.group(2)+'%Y')
         if parsed >= datetime.datetime.now():
             return parsed.date().strftime("%Y-%m-%d")
         else:
@@ -55,16 +60,16 @@ def parse_url(forumlink):
     return m.group(1)
 
 
-def parse_coordinates(openstreetmaplink):
-    m = pattern_coordinates.match(openstreetmaplink)
+def parse_coordinates(locationcolumn):
+    m = pattern_coordinates.match(locationcolumn)
     if m is None:
         return None
 
-    return m.group(1)
+    return m.group(1) + "/" + m.group(2)
 
 
-def parse_location(openstreetmaplink):
-    m = pattern_link_title.match(openstreetmaplink)
+def parse_location(locationcolumn):
+    m = pattern_map_title.match(locationcolumn)
     if m is None:
         return None
 
@@ -81,25 +86,27 @@ def parse_event_from_table(line):
     if date is None:
         return None
 
-    city = parse_city(columns[2])
-    print("City: ", city)
-    if city is None:
-        return None
-
     url = parse_url(columns[2])
     print("URL : ", url)
     if url is None:
         return None
 
-    coordinates = parse_coordinates(columns[3])
+    coordinates = parse_coordinates(columns[2])
     print("Geo : ", coordinates)
     if coordinates is None:
         return None
 
-    location = parse_location(columns[3])
-    print("Loc : ", location)
+    city = parse_city(columns[2])
+    print("City: ", city)
+
+    location = parse_location(columns[2])
+    print("Titl: ", location)
     if location is None:
         location = city
+
+    print("Loc : ", location)
+    if location is None:
+        return None
 
     lat_lon = coordinates.split("/")
     return Event(date, location, url, lat_lon[0], lat_lon[1])
