@@ -11,7 +11,7 @@ pattern_date = re.compile("\d{1,2}([/\-.])\d{1,2}([/\-.])\d{4}") # DDMMYYY delim
 pattern_link_title = re.compile(".*\[[_*]*([\w\s]+)[_*]*].*", re.UNICODE) # ignore italics or bold markdown characters _ and *
 pattern_link = re.compile(".*\((https://forum.fairphone.com/t/.*)\)\s")
 pattern_coordinates = re.compile(".*<map.*?location=\"(\d+\.\d+)\s*?[/,]\s*?(\d+\.\d+)\".*?/>.*")
-pattern_map_title = re.compile(".*<map.*?title=\"([\w\s.]+)\".*?/>.*", re.UNICODE)
+pattern_map_title = re.compile(".*<map.*?title=\"([\w\s.-]+)\".*?/>.*", re.UNICODE)
 
 
 class Event:
