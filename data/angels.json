@@ -4,7 +4,8 @@
       "location": "Almere",
       "country": "\ud83c\uddf3\ud83c\uddf1",
       "angels": [
-        "UPPERCASE"
+        "UPPERCASE",
+        "pieternobel"
       ],
       "exists": true,
       "active": true,
@@ -18,11 +19,8 @@
     {
       "location": "Amsterdam",
       "country": "\ud83c\uddf3\ud83c\uddf1",
-      "angels": [
-        "pieternobel"
-      ],
       "exists": true,
-      "active": true,
+      "active": false,
       "coordinates": [
         [
           52.3727598,
