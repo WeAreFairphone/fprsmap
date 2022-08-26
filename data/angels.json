@@ -19,8 +19,6 @@
     {
       "location": "Amsterdam",
       "country": "\ud83c\uddf3\ud83c\uddf1",
-      "exists": true,
-      "active": false,
       "coordinates": [
         [
           52.3727598,
@@ -479,11 +477,6 @@
     {
       "location": "Montpellier",
       "country": "\ud83c\uddeb\ud83c\uddf7",
-      "angels": [
-        "Antoine"
-      ],
-      "exists": true,
-      "active": true,
       "coordinates": [
         [
           43.6112422,
