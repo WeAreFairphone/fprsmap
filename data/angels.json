@@ -314,6 +314,21 @@
       ]
     },
     {
+      "location": "Ghent",
+      "country": "\ud83c\udde7\ud83c\uddea",
+      "angels": [
+        "Dryhte"
+      ],
+      "exists": true,
+      "active": true,
+      "coordinates": [
+        [
+          51.0538286,
+          3.7250121
+        ]
+      ]
+    },
+    {
       "location": "Grenoble",
       "country": "\ud83c\uddeb\ud83c\uddf7",
       "exists": true,
