@@ -490,6 +490,21 @@
       ]
     },
     {
+      "location": "Rhein-Neckar",
+      "country": "\ud83c\udde9\ud83c\uddea",
+      "angels": [
+        "pmn"
+      ],
+      "exists": true,
+      "active": true,
+      "coordinates": [
+        [
+          49.4892913,
+          8.4673098
+        ]
+      ]
+    },
+    {
       "location": "Montpellier",
       "country": "\ud83c\uddeb\ud83c\uddf7",
       "coordinates": [
