@@ -505,6 +505,21 @@
       ]
     },
     {
+      "location": "Milan",
+      "country": "\ud83c\uddee\ud83c\uddf9",
+      "angels": [
+        "lucagiulio94"
+      ],
+      "exists": true,
+      "active": true,
+      "coordinates": [
+        [
+          45.4641943,
+          9.1896346
+        ]
+      ]
+    },
+    {
       "location": "Montpellier",
       "country": "\ud83c\uddeb\ud83c\uddf7",
       "coordinates": [
