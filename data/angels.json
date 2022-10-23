@@ -490,21 +490,6 @@
       ]
     },
     {
-      "location": "Rhein-Neckar",
-      "country": "\ud83c\udde9\ud83c\uddea",
-      "angels": [
-        "pmn"
-      ],
-      "exists": true,
-      "active": true,
-      "coordinates": [
-        [
-          49.4892913,
-          8.4673098
-        ]
-      ]
-    },
-    {
       "location": "Milan",
       "country": "\ud83c\uddee\ud83c\uddf9",
       "angels": [
@@ -551,7 +536,8 @@
       "location": "Nantes",
       "country": "\ud83c\uddeb\ud83c\uddf7",
       "angels": [
-        "Alex.A"
+        "Alex.A",
+        "Sissi"
       ],
       "exists": true,
       "active": true,
@@ -709,6 +695,21 @@
         [
           49.9927036,
           8.6671682
+        ]
+      ]
+    },
+    {
+      "location": "Rhein-Neckar",
+      "country": "\ud83c\udde9\ud83c\uddea",
+      "angels": [
+        "pmn"
+      ],
+      "exists": true,
+      "active": true,
+      "coordinates": [
+        [
+          49.4892913,
+          8.4673098
         ]
       ]
     },
