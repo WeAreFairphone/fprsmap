@@ -775,6 +775,21 @@
       ]
     },
     {
+      "location": "Stockholm",
+      "country": "\ud83c\uddf8\ud83c\uddea",
+      "angels": [
+        "valen"
+      ],
+      "exists": true,
+      "active": true,
+      "coordinates": [
+        [
+          59.3251172,
+          18.0710935
+        ]
+      ]
+    },
+    {
       "location": "Stuttgart",
       "country": "\ud83c\udde9\ud83c\uddea",
       "angels": [
