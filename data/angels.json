@@ -932,6 +932,21 @@
       ]
     },
     {
+      "location": "Wuerzburg",
+      "country": "\ud83c\udde9\ud83c\uddea",
+      "angels": [
+        "TLeutritz"
+      ],
+      "exists": true,
+      "active": true,
+      "coordinates": [
+        [
+          49.79245,
+          9.932966
+        ]
+      ]
+    },
+    {
       "location": "Zurich",
       "country": "\ud83c\udde8\ud83c\udded",
       "angels": [
