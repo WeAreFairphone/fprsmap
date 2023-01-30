@@ -4,8 +4,7 @@
       "location": "Almere",
       "country": "\ud83c\uddf3\ud83c\uddf1",
       "angels": [
-        "UPPERCASE",
-        "pieternobel"
+        "UPPERCASE"
       ],
       "exists": true,
       "active": true,
@@ -904,7 +903,6 @@
       "angels": [
         "Martin",
         "Stanzi",
-        "z3ntu",
         "paulakreuzer"
       ],
       "exists": true,
