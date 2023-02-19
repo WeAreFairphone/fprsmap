@@ -514,6 +514,21 @@
       ]
     },
     {
+      "location": "Montreal",
+      "country": "\ud83c\udde8\ud83c\udde6",
+      "angels": [
+        "Atlantian"
+      ],
+      "exists": true,
+      "active": true,
+      "coordinates": [
+        [
+          45.5031824,
+          -73.5698065
+        ]
+      ]
+    },
+    {
       "location": "Munich",
       "aliases": [
         "Muenchen"
