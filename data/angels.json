@@ -686,11 +686,8 @@
     {
       "location": "Ravensburg",
       "country": "\ud83c\udde9\ud83c\uddea",
-      "angels": [
-        "markus_fp2"
-      ],
       "exists": true,
-      "active": true,
+      "active": false,
       "coordinates": [
         [
           47.7848028,
