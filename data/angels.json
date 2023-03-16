@@ -450,7 +450,6 @@
       "location": "Linz",
       "country": "\ud83c\udde6\ud83c\uddf9",
       "angels": [
-        "Stanzi",
         "KarlKl"
       ],
       "exists": true,
@@ -686,6 +685,9 @@
     {
       "location": "Ravensburg",
       "country": "\ud83c\udde9\ud83c\uddea",
+      "angels": [
+        "Volker"
+      ],
       "exists": true,
       "active": false,
       "coordinates": [
