@@ -578,6 +578,21 @@
       ]
     },
     {
+      "location": "Nowy Dw\u00f3r Mazowiecki",
+      "country": "\ud83c\uddf5\ud83c\uddf1",
+      "angels": [
+        "rogal"
+      ],
+      "exists": true,
+      "active": true,
+      "coordinates": [
+        [
+          52.434175749999994,
+          20.706110418137545
+        ]
+      ]
+    },
+    {
       "location": "Orleans",
       "country": "\ud83c\uddeb\ud83c\uddf7",
       "angels": [
