@@ -563,7 +563,10 @@
       ]
     },
     {
-      "location": "Nowy Dw\u00f3r Mazowiecki",
+      "location": "Nowy-Dwor-Mazowiecki",
+      "aliases": [
+        "Nowy Dw\u00f3r Mazowiecki"
+      ],
       "country": "\ud83c\uddf5\ud83c\uddf1",
       "angels": [
         "rogal"
