@@ -548,6 +548,21 @@
       ]
     },
     {
+      "location": "Newcastle",
+      "country": "\ud83c\uddec\ud83c\udde7",
+      "angels": [
+        "UDT121"
+      ],
+      "exists": true,
+      "active": true,
+      "coordinates": [
+        [
+          54.9738474,
+          -1.6131572
+        ]
+      ]
+    },
+    {
       "location": "Northengland",
       "country": "\ud83c\uddec\ud83c\udde7",
       "angels": [
