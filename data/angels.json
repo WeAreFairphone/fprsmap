@@ -450,8 +450,11 @@
     {
       "location": "Madrid",
       "country": "\ud83c\uddea\ud83c\uddf8",
-      "angels": [],
-      "exists": false,
+      "angels": [
+        "stefan.nestelberger"
+      ],
+      "exists": true,
+      "active": true,
       "coordinates": [
         [
           40.4167047,
