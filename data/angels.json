@@ -917,6 +917,21 @@
       ]
     },
     {
+      "location": "Trieste",
+      "country": "\ud83c\uddee\ud83c\uddf9",
+      "angels": [
+        "paolo-caroni"
+      ],
+      "exists": true,
+      "active": true,
+      "coordinates": [
+        [
+          45.6496485,
+          13.7772781
+        ]
+      ]
+    },
+    {
       "location": "Vienna",
       "aliases": [
         "wien"
