@@ -51,6 +51,21 @@
       ]
     },
     {
+      "location": "Bamberg",
+      "country": "\ud83c\udde9\ud83c\uddea",
+      "angels": [
+        "ThorVoos"
+      ],
+      "exists": false,
+      "active": false,
+      "coordinates": [
+        [
+          49.8916044,
+          10.8868478
+        ]
+      ]
+    },
+    {
       "location": "Barcelona",
       "country": "\ud83c\uddea\ud83c\uddf8",
       "angels": [
