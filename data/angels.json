@@ -56,8 +56,8 @@
       "angels": [
         "ThorVoos"
       ],
-      "exists": false,
-      "active": false,
+      "exists": true,
+      "active": true,
       "coordinates": [
         [
           49.8916044,
@@ -686,21 +686,6 @@
         [
           48.8566101,
           2.3514992
-        ]
-      ]
-    },
-    {
-      "location": "Plymouth",
-      "country": "\ud83c\uddec\ud83c\udde7",
-      "angels": [
-        "amoun"
-      ],
-      "exists": true,
-      "active": true,
-      "coordinates": [
-        [
-          50.376289,
-          -4.143841
         ]
       ]
     },
