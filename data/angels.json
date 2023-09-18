@@ -887,6 +887,21 @@
       ]
     },
     {
+      "location": "Toulon",
+      "country": "\ud83c\uddeb\ud83c\uddf7",
+      "angels": [
+        "Stephane_MOUNIER"
+      ],
+      "exists": true,
+      "active": true,
+      "coordinates": [
+        [
+          43.1257311,
+          5.9304919
+        ]
+      ]
+    },
+    {
       "location": "Toulouse",
       "country": "\ud83c\uddeb\ud83c\uddf7",
       "angels": [
