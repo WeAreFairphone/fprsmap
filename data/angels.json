@@ -709,7 +709,8 @@
       "location": "Rhein-Main",
       "country": "\ud83c\udde9\ud83c\uddea",
       "angels": [
-        "manchot"
+        "manchot",
+        "lukasp"
       ],
       "exists": true,
       "active": true,
@@ -717,6 +718,10 @@
         [
           49.9927036,
           8.6671682
+        ],
+        [
+          50.0820384,
+          8.2416556
         ]
       ]
     },
@@ -955,8 +960,7 @@
       "country": "\ud83c\udde6\ud83c\uddf9",
       "angels": [
         "Martin",
-        "Stanzi",
-        "paulakreuzer"
+        "Stanzi"
       ],
       "exists": true,
       "active": true,
