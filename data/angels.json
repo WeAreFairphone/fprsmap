@@ -987,6 +987,21 @@
       ]
     },
     {
+      "location": "Wageningen",
+      "country": "\ud83c\uddf3\ud83c\uddf1",
+      "angels": [
+        "harmen97"
+      ],
+      "exists": true,
+      "active": true,
+      "coordinates": [
+        [
+          51.9685817,
+          5.668298061827958
+        ]
+      ]
+    },
+    {
       "location": "Wuerzburg",
       "country": "\ud83c\udde9\ud83c\uddea",
       "angels": [
