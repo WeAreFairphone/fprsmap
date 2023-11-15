@@ -162,6 +162,21 @@
       ]
     },
     {
+      "location": "Budapest",
+      "country": "\ud83c\udded\ud83c\uddfa",
+      "angels": [
+        "Furdiburd"
+      ],
+      "exists": true,
+      "active": true,
+      "coordinates": [
+        [
+          47.4978918,
+          19.0401609
+        ]
+      ]
+    },
+    {
       "location": "Cannes",
       "country": "\ud83c\uddeb\ud83c\uddf7",
       "angels": [
