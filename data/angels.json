@@ -594,6 +594,21 @@
       ]
     },
     {
+      "location": "Norwich",
+      "country": "\ud83c\uddec\ud83c\udde7",
+      "angels": [
+        "Cardbored"
+      ],
+      "exists": true,
+      "active": true,
+      "coordinates": [
+        [
+          52.6285576,
+          1.2923954
+        ]
+      ]
+    },
+    {
       "location": "Nowy-Dwor-Mazowiecki",
       "aliases": [
         "Nowy Dw\u00f3r Mazowiecki"
