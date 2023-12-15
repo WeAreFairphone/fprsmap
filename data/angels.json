@@ -463,6 +463,21 @@
       ]
     },
     {
+      "location": "Limburg",
+      "country": "\ud83c\udde9\ud83c\uddea",
+      "angels": [
+        "Felix96"
+      ],
+      "exists": true,
+      "active": true,
+      "coordinates": [
+        [
+          50.3876305,
+          8.0636197
+        ]
+      ]
+    },
+    {
       "location": "Linz",
       "country": "\ud83c\udde6\ud83c\uddf9",
       "angels": [
