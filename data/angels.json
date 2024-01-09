@@ -671,6 +671,21 @@
       ]
     },
     {
+      "location": "Oulu",
+      "country": "\ud83c\uddeb\ud83c\uddee",
+      "angels": [
+        "CyclingEngineer"
+      ],
+      "exists": true,
+      "active": true,
+      "coordinates": [
+        [
+          65.0118734,
+          25.4716809
+        ]
+      ]
+    },
+    {
       "location": "Padova",
       "country": "\ud83c\uddee\ud83c\uddf9",
       "angels": [
