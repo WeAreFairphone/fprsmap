@@ -561,8 +561,7 @@
       "location": "Nantes",
       "country": "\ud83c\uddeb\ud83c\uddf7",
       "angels": [
-        "Alex.A",
-        "Sissi"
+        "Alex.A"
       ],
       "coordinates": [
         [
@@ -976,7 +975,8 @@
       "country": "\ud83c\udde6\ud83c\uddf9",
       "angels": [
         "Martin",
-        "Stanzi"
+        "Stanzi",
+        "Lars"
       ],
       "exists": true,
       "active": true,
