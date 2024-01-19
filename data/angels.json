@@ -1,6 +1,21 @@
 {
   "heavens": [
     {
+      "location": "Aalborg",
+      "country": "\ud83c\udde9\ud83c\uddf0",
+      "angels": [
+        "MacroPhag"
+      ],
+      "exists": true,
+      "active": true,
+      "coordinates": [
+        [
+          57.0462626,
+          9.9215263
+        ]
+      ]
+    },
+    {
       "location": "Almere",
       "country": "\ud83c\uddf3\ud83c\uddf1",
       "angels": [
