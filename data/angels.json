@@ -155,7 +155,6 @@
       "location": "Brussels",
       "country": "\ud83c\udde7\ud83c\uddea",
       "angels": [
-        "glotzbach",
         "koumilak"
       ],
       "exists": true,
@@ -398,21 +397,6 @@
       ]
     },
     {
-      "location": "Hannover",
-      "country": "\ud83c\udde9\ud83c\uddea",
-      "angels": [
-        "datenteiler"
-      ],
-      "exists": true,
-      "active": true,
-      "coordinates": [
-        [
-          52.3744779,
-          9.7385532
-        ]
-      ]
-    },
-    {
       "location": "Jarvenpaa",
       "country": "\ud83c\uddeb\ud83c\uddee",
       "angels": [
@@ -591,8 +575,8 @@
       "angels": [
         "UDT121"
       ],
-      "exists": true,
-      "active": true,
+      "exists": null,
+      "active": null,
       "coordinates": [
         [
           54.9738474,
@@ -635,8 +619,8 @@
       "angels": [
         "theofruitrouge"
       ],
-      "exists": true,
-      "active": true,
+      "exists": null,
+      "active": null,
       "coordinates": [
         [
           47.90592,
@@ -695,8 +679,8 @@
       "angels": [
         "Agno"
       ],
-      "exists": true,
-      "active": true,
+      "exists": null,
+      "active": null,
       "coordinates": [
         [
           45.4077172,
@@ -708,7 +692,6 @@
       "location": "Paris",
       "country": "\ud83c\uddeb\ud83c\uddf7",
       "angels": [
-        "jaymanu",
         "Antoine"
       ],
       "exists": true,
@@ -761,8 +744,8 @@
       "angels": [
         "pmn"
       ],
-      "exists": true,
-      "active": true,
+      "exists": null,
+      "active": null,
       "coordinates": [
         [
           49.4892913,
@@ -775,7 +758,6 @@
       "country": "\ud83c\udde9\ud83c\uddea",
       "angels": [
         "Amber",
-        "neolovich",
         "yvmuell"
       ],
       "exists": true,
@@ -822,8 +804,8 @@
       "angels": [
         "Ole-kr"
       ],
-      "exists": true,
-      "active": true,
+      "exists": null,
+      "active": null,
       "coordinates": [
         [
           58.85244,
@@ -883,8 +865,8 @@
       "angels": [
         "susobaco"
       ],
-      "exists": true,
-      "active": true,
+      "exists": null,
+      "active": null,
       "coordinates": [
         [
           41.1172364,
@@ -913,8 +895,8 @@
       "angels": [
         "ElaineCB"
       ],
-      "exists": true,
-      "active": true,
+      "exists": null,
+      "active": null,
       "coordinates": [
         [
           52.68477435,
@@ -928,8 +910,8 @@
       "angels": [
         "Stephane_MOUNIER"
       ],
-      "exists": true,
-      "active": true,
+      "exists": null,
+      "active": null,
       "coordinates": [
         [
           43.1257311,
@@ -943,8 +925,8 @@
       "angels": [
         "theofruitrouge"
       ],
-      "exists": true,
-      "active": true,
+      "exists": null,
+      "active": null,
       "coordinates": [
         [
           43.604713,
@@ -958,8 +940,8 @@
       "angels": [
         "nuiun"
       ],
-      "exists": true,
-      "active": true,
+      "exists": null,
+      "active": null,
       "coordinates": [
         [
           49.7172227,
@@ -1008,8 +990,8 @@
       "angels": [
         "fentocoworking"
       ],
-      "exists": true,
-      "active": true,
+      "exists": null,
+      "active": null,
       "coordinates": [
         [
           42.2376602,
@@ -1051,7 +1033,6 @@
       "location": "Zurich",
       "country": "\ud83c\udde8\ud83c\udded",
       "angels": [
-        "LukasGafner",
         "Patrick_Becker",
         "PackElend",
         "schilyv"
