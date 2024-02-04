@@ -197,39 +197,6 @@
       ]
     },
     {
-      "location": "CentralLondon",
-      "country": "\ud83c\uddec\ud83c\udde7",
-      "coordinates": [
-        [
-          51.5156177,
-          -0.0919983
-        ]
-      ]
-    },
-    {
-      "location": "Chur",
-      "country": "\ud83c\udde8\ud83c\udded",
-      "angels": [
-        "LukasGafner"
-      ],
-      "coordinates": [
-        [
-          46.855515,
-          9.5254066
-        ]
-      ]
-    },
-    {
-      "location": "Copenhagen",
-      "country": "\ud83c\udde9\ud83c\uddf0",
-      "coordinates": [
-        [
-          55.6867243,
-          12.5700724
-        ]
-      ]
-    },
-    {
       "location": "Debrecen",
       "country": "\ud83c\udded\ud83c\uddfa",
       "angels": [
@@ -302,17 +269,6 @@
         [
           43.7698712,
           11.2555757
-        ]
-      ]
-    },
-    {
-      "location": "Forres",
-      "country": "\ud83c\uddec\ud83c\udde7",
-      "exists": false,
-      "coordinates": [
-        [
-          57.609864,
-          -3.613215
         ]
       ]
     },
@@ -412,21 +368,6 @@
       ]
     },
     {
-      "location": "Leiden",
-      "country": "\ud83c\uddf3\ud83c\uddf1",
-      "angels": [
-        "rmf"
-      ],
-      "exists": true,
-      "active": true,
-      "coordinates": [
-        [
-          52.1518157,
-          4.4811088
-        ]
-      ]
-    },
-    {
       "location": "Leipzig",
       "country": "\ud83c\udde9\ud83c\uddea",
       "angels": [
@@ -438,17 +379,6 @@
         [
           51.3351855,
           12.364935
-        ]
-      ]
-    },
-    {
-      "location": "Liege",
-      "country": "\ud83c\udde7\ud83c\uddea",
-      "exists": true,
-      "coordinates": [
-        [
-          50.6451381,
-          5.5734203
         ]
       ]
     },
@@ -513,16 +443,6 @@
       ]
     },
     {
-      "location": "Montpellier",
-      "country": "\ud83c\uddeb\ud83c\uddf7",
-      "coordinates": [
-        [
-          43.6112422,
-          3.8767337
-        ]
-      ]
-    },
-    {
       "location": "Montreal",
       "country": "\ud83c\udde8\ud83c\udde6",
       "angels": [
@@ -570,32 +490,6 @@
       ]
     },
     {
-      "location": "Newcastle",
-      "country": "\ud83c\uddec\ud83c\udde7",
-      "angels": [
-        "UDT121"
-      ],
-      "exists": null,
-      "active": null,
-      "coordinates": [
-        [
-          54.9738474,
-          -1.6131572
-        ]
-      ]
-    },
-    {
-      "location": "Northengland",
-      "country": "\ud83c\uddec\ud83c\udde7",
-      "exists": false,
-      "coordinates": [
-        [
-          53.7941567,
-          -1.7494778
-        ]
-      ]
-    },
-    {
       "location": "Nowy-Dwor-Mazowiecki",
       "aliases": [
         "Nowy Dw\u00f3r Mazowiecki"
@@ -610,36 +504,6 @@
         [
           52.434175749999994,
           20.706110418137545
-        ]
-      ]
-    },
-    {
-      "location": "Orleans",
-      "country": "\ud83c\uddeb\ud83c\uddf7",
-      "angels": [
-        "theofruitrouge"
-      ],
-      "exists": null,
-      "active": null,
-      "coordinates": [
-        [
-          47.90592,
-          1.904926
-        ]
-      ]
-    },
-    {
-      "location": "Oslo",
-      "country": "\ud83c\uddf3\ud83c\uddf4",
-      "angels": [
-        "thimble"
-      ],
-      "exists": true,
-      "active": true,
-      "coordinates": [
-        [
-          59.9133301,
-          10.7389701
         ]
       ]
     },
@@ -674,21 +538,6 @@
       ]
     },
     {
-      "location": "Padova",
-      "country": "\ud83c\uddee\ud83c\uddf9",
-      "angels": [
-        "Agno"
-      ],
-      "exists": null,
-      "active": null,
-      "coordinates": [
-        [
-          45.4077172,
-          11.8734455
-        ]
-      ]
-    },
-    {
       "location": "Paris",
       "country": "\ud83c\uddeb\ud83c\uddf7",
       "angels": [
@@ -715,41 +564,6 @@
         [
           50.0596288,
           14.446459273258009
-        ]
-      ]
-    },
-    {
-      "location": "Rhein-Main",
-      "country": "\ud83c\udde9\ud83c\uddea",
-      "angels": [
-        "manchot",
-        "lukasp"
-      ],
-      "exists": true,
-      "active": true,
-      "coordinates": [
-        [
-          49.9927036,
-          8.6671682
-        ],
-        [
-          50.0820384,
-          8.2416556
-        ]
-      ]
-    },
-    {
-      "location": "Rhein-Neckar",
-      "country": "\ud83c\udde9\ud83c\uddea",
-      "angels": [
-        "pmn"
-      ],
-      "exists": null,
-      "active": null,
-      "coordinates": [
-        [
-          49.4892913,
-          8.4673098
         ]
       ]
     },
@@ -785,31 +599,6 @@
         [
           50.5210371,
           10.1458492
-        ]
-      ]
-    },
-    {
-      "location": "Rostock",
-      "country": "\ud83c\udde9\ud83c\uddea",
-      "coordinates": [
-        [
-          54.0924445,
-          12.1286127
-        ]
-      ]
-    },
-    {
-      "location": "Sandnes",
-      "country": "\ud83c\uddf3\ud83c\uddf4",
-      "angels": [
-        "Ole-kr"
-      ],
-      "exists": null,
-      "active": null,
-      "coordinates": [
-        [
-          58.85244,
-          5.7384
         ]
       ]
     },
@@ -860,21 +649,6 @@
       ]
     },
     {
-      "location": "Tarragona",
-      "country": "\ud83c\uddea\ud83c\uddf8",
-      "angels": [
-        "susobaco"
-      ],
-      "exists": null,
-      "active": null,
-      "coordinates": [
-        [
-          41.1172364,
-          1.2546057
-        ]
-      ]
-    },
-    {
       "location": "Tilburg",
       "country": "\ud83c\uddf3\ud83c\uddf1",
       "angels": [
@@ -886,66 +660,6 @@
         [
           51.55847,
           5.083076
-        ]
-      ]
-    },
-    {
-      "location": "Tipperary",
-      "country": "\ud83c\uddee\ud83c\uddea",
-      "angels": [
-        "ElaineCB"
-      ],
-      "exists": null,
-      "active": null,
-      "coordinates": [
-        [
-          52.68477435,
-          -7.898080410303971
-        ]
-      ]
-    },
-    {
-      "location": "Toulon",
-      "country": "\ud83c\uddeb\ud83c\uddf7",
-      "angels": [
-        "Stephane_MOUNIER"
-      ],
-      "exists": null,
-      "active": null,
-      "coordinates": [
-        [
-          43.1257311,
-          5.9304919
-        ]
-      ]
-    },
-    {
-      "location": "Toulouse",
-      "country": "\ud83c\uddeb\ud83c\uddf7",
-      "angels": [
-        "theofruitrouge"
-      ],
-      "exists": null,
-      "active": null,
-      "coordinates": [
-        [
-          43.604713,
-          1.447397
-        ]
-      ]
-    },
-    {
-      "location": "Trier",
-      "country": "\ud83c\udde9\ud83c\uddea",
-      "angels": [
-        "nuiun"
-      ],
-      "exists": null,
-      "active": null,
-      "coordinates": [
-        [
-          49.7172227,
-          6.739368
         ]
       ]
     },
@@ -981,21 +695,6 @@
         [
           48.2083537,
           16.3725042
-        ]
-      ]
-    },
-    {
-      "location": "Vigo",
-      "country": "\ud83c\uddea\ud83c\uddf8",
-      "angels": [
-        "fentocoworking"
-      ],
-      "exists": null,
-      "active": null,
-      "coordinates": [
-        [
-          42.2376602,
-          -8.7247205
         ]
       ]
     },
