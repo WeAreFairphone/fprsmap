@@ -654,6 +654,24 @@
       ]
     },
     {
+      "location": "TheHague",
+      "aliases": [
+        "DenHague"
+      ],
+      "country": "\ud83c\uddf3\ud83c\uddf1",
+      "angels": [
+        "glotzbach"
+      ],
+      "exists": true,
+      "active": true,
+      "coordinates": [
+        [
+          52.07494555,
+          4.2696802205364515
+        ]
+      ]
+    },
+    {
       "location": "Tilburg",
       "country": "\ud83c\uddf3\ud83c\uddf1",
       "angels": [
