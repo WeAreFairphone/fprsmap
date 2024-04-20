@@ -722,6 +722,21 @@
       ]
     },
     {
+      "location": "Vigo",
+      "country": "\ud83c\uddea\ud83c\uddf8",
+      "angels": [
+        "fentocoworking"
+      ],
+      "exists": true,
+      "active": true,
+      "coordinates": [
+        [
+          42.2376602,
+          -8.7247205
+        ]
+      ]
+    },
+    {
       "location": "Wageningen",
       "country": "\ud83c\uddf3\ud83c\uddf1",
       "angels": [
