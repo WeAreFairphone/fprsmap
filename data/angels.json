@@ -544,6 +544,21 @@
       ]
     },
     {
+      "location": "Potsdam",
+      "country": "\ud83c\udde9\ud83c\uddea",
+      "angels": [
+        "Peret"
+      ],
+      "exists": true,
+      "active": true,
+      "coordinates": [
+        [
+          52.4009309,
+          13.0591397
+        ]
+      ]
+    },
+    {
       "location": "Prague",
       "country": "\ud83c\udde8\ud83c\uddff",
       "angels": [
