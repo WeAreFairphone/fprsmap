@@ -403,6 +403,21 @@
       ]
     },
     {
+      "location": "London",
+      "country": "\ud83c\uddec\ud83c\udde7",
+      "angels": [
+        "OtherOptions"
+      ],
+      "exists": true,
+      "active": true,
+      "coordinates": [
+        [
+          51.4893335,
+          -0.14405508452768728
+        ]
+      ]
+    },
+    {
       "location": "Madrid",
       "country": "\ud83c\uddea\ud83c\uddf8",
       "angels": [
