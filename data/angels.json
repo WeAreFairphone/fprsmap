@@ -343,6 +343,21 @@
       ]
     },
     {
+      "location": "Hanworth",
+      "country": "\ud83c\uddec\ud83c\udde7",
+      "angels": [
+        "rokejulianlockhart"
+      ],
+      "exists": true,
+      "active": true,
+      "coordinates": [
+        [
+          52.87407297630037,
+          1.288239379046733
+        ]
+      ]
+    },
+    {
       "location": "Jarvenpaa",
       "country": "\ud83c\uddeb\ud83c\uddee",
       "angels": [
