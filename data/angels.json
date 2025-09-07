@@ -528,6 +528,21 @@
       ]
     },
     {
+      "location": "Oslo",
+      "country": "\ud83c\uddf3\ud83c\uddf4",
+      "angels": [
+        "lightbulbmoment"
+      ],
+      "exists": true,
+      "active": true,
+      "coordinates": [
+        [
+          59.9133301,
+          10.7389701
+        ]
+      ]
+    },
+    {
       "location": "Ottawa",
       "country": "\ud83c\udde8\ud83c\udde6",
       "angels": [
