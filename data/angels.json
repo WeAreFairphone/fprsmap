@@ -747,6 +747,21 @@
       ]
     },
     {
+      "location": "Ulm",
+      "country": "\ud83c\udde9\ud83c\uddea",
+      "angels": [
+        "TobiP"
+      ],
+      "exists": true,
+      "active": true,
+      "coordinates": [
+        [
+          48.3984968,
+          9.9912458
+        ]
+      ]
+    },
+    {
       "location": "Vienna",
       "aliases": [
         "wien"
