@@ -326,6 +326,21 @@
       ]
     },
     {
+      "location": "Gross-Gerau",
+      "country": "\ud83c\udde9\ud83c\uddea",
+      "angels": [
+        "thfgg"
+      ],
+      "exists": true,
+      "active": true,
+      "coordinates": [
+        [
+          49.9192586,
+          8.485312
+        ]
+      ]
+    },
+    {
       "location": "Hamburg",
       "country": "\ud83c\udde9\ud83c\uddea",
       "angels": [
