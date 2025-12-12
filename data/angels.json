@@ -633,6 +633,21 @@
       ]
     },
     {
+      "location": "Rennes",
+      "country": "\ud83c\uddeb\ud83c\uddf7",
+      "angels": [
+        "Woaloo"
+      ],
+      "exists": true,
+      "active": true,
+      "coordinates": [
+        [
+          48.1113387,
+          -1.6800198
+        ]
+      ]
+    },
+    {
       "location": "Rhein-Ruhr",
       "country": "\ud83c\udde9\ud83c\uddea",
       "angels": [
@@ -750,8 +765,7 @@
       "location": "Trieste",
       "country": "\ud83c\uddee\ud83c\uddf9",
       "angels": [
-        "paolo-caroni",
-        "diogurt"
+        "paolo-caroni"
       ],
       "exists": true,
       "active": true,
