@@ -45,6 +45,10 @@
       title: "Chapters",
       overlay: L.featureGroup.subGroup(cluster),
     },
+    events: {
+      title: "Events",
+      overlay: L.featureGroup.subGroup(cluster),
+    },
   }
   var activeLayers = Object.keys(overlaysData).filter(function (key) {
     return !EXCLUDED_LAYERS.includes(key);
@@ -344,4 +348,54 @@
       }
     });
   });
+
+/* Fetch Events */
+  fetchJSON('current_events.json')
+    .then(function(json) {
+      // GeoJSON standard wrapper check
+      if (json.features) {
+        json.features.forEach(function(feature) {
+
+          var props = feature.properties;
+          var geom = feature.geometry;
+
+          // Only proceed if we have valid coordinates
+          if (geom && geom.coordinates && geom.coordinates.length === 2) {
+
+            var lat_lng = [geom.coordinates[1], geom.coordinates[0]];
+
+            // Construct the Popup Content
+            var map_text =
+              '<b>' + props.name + '</b>' +
+              '<br><div class="shopinfo">' +
+              'Date: ' + (props.date ? props.date : 'TBA') + '<br>' +
+              'Address: ' + (props.address ? props.address : 'Online') + '<br>' +
+              '<a target="_blank" href="' + props.url + '">More information</a>' +
+              '</div>';
+
+            // Orange Icon Configuration
+            var iconOptions = {
+              iconUrl: 'resources/ZeitgeistMarker.svg',
+              iconSize: [32, 50],
+              iconAnchor: [15.9, 49],
+              className: 'event-marker-orange'
+            };
+
+            var customIcon = L.icon(iconOptions);
+
+            var markerOptions = {
+              riseOnHover: true,
+              icon: customIcon
+            };
+
+            // Create the marker
+            var marker = L.marker(lat_lng, markerOptions)
+              .bindPopup(map_text, { offset: new L.Point(0, -25)});
+
+            // Add to the existing 'events' overlay group
+            marker.addTo(overlaysData.events.overlay);
+          }
+        });
+      }
+    });
 }(this));
