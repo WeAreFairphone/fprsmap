@@ -311,6 +311,21 @@
       ]
     },
     {
+      "location": "Gothenburg",
+      "country": "\ud83c\uddf8\ud83c\uddea",
+      "angels": [
+        "Ignacio"
+      ],
+      "exists": true,
+      "active": true,
+      "coordinates": [
+        [
+          57.7072326,
+          11.9670171
+        ]
+      ]
+    },
+    {
       "location": "Grenoble",
       "country": "\ud83c\uddeb\ud83c\uddf7",
       "exists": true,
@@ -629,6 +644,21 @@
         [
           50.0596288,
           14.446459273258009
+        ]
+      ]
+    },
+    {
+      "location": "Reggio Emilia",
+      "country": "\ud83c\uddee\ud83c\uddf9",
+      "angels": [
+        "Claudio_Falduto"
+      ],
+      "exists": true,
+      "active": true,
+      "coordinates": [
+        [
+          44.6978389,
+          10.6304971
         ]
       ]
     },
