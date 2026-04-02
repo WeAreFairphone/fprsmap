@@ -76,6 +76,21 @@
       ]
     },
     {
+      "location": "Bergen",
+      "country": "\ud83c\uddf3\ud83c\uddf4",
+      "angels": [
+        "FairGenius"
+      ],
+      "exists": true,
+      "active": true,
+      "coordinates": [
+        [
+          60.3943055,
+          5.3259192
+        ]
+      ]
+    },
+    {
       "location": "Berlin",
       "country": "\ud83c\udde9\ud83c\uddea",
       "angels": [
