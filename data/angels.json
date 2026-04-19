@@ -292,24 +292,6 @@
       ]
     },
     {
-      "location": "Geneva",
-      "aliases": [
-        "Genf"
-      ],
-      "country": "\ud83c\udde8\ud83c\udded",
-      "angels": [
-        "Tomtom"
-      ],
-      "exists": true,
-      "active": true,
-      "coordinates": [
-        [
-          46.2017559,
-          6.1466014
-        ]
-      ]
-    },
-    {
       "location": "Ghent",
       "country": "\ud83c\udde7\ud83c\uddea",
       "angels": [
@@ -342,11 +324,11 @@
     {
       "location": "Grenoble",
       "country": "\ud83c\uddeb\ud83c\uddf7",
+      "exists": true,
+      "active": true,
       "angels": [
         "LowMemory"
       ],
-      "exists": true,
-      "active": true,
       "coordinates": [
         [
           45.1875602,
@@ -366,6 +348,476 @@
         [
           49.9192586,
           8.485312
+        ]
+      ]
+    },
+    {
+      "location": "Hamburg",
+      "country": "\ud83c\udde9\ud83c\uddea",
+      "angels": [
+        "Smojo",
+        "dianey",
+        "nudge"
+      ],
+      "exists": true,
+      "active": true,
+      "coordinates": [
+        [
+          53.550341,
+          10.000654
+        ]
+      ]
+    },
+    {
+      "location": "Hanworth",
+      "country": "\ud83c\uddec\ud83c\udde7",
+      "angels": [
+        "rokejulianlockhart"
+      ],
+      "exists": true,
+      "active": true,
+      "coordinates": [
+        [
+          52.87407297630037,
+          1.288239379046733
+        ]
+      ]
+    },
+    {
+      "location": "Jarvenpaa",
+      "country": "\ud83c\uddeb\ud83c\uddee",
+      "angels": [
+        "Juhani_Virtanen"
+      ],
+      "exists": true,
+      "active": true,
+      "coordinates": [
+        [
+          60.4743601,
+          25.0925118
+        ]
+      ]
+    },
+    {
+      "location": "Limburg",
+      "country": "\ud83c\udde9\ud83c\uddea",
+      "angels": [
+        "Felix96"
+      ],
+      "exists": true,
+      "active": true,
+      "coordinates": [
+        [
+          50.3876305,
+          8.0636197
+        ]
+      ]
+    },
+    {
+      "location": "Linz",
+      "country": "\ud83c\udde6\ud83c\uddf9",
+      "angels": [
+        "KarlKl"
+      ],
+      "exists": true,
+      "active": true,
+      "coordinates": [
+        [
+          48.3674,
+          14.51845
+        ]
+      ]
+    },
+    {
+      "location": "London",
+      "country": "\ud83c\uddec\ud83c\udde7",
+      "angels": [
+        "JulianR"
+      ],
+      "exists": true,
+      "active": true,
+      "coordinates": [
+        [
+          51.4893335,
+          -0.14405508452768728
+        ]
+      ]
+    },
+    {
+      "location": "Madrid",
+      "country": "\ud83c\uddea\ud83c\uddf8",
+      "angels": [
+        "Jorbol"
+      ],
+      "exists": true,
+      "active": true,
+      "coordinates": [
+        [
+          40.4167047,
+          -3.7035825
+        ]
+      ]
+    },
+    {
+      "location": "Magdeburg",
+      "country": "\ud83c\udde9\ud83c\uddea",
+      "angels": [
+        "t_aus_m"
+      ],
+      "exists": true,
+      "active": true,
+      "coordinates": [
+        [
+          52.1315889,
+          11.6399609
+        ]
+      ]
+    },
+    {
+      "location": "Montreal",
+      "country": "\ud83c\udde8\ud83c\udde6",
+      "angels": [
+        "Atlantian"
+      ],
+      "exists": true,
+      "active": true,
+      "coordinates": [
+        [
+          45.5031824,
+          -73.5698065
+        ]
+      ]
+    },
+    {
+      "location": "Munich",
+      "aliases": [
+        "Muenchen"
+      ],
+      "country": "\ud83c\udde9\ud83c\uddea",
+      "angels": [
+        "Volker"
+      ],
+      "exists": true,
+      "active": true,
+      "coordinates": [
+        [
+          48.1371079,
+          11.5753822
+        ]
+      ]
+    },
+    {
+      "location": "Nowy-Dwor-Mazowiecki",
+      "aliases": [
+        "Nowy Dw\u00f3r Mazowiecki"
+      ],
+      "country": "\ud83c\uddf5\ud83c\uddf1",
+      "angels": [
+        "rogal"
+      ],
+      "exists": true,
+      "active": true,
+      "coordinates": [
+        [
+          52.434175749999994,
+          20.706110418137545
+        ]
+      ]
+    },
+    {
+      "location": "Oslo",
+      "country": "\ud83c\uddf3\ud83c\uddf4",
+      "angels": [
+        "lightbulbmoment"
+      ],
+      "exists": true,
+      "active": true,
+      "coordinates": [
+        [
+          59.9133301,
+          10.7389701
+        ]
+      ]
+    },
+    {
+      "location": "Oulu",
+      "country": "\ud83c\uddeb\ud83c\uddee",
+      "angels": [
+        "CyclingEngineer"
+      ],
+      "exists": true,
+      "active": true,
+      "coordinates": [
+        [
+          65.0118734,
+          25.4716809
+        ]
+      ]
+    },
+    {
+      "location": "Paris",
+      "country": "\ud83c\uddeb\ud83c\uddf7",
+      "angels": [
+        "Antoine"
+      ],
+      "exists": true,
+      "active": true,
+      "coordinates": [
+        [
+          48.8566101,
+          2.3514992
+        ]
+      ]
+    },
+    {
+      "location": "Potsdam",
+      "country": "\ud83c\udde9\ud83c\uddea",
+      "angels": [
+        "Peret"
+      ],
+      "exists": true,
+      "active": true,
+      "coordinates": [
+        [
+          52.4009309,
+          13.0591397
+        ]
+      ]
+    },
+    {
+      "location": "Reggio Emilia",
+      "country": "\ud83c\uddee\ud83c\uddf9",
+      "angels": [
+        "Claudio_Falduto"
+      ],
+      "exists": true,
+      "active": true,
+      "coordinates": [
+        [
+          44.6978389,
+          10.6304971
+        ]
+      ]
+    },
+    {
+      "location": "Rennes",
+      "country": "\ud83c\uddeb\ud83c\uddf7",
+      "angels": [
+        "Woaloo"
+      ],
+      "exists": true,
+      "active": true,
+      "coordinates": [
+        [
+          48.1113387,
+          -1.6800198
+        ]
+      ]
+    },
+    {
+      "location": "Rhein-Ruhr",
+      "country": "\ud83c\udde9\ud83c\uddea",
+      "angels": [
+        "Amber",
+        "yvmuell"
+      ],
+      "exists": true,
+      "active": true,
+      "coordinates": [
+        [
+          51.2254018,
+          6.7763137
+        ],
+        [
+          50.938361,
+          6.959974
+        ]
+      ]
+    },
+    {
+      "location": "Rhoen",
+      "country": "\ud83c\udde9\ud83c\uddea",
+      "angels": [
+        "Bergziege"
+      ],
+      "exists": true,
+      "active": true,
+      "coordinates": [
+        [
+          50.5210371,
+          10.1458492
+        ]
+      ]
+    },
+    {
+      "location": "Stockholm",
+      "country": "\ud83c\uddf8\ud83c\uddea",
+      "angels": [
+        "valen"
+      ],
+      "exists": true,
+      "active": true,
+      "coordinates": [
+        [
+          59.3251172,
+          18.0710935
+        ]
+      ]
+    },
+    {
+      "location": "Stuttgart",
+      "country": "\ud83c\udde9\ud83c\uddea",
+      "angels": [
+        "Friek",
+        "Steffkist",
+        "Fairphone_161"
+      ],
+      "exists": true,
+      "active": true,
+      "coordinates": [
+        [
+          48.7784485,
+          9.1800132
+        ]
+      ]
+    },
+    {
+      "location": "Taranto",
+      "country": "\ud83c\uddee\ud83c\uddf9",
+      "angels": [
+        "oli.sax"
+      ],
+      "exists": true,
+      "active": true,
+      "coordinates": [
+        [
+          40.4712427,
+          17.2432278
+        ]
+      ]
+    },
+    {
+      "location": "Tilburg",
+      "country": "\ud83c\uddf3\ud83c\uddf1",
+      "angels": [
+        "Lidwien"
+      ],
+      "exists": true,
+      "active": true,
+      "coordinates": [
+        [
+          51.55847,
+          5.083076
+        ]
+      ]
+    },
+    {
+      "location": "Trieste",
+      "country": "\ud83c\uddee\ud83c\uddf9",
+      "angels": [
+        "paolo-caroni"
+      ],
+      "exists": true,
+      "active": true,
+      "coordinates": [
+        [
+          45.6496485,
+          13.7772781
+        ]
+      ]
+    },
+    {
+      "location": "Ulm",
+      "country": "\ud83c\udde9\ud83c\uddea",
+      "angels": [
+        "TobiP"
+      ],
+      "exists": true,
+      "active": true,
+      "coordinates": [
+        [
+          48.3984968,
+          9.9912458
+        ]
+      ]
+    },
+    {
+      "location": "Vienna",
+      "aliases": [
+        "wien"
+      ],
+      "country": "\ud83c\udde6\ud83c\uddf9",
+      "angels": [
+        "Martin",
+        "Lars"
+      ],
+      "exists": true,
+      "active": true,
+      "coordinates": [
+        [
+          48.2083537,
+          16.3725042
+        ]
+      ]
+    },
+    {
+      "location": "Vigo",
+      "country": "\ud83c\uddea\ud83c\uddf8",
+      "angels": [
+        "fentocoworking"
+      ],
+      "exists": true,
+      "active": true,
+      "coordinates": [
+        [
+          42.2376602,
+          -8.7247205
+        ]
+      ]
+    },
+    {
+      "location": "Wageningen",
+      "country": "\ud83c\uddf3\ud83c\uddf1",
+      "angels": [
+        "harmen97"
+      ],
+      "exists": true,
+      "active": true,
+      "coordinates": [
+        [
+          51.9685817,
+          5.668298061827958
+        ]
+      ]
+    },
+    {
+      "location": "Wuerzburg",
+      "country": "\ud83c\udde9\ud83c\uddea",
+      "angels": [
+        "TLeutritz"
+      ],
+      "exists": true,
+      "active": true,
+      "coordinates": [
+        [
+          49.79245,
+          9.932966
+        ]
+      ]
+    },
+    {
+      "location": "Zurich",
+      "country": "\ud83c\udde8\ud83c\udded",
+      "angels": [
+        "Patrick_Becker",
+        "PackElend"
+      ],
+      "exists": true,
+      "active": true,
+      "coordinates": [
+        [
+          47.272968931486396,
+          8.516292572021486
         ]
       ]
     }
