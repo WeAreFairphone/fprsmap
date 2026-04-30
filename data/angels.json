@@ -292,6 +292,21 @@
       ]
     },
     {
+      "location": "Geneva",
+      "country": "\ud83c\udde8\ud83c\udded",
+      "angels": [
+        "Tomtom"
+      ],
+      "exists": true,
+      "active": true,
+      "coordinates": [
+        [
+          46.2017559,
+          6.1466014
+        ]
+      ]
+    },
+    {
       "location": "Ghent",
       "country": "\ud83c\udde7\ud83c\uddea",
       "angels": [
