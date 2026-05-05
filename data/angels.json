@@ -489,6 +489,21 @@
       ]
     },
     {
+      "location": "Mechelen",
+      "country": "\ud83c\udde7\ud83c\uddea",
+      "angels": [
+        "Nestor_Calabia"
+      ],
+      "exists": true,
+      "active": true,
+      "coordinates": [
+        [
+          51.0281381,
+          4.4803453
+        ]
+      ]
+    },
+    {
       "location": "Montreal",
       "country": "\ud83c\udde8\ud83c\udde6",
       "angels": [
