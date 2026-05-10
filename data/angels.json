@@ -201,6 +201,21 @@
       ]
     },
     {
+      "location": "Cloughjordan",
+      "country": "\ud83c\uddee\ud83c\uddea",
+      "angels": [
+        "ElaineCB"
+      ],
+      "exists": true,
+      "active": true,
+      "coordinates": [
+        [
+          52.9364166,
+          -8.024487
+        ]
+      ]
+    },
+    {
       "location": "Debrecen",
       "country": "\ud83c\udded\ud83c\uddfa",
       "angels": [
@@ -676,6 +691,21 @@
         [
           50.5210371,
           10.1458492
+        ]
+      ]
+    },
+    {
+      "location": "Rouen",
+      "country": "\ud83c\uddeb\ud83c\uddf7",
+      "angels": [
+        "mohican"
+      ],
+      "exists": true,
+      "active": true,
+      "coordinates": [
+        [
+          49.4404591,
+          1.0939658
         ]
       ]
     },
