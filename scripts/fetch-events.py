@@ -2,16 +2,16 @@
 import json
 import os.path
 import re
-
-import requests
 import sys
 
-pattern_table = re.compile("^\s*\|")
-pattern_date = re.compile("\d{1,2}([/\-.])\d{1,2}([/\-.])\d{4}") # DDMMYYY delimited by one of "/-."
-pattern_link_title = re.compile(".*\[[_*]*([\w\s]+)[_*]*].*", re.UNICODE) # ignore italics or bold markdown characters _ and *
-pattern_link = re.compile(".*\((https://forum.fairphone.com/t/.*)\)\s")
-pattern_coordinates = re.compile(".*<map.*?location=\"(\d+\.\d+)\s*?[/,]\s*?(\d+\.\d+)\".*?/>.*")
-pattern_map_title = re.compile(".*<map.*?title=\"([\w\s.-]+)\".*?/>.*", re.UNICODE)
+import requests
+
+pattern_table = re.compile("^\\s*\\|")
+pattern_date = re.compile("\\d{1,2}([/\\-.])\\d{1,2}([/\\-.])\\d{4}") # DDMMYYYY delimited by one of "/-."
+pattern_link_title = re.compile(".*\\[[_*]*([\\w\\s]+)[_*]*].*", re.UNICODE) # ignore italics or bold markdown characters _ and *
+pattern_link = re.compile(".*\\((https://forum.fairphone.com/t/.*)\\)\\s")
+pattern_coordinates = re.compile(".*<map.*?location=\"(\\d+\\.\\d+)\\s*?[/,]\\s*?(\\d+\\.\\d+)\".*?/>.*")
+pattern_map_title = re.compile(".*<map.*?title=\"([\\w\\s.-]+)\".*?/>.*", re.UNICODE)
 
 
 class Event:
@@ -36,7 +36,7 @@ def parse_date(datestr):
         return None
     try:
         parsed = datetime.datetime.strptime(datestr, '%d'+m.group(1)+'%m'+m.group(2)+'%Y')
-        if parsed >= datetime.datetime.now():
+        if parsed.date() >= datetime.date.today():
             return parsed.date().strftime("%Y-%m-%d")
         else:
             return None # skip past events
