@@ -5,6 +5,7 @@ on:
       - master
   schedule:
     - cron: '17 23 * * *'  # every day at 23:17 (at 17 minutes after full hour to avoid spikes)
+      timezone: "Europe/Berlin"
   workflow_dispatch:
 
 jobs:
