@@ -28,6 +28,9 @@ jobs:
           python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
+      - name: Fix cert error on forum
+        run: cat SectigoPublicServerAuthenticationCADVR36.pem >> $(python -m certifi)
+
       - name: Remove gitignore in data
         run: rm data/.gitignore
 
