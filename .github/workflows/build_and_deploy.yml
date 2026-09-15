@@ -36,6 +36,9 @@ jobs:
           python scripts/fetch-angels.py
           python scripts/fetch-events.py
 
+      - name: Provide API key
+        run: sed -i "s/CARTO_API_KEY/${{ secrets.CARTO_API_KEY }}/" js/main.js
+
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
         with:
