@@ -695,6 +695,24 @@
       ]
     },
     {
+      "location": "Roma",
+      "aliases": [
+        "Rome"
+      ],
+      "country": "\ud83c\uddee\ud83c\uddf9",
+      "angels": [
+        "Max_Cits"
+      ],
+      "exists": true,
+      "active": true,
+      "coordinates": [
+        [
+          41.8933203,
+          12.4829321
+        ]
+      ]
+    },
+    {
       "location": "Rouen",
       "country": "\ud83c\uddeb\ud83c\uddf7",
       "angels": [
