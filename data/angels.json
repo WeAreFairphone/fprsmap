@@ -16,6 +16,21 @@
       ]
     },
     {
+      "location": "Alicante",
+      "country": "\ud83c\uddea\ud83c\uddf8",
+      "angels": [
+        "fcturpin"
+      ],
+      "exists": true,
+      "active": true,
+      "coordinates": [
+        [
+          38.3436365,
+          -0.4881708
+        ]
+      ]
+    },
+    {
       "location": "Almere",
       "country": "\ud83c\uddf3\ud83c\uddf1",
       "angels": [
